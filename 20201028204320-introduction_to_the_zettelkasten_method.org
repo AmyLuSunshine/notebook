@@ -1,0 +1,6 @@
+#+title: Introduction to the Zettelkasten Method
+
+- tags :: [[file:20201028204358-note_taking.org][Note-taking]]
+
+
+

@@ -1,0 +1,20 @@
+#+title: Dired Tricks
+#+ROAM_TAGS: emacs dired
+
+- tags :: [[file:20201028193935-emacs.org][emacs]]
+
+* How to Delete files with Dired
+command: d -> x
+
+** d
+
+*** Flag this file for deletion
+
+** u
+
+*** Removed the flag
+
+** x
+
+*** Delete files flagged for deletion
+
