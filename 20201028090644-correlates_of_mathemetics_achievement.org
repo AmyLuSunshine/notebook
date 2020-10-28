@@ -1,0 +1,17 @@
+#+title: Correlates of Mathemetics Achievement
+
+- tags :: [[file:20201028091019-hlm.org][HLM]]
+- source :: [[https://scholarcommons.usf.edu/cgi/viewcontent.cgi?article=1451&context=etd][Correlates of Mathematics Achievement in Developed and Developing Countries: An HLM Analysis of TIMSS 2003 Eighth-Grade Mathematics Scores]]
+
+* Teacher-related Factors and Student Achievement
+
+** Preparation to Teach
+
+*** mixed results
+
+**** after controlling SES; income levels, teacher's degree; expertise; certification accounted for academic performance.
+
+** Readiness to Teach
+
+** Professional Development
+
