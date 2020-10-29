@@ -1,2 +1,2 @@
-#+title: emacs
+#+title: Emacs
 

@@ -1,0 +1,29 @@
+#+title: Code Block in Org 
+
+- tags :: [[file:20201028193935-emacs.org][emacs]], [[file:20201029150815-org_mode_tricks.org][Org Mode Tricks]]
+
+* Insert code block
+
+[ C-c C-, s ]
+
+* Evaluate code block
+
+[ C-c C-c ]
+
+#+begin_src go
+  package main
+
+  import "fmt"
+
+  func main() {
+      fmt.Println("Emacs is awesome!")
+  }
+#+end_src
+
+#+RESULTS:
+: Emacs is awesome!
+
+* Open a code block in a new buffer
+
+[ C-' ]
+

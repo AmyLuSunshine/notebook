@@ -1,2 +1,4 @@
 #+title: Note-taking
 
+Taking notes is a method of communicating with your future self.
+

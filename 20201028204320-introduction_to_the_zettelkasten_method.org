@@ -1,6 +1,23 @@
 #+title: Introduction to the Zettelkasten Method
 
 - tags :: [[file:20201028204358-note_taking.org][Note-taking]]
+- source :: [[https://zettelkasten.de/][Introduction to the Zettelkasten Method - Sascha]] 
 
+* Structure of a Zettel
+- [[https://zettelkasten.de/introduction/complete-zettel.png][All the parts of Zettel]]: An image shows the structure 
+
+*  How to write the body part of a Zettel
+
+** The length of a Zettel
+It depends on what you want to write down. Generally, the body of the Zettel should be only short.
+This means if you want to capture a web of thoughts, then a Zettel should be one thoughts; if you want to capture knowledge in a filed, then a Zettel should be one concept of that knowledge.
+
+** Content
+Write everything in your own words.
+
+* The key value of Zettel: Connections
+
+** Link and explanation
+When adding a links, make sure that you also write down why you want to put the link here(talk to your future self).
 
 

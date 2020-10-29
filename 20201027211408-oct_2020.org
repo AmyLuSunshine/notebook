@@ -61,5 +61,6 @@ Real-world software development requires programmers to have holistic skills oth
 * towards
 
 * thrive (on)
-
 * astonishing
+* confines
+I feel comfortable within the confines of my university.

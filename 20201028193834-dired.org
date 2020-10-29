@@ -1,7 +1,7 @@
 #+title: Dired Tricks
 #+ROAM_TAGS: emacs dired
 
-- tags :: [[file:20201028193935-emacs.org][emacs]]
+- tags :: [[file:20201028193935-emacs.org][Emacs]]
 
 * How to Delete files with Dired
 command: d -> x
