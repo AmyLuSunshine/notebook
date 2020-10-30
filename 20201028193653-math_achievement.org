@@ -1,2 +1,16 @@
-#+title: math achievement
+#+title: Math Achievement
+
+- tags :: [[file:20201028193557-thesis.org][thesis]], [[file:20201028154313-ceps.org][ceps]]
+
+* Personal level
+- attitude toward math
+
+* Famlily level
+
+- level of support (shadow educaiton)
+
+* Class level (Teacher level)
+- level of supprt
+
+- class size
 

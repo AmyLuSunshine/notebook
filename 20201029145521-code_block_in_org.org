@@ -10,18 +10,19 @@
 
 [ C-c C-c ]
 
+* Open a code block in a new buffer
+[C-c ']
+
 #+begin_src go
   package main
 
   import "fmt"
 
   func main() {
-      fmt.Println("Emacs is awesome!")
+      fmt.Println("emacs is awesome!")
   }
 #+end_src
 
 #+RESULTS:
-: Emacs is awesome!
-
-* Open a code block in a new buffer
+: emacs is awesome!
 

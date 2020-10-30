@@ -1,2 +1,21 @@
 #+title: thesis
 
+* Introduction
+
+* Literature Review
+
+** Mathematics achievement
+
+** Shadow education
+
+** Control variables
+
+*** famliy
+
+*** city
+
+* Method
+
+** Data description
+
+** Statistic method
