@@ -1,0 +1,7 @@
+#+title: Speaker Unavaliable while Plugging in headphone
+
+- tag :: [[file:20201029225738-linux.org][linux]]
+
+* Solution
+turn off auto-mute mode in alsamixer
+

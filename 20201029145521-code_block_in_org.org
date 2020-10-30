@@ -25,5 +25,3 @@
 
 * Open a code block in a new buffer
 
-[ C-' ]
-

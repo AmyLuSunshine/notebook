@@ -3,18 +3,27 @@
 
 - tags :: [[file:20201028193935-emacs.org][Emacs]]
 
-* How to Delete files with Dired
+* How to delete files in dired
 command: d -> x
 
 ** d
 
-*** Flag this file for deletion
+Flag this file for deletion
 
 ** u
 
-*** Removed the flag
+Removed the flag
 
 ** x
+Delete files flagged for deletion
 
-*** Delete files flagged for deletion
+* How to rename a file
+
+** C-x C-q
+get into edit mode
+
+** edit the file name you want to change
+
+** C-c C-c
+finish editing and quit edit mode
 
