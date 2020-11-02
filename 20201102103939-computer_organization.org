@@ -1,0 +1,3 @@
+#+title: Computer Organization
+
+- Source :: Computer Organization and Design MIPS Edition

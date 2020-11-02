@@ -1,0 +1,16 @@
+#+title: Instructions: Language Computer
+
+- tags :: [[file:20201102103939-computer_organization.org][Computer Organization]]
+
+* Instrction set
+There exists different instruction sets such as MIPS, x86, ARMv8. They are actually similar to each other because they are based on the similar principles of computer design.
+
+
+* Computer Design Principle :
+
+** simple (instruction sets are designed for simple tasks like add 2 number rather than 3)
+
+** small (the time of one clock cycle will be large if there are more registers)
+
+* Memory Operands
+data structures are stored in memory.
