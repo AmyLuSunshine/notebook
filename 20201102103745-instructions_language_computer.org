@@ -13,4 +13,4 @@ There exists different instruction sets such as MIPS, x86, ARMv8. They are actua
 ** small (the time of one clock cycle will be large if there are more registers)
 
 * Memory Operands
-data structures are stored in memory.
+Data structures are stored in memory. Therefore we need instructions that is data transfer insturctions to transfer data between registers and memory.
