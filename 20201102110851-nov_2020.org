@@ -1,0 +1,7 @@
+#+title: Nov-2020
+
+- tag :: [[file:20201027212106-english.org][English]], [[file:20201027222847-volcabulary.org][volcabulary]] 
+
+* conform
+iPhone's design comform the principle of simplicity.
+
