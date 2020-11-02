@@ -4,15 +4,18 @@
 
 * Literature Review
 
-** Mathematics achievement
+** Mathematics achievement 
+*** definition
+*** why it is important to study
+** Personal factors
+*** SES
+*** attitude
+** Teacher-level factors
+*** How large are Teacher Effects?
 
 ** Shadow education
 
-** Control variables
-
-*** famliy
-
-*** city
+*** Bray's study
 
 * Method
 
