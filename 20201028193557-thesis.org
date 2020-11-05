@@ -5,8 +5,7 @@
 * Literature Review
 
 ** Mathematics achievement 
-*** definition
-*** why it is important to study
+
 ** Personal factors
 *** SES
 *** attitude
@@ -22,3 +21,5 @@
 ** Data description
 
 ** Statistic method
+
+*** explain the reasons to use 2-level 
