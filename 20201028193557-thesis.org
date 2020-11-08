@@ -7,19 +7,35 @@
 ** Mathematics achievement 
 
 ** Personal factors
-*** SES
-*** attitude
-** Teacher-level factors
-*** How large are Teacher Effects?
+
+*** SES / parental background
+
+*** confidence in math
+evidence
+China's situation
+
+*** Time on homework(B14)
+China's situation
+
+
+** School-level factors
+
+*** class size
+
+*** mean SES
 
 ** Shadow education
-
-*** Bray's study
+more evidence in China
 
 * Method
 
 ** Data description
 
-** Statistic method
+** Variables
 
-*** explain the reasons to use 2-level 
+** HLM
+
+*** Model (look for phan 2008)
+
+** Hypothesis
+
