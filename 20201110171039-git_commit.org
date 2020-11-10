@@ -1,0 +1,20 @@
+#+title: Git Commit 
+
+- tags :: [[file:20201110160656-git.org][Git]]
+
+* Seaching
+
+** Keyword in commit message
+
+#+begin_src git
+git log --grep="message"
+#+end_src
+
+** Keyword in the file modified by a commit
+
+#+begin_src git
+git log -S "message"
+#+end_src
+
+
+
