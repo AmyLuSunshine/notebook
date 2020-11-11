@@ -4,4 +4,26 @@
 
 * Remove file and add to stage
 
+#+begin_src 
+git rm files
+#+end_src
 
+** the command above is equal to
+
+#+begin_src 
+rm files
+git add files
+#+end_src
+
+* Remove ignored files
+
+#+begin_src 
+git clean -fX
+#+end_src
+
+
+* Recover the files that have been deleted
+#+begin_src 
+rm file
+git checkout . # recover everything deleted
+#+end_src
