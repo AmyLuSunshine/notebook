@@ -1,0 +1,5 @@
+#+title: Jounals
+
+- tags :: [[file:20201028193557-thesis.org][thesis]], [[file:20201028154313-ceps.org][ceps]]
+
+- The Asia-Pacific Education Researcher
