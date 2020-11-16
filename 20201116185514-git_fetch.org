@@ -1,0 +1,5 @@
+#+title: Git Fetch
+
+- tags :: [[file:20201110160656-git.org][Git]]
+
+git fetch will download commits and files from the remote repository.
