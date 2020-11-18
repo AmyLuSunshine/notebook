@@ -13,9 +13,8 @@ rm file_to_be_removed
 git add file_to_be_removed
 #+end_src
 
-* Removing a file from git 
+* Removing a file from git's control
 
 #+begin_src 
 git rm file_to_be_removed --cached
 #+end_src
-

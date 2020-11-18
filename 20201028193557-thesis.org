@@ -39,3 +39,46 @@ more evidence in China
 
 ** Hypothesis
 
+* Descriptive Statistics
+
+** Individual level
+
+*** A3
+
+*** A8 (useless)
+
+*** A12 effort
+
+*** A18 mood
+
+*** live with parents
+
+*** education(father + mother -> transform into years) 
+
+*** B11, B12, B13 resource
+
+*** B22, B23 parents' involvement
+
+*** B30 parents' expectation (school rank)
+
+*** B31 parents' expectation (degree)
+
+*** B32 stress
+
+*** B35 parents' belief
+
+*** C11 math's difficulty
+
+*** C13 math teacher
+
+*** C22 self expectation
+
+*** C25 confidence
+
+*** time on homework fit x^2
+
+** school level
+schstlb_4c live with parents
+
+** city level
+
