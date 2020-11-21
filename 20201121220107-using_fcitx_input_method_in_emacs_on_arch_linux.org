@@ -1,0 +1,28 @@
+#+title: Using Fcitx input method in Emacs on Arch Linux
+
+- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]], [[file:20201028193935-emacs.org][Emacs]], [[file:20201121220157-input_method.org][Input Method]]
+
+This notes demonstrate how to activate fcitx input method in emacs on arch linux.
+
+* STEP 1: Install Chinese locale
+
+Go to /etc/locale.gen, then uncomment the line zh_CN.UTF-8. 
+
+#+begin_src sh
+# after the above step, run:
+sudo locale-gen
+#+end_src
+
+* STEP 2: Install the correct font (e.g. CJK)
+
+* STEP 3: Start emacs with the below command
+
+#+begin_src sh
+LC_CTYPE=zh_CN.UTF-8 XMODIFIERS=@im=fcitx emacs
+#+end_src
+
+If you don't want to prefix the command every time you open emacs, you can set alias in your .bashrc/.zshrc file.
+
+#+begin_src 
+alias emacs="LC_CTYPE=zh_CN.UTF-8 XMODIFIERS=@im=fcitx emacs"
+#+end_src

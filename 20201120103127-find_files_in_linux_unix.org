@@ -1,0 +1,15 @@
+#+title: Find Files in Linux/Unix
+
+- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]]
+
+#+begin_src sh
+find <path> -name "file name"
+#+end_src
+
+* Example: find file names that contain the word "test"
+
+#+begin_src sh
+find * -name "*test*"
+#+end_src
+
+
