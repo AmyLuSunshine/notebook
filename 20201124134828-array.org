@@ -1,0 +1,30 @@
+#+title: Array
+
+- tags :: [[file:20201124134853-data_structures.org][Data Structures]]
+
+* Static array
+An array is a contiguous area of memory of equal-size element indexed by contiguous integers.
+
+** Key points
+
+*** Constat-time access (read and write)
+
+This is done by address computation.
+
+array_addr + element_size * (i - first_index)
+
+*** Time for common operations
+
+|           | Add  | Remove |
+|-----------+------+--------|
+| Beginning | O(n) | O(n)   |
+| End       | O(1) | O(1)   |
+| Middle    | O(n) | O(n)   |
+
+
+* Dynamic array
+
+Dynamic array can be resized
+
+
+

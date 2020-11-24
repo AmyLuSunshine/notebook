@@ -1,0 +1,23 @@
+#+title: Asymptotic Analysis
+
+- tags :: [[file:20201124115508-algorithms.org][Algorithms]], [[file:20201124115538-big_o.org][Big O]]
+
+  Asymptotic analysis is a way to analyze how fast a program's runtime growth.
+
+* key points
+
+** imagine the size of your input grows towards infinity
+
+** compare the growth of the input size and the growth of program's runtime
+
+* Big O
+
+The big O notation describes the "worst case" of an algorithm.
+
+* Big Ω
+
+The big Ω notation describes the "best case" of an algorithm.
+
+* Big Θ
+
+The big Θ notation is employed when the big O and the big Ω of a program's runtime is the same.

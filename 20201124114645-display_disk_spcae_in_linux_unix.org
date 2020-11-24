@@ -1,0 +1,19 @@
+#+title: Display Disk Spcae in Linux/Unix
+
+- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]]
+
+* Disk usage 
+
+#+begin_src sh
+df
+df -h # megabytes and gigabytes size
+#+end_src
+
+* Disk spaced used by a folder/file
+
+#+begin_src sh
+du path_to_file_folder
+du -h path_to_file_folder  # megabytes and gigabytes size
+du -hs path_to_file_folder # simplify output
+#+end_src
+
