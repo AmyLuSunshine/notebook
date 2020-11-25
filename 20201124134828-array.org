@@ -11,7 +11,7 @@ An array is a contiguous area of memory of equal-size element indexed by contigu
 
 This is done by address computation.
 
-array_addr + element_size * (i - first_index)
+\[ array\_addr + element\_size * (i - first\_index) \]
 
 *** Time for common operations
 

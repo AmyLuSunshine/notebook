@@ -1,0 +1,20 @@
+#+title: TODO Functionality in Org Mode
+
+- tags :: [[file:20201029150815-org_mode_tricks.org][Org Mode Tricks]]
+- source :: [[https://orgmode.org/manual/TODO-Basics.html#TODO-Basics][Basic TODO Functionality - Org Mode Mannual]]
+
+* Mark an item with TODO keywords
+
+C-c C-t (org-todo)
+
+* S(shift)-RIGHT S-LEFT
+
+Change TODO state
+
+* Global TODO list
+
+M-x org-agenda t (org-todo-list)
+
+* Insert an TODO item below the current one
+
+S-M RET
