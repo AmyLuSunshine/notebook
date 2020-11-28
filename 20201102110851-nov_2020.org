@@ -3,7 +3,7 @@
 - tag :: [[file:20201027212106-english.org][English]], [[file:20201027222847-volcabulary.org][volcabulary]] 
 
 * conform
-iPhone's design comform the principle of simplicity.
+iPhone's design conform to the principle of simplicity.
 
 * impregnate
 
@@ -19,7 +19,11 @@ It is sometimes difficult to reconcile science and religion.
 
 * espouse
 
+I do not espouse unsafe sex.
+
 * tribe
+
+a tribe is a human social group.
 
 * contradiction
 
@@ -34,3 +38,17 @@ the phrases, words using in today's language
 When people lie, their statements are disjointed.
 
 * moronic
+
+* deception
+
+The companys are guilty of deception if they exaggerate the functions of their products.
+
+* conservative
+
+In a conservative opinion, women are supposed to get married.
+
+* contraceptive (tool)
+
+Condom is a type of contraceptive.
+
+* contraception (method)

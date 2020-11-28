@@ -1,0 +1,6 @@
+#+title: Change apt mirros
+
+- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]], [[file:20201127201731-ubuntu.org][Ubuntu]]
+
+  edit the country code in /etc/apt/sources.list
+
