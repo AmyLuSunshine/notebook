@@ -1,0 +1,25 @@
+#+title: Makefile
+
+- tags :: [[file:20201116145931-c.org][C]], [[file:20201029225738-linux_unix.org][Linux/Unix]]
+
+  #+begin_src makefile
+    CC = gcc
+    all: target1 target2
+
+    target1: target1.c lib1.o lib2.o
+        $(CC) target1.c lib1.o lib2.o -o target1
+
+    target2: target1.c lib1.o lib2.o
+        $(CC) target1.c lib1.o lib2.o -o target2
+
+    lib1.o:
+        $(CC) -c lib1.c
+
+    lib2.o:
+        $(CC) -c lib2.c
+
+    clean:
+        rm *.o 
+  #+end_src
+
+* Use tap in front of the command
