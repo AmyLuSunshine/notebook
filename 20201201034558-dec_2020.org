@@ -1,4 +1,8 @@
 #+title: Dec-2020
 
-- tag :: [[file:20201027212106-english.org][English]], [[file:20201027222847-volcabulary.org][volcabulary]] 
+- tag :: [[file:20201027212106-english.org][English]], [[file:20201027222847-volcabulary.org][volcabulary]]
+
+* toll
+
+death toll
 
