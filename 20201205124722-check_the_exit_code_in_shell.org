@@ -1,0 +1,11 @@
+#+title: Check The Exit Code in Shell
+
+- tags :: [[file:20201115205959-shell.org][Shell]]
+
+  #+begin_src sh
+echo $?
+  #+end_src
+
+  #+RESULTS:
+  : 0
+
