@@ -1,0 +1,27 @@
+#+title: Angle brackets in Linux Commands
+
+- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]] [[file:20201115205959-shell.org][Shell]]
+- source :: [[https://www.linux.com/topic/desktop/understanding-angle-brackets-bash/][Understanding Angle Brackets in Bash - By Paul Brown]]
+  
+* >
+  
+** Write output of the program "ls" to file "dir.data"
+  
+#+begin_src sh
+  ls > dir.data 
+#+end_src
+
+** If the file dir.data already exists, > will overwrite the content in it.
+   
+#+begin_src sh
+  l > dir.data 
+#+end_src
+
+** Avoid overwriting the content, using >>
+#+begin_src sh
+l >> dir.data
+#+end_src
+
+This command will tack the output of l onto the end of the existing content.
+
+

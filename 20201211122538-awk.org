@@ -1,0 +1,29 @@
+#+title: Awk
+
+- tags :: [[file:20201211122625-text_processing.org][Text Processing]] [[file:20201029225738-linux_unix.org][Linux/Unix]]
+- source :: [[https://www.youtube.com/watch?v=_q6Uj4X_knc][Lesson 12 - The Awk Programming Language - By  Melvyn Drag]]
+  
+* Usage
+
+  #+begin_src sh
+awk 'PATTERN { ACTION }' file
+  #+end_src
+
+* Built-in variables
+  
+** NF
+   number of fields
+  #+begin_src sh
+awk '{print NF}' file
+  #+end_src
+
+** NR
+   number of rows   
+  #+begin_src sh
+awk '{print NR}' file
+  #+end_src   
+
+* Formating out put
+#+begin_src sh
+awk '{printf()}' file
+#+end_src
