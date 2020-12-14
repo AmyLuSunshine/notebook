@@ -1,0 +1,7 @@
+#+title: Adjusted R-squared
+
+- tags :: [[file:20201125131557-statistics.org][Statistics]], [[file:20201214211834-regression.org][Regression]]
+
+- source :: [[https://corporatefinanceinstitute.com/resources/knowledge/other/adjusted-r-squared/][What is the Adjusted R-squared?]]
+
+ The adjusted R-squared refers to the R-squared that adjusts for the insignificant predictors. That means if the adjusted R-squared is lower than the R-ssquared, the additional predictors are not adding value to the model.
