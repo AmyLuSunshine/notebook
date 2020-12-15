@@ -1,0 +1,14 @@
+#+title: Model Diagnostics
+
+- tags :: [[file:20201125131557-statistics.org][Statistics]] [[file:20201215135224-linear_mixed_effects_models.org][Linear Mixed Effects Models]]
+
+
+* residual vs. fitted value
+
+* residual vs. each independent variable
+
+* residual vs. fitted value for each random group
+
+This is to make sure residuals are normally distributted in each random group.
+
+* mean of random effect should be normally distributed
