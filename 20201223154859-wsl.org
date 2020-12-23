@@ -1,0 +1,10 @@
+#+title: WSL
+
+* Cannot Open WSL
+
+Run the following command as administrator.
+
+#+begin_src cmd
+netsh winsock reset
+#+end_src
+
