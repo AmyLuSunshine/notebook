@@ -1,0 +1,32 @@
+#+title: Schedule Dealine & Agenda View
+
+- tags :: [[file:20201125175121-todo_functionality_in_org_mode.org][TODO Functionality in Org Mode]] 
+
+* Scheduling 
+
+C-c C-s
+
+* Deadline
+
+C-c C-d
+
+* Agenda 
+
+** Set a file as agenda file
+
+C-c [ (org-agenda-file-to-front)
+
+** Agenda View
+
+M-x org-agenda a
+
+** Cycle through agenda file list
+
+C-,
+
+C-'
+
+** Browse agenda by week
+
+f (forward one week)
+b (backward one week)

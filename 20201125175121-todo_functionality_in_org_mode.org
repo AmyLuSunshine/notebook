@@ -18,3 +18,9 @@ M-x org-agenda t (org-todo-list)
 * Insert an TODO item below the current one
 
 S-M RET
+
+* Set todo state keywords
+
+#+begin_src 
+#+SEQ_TODO: NEXT(n) TODO(t) | DONE(d) CANCELED(c)
+#+end_src
