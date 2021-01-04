@@ -12,33 +12,25 @@
 
 *** Individual Predictors
 
+**** Students' expectations of themselves
+
+**** Students' motivation
+math is difficult
+math is useful
+
 **** Parents' requirement
-
-**** Parents' Confident
-
-**** Math difficultity (motivation)
-
-**** Math useful (motivation)
 
 **** Shadow education
 
-*** Class level Predictors
-
-*** School level Predictors
-
 * Method
 
-** Introduce scale and measurement of the variables
-   SCHEDULED: <2021-01-03 Sun>
+** Data
 
-** Linear mixed effect model
-   SCHEDULED: <2021-01-03 Sun>
+** Measures
+
+** HLM
 
 ** Hypothesis
-   SCHEDULED: <2021-01-03 Sun>
-
-** Models
-   SCHEDULED: <2021-01-03 Sun>
 
 * Result
 

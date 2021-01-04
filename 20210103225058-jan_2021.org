@@ -1,6 +1,23 @@
 #+title: Jan-2021
 
-arena
+* arena
+  - Hearthstone arena
+  - An sports arena
 
-stakeholder
+* stakeholder
 
+The ceo is an employee and also a stakeholder of the company.
+
+* altruistic
+
+In China, every one knows Lei Feng is altruistic.
+
+* spiteful
+
+Tom is a spiteful boy, because he usually makes his parents upset.
+
+* prophecy 
+
+My prophecy for future computer is that it consists of a monitor and network module and it does not have hard disk and RAM, which means all the computing is done in the server it connected to.
+
+* speculative
