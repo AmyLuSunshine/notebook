@@ -1,0 +1,13 @@
+#+title: CPU
+
+- tags :: [[file:20210105103730-computer_architecture.org][Computer Architecture]]
+
+CPU stands for centural processing unit, it comprises two major components: datapath and control, the respective brawn and brain of the processor.
+
+* Datapath
+
+arithmetic operation
+
+* Control
+
+tells datapath and I/O devices what to do 

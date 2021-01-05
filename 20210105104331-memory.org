@@ -1,0 +1,22 @@
+#+title: Memory
+
+- tags :: [[file:20210105103730-computer_architecture.org][Computer Architecture]]
+
+
+* Types of memory
+
+** DRAM (dynamic random access memory)
+
+   - memory accesses takes the same amount of time no matter what portion of the memory is read.
+
+** SRAM (static random access memory)
+
+ Cache uses SRAM. Cache memory consists of a small and fast memory that acts as a buffer for the DRAM.
+
+
+
+* Main memory and secondary memory
+
+  - main memory is volatile memory
+  - secondary memory is non-volatile memory and is used to store data
+

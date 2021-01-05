@@ -1,0 +1,5 @@
+#+title: Set Theory
+
+- tags :: [[file:20210105134412-discrete_mathematics.org][Discrete Mathematics]]
+
+
