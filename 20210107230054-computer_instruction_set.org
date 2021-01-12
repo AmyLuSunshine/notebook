@@ -1,0 +1,66 @@
+#+title: Computer Instruction Set
+
+- tags :: [[file:20201102103939-computer_organization.org][Computer Organization]], [[file:20210107230133-the_mips_assembly_language.org][The MIPS Assembly Language]]
+
+* Principle 1: Simplicity favors regularity
+
+* Principle 2: Smaller is faster
+
+A large number of registers may increse the clock cycle time.
+
+* Operations
+
+** Arithmetic instruction
+
+#+begin_export mips
+Add s1 s2 s3
+#+end_export
+
+* Operands
+
+** Memory Operands
+
+*** load word
+#+begin_src 
+lw $t0, 8($s3)
+#+end_src
+
+8 is called offset
+$s3 is called base register which holds the starting address 
+
+*** write word
+
+** Constant or Immediate Operands
+
+load constant from memory and perform inmmediate arithmetic
+
+
+* Represent instruction
+
+** Machine code
+
+Binary representation used for communication within a computer system. 
+
+* Logical Operations
+
+** shift
+
+** bit-by-bit and
+
+    0101 1010
+and 0011 0110
+    0001 0010
+
+A logical operation leaves 1 in the result only if both bits of the operands are 1.
+
+** bit-by-bit or
+
+A logical operation leaves 1 in the result if thers is a 1 in either operand.
+
+** bit-by-bit not
+
+A logical operation inverts bits, that is 1 to 0 and 0 to 1.
+
+** bit-by-bit nor 
+
+A logical operation calculate only if there is a 0 in both operands.

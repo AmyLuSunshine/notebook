@@ -1,0 +1,25 @@
+#+title: Defer, Panic, and Recover in Golang
+
+- tags :: [[file:20210110190746-golang.org][Golang]]
+- source :: [[https://blog.golang.org/defer-panic-and-recover][Defer, Panic, and Recover]]
+
+#+begin_src go
+package main
+
+import "fmt"
+
+func main() {
+	var i int = 0
+
+	defer fmt.Println(i)
+	i = i + 1
+	defer fmt.Println(i)
+}
+#+end_src
+
+defer would push the defered expression in a stack. In this case, defer pushed the the first fmt.Println(i) (i == 0) in a stack. Then, defer pushed the second fmt.Println(i) (i == 1) in the stack. Therefore, the output will be:
+
+#+RESULTS::
+1
+0
+

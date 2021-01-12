@@ -1,0 +1,39 @@
+#+title: Golang Interface
+
+- tags :: [[file:20210110190746-golang.org][Golang]]
+
+
+#+begin_src go
+package main
+
+import (  
+	"fmt"
+)
+
+type ptr interface {
+	p()
+}
+
+type myint int
+
+type mystring string
+
+func (i myint) p() {
+	fmt.Printf("my int is %v\n", i)
+}
+
+func (s mystring) p() {
+	fmt.Printf("holy shit %s!\n", s)
+}
+
+func myprint(a ptr) {
+	a.p()
+}
+
+func main() {
+	var a myint = 1
+	var s mystring = "Jeck"
+	myprint(a)
+	myprint(s)
+}
+#+end_src

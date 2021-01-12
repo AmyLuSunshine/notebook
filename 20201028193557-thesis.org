@@ -1,26 +1,42 @@
 #+title: thesis
 
+- tags :: [[file:20210110015059-literature_reivew_for_master_thesis.org][Literature Reivew for Master Thesis]]
+
 * Introduction
+
+Why do I want to talk about this question?
+
+Briefly say how you solve the problem.
+
+Briefly say what is the impact.
 
 * Literature Review
 
-** Dependent Variable
+** principles 
+- Motivation
+- reason for the model choice
+- mainstrem vs. alternative viewpoints
+- principal question
+- general conclusion
 
-*** Mathematic Achievement
+** DONE Mathematics achievement
 
-** Independent Variables
+** DONE Big Picture of Shadow education in China [2/2]
+- [X] definition
+- [X] why shadow education popular (society stratification, certificate)
 
-*** Individual Predictors
+** DONE The Situation of Shadow Education of Mathematics in China
 
-**** Students' expectations of themselves
+** DONE Empirical Research on the effect of Shadow education [2/2]
+- [X] worldwide
+- [X] China
 
-**** Students' motivation
-math is difficult
-math is useful
+** Other Correlates of Mathematics Achievement
 
-**** Parents' requirement
+- [-] Indivial factors
+- [-] Parental factors
+- [-] other level factors
 
-**** Shadow education
 
 * Method
 
@@ -32,7 +48,21 @@ math is useful
 
 ** Hypothesis
 
-* Result
 
-* Discussion
+&, and
 
+Guo nested effect
+
+control variable less
+
+parents survey
+
+control 
+
+moderated variable
+
+limitation: hours
+
+cloud
+
+parents requirement

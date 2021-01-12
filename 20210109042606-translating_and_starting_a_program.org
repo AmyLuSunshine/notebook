@@ -1,0 +1,50 @@
+#+title: Translating and Starting a Program
+
+- tags :: [[file:20201102103939-computer_organization.org][Computer Organization]]
+
+* Compiler
+
+ transform high level language program to assembly language program.
+
+* Assembler
+
+transform assembly language program to object file.
+
+* Linker
+
+linker takes all the independent assembled machine language programs and stiches them together.
+
+linker produces excutable file.
+
+* Loader
+
+Loader reads the excutable file from disk to memory and starts it
+
+* Static and Dynamic Libraries
+
+** Static library
+
+Static libraries are locked in the program at compile time, which means the library lives inside of the program.
+
+*** Advantages
+
+- excution speed at run-time.
+
+*** Disadvantages
+
+- The code is locked into the excutable file and cannot be modified without a re-compile.  
+
+- Make the program large.
+
+** Dynamic libraries / Shared libraries / DDL
+
+- Dynamic library is loaded during program excution, which means the library lives outside of the program.
+
+*** Advantages
+
+- light-weight
+- the code in static library can be modified without a re-compile.
+
+*** Disadvantages
+
+- increase excution time beacuse the library functions should be called from outside of the excutable.

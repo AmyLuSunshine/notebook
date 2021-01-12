@@ -1,0 +1,16 @@
+#+title: Letter Case in Emacs
+
+- tags :: [[file:20201028193935-emacs.org][Emacs]]
+
+* Set a letter to upper case
+
+M-c
+
+* Convert following word to lower case
+
+M-l
+
+* Convert following word to upper case
+
+M-u
+

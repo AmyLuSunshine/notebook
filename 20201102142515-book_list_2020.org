@@ -1,5 +1,0 @@
-#+title: Book List 2020
-
-- tags :: [[file:20201102142542-book_lists.org][Book Lists]]
-
-* Heart of Darkness

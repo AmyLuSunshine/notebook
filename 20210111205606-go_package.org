@@ -1,0 +1,10 @@
+#+title: Go Package
+
+ - tags :: [[file:20210110190746-golang.org][Golang]]
+
+
+* Naming convention
+
+packge is named in one single word in lowercase without underscores or mixedCaps.
+
+* 

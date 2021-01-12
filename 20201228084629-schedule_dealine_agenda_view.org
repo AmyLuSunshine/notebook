@@ -1,6 +1,6 @@
 #+title: Schedule Dealine & Agenda View
 
-- tags :: [[file:20201125175121-todo_functionality_in_org_mode.org][TODO Functionality in Org Mode]] 
+- tags :: [[file:20201125175121-todo_in_org_mode.org][TODO in Org Mode]] 
 
 * Scheduling 
 

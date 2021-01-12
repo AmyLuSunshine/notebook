@@ -1,0 +1,34 @@
+#+title: CPU Performance
+
+- tags :: [[file:20210105103633-cpu.org][CPU]], [[file:20201102103939-computer_organization.org][Computer Organization]]
+
+
+* What determines CPU performance
+
+CPU time = instruction counts * CPI / clock rate
+
+* Wall clock tim, response time, elapsed time
+
+Time is the only reliable measure of computer performance.
+
+** CPU excute time / CPU time
+
+*** user CPU time
+
+The CPU time spent in a program it self.
+
+*** system CPU time
+
+The CPU time spent in the operating system performing tasks on behalf of the program.
+
+* Performance and time
+
+Performance = 1 / time
+
+CPU execute time for a program = CPU clock cycles for a program / clock rate
+
+** CPI
+
+Clock cycle per instruction is the average number of clock cycles for a program.
+
+
