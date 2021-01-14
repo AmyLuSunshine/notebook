@@ -1,0 +1,12 @@
+#+title: Audio Output in Linux
+
+- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]]
+  
+* Select output device
+
+** Turn off automute in alsamixer
+
+** install pavucontrol
+
+** select the output device in pavucontrol gui
+

@@ -6,7 +6,7 @@
 find <path> -name "file name"
 #+end_src
 
-* Example: find file names that contain the word "test"
+* Example: find file names that contain the word "test" (recursively)
 
 #+begin_src sh
 find * -name "*test*"

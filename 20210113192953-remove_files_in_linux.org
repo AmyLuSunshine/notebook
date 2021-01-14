@@ -1,0 +1,11 @@
+#+title: Remove Files in Linux
+
+- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]]
+
+* Remove files with a pattern
+
+ #+begin_src sh
+find ./ -name '*.java' | xargs rm -r
+ #+end_src
+
+ What xargs does is to take a list of word from standard input and convert it to a list of arguments to a command.

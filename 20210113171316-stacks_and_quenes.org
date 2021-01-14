@@ -1,0 +1,24 @@
+#+title: Stacks and Quenes
+
+- tags :: [[file:20201124134853-data_structures.org][Data Structures]]
+
+* Stacks
+
+| API     | function                                    |
+|         |                                             |
+| push()  | adds key to collection                      |
+|         |                                             |
+| pop()   | removes and returns most recently-added key |
+|         |                                             |
+| top()   | returns most recently-added key             |
+|         |                                             |
+| empty() | are there any elements?                     |
+
+
+
+* Quenes
+
+** enquene()
+
+** dequene()
+

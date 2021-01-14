@@ -1,0 +1,13 @@
+#+title: iota Golang
+
+- tags :: [[file:20210110190746-golang.org][Golang]], [[file:20210114170814-enum.org][enum]]
+
+The iota keyword represents sucessive number constants 0, 1, 2...
+
+#+begin_src go
+  const(
+	  READ = iota
+	  WRITE = iota
+	  HALT = iota
+  )
+#+end_src

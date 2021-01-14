@@ -20,3 +20,10 @@
   - main memory is volatile memory
   - secondary memory is non-volatile memory and is used to store data
 
+* Priciple of locality
+
+** Temporal locality
+
+** Spatial locality
+
+* cache

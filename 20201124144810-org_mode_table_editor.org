@@ -17,3 +17,7 @@
 
 ** C-c C-c
 
+* convert text to a table
+
+** M-x org-table-convert
+
