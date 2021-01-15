@@ -3,6 +3,12 @@
 - tags :: [[file:20201029150815-org_mode_tricks.org][Org Mode Tricks]]
 - source :: [[https://orgmode.org/manual/TODO-Basics.html#TODO-Basics][Basic TODO Functionality - Org Mode Mannual]]
 
+
+
+* Add current file to the list of agenda files
+
+  C-c [
+
 * Mark an item with TODO keywords
 
 C-c C-t (org-todo)
