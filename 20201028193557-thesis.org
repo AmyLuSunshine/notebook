@@ -12,13 +12,6 @@ Briefly say what is the impact.
 
 * Literature Review
 
-** principles 
-- Motivation
-- reason for the model choice
-- mainstrem vs. alternative viewpoints
-- principal question
-- general conclusion
-
 ** DONE Mathematics achievement
 
 ** DONE Big Picture of Shadow education in China [2/2]
@@ -31,12 +24,16 @@ Briefly say what is the impact.
 - [X] worldwide
 - [X] China
 
-** Other Correlates of Mathematics Achievement
+** TODO Limitation
 
-- [-] Indivial factors
-- [-] Parental factors
-- [-] other level factors
+- [-] time
 
+** TODO Other Correlates of Mathematics Achievement
+
+- [-] self-confidence
+- [-] self-expectation
+- [-] parental education
+- [-] parental expectation
 
 * Method
 
@@ -46,8 +43,19 @@ Briefly say what is the impact.
 
 ** HLM
 
+** Models
+
 ** Hypothesis
 
+* TODO Results
+
+- [-] tables
+- [-] descreptive statistics
+- [-] models effects
+
+* Conclusions
+
+* notes
 
 &, and
 
@@ -63,6 +71,3 @@ moderated variable
 
 limitation: hours
 
-cloud
-
-parents requirement

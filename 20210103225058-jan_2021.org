@@ -22,23 +22,45 @@ My prophecy for future computer is that it consists of a monitor and network mod
 
 * speculative
 
+My decisions on investment is speculative.
+
 * merit
+
+Your code has merit.
 
 * prevalent
 
+TIK TOK is prevalent in both China and the US.
+
 * volatile
+
+My emotion was volatile after a break up.
 
 * couch
 
+Playing with your phones while lying on a couch hurts your back.
+
 * recline
+
+I enjoy reclining on the sofa.
 
 * idle
 
+idle chat
+
 * forthright
+
+In China culture, forthright manner is sometimes considered rude.
+
+His forthright manner can be mistaken rudeness.
 
 * prudent
 
+You should be prudent to avoid type mismatch while writing code. 
+
 * refute
+
+The only way to refute people's judgement is to be successful. 
 
 * throughput
 
@@ -46,11 +68,32 @@ My prophecy for future computer is that it consists of a monitor and network mod
 
 * elapse
 
+4 years had elapsed since he left college and still he hadn't found a job.
+
 * unwieldy
 
-* dissipation
-* lucrative job
-A type job with hign income
-* cononical
+TV is an unwieldy item in my room.
 
-SICP is a cononical book for programmers to study.
+* dissipation
+
+Heat dissipation is an important metrics when buying a new gaming PC.
+
+* lucrative job
+
+A type job with high income
+
+* canonical
+
+SICP is a canonical book for programmers to study.
+
+* punctuality
+
+I have procrastination. It makes me not punctual.
+
+* obsessive
+
+* compulsive
+
+* composite
+
+English is a composite of several languages like French, Latin and German.
