@@ -8,7 +8,7 @@
 
 The ceo is an employee and also a stakeholder of the company.
 
-* altruistic
+* altruistic (*)
 
 In China, every one knows Lei Feng is altruistic.
 
@@ -18,9 +18,9 @@ Tom is a spiteful boy, because he usually makes his parents upset.
 
 * prophecy 
 
-My prophecy for future computer is that it consists of a monitor and network module and it does not have hard disk and RAM, which means all the computing is done in the server it connected to.
+My prophecy for future computer is that it consists of a monitor and network module and it does not have hard disk and RAM, which means all the computing will be done in the server it connected to.
 
-* speculative
+* speculative (*)
 
 My decisions on investment is speculative.
 
@@ -50,15 +50,15 @@ idle chat
 
 * forthright
 
-In China culture, forthright manner is sometimes considered rude.
+In China culture, forthright manner is sometimes considered as rudeness.
 
 His forthright manner can be mistaken rudeness.
 
-* prudent
+* prudent (*)
 
 You should be prudent to avoid type mismatch while writing code. 
 
-* refute
+* refute (*)
 
 The only way to refute people's judgement is to be successful. 
 
@@ -70,19 +70,19 @@ The only way to refute people's judgement is to be successful.
 
 4 years had elapsed since he left college and still he hadn't found a job.
 
-* unwieldy
+* unwieldy (*)
 
 TV is an unwieldy item in my room.
 
-* dissipation
+* dissipation (*)
 
 Heat dissipation is an important metrics when buying a new gaming PC.
 
-* lucrative job
+* lucrative job (*)
 
 A type job with high income
 
-* canonical
+* canonical (*)
 
 SICP is a canonical book for programmers to study.
 
@@ -93,6 +93,8 @@ I have procrastination. It makes me not punctual.
 * obsessive
 
 * compulsive
+
+unable to stop doing something
 
 * composite
 
