@@ -97,3 +97,5 @@ I have procrastination. It makes me not punctual.
 * composite
 
 English is a composite of several languages like French, Latin and German.
+
+* traversal

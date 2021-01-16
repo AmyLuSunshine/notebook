@@ -6,19 +6,23 @@
 
 | API     | function                                    |
 |         |                                             |
-| push()  | adds key to collection                      |
+| Push()  | adds key to collection                      |
 |         |                                             |
-| pop()   | removes and returns most recently-added key |
+| Pop()   | removes and returns most recently-added key |
 |         |                                             |
-| top()   | returns most recently-added key             |
+| Top()   | returns most recently-added key             |
 |         |                                             |
-| empty() | are there any elements?                     |
+| Empty() | are there any elements?                     |
 
 
 
 * Quenes
 
-** enquene()
-
-** dequene()
+| API       | function                                       |
+|-----------+------------------------------------------------|
+| EnQuene() | Adds key to the collection                     |
+|           |                                                |
+| DeQuene() | removes and returns the least recent-added key |
+|           |                                                |
+| Empty()   | are there any elements?                        |
 
