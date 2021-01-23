@@ -21,3 +21,7 @@ The big Ω notation describes the "best case" of an algorithm.
 * Big Θ
 
 The big Θ notation is employed when the big O and the big Ω of a program's runtime is the same.
+
+* Runtime comparison
+
+  $$\log_{}n<\sqrt{n}<n<nlog{n}<n^{2}<2^n}$$

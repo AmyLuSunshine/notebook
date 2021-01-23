@@ -1,0 +1,13 @@
+#+title: Motion in Org Mode
+
+- tags :: [[file:20201029150815-org_mode_tricks.org][Org Mode Tricks]]
+
+* Move between heading
+
+** Move up a heading
+
+   C-c C-p
+
+** Move down a heading
+
+   C-c C-n

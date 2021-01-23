@@ -1,4 +1,4 @@
-#+title: Correlates of Mathemetics Achievement
+#+title: Correlates of Mathematics Achievement
 #+ROAM_TAGS: thesis literature
 
 - tags :: [[file:20201028091019-hlm.org][HLM]], [[file:20201028193557-thesis.org][thesis]], [[file:20201028193653-math_achievement.org][Math Achievement]]

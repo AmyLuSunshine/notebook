@@ -1,0 +1,56 @@
+#+title: Trees
+
+- tags :: [[file:20201124134853-data_structures.org][Data Structures]]
+- source :: [[https://alrightchiu.github.io/SecondRound/binary-tree-introjian-jie.html][Binary Tree: Intro(簡介)]]
+
+* Common terms
+
+** Root
+
+   top node of the tree
+
+** Ancestor
+
+   parent or parent of parent
+
+** Descendants
+
+   child, or child of child
+
+** Siblins
+
+   nodes sharing the same parent
+
+** Leaf
+
+   node with no children
+
+** Interior node
+
+   non-leaf
+
+** Height
+
+   maximun depth of subtree node and farthest leaf
+
+** Forests
+
+   collections of trees
+
+
+* Binary trees
+
+** Complete binary trees
+
+   A binary tree is complete if all its levels are filled except the last level which is filled from left to right.
+
+** Full binary trees
+
+   A binary tree is full if all its levels are filled.
+
+*** properties
+
+   -  $nodes = 2^{levels} - 1$
+
+     
+     
