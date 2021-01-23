@@ -42,7 +42,7 @@ Playing with your phones while lying on a couch hurts your back.
 
 * recline
 
-I enjoy reclining on the sofa.
+I enjoy reclining on the couch.
 
 * idle
 
@@ -64,7 +64,7 @@ The only way to refute people's judgement is to be successful.
 
 * throughput
 
-* metrics
+* metric
 
 * elapse
 
@@ -76,7 +76,7 @@ TV is an unwieldy item in my room.
 
 * dissipation
 
-Heat dissipation is an important metrics when buying a new gaming PC.
+Heat dissipation is an important metric when buying a new gaming PC.
 
 * lucrative job
 
@@ -91,6 +91,8 @@ SICP is a canonical book for programmers to study.
 I have procrastination. It makes me not punctual.
 
 * obsessive
+  
+I am obsessive about computer science.
 
 * compulsive
 
@@ -99,3 +101,8 @@ I have procrastination. It makes me not punctual.
 English is a composite of several languages like French, Latin and German.
 
 * traversal
+
+* ascertain
+  ascertain turth
+
+* conjecture

@@ -1,0 +1,40 @@
+#+title: Mathematical Statements
+
+- tags :: [[file:20210122155037-discrete_mathematics.org][Discrete Mathematics]]
+
+* Statement
+
+  A statement is any declarative sentence which is either true or false.
+
+** Atomic and molecular statement
+
+   A statement is atomic if it cannot be divided into smaller statements, otherwise it is called molecular.
+
+** Logical connectives
+
+   - and
+   - or
+   - if ... then ...
+   - if and only if
+   - not (unary)
+
+** converse and contrapositive
+
+   - converse: p -> q, q -> p
+
+   - contrapositive: p -> q, not q -> not p (equivelent)
+
+** Necessary and Sufficient
+
+   - P is necessary for Q, Q -> P
+   - P is sufficient for Q, P -> Q
+   - if P is necessary and sufficient for Q then, P <-> Q
+
+* Free variable and Predicate
+
+  - free variable: the variable that we have not specified anything about
+
+  - predicate: a sentence that contains variables
+
+
+

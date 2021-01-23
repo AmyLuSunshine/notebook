@@ -9,3 +9,11 @@ find ./ -name '*.java' | xargs rm -r
  #+end_src
 
  What xargs does is to take a list of word from standard input and convert it to a list of arguments to a command.
+
+* Remove files excluding a pattern
+
+  #+begin_src sh
+find ./ -type f -not \( -name '*.py' -or -name '*.pdf' \) | xargs rm
+  #+end_src
+
+This command remove every file, which does not has "py" and "pdf" suffix, in the ./ directory recursively.
