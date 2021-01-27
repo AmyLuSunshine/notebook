@@ -1,0 +1,25 @@
+#+title: Movement Commands in Emacs
+
+- tags :: [[file:20201028193935-emacs.org][Emacs]]
+
+* Go To a Specific Line in Emacs
+  M-g M-g (number of line)
+
+
+* Move to beginning of the current or next function
+
+  C-M-a
+
+  C-M-e
+
+* Move between statement
+
+  M-a
+
+  M-e
+
+* Select and move up / down one line
+
+  M-shift-a
+  
+  M-shift-e

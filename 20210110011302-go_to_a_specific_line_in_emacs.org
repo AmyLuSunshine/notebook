@@ -1,6 +1,0 @@
-#+title: Go To a Specific Line in Emacs
-
-- tags :: [[file:20201028193935-emacs.org][Emacs]]
-
-
-M-g M-g

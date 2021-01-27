@@ -106,3 +106,7 @@ English is a composite of several languages like French, Latin and German.
   ascertain turth
 
 * conjecture
+
+* pivot
+
+* palette
