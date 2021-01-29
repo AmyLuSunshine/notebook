@@ -1,2 +1,20 @@
 #+title: Algorithms
 
+* Greeedy
+
+  - Fraction knapsack
+
+* Divide and Conquer
+
+  - Searching
+    binary search
+
+  - Sorting
+    merge sort, quick sort
+    
+
+* Dynamic Programming
+
+  - Coins Changes
+  - Discrete Knapsack
+

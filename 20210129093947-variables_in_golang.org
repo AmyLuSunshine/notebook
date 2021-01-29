@@ -1,0 +1,37 @@
+#+title: Variables in Golang
+
+- tags :: [[file:20210110190746-golang.org][Golang]]
+
+* Declare variables
+
+  #+begin_src go
+var var_name type = expression
+  #+end_src
+
+  
+** same type
+
+   #+begin_src go
+ var i, j, k int
+   #+end_src
+
+** different types
+
+ #+begin_src go
+ var i, j, k int
+ #+end_src
+
+
+** without types  
+#+begin_src go
+var i, j, k = true, 2, "for"
+
+
+#+end_src
+
+** short variable declaration
+#+begin_src go
+m, n, q := true, 2, "for"
+#+end_src
+
+Short variable declaration is declaration not assignment. A variable cannot be declared twice in the same scope.
