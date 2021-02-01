@@ -6,3 +6,7 @@
 * shallow
 
   When implementing priority trees, we want to keep the binary tree shallow.
+
+* get something out of the way
+
+  get that out of the way really fast, and study a little bit.
