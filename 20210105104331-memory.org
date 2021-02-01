@@ -1,6 +1,6 @@
 #+title: Memory
 
-- tags :: [[file:20210105103730-computer_architecture.org][Computer Architecture]]
+- tags :: [[file:20201102103939-computer_organization.org][Computer Organization]]
 
 
 * Types of memory

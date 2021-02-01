@@ -1,0 +1,19 @@
+#+title: Priority Quenes
+#+ROAM_TAGS: Data Structures
+
+- tags :: [[file:20201124134853-data_structures.org][Data Structures]]
+
+Priority quenes are not linear data structures. There is no beginning or end of a priority quene. Every entry has a value that refers to its priority. It is able to extract data according to the data's priority.
+
+
+| API                   | Operation                                                             |
+|-----------------------+-----------------------------------------------------------------------|
+| Insert(p)             | add new element with priority                                         |
+|                       |                                                                       |
+| ExtractMax()          | extract an element with maximum priority                              |
+|                       |                                                                       |
+| Remove(it)            | remove an element pointed by an iterator it                           |
+|                       |                                                                       |
+| GetMax()              | return an element with maximum priority (without modifying the quene) |
+|                       |                                                                       |
+| ChangePriority(it, y) | changes the priority of an element pointed by it to p                 |

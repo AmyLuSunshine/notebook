@@ -1,6 +1,7 @@
-#+title: Angle brackets in Linux Commands
+#+title: Angle brackets in Bash
+#+ROAM_TAGS: Bash
 
-- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]] [[file:20201115205959-shell.org][Shell]]
+- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]] [[file:20210201143501-bash.org][Bash]]
 - source :: [[https://www.linux.com/topic/desktop/understanding-angle-brackets-bash/][Understanding Angle Brackets in Bash - By Paul Brown]]
   
 * >

@@ -1,6 +1,7 @@
 #+title: CPU
+#+ROAM_TAGS: Computer Organization
 
-- tags :: [[file:20210105103730-computer_architecture.org][Computer Architecture]]
+- tags :: [[file:20201102103939-computer_organization.org][Computer Organization]]
 
 CPU stands for centural processing unit, it comprises two major components: datapath and control, the respective brawn and brain of the processor.
 

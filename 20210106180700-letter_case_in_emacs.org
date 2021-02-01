@@ -1,4 +1,5 @@
 #+title: Letter Case in Emacs
+#+ROAM_TAGS: Emacs
 
 - tags :: [[file:20201028193935-emacs.org][Emacs]]
 

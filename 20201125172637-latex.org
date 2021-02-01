@@ -1,8 +1,0 @@
-#+title: Latex
-
-
-* Preview latex fragement
-
-  Write latex expression and press C-c C-x C-l
-
-  $a^2+b^2=c^3$

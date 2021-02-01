@@ -1,5 +1,5 @@
 #+title: Awk
-
+#+ROAM_TAGS: Linux/Unix
 - tags :: [[file:20201211122625-text_processing.org][Text Processing]] [[file:20201029225738-linux_unix.org][Linux/Unix]]
 - source :: [[https://www.youtube.com/watch?v=_q6Uj4X_knc][Lesson 12 - The Awk Programming Language - By  Melvyn Drag]]
   

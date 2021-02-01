@@ -1,4 +1,5 @@
 #+title: Change apt mirros
+#+ROAM_TAGS: Linux/Unix
 
 - tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]], [[file:20201127201731-ubuntu.org][Ubuntu]]
 

@@ -1,4 +1,5 @@
 #+title: Branches in Git
+#+ROAM_TAGS: Git
 
 - tags :: [[file:20201110160656-git.org][Git]]
 

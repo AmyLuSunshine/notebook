@@ -1,10 +1,11 @@
 #+title: Stacks and Quenes
+#+ROAM_TAGS: Data Structures
 
 - tags :: [[file:20201124134853-data_structures.org][Data Structures]]
 
 * Stacks
 
-| API     | function                                    |
+| API     | Operation                                   |
 |         |                                             |
 | Push()  | adds key to collection                      |
 |         |                                             |
@@ -18,7 +19,7 @@
 
 * Quenes
 
-| API       | function                                       |
+| API       | Operation                                      |
 |-----------+------------------------------------------------|
 | EnQuene() | Adds key to the collection                     |
 |           |                                                |

@@ -1,4 +1,5 @@
 #+title: Variables in Golang
+#+ROAM_TAGS: Golang
 
 - tags :: [[file:20210110190746-golang.org][Golang]]
 

@@ -1,0 +1,8 @@
+#+title: Default Program in PopOS
+#+ROAM_TAGS: PopOS
+
+- tags :: [[file:20210129181654-popos.org][PopOS]]
+
+1. Right click the file
+
+   property -> open with -> select the default program

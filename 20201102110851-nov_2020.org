@@ -1,6 +1,7 @@
 #+title: Nov-2020
+#+ROAM_TAGS: Volcabulary
 
-- tag :: [[file:20201027212106-english.org][English]], [[file:20201027222847-volcabulary.org][volcabulary]] 
+- tag :: [[file:20201027222847-volcabulary.org][Volcabulary]] 
 
 * conform
 iPhone's design conform to the principle of simplicity.
