@@ -1,4 +1,5 @@
-#+title: Movement Commands in Emacs
+#+title: Cursor Movement in Emacs
+#+ROAM_TAGS: Emacs
 
 - tags :: [[file:20201028193935-emacs.org][Emacs]]
 

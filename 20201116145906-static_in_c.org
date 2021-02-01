@@ -1,4 +1,5 @@
 #+title: Static in C
+#+ROAM_TAGS: C
 
 - tags :: [[file:20201116145931-c.org][C]]
 

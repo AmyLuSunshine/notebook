@@ -1,4 +1,5 @@
 #+title: Makefile
+#+ROAM_TAGS: C/C++
 
 - tags :: [[file:20201116145931-c.org][C]], [[file:20201029225738-linux_unix.org][Linux/Unix]]
 

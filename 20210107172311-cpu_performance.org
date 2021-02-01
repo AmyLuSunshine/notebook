@@ -1,4 +1,5 @@
 #+title: CPU Performance
+#+ROAM_TAGS: Computer Organization
 
 - tags :: [[file:20210105103633-cpu.org][CPU]], [[file:20201102103939-computer_organization.org][Computer Organization]]
 
@@ -7,7 +8,7 @@
 
 CPU time = instruction counts * CPI / clock rate
 
-* Wall clock tim, response time, elapsed time
+* Wall clock time, response time, elapsed time
 
 Time is the only reliable measure of computer performance.
 

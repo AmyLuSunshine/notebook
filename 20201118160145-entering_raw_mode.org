@@ -1,6 +1,0 @@
-#+title: Entering Raw Mode
-
-- tags :: [[file:20201118160233-build_your_own_text_editor.org][Build Your Own Text Editor]], [[file:20201116145931-c.org][C]], [[file:20201118160257-kilo.org][kilo]]
-
-* Canonical mode
-In this mode, only after the user type enter will the text be sent to the program.

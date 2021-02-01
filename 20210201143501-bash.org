@@ -1,0 +1,4 @@
+#+title: Bash
+#+ROAM_TAGS: Linux/Unix
+
+- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]]

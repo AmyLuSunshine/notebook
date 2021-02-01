@@ -1,4 +1,5 @@
 #+title: Using SSH in Github
+#+ROAM_TAGS: Git
 
 - tags :: [[file:20201110160656-git.org][Git]], [[file:20201208235001-github.org][Github]]
 - source :: [[https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh][Connecting to Github with SSH]]

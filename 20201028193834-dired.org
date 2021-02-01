@@ -1,5 +1,5 @@
 #+title: Dired Tricks
-#+ROAM_TAGS: emacs dired
+#+ROAM_TAGS: Eamcs
 
 - tags :: [[file:20201028193935-emacs.org][Emacs]]
 

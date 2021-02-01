@@ -1,28 +1,29 @@
 #+title: Linked Lists
+#+ROAM_TAGS: Data Structures
 
 - tags :: [[file:20201124134853-data_structures.org][Data Structures]]
 
 * List API
 
-| API                  | function                     |
-|----------------------+------------------------------|
-| pushFront(Key)       | add key to front             |
-|                      |                              |
-| topFront()           | return key of the front item |
-|                      |                              |
-| popFront()           | remove the front item        |
-|                      |                              |
-| pushBack()           | add item to back             |
-|                      |                              |
-| topBack()            | return key of back item      |
-|                      |                              |
-| popback()            | remove back item             |
-|                      |                              |
-| find(Key)            | is key in list?              |
-|                      |                              |
-| erase(Key)           | remove key from list         |
-|                      |                              |
-| empty()              | is list empty?               |
+| API            | Operation                    |
+|----------------+------------------------------|
+| pushFront(Key) | add key to front             |
+|                |                              |
+| topFront()     | return key of the front item |
+|                |                              |
+| popFront()     | remove the front item        |
+|                |                              |
+| pushBack()     | add item to back             |
+|                |                              |
+| topBack()      | return key of back item      |
+|                |                              |
+| popback()      | remove back item             |
+|                |                              |
+| find(Key)      | is key in list?              |
+|                |                              |
+| erase(Key)     | remove key from list         |
+|                |                              |
+| empty()        | is list empty?               |
 
 * struct
 

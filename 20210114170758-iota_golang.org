@@ -1,6 +1,7 @@
 #+title: iota Golang
+#+ROAM_TAGS: Golang
 
-- tags :: [[file:20210110190746-golang.org][Golang]], [[file:20210114170814-enum.org][enum]]
+- tags :: [[file:20210110190746-golang.org][Golang]]
 
 The iota keyword represents sucessive number constants 0, 1, 2...
 

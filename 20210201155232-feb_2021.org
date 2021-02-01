@@ -1,0 +1,8 @@
+#+title: Feb-2021
+#+ROAM_TAGS: Volcabulary
+
+- tag :: [[file:20201027222847-volcabulary.org][Volcabulary]] 
+
+* shallow
+
+  When implementing priority trees, we want to keep the binary tree shallow.

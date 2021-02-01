@@ -1,6 +1,24 @@
 #+title: Git File Management
+#+ROAM_TAGS: Git
 
 - tags :: [[file:20201110160656-git.org][Git]]
+
+* Remove a file from file system
+#+begin_src 
+git rm file_to_be_removed
+#+end_src
+
+** The command above is equal to 
+#+begin_src 
+rm file_to_be_removed
+git add file_to_be_removed
+#+end_src
+
+* Remove a file from git's control
+
+#+begin_src 
+git rm file_to_be_removed --cached
+#+end_src
 
 * Remove file and add to stage
 
@@ -8,8 +26,7 @@
 git rm files
 #+end_src
 
-** the command above is equal to
-
+this command is equal to
 #+begin_src 
 rm files
 git add files

@@ -1,0 +1,12 @@
+#+title: Check The Exit Code in Bash
+#+ROAM_TAGS: Bash
+
+- tags :: [[file:20210201143501-bash.org][Bash]]
+
+  #+begin_src sh
+echo $?
+  #+end_src
+
+  #+RESULTS:
+  : 0
+

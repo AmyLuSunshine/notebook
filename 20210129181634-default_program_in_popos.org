@@ -1,4 +1,5 @@
 #+title: Default Program in PopOS
+#+ROAM_TAGS: PopOS
 
 - tags :: [[file:20210129181654-popos.org][PopOS]]
 

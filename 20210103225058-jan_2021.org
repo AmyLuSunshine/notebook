@@ -1,4 +1,7 @@
 #+title: Jan-2021
+#+ROAM_TAGS: Volcabulary
+
+- tag :: [[file:20201027222847-volcabulary.org][Volcabulary]] 
 
 * arena
   - Hearthstone arena
@@ -128,3 +131,8 @@ English is a composite of several languages like French, Latin and German.
 * postpone
 
   I postponed my graduation for one year.
+
+* pronunciation
+
+  - verb form
+    pronounce
