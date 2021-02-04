@@ -1,0 +1,6 @@
+#+title: Projectile
+#+ROAM_TAGS: EMACS
+
+* Add a project to the Projectile bookmark
+
+M-x projectile-discover-projects-in-directory

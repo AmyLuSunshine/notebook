@@ -1,4 +1,5 @@
 #+title: Asymptotic Analysis
+#+ROAM_TAGS: algorithms
 
 - tags :: [[file:20201124115508-algorithms.org][Algorithms]], [[file:20201124115538-big_o.org][Big O]]
 
@@ -12,11 +13,16 @@
 
 * Big O
 
-The big O notation describes the "worst case" of an algorithm.
+The big O notation describes the "worst case" running time of an algorithm.
+
+if an algorithm's running time is Ω(g(n)), it means no matter what input size n is chose for each, the running time of that input is _at most_ a constant times g(n).
 
 * Big Ω
 
-The big Ω notation describes the "best case" of an algorithm.
+The big Ω notation describes the "best case" running time of an algorithm.
+
+if an algorithm's running time is Ω(g(n)), it means no matter what input size n is chose for each, the running time of that input is _at least_ a constant times g(n).
+
 
 * Big Θ
 
@@ -25,3 +31,6 @@ The big Θ notation is employed when the big O and the big Ω of a program's run
 * Runtime comparison
 
   $$\log_{}n<\sqrt{n}<n<nlog{n}<n^{2}<2^n}$$
+
+
+

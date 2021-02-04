@@ -1,0 +1,23 @@
+#+title: Bash Output
+#+ROAM_TAGS: Bash
+
+* Basic Usage
+
+#+begin_src bash
+dosomething < inputfile > outputfile
+#+end_src
+  
+* Writing Output to the terminal
+
+#+begin_src bash
+echo hello world
+#+end_src
+  
+echo prints the arguments to the screen
+
+* Bash supports C's printf
+
+#+begin_src bash
+printf "hello %s\n" "world"
+#+end_src
+  
