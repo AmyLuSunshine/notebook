@@ -1,0 +1,94 @@
+#+title: Basic Shell Features
+#+ROAM_TAGS: Bash
+
+- tags :: [[file:20210201143501-bash.org][Bash]]
+
+* Syntax
+
+** Comments
+
+  bash ignores lines that start with #
+#+begin_src bash
+# this is comments
+#+end_src
+
+** Quoting
+
+  
+*** Escape Character
+
+    preserve the literal value of the next character.
+  
+ #+begin_src bash
+ echo "hello"
+ echo \"hello\" # preserve the literal value of "
+ #+end_src
+
+*** Single Quotes
+
+    ' ' preserve the literal value between the single quotes.  \ cannot function between ' '. 
+ #+begin_src bash
+ echo 'hello\\'  # output: hello\\
+ echo "hello\\"  # output: hello\
+
+ #echo ''hello'   # error
+ #echo '\'hello'   # error
+
+ #echo "hello""   # error
+ echo "hello\"" # output: hello"
+
+ #+end_src
+
+*** Double Quotes
+   
+    " " preserve the literal value between the double quotes with the exception of $ ` \. 
+   
+
+* Shell Commands
+  
+** Reserved Words
+
+   | if   | then | elif   | else   | fi       | time |
+   | for  | in   | until  | while  | do       | done |
+   | case | esac | coproc | select | function | {    |
+   | }    | [[   | ]  ]   | !      |          |      |
+   
+   
+** Simple Commands
+
+#+begin_src bash
+command argument1 argument2
+#+end_src
+
+** Pipelines
+
+#+begin_src bash
+command1 arguments | command2 arguments
+#+end_src
+
+command2 reads the standard *output* of command1 via pipeline.
+
+#+begin_src bash
+command1 arguments |& command2 arguments
+#+end_src
+
+command2 reads the standary *error* of command1 via pipeline.
+
+for example:
+
+#+begin_src bash
+dat |& grep not
+#+end_src
+
+** Compound Commands
+
+*** looping constructs
+
+    - until
+
+    - while
+
+    - for
+
+** 
+

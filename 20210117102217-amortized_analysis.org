@@ -1,5 +1,5 @@
 #+title: Amortized Analysis
-#+ROAM_TAGS: Data Structures
+#+ROAM_TAGS: Data-Structures
 
 - tags :: [[file:20201124134853-data_structures.org][Data Structures]], [[file:20201124115538-big_o.org][Big O]], [[file:20201124115508-algorithms.org][Algorithms]]
 

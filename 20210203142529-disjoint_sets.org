@@ -1,0 +1,15 @@
+#+title: Disjoint Sets
+#+ROAM_TAGS: Data-Structures
+
+- tags :: [[file:20201124134853-data_structures.org][Data Structures]]
+
+
+* Operations
+  
+  | API     | Operation |
+  |---------+-----------|
+  | Find()  |           |
+  |         |           |
+  | Union() |           |
+  |         |           |
+  

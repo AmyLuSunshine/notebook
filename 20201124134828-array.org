@@ -1,5 +1,5 @@
 #+title: Array
-#+ROAM_TAGS: Data Structures
+#+ROAM_TAGS: Data-Structures
 
 - tags :: [[file:20201124134853-data_structures.org][Data Structures]]
 

@@ -2,3 +2,6 @@
 #+ROAM_TAGS: Linux/Unix
 
 - tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]]
+
+
+Bash is the shell, or command line interpreter, for the GUN operating system.

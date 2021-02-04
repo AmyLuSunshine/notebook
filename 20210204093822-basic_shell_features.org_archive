@@ -1,0 +1,19 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /home/sz96/org-roam/20210204093822-basic_shell_features.org
+
+
+* Escape Character
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2021-02-04 Thu 19:17
+  :ARCHIVE_FILE: ~/org-roam/20210204093822-basic_shell_features.org
+  :ARCHIVE_OLPATH: Quoting
+  :ARCHIVE_CATEGORY: 20210204093822-basic_shell_features
+  :END:
+
+#+begin_src sh
+echo "hello"
+echo \"hello\" # preserve the literal value of "
+#+end_src
+

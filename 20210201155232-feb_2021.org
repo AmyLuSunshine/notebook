@@ -16,3 +16,24 @@
 * conceive
 
   No matter how old I am, my parents conceive me as a kid.
+
+* prologue
+
+* soar
+
+* whip
+  
+  the wind whips my hair.
+
+  - whipped
+  - whipping
+
+* auxiliary
+
+* kickoff
+
+  kickoff(start) whatever course i am taking
+
+* commute
+
+  After 4, i will commute over our gym.

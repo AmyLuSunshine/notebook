@@ -1,0 +1,17 @@
+#+title: Sorts
+#+ROAM_TAGS: Algorithms
+
+- tags :: [[file:20201124115508-algorithms.org][Algorithms]]
+
+* Insertion Sort
+
+  1. divide the unsorted array in to two parts, left for sorted right for unsorted. (init: consider the first element has been sorted)
+
+  2. create a variable named key, assign the value of the first element of the right part to the variable key.
+
+  3. compare the key with each element in the left part. if the element is larger than the key, move the larger element one position right, then insert the key to the vacancy.
+
+* Merge Sort
+
+* Quick Sort
+
