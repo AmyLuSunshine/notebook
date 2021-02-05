@@ -1,2 +1,3 @@
 #+title: Linux/Unix
 
+Standard input is 0, output is 1, and error is 2.

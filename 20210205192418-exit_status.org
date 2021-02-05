@@ -1,0 +1,30 @@
+#+title: Exit Status
+#+ROAM_TAGS: Bash
+
+- tags :: [[file:20210201143501-bash.org][Bash]]
+
+* Check exit Status
+
+  #+begin_src bash
+echo $?
+  #+end_src
+
+* 127
+
+  the command is not found
+
+* 126
+
+  the command is found but not executable
+
+* 0
+
+  the command succeed
+
+* 2
+
+  if builtins return 2, it indicates incorrect usage
+
+* non-zero
+
+  errors
