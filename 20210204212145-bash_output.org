@@ -1,13 +1,13 @@
 #+title: Bash Output
 #+ROAM_TAGS: Bash
 
-* Basic Usage
+* Basic usage
 
 #+begin_src bash
 dosomething < inputfile > outputfile
 #+end_src
   
-* Writing Output to the terminal
+* Writing output to the terminal
 
 #+begin_src bash
 echo hello world
@@ -21,3 +21,67 @@ echo prints the arguments to the screen
 printf "hello %s\n" "world"
 #+end_src
   
+* Combine multiple files into one
+#+begin_src bash
+cat file1 file2 > whole
+#+end_src
+
+* Erros 
+** Split output and error message
+ #+begin_src bash
+ program 1> output 2> message.err
+ #+end_src
+
+** Sending output and error messages to the same file
+#+begin_src bash
+program >& outputAndErr
+both > outfile 2>&1 #old
+#+end_src
+
+** Appending rather than clobbering output
+
+#+begin_src bash
+ls > out
+ls -al >> out
+#+end_src
+
+* Beginning or end of a file
+
+** head
+
+#+begin_src bash
+ls -al | head -n 1 # display the first line
+ls -al | head -n +2 # + means the position relative to the top line
+#+end_src
+
+** tail
+
+#+begin_src bash
+ls -al | tail -n 1 # display the last line
+ls -al | tail -n +2 # display from the last line offset to the position relative to the top line
+#+end_src
+
+* Throwing output away
+
+output written there is thrown away
+
+#+begin_src bash
+ls > /dev/null
+#+end_src
+
+* Grouping output from several commands
+
+use brackets to group output from several commands
+
+#+begin_src bash
+{ pwd; ls; } > output
+#+end_src
+
+* Saving a copy of output even while using it as input
+
+#+begin_src bash
+program1 | program2 | program3 | program4
+program1 | program2 | tee output | program3 | program4
+#+end_src
+
+

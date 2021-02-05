@@ -1,0 +1,54 @@
+#+title: Bash Input
+#+ROAM_TAGS: Bash
+
+* Getting input from a file
+
+#+begin_src bash
+wc < file
+#+end_src
+
+* Keeping your data with your script
+
+#+begin_src bash
+#!/bin/bash
+
+## This script named ext
+grep $1 <<EOF
+
+mike x.123
+joe  x.234
+sue  x.555
+pete x.818
+sara x.822
+bill x.919
+EOF
+#+end_src
+
+#+begin_src bash
+./ext mike
+#+end_src
+
+
+* Getting user input
+
+#+begin_src bash
+read
+read -p "sometext" variableName # with -p "sometext" will show on prompt
+read -t 5 -p "sometext" variableName # -t set a timeout, 5 means 5 seconds.
+#+end_src
+
+* Getting yes or no Input
+
+#+begin_src bash
+
+#+end_src
+  
+* Password
+
+-s tells the read command not to echo the characters typed.
+
+#+begin_src bash
+read -s -p "password: "  PASSWD 
+#+end_src
+  
+
