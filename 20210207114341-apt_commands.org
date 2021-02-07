@@ -1,0 +1,18 @@
+#+title: Apt Commands
+
+- tags :: [[file:20210129181654-popos.org][PopOS]], [[file:20201127201731-ubuntu.org][Ubuntu]]
+
+| Command          | function                                         |
+|------------------+--------------------------------------------------|
+| apt install      | install a package                                |
+| apt remove       | remove a package                                 |
+| apt purge        | remove a packege with configuration              |
+| apt update       | refresh repository index                         |
+| apt upgrade      | upgrade all upgradable packages                  |
+| apt autoremove   | remove unwanted packages                         |
+| apt full-upgrade | upgrade packages with auto-handling dependencies |
+| apt search       | search for a program                             |
+| apt show         | show package detail                              |
+
+
+
