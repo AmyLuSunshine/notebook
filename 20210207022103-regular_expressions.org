@@ -1,0 +1,29 @@
+#+title: Regular Expressions
+
+| symbol   |                                               |
+|----------+-----------------------------------------------|
+| .        | Any one character                             |
+|          |                                               |
+| *        | Match any number of previous (including 0)    |
+|          |                                               |
+| \+       | Match any number of previous (greater than 0) |
+|          |                                               |
+| $        | End of the line                               |
+|          |                                               |
+| ^        | Beginning of the line                         |
+|          |                                               |
+| \S       | Any non-whitespace character                  |
+|          |                                               |
+| \s       | Whitespace character                          |
+|          |                                               |
+| ?        | the character before it is optional           |
+|          |                                               |
+| [a-z]    | any lowercase letter                          |
+|          |                                               |
+| [A-Z]    | any uppercase letter                          |
+|          |                                               |
+| [A-Za-z] | any letter                                    |
+|          |                                               |
+| [0-9]    | any number                                    |
+
+

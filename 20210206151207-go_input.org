@@ -1,0 +1,11 @@
+#+title: Go Input 
+#+ROAM_TAGS: Golang
+
+* Read input from command-line arguments
+
+#+begin_src go
+os.Args
+#+end_src
+
+os.Args is a string slice of command-line arguments. os.Args[0] is the name of the program, from os.Args[1] to the os.Args[len(os.Args)-1] is the input arguments which are seperated by space.
+
