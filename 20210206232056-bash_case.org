@@ -1,0 +1,11 @@
+#+title: Bash Case
+#+ROAM_TAGS: Bash
+
+- tags :: [[file:20210201143501-bash.org][Bash]]
+
+#+begin_src bash
+  case $var in
+
+    
+#+end_src
+

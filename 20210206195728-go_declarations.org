@@ -1,0 +1,31 @@
+#+title: Go Declarations
+#+ROAM_TAGS: Golang
+
+* There are 4 kinds of declarations
+  - var
+  - const
+  - func
+  - type
+
+* declarations within the same package
+
+The name of each package-level entity is visible by each file of that package.
+
+You can think of it as a long source file split into different fils. When you import a package and compile the program, each file of the package will be integrated into one file.
+
+* short variable declaration
+
+short variable declaration must declare at least one new variable
+
+#+begin_src go
+// error
+a := 1
+a := 2
+
+// ok
+in, err := os.Open(infile)
+Out, err := os.Create(infile)
+#+end_src
+
+* 
+
