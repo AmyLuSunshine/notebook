@@ -13,9 +13,9 @@
 
 * atheist
 
-* conceive
+* conceive (of)
 
-  No matter how old I am, my parents conceive me as a kid.
+  No matter how old I am, my parents conceive of me as a kid.
 
 * prologue
 
@@ -39,3 +39,14 @@
   After 4, i will commute over our gym.
 
 * clobber
+
+* base off
+
+  Our research is base off of the work done by our predecessor.
+
+* sleeve
+
+* dodger
+
+  tax dodger
+
