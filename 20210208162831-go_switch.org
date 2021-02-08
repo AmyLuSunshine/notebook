@@ -1,0 +1,45 @@
+#+title: Go Switch
+#+ROAM_TAGS: Golang
+
+- tags :: [[file:20210110190746-golang.org][Golang]]
+
+* Hidden break
+
+There is the default hidden break at the end of each case.
+
+#+begin_src go
+  switch {
+	case 1:
+
+	(hidden break)
+	case 2:
+
+	(hidden break)
+	default:
+
+	(hidden break)
+    }
+#+end_src
+
+* fallthrough
+
+if there is a fallthrough statement at the end of a case, the program will directly transfer the control to the next case without tesing the case statement.
+
+#+begin_src go
+      switch 2 {
+	    case 1:
+	    fmt.Println(1)
+
+	    case 2:
+	    fmt.Println(2)
+	    fallthrough
+
+	    default:
+	    fmt.Println(3)
+	}
+
+//output
+//2
+//3
+#+end_src
+
