@@ -1,8 +1,12 @@
 #+title: Enlarge Latex Fragment in Org mode
 #+ROAM_TAGS: Org
 
-- tags :: [[file:20201029150815-org_mode_tricks.org][Org Mode Tricks]], [[file:20201125172637-latex.org][Latex]]
+- tags :: [[file:20201029150815-org_mode_tricks.org][Org Mode Tricks]]
 - source :: [[https://tex.stackexchange.com/questions/78501/change-size-of-the-inline-image-for-latex-fragment-in-emacs-org-mode][Answer by Peter Bamm on Stack Exchange]]
+
+* Display Latex fragment
+
+C-c C-x C-l
   
 * STEP 1 call command:
 
