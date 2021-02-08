@@ -14,3 +14,31 @@
 * Combine
 
   Combine the solutions of the subproblems into the solutions of the original problem.
+
+* The Master Theorem
+
+$$T(n)=aT(n/b)+f(n)$$
+
+a : number of subproblems
+b : the size of subproblems
+
+f(n): the time of the divide and combine steps
+
+** usage
+
+compare the $$n^{\log_b a}$$ and $$f(n)$$
+
+** case 1: $$n^{\log_b a}>f(n)$$
+
+Θ(n) = left
+
+** case 2: $$n^{\log_b a}=f(n)$$
+
+Θ(n) = left || right
+
+** case 3: $$n^{\log_b a}<f(n)$$
+
+Θ(n) = right
+
+
+
