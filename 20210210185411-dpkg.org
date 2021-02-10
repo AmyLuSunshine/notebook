@@ -1,0 +1,23 @@
+#+title: dpkg
+
+- tags :: [[file:20201127201731-ubuntu.org][Ubuntu]], [[file:20210129181654-popos.org][PopOS]]
+
+* Check whether a program installed via dpkg
+
+#+begin_src bash
+dpkg -l | grep program_name
+#+end_src
+
+* Install deb program via dpkg
+
+#+begin_src bash
+sudo dpkg -i deb_file
+#+end_src
+
+* Remove program via dpkg
+
+#+begin_src bash
+sudo dpkg -r program_name # without removing config file
+sudo dpkg -P program_name # also remove config file
+#+end_src
+
