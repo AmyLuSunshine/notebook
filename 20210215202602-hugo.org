@@ -1,0 +1,9 @@
+#+title: Hugo
+
+* Serve locally
+
+#+begin_src bash
+hugo server --baseURL="http://ip" --bind "ip"
+#+end_src
+
+
