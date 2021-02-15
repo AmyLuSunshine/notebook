@@ -2,3 +2,9 @@
 
 Taking notes is a method of communicating with your future self.
 
+* App for Note-taking
+
+  - [[https://obsidian.md/][OBSIDIAN]]
+
+  - [[https://www.wolai.com/][wolai]]
+
