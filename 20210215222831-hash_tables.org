@@ -1,0 +1,54 @@
+#+title: Hash Tables
+#+ROAM_TAGS: Data-Structures
+
+- tags :: [[file:20201124134853-data_structures.org][Data Structures]]
+
+* Dictionaries
+
+A dictionary is a key-value pair abstract data structure. 
+
+| API                | Operation                                 |
+|--------------------+-------------------------------------------|
+| Search(Key)        | return the corresponding value            |
+|                    |                                           |
+| Insert(Key, Value) | insert a key-value pair in the dictionary |
+|                    |                                           |
+| Delete(Key)        | delete the key-value pair                 |
+
+
+* Hash Tables
+
+  Hash table is an effective data structure for implementing dictionaries. 
+
+** store value
+
+use an array
+
+** hash function 
+
+key -> hash function -> hash code (index of the array)
+
+we use a hash function to compute the slot of the key. Then with the index, we can retrieve the corresponding value.
+
+** collision
+
+two keys have the same hash code.
+
+*** chaining
+
+    place all elements that hash to the same slot into the same linked-list.
+
+
+
+| API                | Operation                                        |
+|--------------------+--------------------------------------------------|
+| Search(Key)        | return the corresponding value                   |
+|                    |                                                  |
+| Insert(Key, Value) | insert a key-value pair in the dictionary        |
+|                    |                                                  |
+| Delete(Key)        | delete the key-value pair                        |
+|                    |                                                  |
+| MakeHashTable()    | initialize a hashtable and return the hash table |
+|                    |                                                  |
+| PrintTable()       | print the hash table by each slot                |
+
