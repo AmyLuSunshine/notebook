@@ -1,0 +1,30 @@
+#+title: Extract Each Digit of a Number
+
+Example:
+
+1994:
+[1 9 9 4]
+
+* Code
+  
+#+begin_src go
+func extract(num int) []int {
+	var res []int
+	for num != 0 {
+		remainder := num % 10
+		res = append(res, remainder)
+		num = num / 10
+	}
+	return reverse(res)
+}
+
+func reverse(s []int) []int {
+	res := make([]int, len(s))
+	j := 0
+	for i := len(s) - 1; i >= 0; i-- {
+		res[j] = s[i]
+		j++
+	}
+	return res
+}
+#+end_src
