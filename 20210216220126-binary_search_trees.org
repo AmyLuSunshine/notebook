@@ -1,0 +1,17 @@
+#+title: Binary Search Trees
+#+ROAM_TAGS: Data-Structures
+
+- tags :: [[file:20201124134853-data_structures.org][Data Structures]]
+
+* Property
+
+  Let x be a node in a binary search tree. If y is a node in the left subtree
+of x, then y.key < x.key. If y is a node in the right subtree of x, then
+y.key > x.key.
+
+* inorder tree walk
+
+* preorder tree walk
+
+* postorset tree walk
+
