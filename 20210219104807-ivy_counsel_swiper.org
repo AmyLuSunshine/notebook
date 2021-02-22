@@ -1,0 +1,8 @@
+#+title: Ivy, Counsel, Swiper
+#+ROAM_TAGS: Emacs
+
+- tags :: [[file:20201028193935-emacs.org][Emacs]]
+
+* Sort Counsel-M-x by recent used
+
+install smex, Counsel-M-x use automatically use it.
