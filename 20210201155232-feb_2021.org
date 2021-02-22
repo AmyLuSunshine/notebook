@@ -106,3 +106,6 @@
 
 * toil
 
+* detest
+
+I detest smartphones.

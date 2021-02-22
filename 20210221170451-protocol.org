@@ -1,0 +1,15 @@
+#+title: Protocol
+#+ROAM_TAGS: Computer-Network
+
+- tags :: [[file:20210221171216-computer_network.org][Computer Network]] 
+
+* Definition
+
+A defined set of standards that computers must follow in order to communicate properly.
+
+* Models
+
+** TCP/IP model (5 layers model)
+
+** OSI model (7 layers model)
+
