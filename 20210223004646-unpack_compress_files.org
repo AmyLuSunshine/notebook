@@ -1,0 +1,15 @@
+#+title: Unpack Compress Files
+#+ROAM_TAGS: Linux/Unix
+
+- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]]
+- source :: [[http://note.drx.tw/2008/04/command.html#tar.gz][GNU / Linux 各種壓縮與解壓縮指令]]
+
+* .tar.gz
+
+#+begin_src bash
+# compress
+tar zcvf FileName.tar.gz DirName
+# decompress
+tar zxvf FileName.tar.gz
+#+end_src
+
