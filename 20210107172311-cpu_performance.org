@@ -1,5 +1,5 @@
 #+title: CPU Performance
-#+ROAM_TAGS: Computer Organization
+#+ROAM_TAGS: Computer-Organization
 
 - tags :: [[file:20210105103633-cpu.org][CPU]], [[file:20201102103939-computer_organization.org][Computer Organization]]
 

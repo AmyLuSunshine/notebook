@@ -1,5 +1,5 @@
 #+title: Computer Instruction Set
-#+ROAM_TAGS: Computer Organization
+#+ROAM_TAGS: Computer-Organization
 
 - tags :: [[file:20201102103939-computer_organization.org][Computer Organization]], [[file:20210107230133-the_mips_assembly_language.org][The MIPS Assembly Language]]
 

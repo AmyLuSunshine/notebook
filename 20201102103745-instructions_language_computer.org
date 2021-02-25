@@ -1,5 +1,5 @@
 #+title: Instructions: Language Computer
-#+ROAM_TAGS: Computer Organization
+#+ROAM_TAGS: Computer-Organization
 
 - tags :: [[file:20201102103939-computer_organization.org][Computer Organization]]
 

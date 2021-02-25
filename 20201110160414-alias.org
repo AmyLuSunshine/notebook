@@ -1,0 +1,11 @@
+#+title: Alias
+#+ROAM_TAGS: Git
+
+- tags :: [[file:20201110160656-git.org][Git]]
+
+* Create alias for git command
+
+#+begin_src git
+git config --global alias.co checkout
+#+end_src
+

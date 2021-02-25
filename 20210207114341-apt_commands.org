@@ -1,4 +1,5 @@
 #+title: Apt Commands
+#+ROAM_TAGS: Ubuntu
 
 - tags :: [[file:20210129181654-popos.org][PopOS]], [[file:20201127201731-ubuntu.org][Ubuntu]]
 
