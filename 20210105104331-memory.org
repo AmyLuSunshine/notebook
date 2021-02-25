@@ -1,6 +1,7 @@
 #+title: Memory
+#+ROAM_TAGS: Computer-Organization
 
-- tags :: [[file:20201102103939-computer_organization.org][Computer Organization]]
+- tags :: [[file:20201102103939-computer_organization.org][Computer-Organization]]
 
 
 * Types of memory

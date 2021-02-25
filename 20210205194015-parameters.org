@@ -1,0 +1,19 @@
+#+title: Parameters
+#+ROAM_TAGS: Bash
+
+- tags :: [[file:20210201143501-bash.org][Bash]]
+
+#+begin_src bash
+#filename: program
+echo $3 $2 $1
+#+end_src
+
+#+begin_src bash
+program ! world hello
+#+end_src
+
+the above program output:
+
+#+begin_src output
+hello world !
+#+end_src

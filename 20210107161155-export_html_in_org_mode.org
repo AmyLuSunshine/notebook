@@ -1,8 +1,0 @@
-#+title: Export HTML in Org Mode
-#+ROAM_TAGS: Org
-
-- tags :: [[file:20201029150815-org_mode_tricks.org][Org Mode Tricks]]
-
-* Export HTML
-
-C-c C-e h h

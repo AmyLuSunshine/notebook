@@ -1,2 +1,0 @@
-#+title: Org Mode Tricks
-#+ROAM_TAGS: Org

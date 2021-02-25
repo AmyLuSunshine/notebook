@@ -1,0 +1,52 @@
+#+title: Static
+#+ROAM_TAGS: C
+
+- tags :: [[file:20201116145931-c.org][C]]
+
+* Static Variables
+Static variables can preserve its value in the scoupe it belongs to. That means, when you call a function more than one time, the static variables will not be redeclared and reinitialize.
+
+#+begin_src C
+  #include <stdio.h>
+
+  int fun()
+  {
+      static int x = 10;
+      x++;
+      return x;
+  }
+
+  int main()
+  {
+      printf("%d\n", fun());
+      printf("%d\n", fun());
+      printf("%d\n", fun());
+      return 0;
+  }
+#+end_src
+
+#+RESULTS:
+| 11 |
+| 12 |
+| 13 |
+
+* Static Functions
+Static functions can only be called inside the file that it is declared.
+
+#+begin_src C
+#include <stdio.h>
+
+void staticFunc(void){
+   printf("Inside the static function staticFunc() ");
+}
+
+int main()
+{
+   staticFunc();
+   return 0;
+}
+#+end_src
+
+#+RESULTS:
+: Inside the static function staticFunc()
+
