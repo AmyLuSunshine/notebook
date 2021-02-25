@@ -1,0 +1,6 @@
+#+title: Env Variables
+#+ROAM_TAGS: Linux/Unix
+
+- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]]
+
+* Env variables should be exported in .profile then reboot or re login the computer.

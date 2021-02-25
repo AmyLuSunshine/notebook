@@ -1,0 +1,12 @@
+#+title: Env Variables
+#+ROAM_TAGS: Emacs
+
+- tags :: [[file:20201028193935-emacs.org][Emacs]]
+
+* Set environment variables insied Emacs
+
+#+begin_src elisp
+  ;; env variables
+  (setenv "PATH" (concat (getenv "PATH") ":/home/sz96/go/bin"))
+  (setq exec-path (append exec-path '("/home/sz96/go/bin")))
+#+end_src

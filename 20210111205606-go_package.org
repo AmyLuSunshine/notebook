@@ -11,6 +11,23 @@ import path: path/to/directory_of_the_package
 package usage: packageName.ExportedFunction()
 
 the directory name does not need to be the same as the pacakge name. When importing a package, you have to specify the directory name instead of pacakge name. When calling a expoted function in a specific pacakge, you have to use the package name.
+ 
+** import pacakge with customized name
+
+#+begin_src go
+import f "fmt"
+
+func main() {
+  f.Println("hello world")
+}
+#+end_src
+
+** call function in package without pacakge name
+
+#+begin_src go
+import . "fmt" 
+Println("hello world")
+#+end_src
 
 * Naming convention
 
@@ -35,7 +52,10 @@ go allows you export type from a package to another. To do this, you should capi
   package name
 
   type Name struct {
-	First string  // the first letters of the name of the fields should also be capitalized
+  // the first letters of the name of the fields should also be capitalized
+	First string  
 	Second string
   }
 #+end_src
+
+

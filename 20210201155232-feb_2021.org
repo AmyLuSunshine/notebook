@@ -7,19 +7,31 @@
 
   When implementing priority trees, we want to keep the binary tree shallow.
 
+  the water was fairly shallow so we were able to walk across it.
+
 * get something out of the way
 
   get that out of the way really fast, and study a little bit.
 
+  the fact that i have to finish my master thesis is annoying so i have to get it out of the way soon.
+
 * atheist
+
+  My father is an atheist.
 
 * conceive (of)
 
   No matter how old I am, my parents conceive of me as a kid.
 
+  i concived an idea of building a website for note-taking.
+
 * prologue
 
 * soar
+
+  the price of bit-coin soared at the beginning of Feb.
+
+  my emotion soared when i got the opportunity to study at NCKU.
 
 * whip
   
@@ -29,6 +41,7 @@
   - whipping
 
 * auxiliary
+    
 
 * kickoff
 
@@ -40,7 +53,7 @@
 
 * clobber
 
-* base off
+* base off of (base on)
 
   Our research is base off of the work done by our predecessor.
 
@@ -52,13 +65,19 @@
 
 * voluntarily
 
+I am not doing the job voluntarily, so you have to pay my salary on time.
+
 * rusty
 
 * famine
 
+there are still many contries in famine nowadays.
+
 * premium
 
 * pontificate
+
+he pontificates on programming all the time on his blog.
 
 * cloth
 
@@ -76,25 +95,47 @@
 
 * obese
 
+don't be obese; it's unhealthy
+
 * prestige
+
+some people think woking at FANG company give them pretige.
 
 * confine
 
+I decided to confine the use of phone to connect my parents only.
+
 * meditation
+
+The Internet is full of distraction. You can practice meditation to be more focused.
 
 * friction
 
+friction makes us walk.
+
 * ritual
 
+Tea is my morning ritual.
+
 * recurring
+
+eat and sleep are recurring.
 
 * beforehand
 
 * rudimentary
 
+calculus is rudimentary math
+
 * synthesize
 
-* heuristics
+synthesize vitamins
+
+* heuristic
+
+- noun: heuristics
+
+heruistics is the best way of education.
 
 * stick by
 
@@ -102,10 +143,20 @@
 
 * exploit
 
+We should exloit machines instead of humans.
+
 * amateurish
+
+stop being amateurish if you really want to be good at one thing.
 
 * toil
 
 * detest
 
-I detest smartphones.
+I detest smartphone
+
+* erudition
+
+* resign to
+
+I've resigned to using my smartphone.

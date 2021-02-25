@@ -15,5 +15,5 @@ go mod init
 go install
 #+end_src
 
-The the binary file will be installed in the GOPATH/bin (or GOBIN)
+The the binary file will be installed in the $GOPATH/bin (or $GOBIN)
 
