@@ -1,0 +1,29 @@
+#+title: Go Test
+#+ROAM_TAGS: Golang
+
+- tags :: [[file:20210110190746-golang.org][Golang]]
+
+* Testing stdout 
+
+stdout can be tested by examples.
+
+** source file
+#+begin_src go
+package hello
+import "fmt"
+
+func hello() {
+  fmt.Pritnln("hello")
+}
+#+end_src
+
+** test file
+#+begin_src go
+package hello
+
+func ExampleHello() {
+  hello()
+  // Output: hello
+}
+#+end_src
+
