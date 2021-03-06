@@ -10,3 +10,9 @@
 * stiff
 
   his clothes were stiff with dried mud.
+
+* populate
+
+  - def: automatically add infomation to a list or table on computer
+
+ ParseForm populates r.Form and r.PostForm. 
