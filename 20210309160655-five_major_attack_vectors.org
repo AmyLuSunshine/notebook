@@ -1,0 +1,15 @@
+#+title: Five Major Attack Vectors
+#+ROAM_TAGS: Cookie
+
+- tags :: [[file:20210309160715-cookie.org][Cookie]]
+
+* Cookie tempering
+
+* A database leak that allows users to create fake cookies
+  - Use DB data to create cookies
+
+* Cross site scripting (XSS)
+
+* Cookie theft
+
+* Cross site request forgery (CSRF)
