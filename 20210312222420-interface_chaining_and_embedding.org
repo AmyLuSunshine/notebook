@@ -1,0 +1,57 @@
+#+title: Interface Chaining and Embedding
+#+ROAM_TAGS: Golang
+
+- tags :: [[file:20210110190746-golang.org][Golang]]
+
+#+begin_src go
+package main
+
+import "fmt"
+
+type speaker interface {
+	speak(string)
+}
+
+type service struct {
+	speaker
+}
+
+func newService(name string) speaker {
+	return &service{
+		&validator{
+			&man{
+				name: name,
+			},
+		},
+	}
+}
+
+// rude word checker
+type validator struct {
+	speaker
+}
+
+// hide the rude word
+func (v validator) speak(rs string) {
+	if rs == "fuck you" {
+		v.speaker.speak("***")
+		return
+	}
+	v.speaker.speak(rs)
+}
+
+// the man who wants to say something
+type man struct {
+	name string
+}
+
+func (m man) speak(s string) {
+	fmt.Println("my name is", m.name, "i want to say", s)
+}
+
+func main() {
+	s := newService("bob")
+	s.speak("fuck you") // my name is bob i want to say ***
+	s.speak("hello")    // my name is bob i want to say hello
+}
+#+end_src
