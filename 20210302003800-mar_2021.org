@@ -16,3 +16,19 @@
   - def: automatically add infomation to a list or table on computer
 
  ParseForm populates r.Form and r.PostForm. 
+
+* exceedingly 
+
+  -def: extremely 
+
+* at the mercy of
+
+they are at the mercy of what facebook will allow them to see.
+
+* assert
+
+  he usually asserts himself in the group meeting, so the group members chose him to be the team leader.
+
+* villain
+* ensconce
+* vestigial
