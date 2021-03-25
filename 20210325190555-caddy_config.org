@@ -1,0 +1,49 @@
+#+title: Caddy Config
+
+* File server
+
+#+begin_src Caddyfile
+domain name {
+    root * /path/to/your/site
+    file_server
+
+    handle_errors {
+        @404 {
+            expression {http.error.status_code} == 404
+        }
+        rewrite @404 /404.html
+        file_server
+    }
+}
+#+end_src
+
+* Proxy for server backend
+
+#+begin_src Caddyfile
+domain_name {
+  reverse_proxy localhost:3000
+}
+#+end_src
+
+* Systemd
+#+begin_src 
+[Unit]
+Description=Caddy
+Documentation=https://caddyserver.com/docs/
+After=network.target network-online.target
+Requires=network-online.target
+
+[Service]
+User=caddy
+Group=caddy
+ExecStart=/usr/bin/caddy run --environ --config /var/lib/caddy/Caddyfile
+ExecReload=/usr/bin/caddy reload --config /var/lib/caddy/Caddyfile
+TimeoutStopSec=5s
+LimitNOFILE=1048576
+LimitNPROC=512
+PrivateTmp=true
+ProtectSystem=full
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+[Install]
+WantedBy=multi-user.target
+#+end_src
