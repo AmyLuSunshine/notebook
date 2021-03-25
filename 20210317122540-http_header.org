@@ -1,0 +1,9 @@
+#+title: HTTP Header
+#+ROAM_TAGS: Computer-Network
+
+* Set HTTP response headers in go
+
+#+begin_src go
+// w is the http.ResponseWriter
+w.Header().Set("X-Frame-Options", "DENY")
+#+end_src
