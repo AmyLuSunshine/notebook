@@ -1,0 +1,29 @@
+#+title: CSS
+#+ROAM_TAGS: web
+
+* Syntax
+
+#+begin_src css
+selector {
+  property: value;
+}
+#+end_src
+
+** selectors
+
+*** element
+
+*** class
+
+*** id
+
+** property
+
+** value
+
+* Cascading Order
+
+  the more a style rule it "close" to an html element, it has the highest priority.
+
+  inline > external and internal style sheets > browser default
+
