@@ -1,0 +1,8 @@
+#+title: if statement
+#+ROAM_TAGS: Javascript
+
+- tags:: [[file:20210327205115-javascript.org][Javascript]]
+
+* Diffrent value types as predicate 
+
+  read:  [[file:20210327205355-values_in_boolean_context.org][Values in Boolean Context]]

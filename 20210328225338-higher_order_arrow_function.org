@@ -1,0 +1,17 @@
+#+title: Higher Order Arrow Function
+#+ROAM_TAGS: Javascript
+
+- tags:: [[file:20210327205115-javascript.org][Javascript]]
+
+* An Example for defining an exponential function
+
+#+begin_src js
+const exp = (n) =>
+  (x) => {
+    let res = 1;
+    for (let i = 1; i <= n; i++) {
+      res = x * res;
+    }
+    return res;
+  };
+#+end_src

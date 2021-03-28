@@ -2,6 +2,7 @@
 #+ROAM_TAGS: Golang
 
 - tags :: [[file:20210110190746-golang.org][Golang]]
+- source :: [[https://yourbasic.org/golang/switch-statement/][5 switch statement patterns]]
 
 * Hidden break
 
@@ -21,9 +22,21 @@ There is the default hidden break at the end of each case.
     }
 #+end_src
 
-* fallthrough
+* Case list 
 
-if there is a fallthrough statement at the end of a case, the program will directly transfer the control to the next case without tesing the case statement.
+#+begin_src go
+const a = "s"
+switch a {
+case "a", "b", "s":
+fmt.Println("hello")
+default: 
+fmt.Println("hello world")
+}
+#+end_src
+
+* Fallthrough
+
+  if there is a fallthrough statement at the end of a case, the program will directly transfer the control to the *next case without tesing* the case statement.
 
 #+begin_src go
       switch 2 {
@@ -42,4 +55,12 @@ if there is a fallthrough statement at the end of a case, the program will direc
 //2
 //3
 #+end_src
+
+* Execution order
+
+** First the switch expression is evaluated once.
+
+** Then case expressions are evaluated left-to-right and top-to-bottom:
+
+*** once the the switch expression passes one of the testing case, other cases are skipped.
 
