@@ -1,0 +1,29 @@
+#+title: Values in Boolean Context
+#+ROAM_TAGS: Javascript
+
+- tags:: [[file:20210327205115-javascript.org][Javascript]]
+
+* number
+
+** false: 0
+
+** other numbers are true
+
+* string
+
+** false: empty string
+
+** other strings are true
+
+* undefined
+
+** false
+
+* null
+
+** false
+
+* NaN
+
+** false
+
