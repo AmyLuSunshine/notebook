@@ -1,0 +1,31 @@
+#+title: Get Each digit of an Integer
+#+ROAM_TAGS: Algorithms
+
+- tags :: [[file:20201124115508-algorithms.org][Algorithms]]
+
+* Basic idea
+
+- get digit by target number modulo 10
+- divide the target number by 10
+
+#+begin_src go
+func splitInt(num int) []int {
+	res := []int{}
+	for num != 0 {
+		res = append(res, num%10)
+		num = num / 10
+	}
+	reverseSlice(res)
+	return res
+}
+
+func reverseSlice(s []int) {
+	i := 0
+	j := len(s) - 1
+	for i <= j {
+		s[j], s[i] = s[i], s[j]
+		i++
+		j--
+	}
+}
+#+end_src
