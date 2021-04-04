@@ -1,0 +1,45 @@
+#+title: Negation
+#+ROAM_TAGS: Eng-Grammar
+
+- tags :: [[file:20210402140406-grammar.org][Grammar]] 
+
+* No
+
+No is used before a noun phrase
+
+e.g:
+
+There is no people.
+
+* Not
+
+Not is used before any other phrase
+
+e.g:
+
+** "not" as an adverb which is describing a verb
+   this book is not yours. 
+
+** "not" before a noun that has an article
+   I'm not the only one.
+
+* not any
+
+the meaning of "not any" is similar to "No", but "No" is a little stronger than "not any".
+
+e.g
+
+There is no reason to be afraid of her.
+There isn't any reason to be afraid of her.
+
+* fixed expressions
+
+** no problem
+
+** no good vs not good
+   Mobile phone is no good.
+   Chocolate is not good for dogs.
+
+** not worth
+   It's not worth getting a college degree.
+

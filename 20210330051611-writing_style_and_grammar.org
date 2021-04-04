@@ -1,0 +1,55 @@
+#+title: Writing Style and Grammar
+#+ROAM_TAGS: APA-7th
+
+- tags :: [[file:20210330051550-apa_7th.org][APA-7th]]
+
+* Style
+
+** Objective of scholarly writing 
+
+*** clear communication
+    - continuity
+    - flow
+    - consiseness
+    - clarity    
+     
+** Continuity and Flow
+
+ - use punctuation properly
+
+ - use adverbs judiciously as introductory or transitional words
+ (e.g. centainly, consequently, conversely, nevertheless, however, although)
+
+ - structure noun string
+ (e.g. "culturally sensitive qualitative interview techniques" 
+       "culturally sensitive techniques for qualitative interview")
+
+** Consiseness and Clarity
+
+* Grammar
+
+** Verb tense
+
+   | Paper section                 | Recommended tense | Example                                  |
+   |-------------------------------+-------------------+------------------------------------------|
+   | Literature                    | Past              | Quinn(2020) presented                    |
+   | review                        | Present perfect   | Since then, many investigators have used |
+   |                               |                   |                                          |
+   | Method                        | Past              | Participants completed a survey          |
+   | Description of procedure      | Present prefect   | Others have used similar approaches      |
+   |                               |                   |                                          |
+   | Reporting of                  | Past              | Results were nonsignificant              |
+   | results                       |                   | Scores increased                         |
+   |                               |                   |                                          |
+   | Discussion of implications    | Present           | The results indicate                     |
+   | of results                    |                   |                                          |
+   |                               |                   |                                          |
+   | Presentation of conclusions,  | Present           | We conclude                              |
+   | limitations, futuredirections |                   | Limitations of the study are             |
+
+   
+** Voice
+   use active voice as much as possible. use passive voice when focusing on the object or recipient of the action rather than on the actor.
+
+** hedge
+

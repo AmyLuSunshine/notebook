@@ -1,63 +1,70 @@
 #+title: thesis
+#+TODO: TODO FEEDBACK inProgress | DONE 
 
-- tags :: [[file:20210110015059-literature_reivew_for_master_thesis.org][Literature Reivew for Master Thesis]]
+* inProgress Writing
 
-* Introduction
+** Introduction
 
-Why do I want to talk about this question?
+ Why do I want to talk about this question?
 
-Briefly say how you solve the problem.
+ Briefly say how you solve the problem.
 
-Briefly say what is the impact.
+ Briefly say what is the impact.
 
-* Literature Review
+** Literature Review
 
-** DONE Mathematics achievement
+*** DONE Mathematics achievement
 
-** DONE Big Picture of Shadow education in China [2/2]
-- [X] definition
-- [X] why shadow education popular (society stratification, certificate)
+*** DONE Big Picture of Shadow education in China [2/2]
+ - [X] definition
+ - [X] why shadow education popular (society stratification, certificate)
 
-** DONE The Situation of Shadow Education of Mathematics in China
+*** DONE The Situation of Shadow Education of Mathematics in China
 
-** DONE Empirical Research on the effect of Shadow education [2/2]
-- [X] worldwide
-- [X] China
+*** DONE Empirical Research on the effect of Shadow education [2/2]
+ - [X] worldwide
+ - [X] China
 
-** TODO Limitation
+*** TODO Limitation
 
-- [-] time
+ - [-] time
 
-** TODO Other Correlates of Mathematics Achievement
+*** TODO Other Correlates of Mathematics Achievement
 
-- [-] self-confidence
-- [-] self-expectation
-- [-] parental education
-- [-] parental expectation
+ - [-] self-confidence
+ - [-] self-expectation
+ - [-] parental education
+ - [-] parental expectation
 
-* Method
+** Method
 
-** Data
+*** Data
 
-** Measures
+*** Measures
 
-** HLM
+*** HLM
 
-** Models
+*** Models
 
-** Hypothesis
+*** Hypothesis
 
-* TODO Results
+** TODO Results
 
-- [-] tables
-- [-] descreptive statistics
-- [-] models effects
+ - [-] tables
+ - [-] descreptive statistics
+ - [-] models effects
 
-* Conclusions
+** Conclusions
 
-* notes
+* TODO Presentation
 
-&, and
+** Slides
+
+** TODO Schedule a day for presentation
+
+* Notes
+
+
 
 Guo nested effect
 
@@ -70,4 +77,8 @@ control
 moderated variable
 
 limitation: hours
+
+** define terms clearly
+cater
+rigor
 
