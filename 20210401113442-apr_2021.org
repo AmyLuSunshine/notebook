@@ -3,8 +3,15 @@
 
 - tag :: [[file:20201027222847-volcabulary.org][Volcabulary]] 
 
+<<<<<<< HEAD
 * batch
 * stripper
+=======
+* batcha
+
+* stripper
+
+>>>>>>> daily
 * appeal
   sex appeal
   lauch an appeal to raise money for victims
@@ -18,7 +25,11 @@
 * entitlement
 
 * suspicious
+<<<<<<< HEAD
 
+=======
+** e.g  
+>>>>>>> daily
   Your competitor gave up the match without any reason. It was very suspicious.
 
 * subjunctive
@@ -35,3 +46,62 @@
 
 * revamp
 
+<<<<<<< HEAD
+=======
+* saddle (with)
+** def
+  saddle A with B. == put B(a burdden, a problem) on A.
+** e.g  
+  Communism aided the West because it *saddle* an imperialist Russian state with an unworkable and unpopular economic system that could not keep up with its free-market competitors.
+
+* quintessential
+** e.g  
+  Yum Cha is the quintessential Cantonese breakfast.
+
+* peter out
+** def
+  gradually disappear
+
+* anchorage
+
+* clash (with)
+** e.g
+  My values clashes with my parents'.
+
+* conciliatory
+
+* embolden
+
+* truculence
+
+* maritime
+
+* heedlessly
+
+* consolidated
+
+* shambolic
+
+* invincibility
+
+* dissent
+
+* foment
+
+* quash
+
+* conscience
+
+* deterrent
+
+* regime
+
+* deposition
+
+** def
+   a formal statement made or used in a law court
+
+** e.g
+   
+* suit (lawsuit)
+>>>>>>> daily
