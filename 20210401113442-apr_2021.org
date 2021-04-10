@@ -3,7 +3,6 @@
 
 - tag :: [[file:20201027222847-volcabulary.org][Volcabulary]] 
 
-<<<<<<< HEAD
 * batch
 * stripper
 =======
@@ -105,3 +104,49 @@
    
 * suit (lawsuit)
 >>>>>>> daily
+
+* exert yourself
+
+** def
+   to work very hard and use a lot of physical and mental energy.
+
+** e.g
+   
+   I didn't study hard last month. I need to exert myself to write my thesis in the next month.
+
+* autonomy
+
+* deteriorate
+
+* life expectancy
+
+* dissipate
+** synonym
+   peter out
+** def
+   gradually disappear
+** e.g
+  I dissipated my attention into different programming languages learning.
+
+* transitory effect
+  
+* grudgingly
+
+* paramount
+
+* conceivable
+
+* self-deception
+
+* animosity
+
+* retain
+
+* wholesome
+
+* docile
+
+* ruthless
+
+* deprive
+
