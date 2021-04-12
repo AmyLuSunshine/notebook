@@ -172,4 +172,7 @@
   
   money-raiser is a person who collect money for some reason.
   
+* faint
+
+* wear out
 
