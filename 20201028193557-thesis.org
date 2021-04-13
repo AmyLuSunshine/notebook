@@ -64,8 +64,6 @@
 
 * Notes
 
-
-
 Guo nested effect
 
 control variable less
@@ -79,6 +77,5 @@ moderated variable
 limitation: hours
 
 ** define terms clearly
-cater
-rigor
+
 
