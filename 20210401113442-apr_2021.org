@@ -5,12 +5,12 @@
 
 * batch
 * stripper
-=======
+
 * batcha
 
 * stripper
 
->>>>>>> daily
+
 * appeal
   sex appeal
   lauch an appeal to raise money for victims
@@ -24,11 +24,8 @@
 * entitlement
 
 * suspicious
-<<<<<<< HEAD
-
-=======
 ** e.g  
->>>>>>> daily
+
   Your competitor gave up the match without any reason. It was very suspicious.
 
 * subjunctive
@@ -45,8 +42,6 @@
 
 * revamp
 
-<<<<<<< HEAD
-=======
 * saddle (with)
 ** def
   saddle A with B. == put B(a burdden, a problem) on A.
@@ -172,4 +167,25 @@
   
   money-raiser is a person who collect money for some reason.
   
+* faint
+* wear out
+* run off
+**  def
+   run off x means leave x quickly
+** e.g
+   I will run off home after grad school because I haven't been at home for almost a year.
 
+* condense
+  
+** def
+   reduce
+
+** e.g.
+   I condensed his ten pages articles into two.
+
+** adjective
+   condensed soup
+
+* projectile
+
+* sheath
