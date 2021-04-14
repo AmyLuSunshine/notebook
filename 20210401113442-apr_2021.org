@@ -5,16 +5,14 @@
 
 * batch
 * stripper
-
-* batcha
-
-* stripper
-
+** def
+   remover, performer that takes off his/her clothes
 
 * appeal
   sex appeal
   lauch an appeal to raise money for victims
   the government have issued an appeal to the public to stay at home.
+
 * famine
 ** def
    a situation in which there is not enough food for a great number of people.
@@ -39,6 +37,10 @@
 * scab
 
 * cognizant
+** def
+   realize
+** e.g
+   I am still tring to be cognizant of how to live my life.
 
 * revamp
 
@@ -98,7 +100,6 @@
 ** e.g
    
 * suit (lawsuit)
->>>>>>> daily
 
 * exert yourself
 
@@ -189,3 +190,6 @@
 * projectile
 
 * sheath
+* submarine
+* contrast
+* vintage

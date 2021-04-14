@@ -1,0 +1,22 @@
+#+title: The Multilevel Model Analysis of Factors That Impact the Mathematics Learning Achievement of Taiwan's Eighth Graders
+#+ROAM_TAGS: thesis
+
+- tags :: [[file:20201028091019-hlm.org][HLM]], [[file:20201028193653-math_achievement.org][Math Achievement]]
+
+
+* Introduction
+
+  the gap of educational equity was found in TIMSS between urbal and rural areas in Taiwan.
+
+* Motivation
+
+** the vision of schools is to help every single student.
+
+** the complex mechanism that affects students' achievement 
+   
+*** student-level
+
+*** teacher-level
+
+*** school-level
+

@@ -1,2 +1,24 @@
 #+title: Javascript
 
+* package managers
+
+* yarn
+
+* webpack
+
+* babel
+
+* ajax
+
+* ES6
+  - classes
+  - imports/exports
+  - arrow functions
+  - spread operators
+
+* functional methods
+  - .map
+  - .filter
+  - .reduce
+
+* destructuring
