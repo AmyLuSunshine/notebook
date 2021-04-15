@@ -193,3 +193,4 @@
 * submarine
 * contrast
 * vintage
+* illuminate
