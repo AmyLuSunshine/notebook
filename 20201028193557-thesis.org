@@ -78,4 +78,16 @@ limitation: hours
 
 ** define terms clearly
 
+* 415
 
+  gender factor
+  framework
+  cor martrix
+
+** hypo
+  1. individual
+  2. 2-level
+  3. homogenit test
+  4. table
+     - fix
+     - random
