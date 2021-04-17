@@ -1,0 +1,21 @@
+#+title: Ask questions
+#+ROAM_TAGS: English
+
+- tags :: [[file:20210402140406-grammar.org][Grammar]]
+
+* Subject 
+
+  question word + verb + object
+
+** e.g
+   - what triggers your motivation to study English?
+   
+* object
+
+  question word + auxillury + subject + verb + object  
+
+** e.g
+
+   - What languages do you like?
+   - How do you pronounce the word "subject"?
+
