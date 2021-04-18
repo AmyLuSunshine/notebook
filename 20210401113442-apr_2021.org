@@ -218,4 +218,5 @@
 * siren
 * ramification
 * ring ture
+* intelligibly
 
