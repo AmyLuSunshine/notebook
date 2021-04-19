@@ -1,0 +1,9 @@
+#+title: Browser Extensions
+
+This note collects the good browser extensions that I use.
+
+* unhook
+  unhook hides all the youtube recommendations.
+
+* dark reader
+  dark reader turns webpage into dark theme
