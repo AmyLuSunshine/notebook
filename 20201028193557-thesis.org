@@ -25,6 +25,9 @@
  - [X] worldwide
  - [X] China
 
+*** Prior research investigating CEPS
+    point out the difference.
+    explain why I chose different method.
 *** TODO Limitation
 
  - [-] time
