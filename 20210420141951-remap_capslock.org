@@ -1,0 +1,26 @@
+#+title: Remap Capslock
+
+* Windows
+
+** globaly
+
+  #+begin_src autohotkey
++Capslock::Capslock ; make shift+Caps-Lock the Caps Lock toggle
+Capslock::Control   ; make Caps Lock the control button
+  #+end_src
+
+1. Install autohotkey on your win machine. 
+2. save the script above to "anyname.ahk"
+3. double click the file
+
+** only in emacs
+
+#+begin_src autohotkey
+#IfWinActive emacs  ; if in emacs
++Capslock::Capslock ; make shift+Caps-Lock the Caps Lock toggle
+Capslock::Control   ; make Caps Lock the control button
+#IfWinActive        ; end if in emacs
+#+end_src
+
+same procedure as above
+
