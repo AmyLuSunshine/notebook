@@ -3,11 +3,11 @@
 
 - tags :: [[file:20201028193557-thesis.org][thesis]]
 
-* Hypotheses
+* TODO Hypotheses
 
-* Framework
+* TODO Framework
 
-* Descreptive statistics
+* TODO Descreptive statistics
   - data visualization
   - correlation matrix
   - homogeneity test
