@@ -1,12 +1,15 @@
-#+title: Apr-2021
+#+title:  Apr-2021
 #+ROAM_TAGS: Volcabulary
 
 - tag :: [[file:20201027222847-volcabulary.org][Volcabulary]] 
 
 * batch
+** a group of things or people
+** e.g
+   You can buy a batch of eggs in supermarkets.
+
 * stripper
-** def
-   remover, performer that takes off his/her clothes
+** remover, performer that takes off his/her clothes
 
 * appeal
   sex appeal
@@ -14,39 +17,45 @@
   the government have issued an appeal to the public to stay at home.
 
 * famine
-** def
-   a situation in which there is not enough food for a great number of people.
+** a situation in which there is not enough food for a great number of people.
 ** e.g
     The war caused widespread famine.
 
 * entitlement
+** a feeling that you think you have the right to do something without any effort just because of who you are.
+** e.g
+   Many middle-class kids were born without any responsibility. Their parents do many things for them, which gives them a strong feeling of entitlement.
 
 * suspicious
 ** e.g  
-
   Your competitor gave up the match without any reason. It was very suspicious.
 
 * subjunctive
+** grammar rule. a verb form that refers to actions that are possibilities rather than facts.
 
 * mansion
-
+** a very expensive house  
 * spawn
+  U
+** the eggs of fish, frogs, etc.
 
 * spasm
-
+** an occasion when a muscle cannot be controlled
 * scab
+** a rough surface made of dried blood that forms over a cut or broken skin while it is healing
 
 * cognizant
-** def
-   realize
+** realize
 ** e.g
    I am still tring to be cognizant of how to live my life.
 
 * revamp
+** to change something in order to improve it
+** e.g   
+   I have been using this PC for 3 years. It's quite slow nowadays, so it needs an revamp.
 
 * saddle (with)
-** def
-  saddle A with B. == put B(a burdden, a problem) on A.
+** saddle A with B. == put B(a burdden, a problem) on A.
 ** e.g  
   Communism aided the West because it *saddle* an imperialist Russian state with an unworkable and unpopular economic system that could not keep up with its free-market competitors.
 
@@ -54,11 +63,12 @@
 ** e.g  
   Yum Cha is the quintessential Cantonese breakfast.
 
-* peter out
-** def
-  gradually disappear
+* peter-out
+** gradually disappear
+** e.g
+   Every romantic relationship peters out in the end.
 
-* anchorage
+* anchoraeg
 
 * clash (with)
 ** e.g
@@ -220,4 +230,10 @@
 * ring ture
 * intelligibly
 * sluggish
+* detriment
+* hostility
+* goofy
+* aquatic
+** living in water  
+
 
