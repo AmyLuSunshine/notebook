@@ -1,0 +1,15 @@
+#+title: Tense
+#+ROAM_TAGS: English
+
+- tags :: [[file:20210402140406-grammar.org][Grammar]]
+
+* was in / have been in
+
+** I was in the UK.
+
+   This expression means you were in the UK at a particular time in the past.
+
+** I have been in the UK.
+
+   This expression means you were in the UK at a particular time in the past, and you never leave there since then.
+
