@@ -1,0 +1,34 @@
+#+title: Strings
+#+ROAM_TAGS:: JavaScript
+
+- tags :: [[file:20210423005204-value_types.org][Value types]]
+
+* How to create a string
+
+** single quotes
+   #+begin_src js
+   console.log('hello wrold');
+   #+end_src
+
+** double quptes
+   #+begin_src js
+   console.log("hello wrold");
+   #+end_src
+
+** backticks
+   backticks is called the template literals, which means you can embed other expression inside it.
+   #+begin_src js
+   console.log("haif of 100 is ${100 / 2}");
+   #+end_src
+
+* Escaping
+  same as golang
+  
+* Unicode
+  JS uses 16 bits spaces to store a string. But there are more than 2^16 Unicode characters, so some characters takes 2 "characters positions".
+  
+* Concatenate
+
+  #+begin_src js
+  console.log("hello" + world)
+  #+end_src

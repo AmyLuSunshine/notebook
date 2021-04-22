@@ -1,0 +1,17 @@
+#+title: Unary Operators
+#ROAM_TAGS: JavaScript
+
+- tags :: [[file:20210423012927-operators.org][Operators]]
+
+* typeof
+#+begin_src js
+console.log(typeof "hello");
+console.log(typeof 4.5);
+#+end_src
+
+* negative numbers
+
+#+begin_src js
+console.log(-10);
+#+end_src
+

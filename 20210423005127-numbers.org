@@ -1,0 +1,17 @@
+#+title: Numbers
+#ROAM_TAGS:: JavaScript
+
+- tags :: [[file:20210423005204-value_types.org][Value types]]
+
+Numbers in JS is 64 bits.
+
+* Special Numbers
+
+** Infinity
+
+** -Infinity
+
+** NaN
+   not a number, for example 0/0
+
+

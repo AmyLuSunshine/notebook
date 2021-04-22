@@ -1,0 +1,12 @@
+#+title: Value types
+#ROAM_TAGS: JavaScript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]]
+
+* Empty Values
+
+  null and undefined are interchangeable most of the time
+** null
+
+** undefined
+

@@ -1,0 +1,33 @@
+#+title: Operators 
+#ROAM_TAGS: JavaScript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]]
+
+* Unary Operators 
+
+** typeof
+ #+begin_src js
+ console.log(typeof "hello");
+ console.log(typeof 4.5);
+ #+end_src
+
+** negative numbers
+
+ #+begin_src js
+ console.log(-10);
+ #+end_src
+
+* Comparison
+
+** the value that is not equal to itself is NaN
+
+   #+begin_src js
+   console.log(NaN == NaN);
+   #+end_src
+
+* Ternary Operator
+#+begin_src js4
+var a = 1;
+var b = 1;
+console.log(a === b ? "1 is equal to 1" : "1 is not equal to 1");
+#+end_src
