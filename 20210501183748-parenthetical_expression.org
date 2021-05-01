@@ -1,0 +1,11 @@
+#+title: Parenthetical Expression
+#+ROAM_TAGS: Eng-Grammar
+
+- tags :: [[file:20210402140406-grammar.org][Grammar]]
+- source :: [[https://www.englishclub.com/grammar/sentence/parenthetical-expression.htm][Parenthetical Expression by English Club]]
+  
+
+Example:
+
+- The girl *wearing a skirt* is Jenny.
+- *Located in the south of Taiwan*, NCKU is my alma mater.
