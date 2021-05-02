@@ -1,0 +1,13 @@
+#+title: Titles: Mr, Mrs, Miss and Ms
+#+ROAM_TAGS: Eng-Grammar
+
+- tags :: [[file:20210402140406-grammar.org][Grammar]]
+- source :: [[https://youtu.be/k6tMgxne_bI][Titles: Mr, Mrs, Miss & Ms | Learn the difference]]
+
+Titles + family name
+
+| Mr                | Mrs                       | Miss                         | Ms                |
+|-------------------+---------------------------+------------------------------+-------------------|
+| Mister            | Missus                    | Miss                         | Mizz              |
+| no marital status | Refers to a married woman | Refers to an unmarried woman | no marital status |
+
