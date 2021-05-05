@@ -1,4 +1,26 @@
 #+title: Parenting
 #+ROAM_TAGS: Thesis
 
-* Authoritative and Authoritarian
+* Parenting styles
+
+  Two primary factors to determine parenting style are parental responsiveness and parental demandingness. 
+Parental responsiveness refers to the degree parents respond to the child's needs.
+
+  It has been hypothesized that the relation between parenting styles and academic achievement is mediated by students' motivation.
+
+** proactive behavioral control
+
+   higher responsiveness is associated with learning goal orientation.
+
+   promotes goal-directed behavioral and reduces externalizing problem, such as truancy.
+
+** reative behavioral control (harsh, punishment)
+
+   violate the principle of autonomy support from SDT.
+
+** psychological control (guilt induction, shaming)
+
+** overcontrol v.s. autonomy granting
+
+
+

@@ -1,5 +1,26 @@
 #+title: thesis
-#+TODO: TODO FEEDBACK inProgress | DONE 
+#+TODO: TODO FEEDBACK inProgress | DONE
+
+* Introduction
+  
+** the phenomenon of shadow education
+
+** what caused the prevalence of shadow education
+
+*** confucianism and credentialism equals to social mobility
+
+*** parents' expectation
+
+* Literature Review
+** achievement and shadow education
+
+** achievement and parenting styles
+
+** parenting styles and shadow education
+  
+** Controlled variables commonly mentioned in literature
+
+*** Gender
 
 * inProgress Writing
 
@@ -25,9 +46,6 @@
  - [X] worldwide
  - [X] China
 
-*** Prior research investigating CEPS
-    point out the difference.
-    explain why I chose different method.
 *** TODO Limitation
 
  - [-] time
