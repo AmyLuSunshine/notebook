@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       2a42d68f-83e0-47d0-9b21-1439a8608214
+:END:
 #+title: Hard Sentences
 
 * The Great Gatsby

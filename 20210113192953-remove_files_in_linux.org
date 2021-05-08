@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       51547eef-95c3-452b-809e-25aac030d96c
+:END:
 #+title: Remove Files in Linux
 #+ROAM_TAGS: Linux/Unix
 

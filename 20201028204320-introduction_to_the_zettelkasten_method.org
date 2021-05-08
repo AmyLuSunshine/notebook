@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       8eb1ad96-1fb9-4a41-8c25-94effee0c76c
+:END:
 #+title: Introduction to the Zettelkasten Method
 
 - tags :: [[file:20201028204358-note_taking.org][Note-taking]]

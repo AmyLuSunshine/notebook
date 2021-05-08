@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       2634c394-b4f7-4665-9268-a5c807fc27c6
+:END:
 #+title: Model Diagnostics
 
 - tags :: [[file:20201125131557-statistics.org][Statistics]] [[file:20201215135224-linear_mixed_effects_models.org][Linear Mixed Effects Models]]

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       a9ea8542-79d3-4890-b47e-d60d8204c0a3
+:END:
 #+title: CPU
 #+ROAM_TAGS: Computer-Organization
 

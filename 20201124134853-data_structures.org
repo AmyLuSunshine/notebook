@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       d60fba8c-d682-4968-bed3-88726dbbeea2
+:END:
 #+title: Data Structures
 
 

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       858d05ce-36e5-4a47-b412-91e922a3d2e6
+:END:
 #+title: if statement
 #+ROAM_TAGS: Javascript
 

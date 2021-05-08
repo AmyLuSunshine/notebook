@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       87d8b029-71f3-4b4d-bc97-af1755080fc2
+:END:
 #+title: Default Program in PopOS
 #+ROAM_TAGS: PopOS
 

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       f9315725-7bf9-435a-9975-7330edb8a16a
+:END:
 #+title: Linked Lists
 #+ROAM_TAGS: Data-Structures
 

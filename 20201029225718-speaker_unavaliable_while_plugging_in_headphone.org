@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       0afdeb6f-2739-4e25-bf42-f490da8540f8
+:END:
 #+title: Speaker Unavaliable while Plugging in headphone
 #+ROAM_TAGS: Linux/Unix
 

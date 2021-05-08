@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       e8ec2e42-14ad-4302-bb1e-e8c6d2e4eabc
+:END:
 #+title: Get Each digit of an Integer
 #+ROAM_TAGS: Algorithms
 

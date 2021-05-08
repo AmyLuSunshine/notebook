@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       ec44f975-9121-493e-8858-9819b6db33dd
+:END:
 #+title: Operators 
 #ROAM_TAGS: JavaScript
 

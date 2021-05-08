@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       2c6feb72-7af6-4af8-bd9d-48adda1ade21
+:END:
 #+title: Testing
 #+ROAM_TAGS: Golang
 

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       1bfcae6d-b9e4-4236-ae74-956989fcd690
+:END:
 #+title: Five Major Attack Vectors
 #+ROAM_TAGS: Cookie
 

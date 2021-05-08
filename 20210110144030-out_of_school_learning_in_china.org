@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       8fcbd8b8-5665-44ed-9cc1-05090efd789b
+:END:
 #+title: Out-of-School learning in China
 
 - tags :: [[file:20210110015059-literature_reivew_for_master_thesis.org][Literature Reivew for Master Thesis]]

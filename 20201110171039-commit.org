@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       a2923fa0-082a-4c76-b720-1075b8ab71cf
+:END:
 #+title: Commit 
 #+ROAM_TAGS: Git
 

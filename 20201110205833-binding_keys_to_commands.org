@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       71a2ad39-08f6-4be6-9425-09e75b46f687
+:END:
 #+title: Binding Keys to Commands
 #+ROAM_TAGS: Emacs
 

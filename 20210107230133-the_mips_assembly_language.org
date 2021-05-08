@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       262fa817-1b6b-4d6c-b5a7-d9ec66f92001
+:END:
 #+title: The MIPS Assembly Language
 

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       83bdb5a2-6eff-406f-a732-4ee2bfc499b7
+:END:
 #+title: CSS
 #+ROAM_TAGS: web
 

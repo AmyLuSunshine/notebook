@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       a6863434-322b-4586-bee9-e0e042eb532e
+:END:
 #+title: Volcabulary
 #+ROAM_TAGS: English
 

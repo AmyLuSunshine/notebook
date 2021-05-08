@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       0709c297-e76e-4e52-afb7-f5260c1aba0b
+:END:
 #+title: Strings
 #+ROAM_TAGS: Golang
 

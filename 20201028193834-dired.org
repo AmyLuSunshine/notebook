@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       a84f68cb-06d5-45e9-ba15-1e3951266f8c
+:END:
 #+title: Dired Tricks
 #+ROAM_TAGS: Eamcs
 

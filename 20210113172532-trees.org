@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       a0dd78c7-0fcc-47cc-aa26-31fa1a4c8d91
+:END:
 #+title: Trees
 #+ROAM_TAGS: Data-Structures
 

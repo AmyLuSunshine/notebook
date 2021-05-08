@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       d2ecb0ce-d53b-4ba7-8cb7-70b1a7266105
+:END:
 #+title: Asymptotic Analysis
 #+ROAM_TAGS: algorithms
 

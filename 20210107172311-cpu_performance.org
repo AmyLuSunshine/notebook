@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       950fdc58-d4a4-4eb6-ad3f-d90add0815cc
+:END:
 #+title: CPU Performance
 #+ROAM_TAGS: Computer-Organization
 

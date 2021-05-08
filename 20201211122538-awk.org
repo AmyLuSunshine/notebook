@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       258bd622-d2ef-4323-9fa2-8b818923f039
+:END:
 #+title: Awk
 #+ROAM_TAGS: Linux/Unix
 - tags :: [[file:20201211122625-text_processing.org][Text Processing]] [[file:20201029225738-linux_unix.org][Linux/Unix]]

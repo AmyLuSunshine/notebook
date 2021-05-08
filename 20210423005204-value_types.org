@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       27c6a6fc-f5cd-4f6f-aa03-c52fb05d2a69
+:END:
 #+title: Value types
 #ROAM_TAGS: JavaScript
 

@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       65da1215-662a-497a-83fa-b38a3c8e9e0c
+:END:
 #+title: C
 

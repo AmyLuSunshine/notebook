@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       e5992d7f-e145-4ecb-8048-7e0db82fed07
+:END:
 #+title: Writing Style and Grammar
 #+ROAM_TAGS: APA-7th
 

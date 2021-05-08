@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       0f60b38a-c26b-46be-842f-a6b11c4a392f
+:END:
 #+title: Array
 #+ROAM_TAGS: Data-Structures
 

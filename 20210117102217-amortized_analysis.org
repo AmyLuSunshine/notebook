@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       0f36722d-c519-4b24-8465-b0a97f95bf76
+:END:
 #+title: Amortized Analysis
 #+ROAM_TAGS: Data-Structures
 

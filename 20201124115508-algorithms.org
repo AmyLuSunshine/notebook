@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       8ba0e58d-5ef6-47b3-b04a-1bb3001b2970
+:END:
 #+title: Algorithms
 
 * Greeedy

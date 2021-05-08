@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       4f64c950-9147-4460-8a3f-1b0f98285c72
+:END:
 #+title: Switch
 #+ROAM_TAGS: Golang
 

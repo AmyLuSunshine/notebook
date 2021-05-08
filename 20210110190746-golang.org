@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       5b9263ba-57ab-487c-bde1-970cda17283c
+:END:
 #+title: Golang
 
 - tags :: [[file:20210201145230-programming_languages.org][Programming Languages]]

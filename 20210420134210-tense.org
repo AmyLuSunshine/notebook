@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       fd93a92c-93a9-4ffe-8e9b-4c6e6f7498e6
+:END:
 #+title: Tense
 #+ROAM_TAGS: English
 

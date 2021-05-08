@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       dd0622bc-c420-4fad-8676-10d5d09c4e2f
+:END:
 #+title: Audio Output in Linux
 #+ROAM_TAGS: Linux/Unix
 

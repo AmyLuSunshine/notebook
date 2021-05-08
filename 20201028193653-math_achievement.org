@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       1df6005e-f778-41ec-969f-d1fd4d372de2
+:END:
 #+title: Math Achievement
 
 - tags :: [[file:20201028193557-thesis.org][thesis]], [[file:20201028154313-ceps.org][ceps]]

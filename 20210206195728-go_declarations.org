@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       da35b9d0-e2b0-4afc-9693-e0fcce928735
+:END:
 #+title: Go Declarations
 #+ROAM_TAGS: Golang
 

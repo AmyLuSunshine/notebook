@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       3f99c9df-ee97-4164-a098-df379b031366
+:END:
 #+title: Disjoint Sets
 #+ROAM_TAGS: Data-Structures
 

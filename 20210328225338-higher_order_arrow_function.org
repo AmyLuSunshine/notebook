@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       c7390c67-76f4-47b3-974b-4baaa3ce2321
+:END:
 #+title: Higher Order Arrow Function
 #+ROAM_TAGS: Javascript
 

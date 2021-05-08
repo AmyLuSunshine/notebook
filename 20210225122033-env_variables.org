@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       5e388c0b-fbb1-4784-97df-5411502322bc
+:END:
 #+title: Env Variables
 #+ROAM_TAGS: Linux/Unix
 

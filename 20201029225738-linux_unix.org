@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       bf667a76-fa23-41cc-969f-3e8500776df0
+:END:
 #+title: Linux/Unix
 
 Standard input is 0, output is 1, and error is 2.

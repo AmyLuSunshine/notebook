@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       6e003324-16d2-4142-86a3-6cb859adb209
+:END:
 #+title: HLM
 
 - tags :: [[file:20201125131557-statistics.org][Statistics]]

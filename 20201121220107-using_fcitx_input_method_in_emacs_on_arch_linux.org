@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       c1a83344-4ec3-4c2f-bb1c-b9297bd9a722
+:END:
 #+title: Using Fcitx input method in Emacs on Arch Linux
 #+ROAM_TAGS: Linux/Unix
 

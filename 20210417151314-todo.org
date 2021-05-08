@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       7282f651-8ed8-40c4-8d67-807c86c8daa2
+:END:
 #+title: Todo
 #+ROAM_TAGS: thesis
 

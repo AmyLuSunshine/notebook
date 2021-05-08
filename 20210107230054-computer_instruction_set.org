@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       8a633af0-dd9e-48ce-9881-878e479279c8
+:END:
 #+title: Computer Instruction Set
 #+ROAM_TAGS: Computer-Organization
 

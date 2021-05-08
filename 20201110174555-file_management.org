@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       954a0e3e-3590-4492-90cc-a92c478cd14f
+:END:
 #+title: File Management
 #+ROAM_TAGS: Git
 

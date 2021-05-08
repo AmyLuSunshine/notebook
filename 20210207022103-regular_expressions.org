@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       5ae25a61-b930-4b8f-852e-57494d1a07ff
+:END:
 #+title: Regular Expressions
 
 | symbol   |                                               |

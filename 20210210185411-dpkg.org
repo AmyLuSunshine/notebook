@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       cfef6fe0-c917-4c1b-b4fe-f9990f30e916
+:END:
 #+title: dpkg
 #+ROAM_TAGS: Ubuntu
 

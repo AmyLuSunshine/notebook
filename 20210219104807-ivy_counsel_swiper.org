@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       296b91dd-6b7e-400d-819b-5ccc318e3d83
+:END:
 #+title: Ivy, Counsel, Swiper
 #+ROAM_TAGS: Emacs
 

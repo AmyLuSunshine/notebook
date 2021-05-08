@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       172f183a-161c-4bef-95d6-7c83508d2035
+:END:
 #+title: iota
 #+ROAM_TAGS: Golang
 

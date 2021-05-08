@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       3b2eb1c1-221e-441b-9b6f-dd69f2f7742e
+:END:
 #+title: May-Question
 
 passerby pedestrian

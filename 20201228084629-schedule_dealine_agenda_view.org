@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       27c86d24-812d-4597-bc6d-6c4b0eec5291
+:END:
 #+title: Schedule Dealine & Agenda View
 #+ROAM_TAGS: Org
 

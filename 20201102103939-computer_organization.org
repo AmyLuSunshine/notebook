@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       625c6071-6738-4d2b-95bb-1ac01c923cbd
+:END:
 #+title: Computer Organization
 
 - Source :: [[https://www.amazon.com/Computer-Organization-Design-MIPS-Architecture/dp/0124077269][Computer Organization and Design MIPS Edition]]

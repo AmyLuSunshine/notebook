@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       664ed588-fa72-4a5a-ae59-27e90d07e2e5
+:END:
 #+title: PopOS
 

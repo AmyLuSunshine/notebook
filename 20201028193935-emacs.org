@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       f2b69c75-fd89-409d-8aa9-fba688b70e0a
+:END:
 #+title: Emacs
 
 - tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]]

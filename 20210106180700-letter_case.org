@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       6fa891ff-2ecd-4441-99a1-62834af5d1b6
+:END:
 #+title: Letter Case
 #+ROAM_TAGS: Emacs
 

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       275150c0-156b-40dd-83eb-847e35f3d310
+:END:
 #+title: WSL
 
 * Cannot Open WSL

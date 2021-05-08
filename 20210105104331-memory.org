@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       94d23215-73fc-4b39-a54b-41fa9192af85
+:END:
 #+title: Memory
 #+ROAM_TAGS: Computer-Organization
 

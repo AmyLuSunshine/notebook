@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       2e2e960a-b452-413c-ac2a-612d5993ba2c
+:END:
 #+title: Parameters
 #+ROAM_TAGS: Bash
 

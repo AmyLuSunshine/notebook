@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       392475f1-2968-4441-ae72-6c8336e00855
+:END:
 #+title: Values in Boolean Context
 #+ROAM_TAGS: Javascript
 

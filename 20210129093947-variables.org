@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       a21074e8-3938-4218-84a6-c52c94d51d16
+:END:
 #+title: Variables
 #+ROAM_TAGS: Golang
 

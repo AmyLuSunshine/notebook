@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       908d42fd-6ea1-42ee-8eb0-6b888c81a1ea
+:END:
 #+title: Translating and Starting a Program
 #+ROAM_TAGS: Computer-Organization
 

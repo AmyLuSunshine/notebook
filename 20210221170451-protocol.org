@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       67ce73ca-23d8-4e3d-83ad-1f513ee0426b
+:END:
 #+title: Protocol
 #+ROAM_TAGS: Computer-Network
 

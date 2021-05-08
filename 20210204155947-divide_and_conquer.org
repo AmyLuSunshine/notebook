@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       e918087f-99c9-46fe-ad46-70529c67ed8f
+:END:
 #+title: Divide and Conquer
 #+ROAM_TAGS: Algorithms
 

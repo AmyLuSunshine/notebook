@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       f88fc221-16da-4935-b9de-2daa518a8670
+:END:
 #+title: The length of a Zettel
 
 - tags :: [[file:20201028204320-introduction_to_the_zettelkasten_method.org][Introduction to the Zettelkasten Method]]

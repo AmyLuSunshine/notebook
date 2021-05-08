@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       c1b1653e-5b22-4501-bc11-f02aef2b94c9
+:END:
+#+title: Count Heading
+#+ROAM_TAGS: Org
+
+- tags :: [[file:20201029150815-org.org][Org]]
+
+* M-x org-num-mode
+
+There is a built-in minor mode called "org-num-mode" which displays outline numbering on top of headlines.

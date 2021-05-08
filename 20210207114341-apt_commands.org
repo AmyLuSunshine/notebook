@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       71f48107-8368-46d3-9b5c-fc63c5e6c247
+:END:
 #+title: Apt Commands
 #+ROAM_TAGS: Ubuntu
 

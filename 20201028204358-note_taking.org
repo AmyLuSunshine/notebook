@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       db52fb1a-263b-449e-abd7-dc878333f023
+:END:
 #+title: Note-taking
 
 Taking notes is a method of communicating with your future self.

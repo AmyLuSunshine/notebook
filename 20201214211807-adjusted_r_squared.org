@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       df6130d7-1495-41d0-b048-63271fb485d2
+:END:
 #+title: Adjusted R-squared
 
 - tags :: [[file:20201125131557-statistics.org][Statistics]], [[file:20201214211834-regression.org][Regression]]

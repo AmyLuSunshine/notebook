@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       14d215da-2bf3-4a1b-827b-99b21bf5fd1b
+:END:
 #+title: Using SSH
 #+ROAM_TAGS: Git
 

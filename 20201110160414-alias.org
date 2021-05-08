@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       71bd13e4-d82a-43ff-aa47-99c5e8621993
+:END:
 #+title: Alias
 #+ROAM_TAGS: Git
 

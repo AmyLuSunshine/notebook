@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       4f5c275c-d8b6-4603-abb7-3fd2d733352f
+:END:
 #+title: Unary Operators
 #ROAM_TAGS: JavaScript
 

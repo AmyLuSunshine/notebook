@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       2d4c2441-2a87-42ab-beea-afb758bf9a21
+:END:
 #+title: Enlarge Latex Fragment
 #+ROAM_TAGS: Org
 

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       05087f6f-5a66-4011-b374-647eeb6de35c
+:END:
 #+title: Exit Status
 #+ROAM_TAGS: Bash
 

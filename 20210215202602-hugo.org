@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       bc011cd7-9a48-4429-b271-796f6b4b9eb7
+:END:
 #+title: Hugo
 
 * Serve locally

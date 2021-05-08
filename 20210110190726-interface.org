@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       acbab0c2-4c62-4b3f-a8af-61dcb0d8e65b
+:END:
 #+title: Interface
 #+ROAM_TAGS: Golang
 

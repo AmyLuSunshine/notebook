@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       2b07f0ed-b706-4cbc-aba7-68e0dec669c4
+:END:
 #+title: Defer, Panic, and Recover
 #+ROAM_TAGS: Golang
 

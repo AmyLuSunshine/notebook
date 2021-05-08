@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       7d2edd27-295e-4f48-88f2-993d06d9c5d3
+:END:
 #+title: Statistics
 

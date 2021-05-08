@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       4d28eed2-6bb6-4a89-acfe-2c0571323d4c
+:END:
 #+title: Basic Shell Features
 #+ROAM_TAGS: Bash
 

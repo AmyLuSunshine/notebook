@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       8c031b25-5b1a-4caa-acc2-af3c02048993
+:END:
 #+title: Numbers
 #ROAM_TAGS:: JavaScript
 

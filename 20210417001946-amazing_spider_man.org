@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       ce2a4de7-9610-4d6a-b446-e97c8cf7860c
+:END:
 #+title: Amazing Spider Man 
 
 Don't just follow the path, make your own trail.

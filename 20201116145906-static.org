@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       48b0f334-cc58-416a-a363-f6b5411ab7e7
+:END:
 #+title: Static
 #+ROAM_TAGS: C
 

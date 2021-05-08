@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       ff4d78a1-07b3-4012-93ad-648b4f88bcf4
+:END:
 #+title: Browser Extensions
 
 This note collects the good browser extensions that I use.

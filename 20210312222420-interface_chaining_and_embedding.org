@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       82f43b28-a091-466a-b961-caa30aad7ca8
+:END:
 #+title: Interface Chaining and Embedding
 #+ROAM_TAGS: Golang
 

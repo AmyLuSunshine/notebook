@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       c86c9dfe-69eb-4ee9-8898-ef0d48f02624
+:END:
 #+title: Caddy Config
 
 * File server

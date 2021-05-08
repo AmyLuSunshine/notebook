@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       0b87ee32-7c9c-4b76-8002-62b3cdede3c5
+:END:
 #+title: Input Method
 

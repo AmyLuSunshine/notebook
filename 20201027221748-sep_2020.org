@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       d9377901-8c91-4b14-9e63-e0724dd14c52
+:END:
 #+title: Sep-2020
 #+ROAM_TAGS: Volcabulary
 

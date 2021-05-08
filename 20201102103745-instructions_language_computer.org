@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       1c0334ca-7b74-4869-bf75-bb32955e7ff6
+:END:
 #+title: Instructions: Language Computer
 #+ROAM_TAGS: Computer-Organization
 

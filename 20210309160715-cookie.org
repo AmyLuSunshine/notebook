@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       7a4e6683-65d2-4965-9204-2aecb88fb23a
+:END:
 #+title: Cookie
 

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       40708e1f-861f-4bca-be36-b07c0a9fe31e
+:END:
 #+title: 5 Layers Model
 #+ROAM_TAGS: Computer-Network
 

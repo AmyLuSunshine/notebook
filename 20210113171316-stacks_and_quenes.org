@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       6ac8d2e6-2d94-4964-a936-69b18038687d
+:END:
 #+title: Stacks and Quenes
 #+ROAM_TAGS: Data-Structures
 

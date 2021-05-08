@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       4a10bec2-858b-4d95-b72a-b3de48a910d5
+:END:
 #+title: Ubuntu
 

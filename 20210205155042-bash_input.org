@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       3bc077b3-1028-48ee-94df-b57b2dc0c791
+:END:
 #+title: Bash Input
 #+ROAM_TAGS: Bash
 

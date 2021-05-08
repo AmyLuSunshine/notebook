@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       3226a270-adaf-4c39-8f9b-1ead217c8049
+:END:
 #+title: Git
 
