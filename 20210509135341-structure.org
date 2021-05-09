@@ -1,0 +1,58 @@
+#+title: Structure
+#+ROAM_TAGS: thesis
+#+TODO: TODO In-Progress FEEDBACK | DONE
+
+- tags :: [[id:aadc775c-9381-4e46-bbc7-eead5f23a16f][thesis]]
+
+* In-Progress Introduction
+
+** Statement of Problem
+
+** Purpose of the Study
+
+** Research Questions
+
+** Definitions [0/2]
+   - [ ] shadow education
+   - [ ] parenting
+
+* TODO Literature review
+
+** math achievement
+
+** shadow education
+
+** context variables
+
+* TODO Data and methods
+
+** data [0/2]
+   - [ ] data source and basic description
+   - [ ] how variables measures
+
+** methods [0/3]
+   - [ ] hierarchical regression
+   - [ ] research hypotheses
+   - [ ] research framework (graph)
+   - [ ] statistical software
+
+* TODO Results
+
+** descriptive statistics 
+
+** regression results [0/3]
+   - [ ] model 1
+   - [ ] model 2
+   - [ ] model 3
+
+* TODO Conclusion and discussion
+
+** conclusions
+
+** research findings
+
+** limitations of the study
+
+** suggestions for furture research
+
+* TODO Abstact
