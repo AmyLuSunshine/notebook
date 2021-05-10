@@ -1,0 +1,13 @@
+#+title: Find Text in a Directory
+#+ROAM_TAGS: Linux/Unix
+
+- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]]
+- source :: [[https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux][How do I find all files containing specific text on Linux? --stack overflow]]
+
+#+begin_src sh
+grep -rnw "path/to/dir" -e "string pattern"
+#+end_src
+
+-r is recursive
+-n is line number  
+-w matches the whole word

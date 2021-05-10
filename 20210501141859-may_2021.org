@@ -369,3 +369,26 @@ I spend most of my time studying in exchange for the knowledge.
 * refinement
 
 * omnivorous
+
+* engross
+
+  Programming engrosses me.
+  
+* secede
+
+* confederacy
+
+* tweak
+
+  It's common in computer programming to tweak an exsiting program instead of writing a new program from scratch.
+
+* tinker
+
+  It's a waste of time tinkering around different operatings systems.
+
+* protagonist
+
+* inarguration
+
+* narrative
+
