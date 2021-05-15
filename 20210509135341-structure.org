@@ -4,7 +4,7 @@
 
 - tags :: [[id:aadc775c-9381-4e46-bbc7-eead5f23a16f][thesis]]
 
-* In-Progress Introduction
+* FEEDBACK Introduction
 
 ** Statement of Problem
 
@@ -12,23 +12,34 @@
 
 ** Research Questions
 
-** Definitions [0/2]
-   - [ ] shadow education
-   - [ ] parenting
+** Definitions [1/3]
+   - [X] shadow education
 
-* TODO Literature review
+* In-Progress Literature review
 
-** math achievement
+** In-Progress math achievement
 
-** shadow education
+** TODO shadow education
 
-** context variables
+** TODO context variables
+
+*** parental variabels
+
+    - parenting styles (confucianism and credentialism)
+    - education
+    - involvement
+
+*** individual variables
+    - gender
+    - motivation (self-determinant theory)
 
 * TODO Data and methods
 
 ** data [0/2]
    - [ ] data source and basic description
    - [ ] how variables measures
+
+     [[id:b1a39989-9813-4746-9e57-022b33af6981][Parenting]]
 
 ** methods [0/3]
    - [ ] hierarchical regression
@@ -53,7 +64,18 @@
 
 ** limitations of the study
 
+*** time
+
+*** semester
+
 ** suggestions for furture research
 
 * TODO Abstact
 
+* note
+
+  contact teacher
+
+  do not use styles
+
+  main expectation

@@ -1,0 +1,14 @@
+#+title: Disable keyboard
+#+ROAM_TAGS: Windows
+
+- tags :: [[file:20210512221802-windows.org][Windows]], [[id:4c60358e-1600-4568-8fc3-87b2c15c5f4c][Disable keyboard]]
+
+* Disable
+#+begin_src cmd
+sc config i8042prt start= disabled
+#+end_src
+
+* Enable
+#+begin_src cmd
+sc config i8042prt start= demand
+#+end_src

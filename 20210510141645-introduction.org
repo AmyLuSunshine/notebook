@@ -25,6 +25,8 @@
 
 * elope
 
+  elope with 
+
 * remnant
 
   the remnant of the Compsons
@@ -51,16 +53,19 @@
 
 * eminence
 
+  his eminence as a movie director
+
 * decay
 
 * disentangle
   seperate
 
 * surveillance
+  surveillance camera
 
-* antebellum
+* TODO antebellum
 
-* portico
+* TODO portico
 
 * disrepair
 
@@ -72,11 +77,11 @@
   
 * pig pen
 
-* gully
+* TODO gully
 
-* acre
+* TODO acre
 
-* pasture
+* TODO pasture
 
 * gaze in 
 
@@ -84,7 +89,7 @@
 
 * infuriate
 
-* carcass of a mare
+* TODO carcass of a mare
 
 * buzzard
 
@@ -101,15 +106,15 @@
 
 * howl
 
-* vagrant
+* TODO vagrant
 
 * faint
 
-* bawl
+* TODO bawl
 
-* gown
+* TODO gown
 
-* obliterate
+* TODO obliterate
 
   time will eventually obliterate its effects
 
@@ -121,11 +126,11 @@
 
 * degradation
 
-* limbo
+* TODO limbo
 
   in limbo
 
 * on condition that
 
-  Mrs. Compson refuses to receive Caddy into the house but takes the child *on condition* that Caddy's name is never mentioned in her house.
-  
+  Mrs. Compson refuses to receive Caddy into the house but takes the child *on condition that* Caddy's name is never mentioned in her house.
+ 
