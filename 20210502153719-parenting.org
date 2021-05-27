@@ -4,7 +4,11 @@
 #+title: Parenting
 #+ROAM_TAGS: Thesis
 
-* Parenting styles
+* Data
+
+  
+
+* Parenting strategies
 
   Two primary factors to determine parenting style are parental responsiveness and parental demandingness. 
 Parental responsiveness refers to the degree parents respond to the child's needs.

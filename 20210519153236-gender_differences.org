@@ -1,0 +1,6 @@
+#+title: Gender Differences
+#+ROAM_TAGS: thesis
+
+data: male coded as 1
+
+

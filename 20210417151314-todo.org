@@ -6,11 +6,24 @@
 
 - tags :: [[file:20201028193557-thesis.org][thesis]]
 
-* TODO Hypotheses
+* Intro
+  
+** TODO add more content of evt and parenting 
 
-* TODO Framework
+** TODO write the importance of using CEPS
 
-* TODO Descreptive statistics
-  - data visualization
-  - correlation matrix
-  - homogeneity test
+* Literature
+
+** evt
+
+** pareinting
+
+* Method
+
+**  Models 
+
+* Results 
+
+** 
+
+* homogeneity test 

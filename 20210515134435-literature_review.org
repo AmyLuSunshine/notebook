@@ -2,3 +2,11 @@
 #+ROAM_TAGS: thesis
 
 - tags :: [[id:aadc775c-9381-4e46-bbc7-eead5f23a16f][thesis]]
+
+* Shadow Education
+
+** shadow education does not work in general
+   only high-achiving group significant
+   [[zotero://select/items/1_WFIMHFIG][Loyalka, P. & Zakharov, A. (2016) Does shadow education help students prepare for college? Evidence from Russia]]
+
+

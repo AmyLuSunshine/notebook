@@ -4,48 +4,56 @@
 
 - tags :: [[id:aadc775c-9381-4e46-bbc7-eead5f23a16f][thesis]]
 
-* FEEDBACK Introduction
+* In-Progress Introduction
 
 ** Statement of Problem
 
 ** Purpose of the Study
 
-** Research Questions
+*** TODO why did you use CEPS?
 
-** Definitions [1/3]
-   - [X] shadow education
+** Research Questions
 
 * In-Progress Literature review
 
-** In-Progress math achievement
+** DONE math achievement
 
-** TODO shadow education
+** In-Progress expectancy-value theory
 
-** TODO context variables
+** In-Progress Parenting strategies
 
-*** parental variabels
+   expectation and involvement
 
-    - parenting styles (confucianism and credentialism)
-    - education
-    - involvement
+   confucianism and credentialism   
 
-*** individual variables
-    - gender
-    - motivation (self-determinant theory)
+** DONE shadow education
+
+** TODO demographic factors
+
+*** gender
+
+*** SES
 
 * TODO Data and methods
 
-** data [0/2]
-   - [ ] data source and basic description
-   - [ ] how variables measures
+** DONE Survey sample
+   sample method and basic stat
 
-     [[id:b1a39989-9813-4746-9e57-022b33af6981][Parenting]]
+** DONE data and measures [3/5]
+   what types of survey (e.g student, parents)
+   mention the semester issue
 
-** methods [0/3]
-   - [ ] hierarchical regression
+   - [X] outcome variable
+   - [X] math motivation
+   - [X] parenting strategies
+   - [ ] gender
+   - [ ] SES
+
+** methods [2/4]
+   - [X] hierarchical regression
    - [ ] research hypotheses
    - [ ] research framework (graph)
-   - [ ] statistical software
+   - [X] statistical software
 
 * TODO Results
 
@@ -72,10 +80,4 @@
 
 * TODO Abstact
 
-* note
-
-  contact teacher
-
-  do not use styles
-
-  main expectation
+  

@@ -1,0 +1,13 @@
+#+title: Reverse Number in a Range
+#+ROAM_TAGS: Algorithms
+
+- tags :: [[id:8ba0e58d-5ef6-47b3-b04a-1bb3001b2970][Algorithms]]
+
+
+#+begin_src go
+// max refers to the largest number in the given range
+// min refers to the smallest
+  func Reverse(num, min, max) {
+	return (max + min) - num
+  }
+#+end_src

@@ -1,0 +1,23 @@
+#+title: EVT
+#+ROAM_TAGS: Thesis
+
+- tags :: [[id:aadc775c-9381-4e46-bbc7-eead5f23a16f][thesis]]
+
+* Definition
+  Elaborating Atkinson's expectancy-value model, modern expectancy-value theory 
+  
+* Expectancy
+
+  
+
+* Value
+
+  we focus on utility value.
+
+* mediated effect
+
+* gender
+
+  [[zotero://select/items/1_YP3QM9NB][Guo, J. et al. (2015) Expectancy-value in mathematics, gender and socioeconomic background as predictors of achievement and aspirations: A multi-cohort study]]
+
+

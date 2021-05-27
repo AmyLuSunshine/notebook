@@ -1,0 +1,10 @@
+#+title: Conclusion and Discussion
+#+ROAM_TAGS: thesis
+
+- tags :: [[id:aadc775c-9381-4e46-bbc7-eead5f23a16f][thesis]]
+
+* Money issue
+
+  If shadow education is not as efficient as it is percieved by people, investing time and money in shadow education will strengthen social inequality.
+[[zotero://select/items/1_WFIMHFIG][Loyalka, P. & Zakharov, A. (2016) Does shadow education help students prepare for college? Evidence from Russia]]
+
