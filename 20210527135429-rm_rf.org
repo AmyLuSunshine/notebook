@@ -1,0 +1,9 @@
+#+title: rm -rf
+#+ROAM_TAGS: pwsh
+
+- tags :: [[file:20210527135410-pwsh.org][pwsh]]
+
+#+begin_src pwsh
+Remove-Item /dir -Recurse -Force
+#+end_src
+
