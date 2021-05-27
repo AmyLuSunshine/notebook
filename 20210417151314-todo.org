@@ -3,27 +3,54 @@
 :END:
 #+title: Todo
 #+ROAM_TAGS: thesis
+#+TODO: TODO In-Progress FEEDBACK | DONE
 
 - tags :: [[file:20201028193557-thesis.org][thesis]]
 
+* TODO Abstact
+  DEADLINE: <2021-05-29 Sat>
+
 * Intro
+  DEADLINE: <2021-05-29 Fri>
   
 ** TODO add more content of evt and parenting 
+   SCHEDULED: <2021-05-28 Fri>
 
 ** TODO write the importance of using CEPS
+   SCHEDULED: <2021-05-28 Fri>
+
 
 * Literature
+  DEADLINE: <2021-05-28 Fri>
 
-** evt
+** TODO evt
 
-** pareinting
+** TODO pareinting
 
 * Method
 
-**  Models 
-
+** TODO Models
+   DEADLINE: <2021-05-27 Thu>
+   
 * Results 
+  DEADLINE: <2021-05-27 Thu>
 
-** 
+** TODO mdoels report
 
-* homogeneity test 
+** TODO diagnostics
+*** homogeneity test 
+
+* Discussion
+  DEADLINE: <2021-05-29 Sat>
+
+** TODO the effect of shadow education
+
+** TODO parenting strategies
+
+** TODO expectancy-value beliefs
+
+* Similarity check
+  DEADLINE: <2021-05-30 Sun>
+
+
+
