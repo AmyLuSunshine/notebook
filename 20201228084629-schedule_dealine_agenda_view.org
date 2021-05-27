@@ -14,6 +14,10 @@ C-c C-s
 
 C-c C-d
 
+* Navigate date with keyboard
+
+shift + arrow keys
+
 * Agenda 
 
 ** Set a file as agenda file
