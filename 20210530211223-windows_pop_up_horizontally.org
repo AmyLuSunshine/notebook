@@ -1,0 +1,9 @@
+#+title: Windows Pop-up Horizontally
+#+ROAM_TAGS: Emacs
+
+- tags :: [[id:f2b69c75-fd89-409d-8aa9-fba688b70e0a][Emacs]]
+- source :: [[https://www.emacswiki.org/emacs/HorizontalSplitting][Horizontal Splitting]]
+
+#+begin_src elisp
+(setq split-height-threshold 0)
+#+end_src
