@@ -1,6 +1,3 @@
-:PROPERTIES:
-:ID:       c317c7c6-6396-496a-b855-768d306649f2
-:END:
 #+title: Table Editor
 #+ROAM_TAGS: Org
 
