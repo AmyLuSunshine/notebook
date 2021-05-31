@@ -449,3 +449,5 @@ I spend most of my time studying in exchange for the knowledge.
   I crave attention.
 
 * maladaptive
+* deprecate
+* coalesce

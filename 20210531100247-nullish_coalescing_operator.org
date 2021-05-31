@@ -1,0 +1,18 @@
+#+title: Nullish Coalescing Operator
+#+ROAM_TAGS: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]]
+
+* x ?? y
+
+if x is not Null nor undefined, return x, else return y. 
+
+#+begin_src js
+// print red
+let color;
+console.log(color ?? "red");
+
+// print blue
+let color = "blue";
+console.log(color ?? "red");
+#+end_src

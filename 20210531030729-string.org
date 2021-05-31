@@ -1,0 +1,21 @@
+#+title: String
+#+ROAM_TAGS: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]]
+
+* Execute inline code inside a string
+
+#+begin_src js
+console.log(
+  `one plue one is ${1 + 1}`
+);
+#+end_src
+
+* String Slice
+
+#+begin_src js
+let s = "hello world";
+
+// print ell
+console.log(s.slice(1, 4));
+#+end_src

@@ -1,0 +1,19 @@
+#+title: Data Types
+#+ROAM_TAGS: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]]
+
+There are seven value types in js: 
+
+- undefined
+- null 
+- true, false
+- string
+- number, including NaN and Infinity
+- symbol
+- object, including array, function, regex
+
+* NaN
+
+Infinity * 0
+Infinity - Infinity
