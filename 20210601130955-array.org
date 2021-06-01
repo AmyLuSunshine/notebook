@@ -1,0 +1,13 @@
+#+title: Array
+#+ROAM_TAGS:: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]]
+
+* Loop through an array
+#+begin_src js
+const aa = [1, 2, 3, [1, 2, 3]];
+
+for (let [i, x] of aa.entries()) {
+  console.log(i, x);
+}
+#+end_src

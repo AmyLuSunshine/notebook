@@ -1,0 +1,65 @@
+#+title: Objects
+#+ROAM_TAGS: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]]
+
+Objects in js are created as key-value paris.
+* Access property
+#+begin_src js
+const obj = {"name": "zhe", "age": 24};
+console.log(obj["name"]);
+console.log(obj.age);
+#+end_src
+
+* Add property
+#+begin_src js
+const obj = {"name": "zhe"};
+obj.age = 24;
+console.log(obj);
+#+end_src
+
+* define a method
+
+#+begin_src js
+const obj = {};
+obj.print = function() {
+  console.log(obj);
+};
+obj.print();
+#+end_src
+
+* for-in-Loop
+
+loop through all property keys of an object, and will go up to prototype chain.`
+
+#+begin_src js
+const obj = {
+  "name": "zhe",
+  "age": 25,
+  [Symbol("name")]: "zhe",
+};
+
+const obj2 = Object.create(obj);
+
+for (let i in obj2) {
+  console.log(i);
+}
+#+end_src
+
+* Symbol key
+
+Note that you cannot use dot notation for symbol keys.
+
+  #+begin_src js
+    const name = Symbol("name");
+    const obj = {};
+    obj[name] = "zhe";
+    console.log(obj)
+
+    // or 
+    const obj2 = {
+    Symbol("name") : "zhe"
+    };
+
+    
+  #+end_src
