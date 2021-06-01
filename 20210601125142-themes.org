@@ -1,0 +1,16 @@
+#+title: Themes
+#+ROAM_TAGS: Emacs
+
+- tags :: [[file:20201028193935-emacs.org][Emacs]]
+
+Readable Emacs theme
+
+* kaolin
+
+kaolin-blossom
+
+kaolin-valley-dark
+
+* solarized
+
+solarized-light
