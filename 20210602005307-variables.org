@@ -1,0 +1,12 @@
+#+title: Variables
+#+ROAM_TAGS: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]]
+
+* Declare variables
+
+** let / const
+   you can only declare a variable once
+
+** var
+   it is available to declare the same variable multiple times.

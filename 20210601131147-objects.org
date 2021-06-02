@@ -18,7 +18,7 @@ obj.age = 24;
 console.log(obj);
 #+end_src
 
-* define a method
+* Define a method
 
 #+begin_src js
 const obj = {};
@@ -48,7 +48,9 @@ for (let i in obj2) {
 
 * Symbol key
 
-Note that you cannot use dot notation for symbol keys.
+Notes
+  - you cannot use dot notation for symbol keys.
+  - for-in-Loop usually ignores symbol key properties
 
   #+begin_src js
     const name = Symbol("name");
@@ -63,3 +65,13 @@ Note that you cannot use dot notation for symbol keys.
 
     
   #+end_src
+
+* Disable add/delete properties of an object
+#+begin_src js
+const obj = {};
+obj.a = "a";
+console.log(obj);
+Object.seal(obj);
+obj.b = "b";
+console.log(obj);
+#+end_src

@@ -1,0 +1,10 @@
+#+title: For Loop
+#+ROAM_TAGS: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]]
+
+* for-of
+  for-of returns each element of an array.
+
+* for-in
+  for-in returns each index of an array.

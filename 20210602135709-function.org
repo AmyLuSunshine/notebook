@@ -1,0 +1,29 @@
+#+title: Function
+#+ROAM_TAGS: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]]
+
+* Arrow functions
+
+** use return with curly braces
+#+begin_src js
+const arr = [1, 2, 3, 4];
+const arr1 = arr.reduce((acc, value) => {return acc + value});
+console.log(arr1);
+#+end_src
+
+** no need return without curly braces
+#+begin_src js
+const arr = [1, 2, 3, 4];
+const arr1 = arr.reduce((acc, value) => acc + value);
+console.log(arr1);
+#+end_src
+
+* Number of declared parameter of a function
+
+function.length
+
+#+begin_src js
+const f = ((x, y, z) => x);
+console.log(f.length);
+#+end_src

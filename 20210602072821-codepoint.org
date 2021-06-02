@@ -1,0 +1,14 @@
+#+title: Codepoint
+#+ROAM_TAGS: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]]
+
+* How JS represents string
+
+machine representations (bits) -> UTF-16 -> codepoint
+
+1. encode the characters in the string by UTF-16, which gives you a sequence of bits.
+2. group every 16 bits as a *code unit*.
+3. 
+
+String is a sequence of 16-bits value, also called *code unit*, which represents characters from UTF-16 encoding.
