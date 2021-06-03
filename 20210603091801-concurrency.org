@@ -1,0 +1,140 @@
+#+title: Concurrency
+#+ROAM_TAGS: Golang
+
+- tags :: [[file:20210110190746-golang.org][Golang]]
+- source :: [[http://www.golang-book.com/books/intro/10#section2][Concurrency - An Introduction to Programming in Go]]
+
+* Goroutines
+
+A Goroutines is a function that is capable of running concurrently with other functions.
+
+#+begin_src go
+package main
+
+import  (
+  "fmt"
+  "time"
+)
+
+func f(n int) {
+  for i := 0; i < 10; i++ {
+    fmt.Println(n, ":", )
+    time.Sleep(100 * time.Millisecond)
+  }
+}
+
+func main() {
+  go f(10)
+  var input string
+  fmt.Scanln(&input)
+  fmt.Println(input)
+}
+#+end_src
+
+* Channels
+
+Channels provide a way for two goroutines to communicate with each other and synchronize their execution.
+
+#+begin_src go
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func pinger(c chan string) {
+	for i := 0; ; i++ {
+		c <- "ping"
+	}
+}
+
+func printer(c chan string) {
+	for {
+		msg := <-c
+		fmt.Println(msg)
+		time.Sleep(time.Second * 1)
+	}
+}
+
+func main() {
+	var c chan string = make(chan string)
+
+	go pinger(c)
+	go printer(c)
+
+	var input string
+	fmt.Scanln(&input)
+	fmt.Println(input)
+}
+#+end_src
+
+** Channel direction
+
+*** send
+    #+begin_src go
+    func pinger(c chan <-  string)
+    #+end_src
+
+*** receive
+#+begin_src go
+func printer(c <-  chan string)
+#+end_src
+
+** Select
+
+Select works like switch but for channels.
+
+#+begin_src go
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func main() {
+	c1 := make(chan string)
+	c2 := make(chan string)
+
+	go func() {
+		for {
+			c1 <- "from 1"
+			time.Sleep(time.Second * 1)
+		}
+	}()
+
+	go func() {
+		for {
+			c2 <- "from 2"
+			time.Sleep(time.Second * 3)
+		}
+	}()
+
+	go func() {
+		for {
+			select {
+			case msg1 := <-c1:
+				fmt.Println("Message 1", msg1)
+			case msg2 := <-c2:
+				fmt.Println("Message 2", msg2)
+			case <-time.After(time.Second):
+				fmt.Println("timeout")
+			default:
+				fmt.Println("nothing ready")
+			}
+		}
+	}()
+
+	var input string
+	fmt.Scanln(&input)
+}
+#+end_src
+
+** Buffered channels
+
+Buffered channels do not wait until the other side is ready. A buffered channel is asynchronous; sending or receiving a msg will not wait unless the channel is full.
+
+#+begin_src go
+c := make(chan int, 1)
+#+end_src
