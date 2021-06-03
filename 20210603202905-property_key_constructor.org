@@ -1,0 +1,39 @@
+#+title: Property Key "Constructor"
+#+ROAM_TAGS: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]], [[file:20210601131147-objects.org][Objects]], [[file:20210603002350-constructor.org][Constructor]]
+
+Every function has a property key, "prototype".
+
+For user-defined fucntion f, the value of f.prototype by default is {"constructor": f}
+
+#+begin_src js
+function FF() {}
+
+// res: [Function: FF]
+console.log(FF.prototype.constructor);
+
+// res: [ "constructor" ]
+console.log(Object.getOwnPropertyNames(FF.prototype));
+
+const jj = new FF();
+// prototype is FF.prototype
+console.log(jj instanceof FF);
+console.log(Reflect.getPrototypeOf(jj) === FF.prototype);
+console.log(jj.constructor === FF);
+#+end_src
+
+* instanceof is not reliable
+
+#+begin_src js
+const obj = {};
+function FF() {}
+const jj = new FF();
+
+// jj is an instance of FF
+console.log(jj instanceof FF); // true
+
+// but after setting FF's prototype, it violates the relationship
+FF.prototype = obj;
+console.log(jj instanceof FF); // false
+#+end_src

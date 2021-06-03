@@ -1,7 +1,17 @@
 #+title: Array
-#+ROAM_TAGS:: Javascript
+#+ROAM_TAGS: Javascript
 
 - tags :: [[file:20210327205115-javascript.org][Javascript]]
+
+* Array is special object
+
+indices of an array are just string property key
+
+#+begin_src js
+const arr = [1, 2, 3];
+console.log(arr[0]);
+console.log(arr["0"]);
+#+end_src
 
 * Loop through an array
 #+begin_src js
@@ -11,3 +21,23 @@ for (let [i, x] of aa.entries()) {
   console.log(i, x);
 }
 #+end_src
+
+* Create sparse array
+
+#+begin_src js
+const a = Array(10);
+console.log(a);
+console.log(a.length);
+#+end_src
+
+* forEach method
+
+use forEach method to square each element.
+#+begin_src js
+const arr = [1, 5, 3];
+arr.forEach(
+  (v, i) => arr[i] = v * v,
+);
+console.log(arr);
+#+end_src
+

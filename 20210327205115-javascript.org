@@ -26,4 +26,13 @@
 
 * destructuring
 
+* Confused concepts
+
+** constructors
+
+** new statement
+
+** object models
+
+** inheritence
 

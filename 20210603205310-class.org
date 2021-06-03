@@ -1,0 +1,18 @@
+#+title: Class
+#+ROAM_TAGS: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]]
+
+* Declare a class
+
+#+begin_src js
+class class_name {
+  method1
+  method2
+  method3
+}
+#+end_src
+
+* Static
+
+  objects created by new class() do not inherit static method.

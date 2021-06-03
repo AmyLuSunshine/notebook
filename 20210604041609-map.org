@@ -1,0 +1,44 @@
+#+title: Map
+#+ROAM_TAGS: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]]
+
+
+Map is like object, but the key can be any type.
+
+* Create map
+
+#+begin_src js
+const m = new Map();
+m.set(1, "n1"); // Create key-value paire 1-"n1"
+console.log(m.get(1));  // print "n1"
+#+end_src
+
+#+begin_src js
+const m = new Map(
+  [["a", 1], ["b", 2], ["c", 3]],
+);
+console.log(m);
+#+end_src
+
+* Iterate over map 
+
+** k as key, v as value
+#+begin_src js
+for (let [k, v] of map_obj) {...}
+#+end_src
+** x is an array of key-value pair, [k, v]
+#+begin_src js
+for (let x of map_obj) {...}
+#+end_src
+
+** forEach method
+
+#+begin_src js
+const m = new Map(
+  [["a", 1], ["b", 2], ["c", 3]],
+);
+m.forEach(
+  (v, k) => console.log(v, k),
+);
+#+end_src

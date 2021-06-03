@@ -1,0 +1,30 @@
+#+title: Spread Operator
+#+ROAM_TAGS: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]]
+
+A spread operator destrucutre the iterable into an array or arguments of a function.
+
+* Array
+#+begin_src js
+const arr = [1, 2, 3];
+const arr1 = [...arr, 4, 5];
+console.log(arr1);
+#+end_src
+
+* Object
+#+begin_src js
+const obj = { "a": 1, "b": 2, "c": 3 };
+const obj1 = { ...obj, "d": 4, "e": 5 };
+console.log(obj1);
+#+end_src
+
+* Function
+#+begin_src js
+function add(x, y) {
+  return x + y;
+}
+const arr = [3, 4];
+const res = add(...arr);
+console.log(res);
+#+end_src

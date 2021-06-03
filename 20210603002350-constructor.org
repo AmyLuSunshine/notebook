@@ -3,11 +3,37 @@
 
 - tags :: [[file:20210327205115-javascript.org][Javascript]], [[file:20210601131147-objects.org][Objects]]
 
+* What's Constructor
+
+A function creates and initializes objects. Constructor works with the keyword new. For example: 
+
+#+begin_src js
+// Constructor
+function user(name, email) {
+  this.name = name;
+  this.email = email;
+}
+const sz = new user("sz", "sunzhe1996@gmail.com");
+console.log(sz);
+#+end_src
+
+** Builtin Constructors
+
+| Constructor | Literal Expression   | Constructor Syntax |
+|-------------+----------------------+--------------------|
+| Object      | {...}                | new Object()       |
+| Array       | [...]                | new Array()        |
+| Function    | function (...) {...} | new Function (...) |
+| RegExp      | /.../...             | new RegExp(...)    |
+| Date        | none                 | new Date(...)      |
+
 * Create object with constructor
 
 1. Define a function F without return statement.
 2. Set the prototype property: F.prototype = parentX
 3. Create the object. (const obj = new F)
+
+What *new F()* returns depends on whether F returns an object.
 
 #+begin_src js
 const F = function () {
@@ -25,3 +51,7 @@ const user = {
 const sz = new F();
 console.log(sz);
 #+end_src
+
+* Convention
+
+the names of constructor start with capital letter.

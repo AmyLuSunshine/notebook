@@ -1,0 +1,58 @@
+#+title: Prototype
+#+ROAM_TAGS: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]], [[file:20210603002350-constructor.org][Constructor]]
+
+* Constructor Prototype
+
+- every function has a prototype.
+- an instance created by a constructor (new f()) cannot access its prototype directly. use *Object.getPrototypeOf()* instead.
+
+#+begin_src js
+const f = function () {
+  return 1;
+};
+const obj = new f();
+console.log(obj.prototype); // undefined
+console.log(Object.getPrototypeOf(obj) === f.prototype); // true
+#+end_src
+
+** object's prototype
+
+if not set, object's prototype is the constructor that creates it. 
+
+#+begin_src js
+const Mammalia = {
+  "milk": true,
+};
+
+function dog(name) {
+  this.name = name;
+}
+
+dog.prototype = Mammalia;
+dog.prototype.bark = function () {
+  console.log("wang");
+};
+
+const husky = new dog("husky");
+const shiba = new dog("shiba");
+
+console.log(Reflect.getPrototypeOf(husky));
+husky.bark();
+shiba.bark();
+#+end_src
+
+#+begin_src js
+function user(name, email) {
+  this.name = name;
+  this.email = email;
+}
+
+const sz = new user("sz", "sunzhe1996@gmail.com");
+const proto = Reflect.getPrototypeOf(sz);
+const nito = new proto.constructor("nito", "nito@gmail.com");
+
+console.log(sz);
+console.log(nito);
+#+end_src
