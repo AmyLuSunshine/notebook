@@ -27,3 +27,18 @@ function.length
 const f = ((x, y, z) => x);
 console.log(f.length);
 #+end_src
+
+* Check Symbol Property Existence
+
+- obj.hasOwnProperty(key)
+- key in obj
+
+#+begin_src js
+const obj = {};
+const s = Symbol("hello");
+obj[s] = "hello";
+
+// two ways of checking key existence
+console.log(obj.hasOwnProperty(s));
+console.log(s in obj);
+#+end_src

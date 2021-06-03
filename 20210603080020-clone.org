@@ -1,0 +1,34 @@
+#+title: Clone
+#+ROAM_TAGS: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]], [[file:20210601131147-objects.org][Objects]]
+
+* array
+
+** deep copy
+#+begin_src js
+/* [
+xah_deep_copy_array_or_object(obj) deep copy/clone a object.
+This is the best way. fastest too.
+http://xahlee.info/js/js_clone_object.html
+Version 2017-01-30.
+] */
+const xah_deep_copy_array_or_object = ((obj) => JSON.parse(JSON.stringify(obj)));
+#+end_src
+
+** shallow copy
+   
+shallow copy is available when the array has no references.
+
+#+begin_src js
+const arr = [1, 2, 3];
+
+// the following statement gives you the same array
+// const arr1 = arr; 
+
+// copy the entire array
+const arr1 = arr.slice();
+console.log(arr, arr1);
+arr1[0] = 10;
+console.log(arr, arr1);
+#+end_src

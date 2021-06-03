@@ -75,3 +75,16 @@ Object.seal(obj);
 obj.b = "b";
 console.log(obj);
 #+end_src
+
+* Find obj's prototype
+
+#+begin_src js
+const p = {
+  "h": 1,
+};
+
+const c = Object.create(p);
+
+console.log(p.isPrototypeOf(c));
+console.log(Reflect.getPrototypeOf(c));
+#+end_src

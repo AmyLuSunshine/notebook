@@ -1,0 +1,27 @@
+#+title: Constructor
+#+ROAM_TAGS: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]], [[file:20210601131147-objects.org][Objects]]
+
+* Create object with constructor
+
+1. Define a function F without return statement.
+2. Set the prototype property: F.prototype = parentX
+3. Create the object. (const obj = new F)
+
+#+begin_src js
+const F = function () {
+  this.age = 25;
+};
+
+const user = {
+  "name": "zhe",
+  "birYear": 1996,
+};
+
+//optional
+//F.prototype = user;
+
+const sz = new F();
+console.log(sz);
+#+end_src

@@ -1,0 +1,23 @@
+#+title: Symbol
+#+ROAM_TAGS: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]]
+
+* Symbol as property
+
+Even if you use the same string inside a symbol, they are not the same property key.
+
+#+begin_src js
+const obj = {};
+const s = Symbol("hello");
+const x = Symbol("hello");
+
+obj[s] = "hello";
+obj[x] = "fuck";
+console.log(obj[s], obj[x], obj);
+#+end_src
+
+* Symbol Properties are usually ignored
+
+- for-in loop
+- for-of loop
