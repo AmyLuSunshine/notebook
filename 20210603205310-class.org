@@ -13,6 +13,88 @@ class class_name {
 }
 #+end_src
 
+** Class-side properties and instance properties
+  - Static (Class-side) properties must be defined *outside* of the class block.
+  - Instance properties must be defined *inside* of the class block.
+
+#+begin_src js
+class Mammalia {
+  //produceMilk = true;
+}
+
+// the two statements below have the same functionality
+Mammalia.produceMilk = true;
+//Mammalia.prototype.produceMilk = true;
+
+const M = new Mammalia();
+console.log(Mammalia.hasOwnProperty("produceMilk"));
+console.log(M.hasOwnProperty("produceMilk"));
+#+end_src
+
+* Class expressions
+
+Class expressions can be named and unnamed. 
+
+|                              | named class   | unamed class  |
+|------------------------------+---------------+---------------|
+| name of constructor fucntion | variable name | variable name |
+| name of prototype            | class name    | variable name |
+
+#+begin_src js
+// unnamed
+let Rectangle = class {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+};
+console.log(Rectangle.name);
+// output: "Rectangle"
+
+// named
+let Rectangle = class Rectangle2 {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+};
+console.log(Rectangle.name);
+// output: "Rectangle2"
+
+#+end_src
+
 * Static
 
   objects created by new class() do not inherit static method.
+
+* Private properties
+
+You can define private properties within a class. This is a new feature. Support in browser is limited.
+
+#+begin_src js
+class Mammalia {
+  #milk;
+  constructor() {
+    this.#milk = true;
+  }
+}
+
+class Dog extends Mammalia {
+  constructor(name) {
+    super(Mammalia);
+    console.log("dog type", `"${name}"`, "created");
+    this.name = name;
+  }
+}
+
+const husky = new Dog("husky");
+// unable to read the property milk
+console.log(husky)
+// undefined
+console.log(husky.mile)
+
+// access the private property within the class that defines it.
+const M = new Mammalia();
+M.milk = false;
+console.log(M);
+#+end_src
