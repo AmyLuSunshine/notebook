@@ -1,0 +1,33 @@
+#+title: Error Handling
+#+ROAM_TAGS: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]]
+
+* throw, try, catch
+
+if there is error in the try block, code in catch block will be evaluated.
+
+#+begin_src js
+// these two expressions have the same functionality.
+const negNum = new Error("factorial does not support negative numbers");
+const negNum = Error("factorial does not support negative numbers");
+
+function factorial(n) {
+  if (n < 0) {
+    throw negNum;
+  }
+  let res = 1;
+  while (n > 0) {
+    res = res * n;
+    n--;
+  }
+  return res;
+}
+
+let n = -10;
+try {
+  console.log(factorial(n));
+} catch {
+  console.log(factorial(-n));
+}
+#+end_src

@@ -1,0 +1,52 @@
+#+title: Hoisting
+#+ROAM_TAGS: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]]
+
+There are two ways to define a function and variable: one is by definition, another is by expression. Through definition, Javascript automatically applies the feature hoisting. Javascript hoisting means that compiler moves *function and variable* declaration to the top of the source file. This feature applies to function and variable declaration. Specifically, variable should be declared with keyword *var* and with no initial value.
+
+- Note that js hoisting does not support *class declaration*.
+
+* Diff
+
+- Definition/declaration moves the statement to the top of the source file.
+- Expression follows the order of each statement of the source file, which means the function can only be called after the assginment being evaluated.
+
+* Definition
+
+** function
+#+begin_src js
+console.log(sq(10));
+
+function sq(x) {
+  return x * x;
+}
+#+end_src
+
+** variable
+#+begin_src js
+x = 10;
+console.log(sq(x));
+
+function sq(x) {
+  return x * x;
+}
+
+// do not assign init value
+var x;
+#+end_src
+
+* Expression
+
+  Assign an expression (value) to a variable
+
+** function
+#+begin_src js
+const sq = ((x) => x * x);
+#+end_src
+
+** variable
+#+begin_src js
+var x = 10;
+let x = 10;
+#+end_src
