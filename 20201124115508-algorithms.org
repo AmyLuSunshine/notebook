@@ -18,6 +18,11 @@
 
 * Dynamic Programming
 
+** Procedure
+   1. define subproblems
+   2. 
+
+** Examples
   - Coins Changes
   - Discrete Knapsack
 
