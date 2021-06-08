@@ -1,0 +1,42 @@
+#+title: Process
+#+ROAM_TAGS: Operating-System
+
+- tags :: [[file:20210608231438-operating_system.org][Operating System]]
+
+A process is an active entity, an executing program, which contains a stack, heap, data, and text.
+
+* Process State
+
+** New
+
+** Running
+
+** Waiting
+
+** Ready
+   The process is waiting to be assigned to a processor.
+
+** Terminated
+   The process has finished execution.
+
+* Scheduling Quenes
+  
+** job quene
+   the list of all the processes on the system.
+
+** ready quene
+   the list the processes residing on the main memmory and are ready to execute.
+
+** device quene
+   the list of processes waiting for I/O.
+
+* Scheduler
+  There are two types of scheduler. The primary difference between these two is the frequency of execution. short-term scheduler executes more frequently and fast.
+
+** long-term
+   Select  processes in mass storage (e.g. disk) and load them into memory.
+   
+** short-term
+   Select processes that are ready to execute and allocates the CPU to one of them.
+
+   
