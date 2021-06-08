@@ -1,0 +1,36 @@
+#+title: apply
+#+ROAM_TAGS: Javascript
+
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[file:20210602135709-function.org][Function]]
+
+
+Function.prototype.apply() is used when you want to pass an array to a function that does not accept array parameters, for example Math.max().
+
+#+begin_src js
+const arr = [3, 9, 2, 4, 5];
+Math.max.apply(null, arr);
+#+end_src
+
+* Using apply to append an array to another
+
+#+begin_src js
+const arr1 = [1, 2, 3, 4];
+const arr2 = [5, 6, 7, 8];
+arr1.push.apply(arr1, arr2);
+// the above is the same as:
+arr2.push.apply(arr1, arr2);
+Array.prototype.push.apply(arr1, arr2);
+#+end_src
+
+* apply access object's properties by thisArg
+
+Function.prototype.apply(thisArg, argsArray).
+
+The below code doesn't append the arr1 because apply cannot access arr1 directly. It is neccessary to pass arr1 as thisArg.
+
+#+begin_src js
+const arr1 = [1, 2, 3, 4];
+const arr2 = [5, 6, 7, 8];
+// will not append.
+arr1.push.apply(arr2);
+#+end_src
