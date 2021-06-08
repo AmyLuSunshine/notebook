@@ -5,11 +5,15 @@
 
 * package managers
 
-* yarn
+** npm
 
-* webpack
+** yarn
+
+** webpack
 
 * babel
+
+Babel compiles next gen js code to browser compatible code.
 
 * ajax
 
@@ -35,4 +39,3 @@
 ** object models
 
 ** inheritence
-

@@ -4,7 +4,7 @@
 - tags :: [[file:20210327205115-javascript.org][Javascript]]
 
 * for-of
-  for-of returns each element of an array.
+  for-of returns each element of an iterable, such as string, array, but not object.
 
 * for-in
   for-in returns each index of an array.
