@@ -30,3 +30,19 @@
 
 ** false
 
+* Examples
+
+  Following code all prints 1.
+
+#+begin_src js
+
+console.log(0 || 1);
+
+console.log("" || 1);
+
+console.log(NaN || 1);
+
+console.log(undefined || 1);
+
+console.log(null || 1);
+#+end_src

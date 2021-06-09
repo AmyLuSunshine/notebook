@@ -2,9 +2,9 @@
 :ID:       8c031b25-5b1a-4caa-acc2-af3c02048993
 :END:
 #+title: Numbers
-#ROAM_TAGS:: JavaScript
+#+ROAM_TAGS: JavaScript
 
-- tags :: [[file:20210423005204-value_types.org][Value types]]
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[file:20210423005204-value_types.org][Value types]]
 
 Numbers in JS is 64 bits.
 
@@ -17,4 +17,12 @@ Numbers in JS is 64 bits.
 ** NaN
    not a number, for example 0/0
 
+* Convert a string or other value to the Number type.
+
+#+begin_src js
+console.log(Number("111"));
+console.log(Number("abc"));     // NaN
+console.log(Number(undefined)); // NaN
+console.log(Number([1, 2, 3])); // NaN
+#+end_src
 

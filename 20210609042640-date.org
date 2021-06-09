@@ -1,0 +1,29 @@
+#+title: Date
+#+ROAM_TAGS: JavaScript
+
+- tags: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[file:20210601131147-objects.org][Objects]]
+
+Date object in js is the value of milliseconds that have elapsed since midnight on January 1, 1970, UTC.
+
+* string representation
+
+  #+begin_src js
+const d = new Date();
+console.log(d.toString());
+  #+end_src
+
+* the day of the month (1 - 31)
+
+Date.prototype.getDate()
+
+* the day of the week (0 - 6 )
+  
+Date.prototype.getDay()
+
+* year
+
+Date.prototype.getFullYear()  
+
+* month (0 - 11)
+
+Date.prototype.getMonth()  

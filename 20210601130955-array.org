@@ -41,3 +41,27 @@ arr.forEach(
 console.log(arr);
 #+end_src
 
+* Copy arrays
+
+  #+begin_src js
+const arr = [1, 2, 3];
+const copy = [];
+copy = [...arr];
+  #+end_src
+
+* Convert Iterable objects
+
+#+begin_src js
+const m = new Map();
+m.set("a", 1);
+m.set("b", 1);
+m.set("c", 1);
+
+const copy = [...m];
+#+end_src
+
+* Convert array-like object
+#+begin_src js
+const arrLike = {0: "foo", 1: "bar", length: 3};
+#+end_src
+

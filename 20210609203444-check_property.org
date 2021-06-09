@@ -1,0 +1,13 @@
+#+title: Check Property
+#+ROAM_TAGS: Javascript
+
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[file:20210601131147-objects.org][Objects]]
+
+#+begin_src js
+// good
+Object.prototype.hasOwnProperty.call(obj, key);
+
+// best
+const has = Object.prototype.hasOwnProperty; // cache the lookup once
+console.log(has.call(obj, key));
+#+end_src
