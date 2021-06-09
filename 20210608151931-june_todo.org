@@ -1,22 +1,26 @@
 #+title: June-todo
+#+TODO: TODO FEEDBACK inProgress | DONE
 
 * Thesis
   DEADLINE: <2021-06-28 Mon>
 
   Finished Thesis
 
-** Introduction
+** TODO Acknowledgement
+
+** TODO Absctract (modified)
+
+** TODO Introduction
    the definition of mathematics motivation
 
-** Acknowledgement
-
-** Literature reviews
+** inProgress Literature reviews
    - parenting strategies
    - mathematics motivation
 
-** Method
+** TODO Method
+   - regression diagnostic
 
-** Discussion
+** TODO Discussion
 
 ** Presentation slides
    DEADLINE: <2021-07-01 Thu>
@@ -25,28 +29,28 @@
 
 ** Javascript
 
-*** Standard builtin objects
-    - string
-    - array
-    - object
-    - map
-    - set
+*** inProgress Standard builtin objects
 
-*** Functional programming
+**** string
+**** array
+**** object
+**** map
+**** set
+
+*** DONE Functional programming
     - forEach
     - apply
     - map
     - reduce
       
-*** Computation model
+*** inProgress Computation model
     prototype based language
 
-** HTTP
+** TODO HTTP
 
    Understand HTTP indepth
 
 ** Algorithms
 
-*** Dynamic programming (50);
+*** inProgress Dynamic programming (50);
 
-*** Two pointers

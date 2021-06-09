@@ -8,3 +8,9 @@
 * suffocate
 
 * frugally
+
+* spawn
+
+  A process may also spawn other processes.
+
+* anecdote
