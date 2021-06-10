@@ -1,0 +1,23 @@
+#+title: Threads
+#+ROAM_TAGS: Operating-System
+
+- tags :: [[file:20210608231438-operating_system.org][Operating System]]
+
+* Programming complexity caused by multi-thread
+
+** Divide Tasks
+
+** Divide Tasks Equally
+
+** Data Splitting
+
+** Data  Dependency 
+
+** Testing and debugging
+
+* Types of Parallelism
+
+** Data Parallelism
+
+** Task Parallelism
+
