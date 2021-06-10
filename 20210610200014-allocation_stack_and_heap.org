@@ -1,0 +1,13 @@
+#+title: Allocation: Stack and Heap
+#+ROAM_TAGS: Golang
+
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+Go only puts function variable on the stack if it can prove a variable is not used after the function returns.
+
+Go tool for printing memory allocation of variables: 
+
+  #+begin_src bash
+go build -gcflags="-m -l"
+go build -gcflags="-m=2" # for consise output
+  #+end_src
