@@ -1,0 +1,42 @@
+#+title: Destructuring
+#+ROAM_TAGS: Javascript
+
+- tags :: [[file:20210327205115-javascript.org][Javascript]], [[file:20210601131147-objects.org][Objects]], [[file:20210601130955-array.org][Array]]
+
+* Array 
+
+#+begin_src js
+const arr = [1, 2, 3, 4];
+
+const [first, second]  = arr;
+#+end_src
+
+* Multiple return values
+
+  #+begin_src js
+const arr = [1, 2, 3, 4];
+
+ function sq(arr) {
+    arr.forEach((v, i) => arr[i] = v * v);
+    const [first, second, third, forth] = arr;
+    return {first, second, third, forth};
+}
+
+const {third, forth} = sq(arr);
+  #+end_src
+
+* Object 
+
+#+begin_src js
+const user = {
+    first: "zhe",
+    last: "sun",
+    age: 25,
+};
+
+const {first, last} = user;
+
+function getFullName({first, last}) {
+    return `${first}, ${last}`
+}
+#+end_src
