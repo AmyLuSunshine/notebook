@@ -1,0 +1,16 @@
+#+title: Pointers and Dynamic Memory: Stack and Heap
+#+ROAM_TAGS: Operating System
+
+- tags :: [[file:20210608231438-operating_system.org][Operating System]]
+- source :: [[https://youtu.be/_8-ht2AKyH4][Youtube: Pointers and dynamic memory - stack vs heap]]
+
+| App Memory    | Usage                         |
+|---------------+-------------------------------|
+| Heap          |                               |
+| Stack         | function call local Variables |
+| Static/Global | Global Variables              |
+| Code (Text)   | Instructions                  |
+
+the memory allocation of Stack, Static/Global, Code(Text) does not change in run time.
+  
+the only way to use heap is through references. the variables of references is on stack, but they store the memory address on heap.
