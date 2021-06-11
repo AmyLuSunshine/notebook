@@ -14,3 +14,7 @@
   A process may also spawn other processes.
 
 * anecdote
+
+* errand
+
+  I will meet you at 6. I've got some errands to run.`
