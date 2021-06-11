@@ -3,6 +3,17 @@
 
 - tags :: [[file:20210327205115-javascript.org][Javascript]]
 
+* Good function style
+
+  #+begin_src js
+// good
+// lexical name distinguished from the variable-referenced invocation(s)
+const short = function longUniqueMoreDescriptiveLexicalFoo() {
+  // ...
+};
+  #+end_src
+
+
 * Arrow functions
 
 ** use return with curly braces
