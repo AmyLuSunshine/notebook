@@ -98,3 +98,24 @@ const M = new Mammalia();
 M.milk = false;
 console.log(M);
 #+end_src
+
+* Styles
+
+class method should use this binding, or make the method static.
+
+#+begin_src js
+class Foo() {
+  bar() {
+    console.log(this.bar);
+  }
+}
+
+// or
+class Foo() {
+  static bar() {
+    console.log('bar');
+  }
+}
+
+
+#+end_src
