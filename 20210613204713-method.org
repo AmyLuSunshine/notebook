@@ -1,0 +1,44 @@
+#+title: Method
+#+ROAM_TAGS: Javascript
+
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[file:20210603205310-class.org][Class]]
+
+* Defined in constructor
+
+#+begin_src js
+class Person {
+  constructor(first, last) {
+    this.first = first;
+    this.last = last;
+  }
+  get FullName() {
+    return `${this.first} ${this.last}`;
+  }
+}
+#+end_src
+
+* Defined as properties
+
+#+begin_src js
+// method
+Person.prototype.fullName = function() {
+    return `${this.first} ${this.last}`;
+}
+// getter / setter
+Object.defineProperty(Person.prototype, "fullName", {
+    get: function() {
+	return `${this.first} ${this.last}`;
+    },
+    set: function(name) {
+	name = name.split(' ');
+	this.first = name[0];
+	this.last = name[1];
+    }
+});
+
+const sz = new Person('zhe', 'sun');
+console.log(sz.fullName);       // print: zhe sun
+sz.fullName = 'hello world';   
+console.log(sz.first, sz.last); // print: hello world
+#+End_Src
+

@@ -116,6 +116,4 @@ class Foo() {
     console.log('bar');
   }
 }
-
-
 #+end_src
