@@ -11,6 +11,22 @@ console.log(obj["name"]);
 console.log(obj.age);
 #+end_src
 
+* Property order
+
+JS evaluate property by order when creating the obj, which means latter properties overwrite the previous properties with the same keys.
+
+#+begin_src js
+const obj = {
+    a: 1,
+    a: 2,
+    a: 3,
+};
+// print {a: 3}
+console.log(obj);
+// print 3
+console.log(obj.a);
+#+end_src
+
 * Add property
 #+begin_src js
 const obj = {"name": "zhe"};
