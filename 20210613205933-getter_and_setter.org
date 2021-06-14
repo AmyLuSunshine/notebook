@@ -1,0 +1,65 @@
+#+title: Getter and Setter
+#+ROAM_TAGS: Javascript
+
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[file:20210601131147-objects.org][Objects]], [[file:20210603205310-class.org][Class]]
+
+
+Use Getter and Setter to dynamically access/create a property.
+
+* Object
+
+You can dynamically get a property's value by getter in object.  
+
+#+begin_src js
+  const person = {
+      first: 'zhe',
+      last: 'sun',
+      // getter looks like function/method declaration
+      get fullName() {return `${this.first} ${this.last}`},
+      // work the same as above, but need parentheses to eval
+      name: function() {return `${this.first} ${this.last}`},
+
+      // setter 
+      set fullName(name) {
+	  name = name.split(' ');
+	  this.first = name[0];
+	  this.last = name[1];
+      },
+  }
+
+  console.log("full:", person.fullName); // full: zhe sun
+  console.log("name:", person.name());   // name: zhe sun
+  person.first = 'hello';
+  console.log("full:", person.fullName); // full: hello sun
+  console.log("name:", person.name());   // name: hello sun
+
+  console.log(person.first, person.last); // zhe sun
+  person.fullName = 'hello world';
+  console.log(person.first, person.last); // hello world
+#+end_src
+
+* Class
+
+getter and setter methods in classes are called as a property. the parentheses after the method names are not needed.
+
+- setter cannot return values.
+- setter assign values to the property name after the set keyword
+
+#+begin_src js
+class Person {
+  constructor(first, last) {
+    this.first = first;
+    this.last = last;
+  }
+
+  get fullName() {
+    return `${this.first} ${this.last}`;
+  }
+
+  set fullName(name) {
+      name = name.split(' ');
+      this.first = name[0];
+      this.last = name[1];
+    }
+}
+#+end_src
