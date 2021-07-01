@@ -1,0 +1,36 @@
+#+title: 0206 Reverse Linked list
+#+ROAM_TAGS: Leetcode
+
+- tags :: [[file:20210701190918-leetcode.org][Leetcode]], [[id:f9315725-7bf9-435a-9975-7330edb8a16a][Linked Lists]], [[file:20210701191519-recursion.org][Recursion]]
+
+
+* Iterative
+#+begin_src js
+var reverseList = function(head) {
+    let pre = null;
+    while (head !== null) {
+	const next = head.next;
+	head.next = pre;
+	pre = head;
+	head = next;
+    }
+    return pre;
+};
+#+end_src
+  
+* Recursive
+#+begin_src js
+var recur = function(head, pre) {
+    if (head !== null) {
+	const next = head.next;
+	head.next = pre;
+	pre = head;
+	return recur(next, pre);
+    }
+    return pre;
+}
+
+var reverseList = function(head) {
+    return recur(head, null);
+};
+#+end_src

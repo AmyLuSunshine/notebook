@@ -1,0 +1,34 @@
+#+title: 0092 Reverse Linked List II
+#+ROAM_TAGS: Leetcode
+
+- tags :: [[file:20210701190918-leetcode.org][Leetcode]], [[id:f9315725-7bf9-435a-9975-7330edb8a16a][Linked Lists]], [[file:20210701191519-recursion.org][Recursion]]
+
+* Recursive
+
+#+begin_src js
+var recur = function(head, pre, curPos, preLeftNode, leftNode, left, right) {
+    if (curPos < left) {
+	    return recur(head.next, head, ++curPos, head, head.next, left, right);
+    }
+
+    if (curPos <= right) {
+        const next = head.next;
+        head.next = pre;
+        pre = head;
+        return recur(next, pre, ++curPos, preLeftNode, leftNode, left, right);
+    }
+
+    leftNode.next = head;    
+
+    if (left === 1) return pre;	
+    
+    preLeftNode.next = pre;
+    return pre;
+};
+
+var reverseBetween = function(head, left, right) {
+    if (left === right) return head;
+    const res = recur(head, null, 1, head, head, left, right);
+    return left === 1 ? res : head;
+};
+#+end_src
