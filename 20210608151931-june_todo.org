@@ -1,56 +1,40 @@
 #+title: June-todo
 #+TODO: TODO FEEDBACK inProgress | DONE
 
-* Thesis
-  DEADLINE: <2021-06-28 Mon>
+Musarat Azhar, Sundus Nadeem,Faqiha Naz,Fozia Perveen &Ayesha Sameen
 
-  Finished Thesis
+* thesis
+  DEADLINE: <2021-06-28 Mon>
 
 ** TODO Acknowledgement
 
-** TODO Absctract (modified)
+** TODO Chinese Absctract
 
-** TODO Introduction
-   the definition of mathematics motivation
+** TODO Absctract
 
-** inProgress Literature reviews
-   - parenting strategies
-   - mathematics motivation
+** DONE Introduction
 
-** TODO Method
+*** DONE Added content for parental factors and mathematics motivation
+
+*** DONE definitions
+
+** DONE Literature reviews
+
+*** DONE Parental Factors
+
+*** DONE Mathematics Motivation
+
+    - Add empirical research 
+
+** DONE results
    - regression diagnostic
 
-** TODO Discussion
+** DONE Discussion
 
-** Presentation slides
-   DEADLINE: <2021-07-01 Thu>
+*** funture research
+    - multiplicative evt
+    - online tutoring
 
-* Programming
-
-** Javascript
-
-*** inProgress Standard builtin objects
-
-**** string
-**** array
-**** object
-**** map
-**** set
-
-*** DONE Functional programming
-    - forEach
-    - apply
-    - map
-    - reduce
-      
-*** inProgress Computation model
-    prototype based language
-
-** TODO HTTP
-
-   Understand HTTP indepth
-
-** Algorithms
-
-*** inProgress Dynamic programming (50);
+** References
+   copy and paste google scholara
 
