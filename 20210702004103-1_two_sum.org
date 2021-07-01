@@ -1,0 +1,26 @@
+#+title: 1. Two Sum
+#+ROAM_TAGS: Leetcode
+
+- tags :: [[file:20210701190918-leetcode.org][Leetcode]], [[id:0f60b38a-c26b-46be-842f-a6b11c4a392f][Array]], [[id:182f7a92-7a23-4ee4-95f7-b258d39673f5][Hash Tables]]
+
+#+begin_src js
+var twoSum = function(nums, target) {
+    const m = {};
+    const res = [];
+
+    for (let i = 0; i < nums.length; i++) {
+	const num = nums[i];
+	const remainder = target - num;
+
+	if (m[num] === undefined) {
+	    m[remainder] = i;
+	} else {
+	    res.push(m[num]);
+	    res.push(i);
+	    break;
+	}
+    }
+    return res;
+};
+#+end_src
+  
