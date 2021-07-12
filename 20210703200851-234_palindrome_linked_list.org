@@ -1,0 +1,43 @@
+#+title: 234. Palindrome Linked List
+#+ROAM_TAGS: Leetcode
+
+- tags :: [[file:20210701190918-leetcode.org][Leetcode]], [[id:f9315725-7bf9-435a-9975-7330edb8a16a][Linked Lists]]
+
+Use two pointers to find the node that is the head of the second half of the list.
+
+#+begin_src js
+var isPalindrome = function(head) {
+    if (head.next === null) {
+	return true;
+    }
+
+    if (head.next.next === null) {
+	return head.val === head.next.val ? true : false;
+    }
+
+    let slow = head;
+    let fast = head;
+
+    while (fast !== null && fast.next !== null) {
+	slow = slow.next;
+	fast = fast.next.next;
+    }
+
+    slow = slow.next;
+    const stack = [];
+
+    while (slow !== null) {
+	stack.push(slow.val);
+	slow = slow.next;
+    }
+
+    let cur = head;    
+
+    while (stack.length > 0) {
+	if (cur.val !== stack.pop()) return false;
+	cur = cur.next;
+    }
+
+    return true;
+};
+#+end_src

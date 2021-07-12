@@ -1,0 +1,26 @@
+#+title: 1721. Swapping Nodes in a Linked List
+#+ROAM_TAGS: Leetcode
+
+- tags :: [[file:20210701190918-leetcode.org][Leetcode]], [[id:f9315725-7bf9-435a-9975-7330edb8a16a][Linked Lists]]
+
+
+#+begin_src js
+var swapNodes = function(head, k) {
+    let kth = head;
+
+    for (let i = 1; i < k; i++) {
+	kth = kth.next;
+    }
+
+    let slow = head;
+    let fast = kth;
+
+    while (fast !== null && fast.next !== null) {
+	fast = fast.next;
+	slow = slow.next
+    }
+
+    [kth.val, slow.val] = [slow.val, kth.val]
+    return head;
+};
+#+end_src

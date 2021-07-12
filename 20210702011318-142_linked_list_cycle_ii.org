@@ -1,0 +1,26 @@
+#+title: 142. Linked List Cycle II
+#+ROAM_TAGS: Leetcode
+
+- tags :: [[file:20210701190918-leetcode.org][Leetcode]], [[file:20210701192509-141_linked_list_cycle.org][141 Linked List Cycle]]
+
+#+begin_src js
+var detectCycle = function(head) {
+    let fast = head;
+    let slow = head;
+
+    while (fast !== null && fast.next !== null) {
+	fast = fast.next.next;
+	slow = slow.next;
+	if (fast === slow) {
+	    let n = head;
+	    while (n !== slow) {
+		n = n.next;
+		slow = slow.next;
+	    }
+	    return n;
+	}
+    }
+
+    return null;
+};
+#+end_src

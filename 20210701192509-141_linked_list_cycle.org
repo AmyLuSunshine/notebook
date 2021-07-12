@@ -1,0 +1,20 @@
+#+title: 141 Linked List Cycle
+#+ROAM_TAGS: Leetcode
+
+- tags :: [[file:20210701190918-leetcode.org][Leetcode]], [[id:f9315725-7bf9-435a-9975-7330edb8a16a][Linked Lists]], [[file:20210701192551-two_pointers.org][Two Pointers]]
+
+#+begin_src js
+var hasCycle = function(head) {
+    if (head === null) return false;
+    let slow = head;
+    let fast = head.next;
+
+    while (fast !== null && fast.next !== null) {
+	    if (slow === fast) return true;
+	    slow = slow.next;
+            fast = fast.next.next;
+        }
+    
+    return false;
+};
+#+end_src

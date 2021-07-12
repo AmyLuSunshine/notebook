@@ -14,5 +14,4 @@ To sort an integer array, simply provide a compare function where you specify th
   console.log(arr);
 #+end_src
 
-The compare function above returns a if a < b, otherwise b. In other words, 
-ascending order.
+The compare function above returns a if a < b, otherwise b. 

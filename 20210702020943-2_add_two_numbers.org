@@ -1,0 +1,35 @@
+#+title: 2. Add Two Numbers
+#+ROAM_TAGS: Leetcode
+
+- tags :: [[file:20210701190918-leetcode.org][Leetcode]], [[id:f9315725-7bf9-435a-9975-7330edb8a16a][Linked Lists]]
+
+
+#+begin_src js
+var addTwoNumbers = function(l1, l2) {
+    let res = new ListNode;
+    let head = res;
+    let carry = 0;
+
+    while (l1 !== null || l2 !== null || carry !== 0) {
+	let v = 0;
+
+	if (l1 !== null) {
+	    v += l1.val;
+	    l1 = l1.next;
+	}
+
+	if (l2 !== null) {
+	    v += l2.val;
+	    l2 = l2.next;
+	}
+	
+	const sum = v + carry;
+	v = sum % 10;
+	carry = Math.floor(sum / 10);
+
+	head.next = new ListNode(v, null);
+	head = head.next
+    }
+    return res.next;
+};
+#+end_src

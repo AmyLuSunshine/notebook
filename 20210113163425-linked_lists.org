@@ -41,3 +41,63 @@ type list struct {
 	length int
 }
  #+end_src
+
+
+ 
+* JS
+
+  #+begin_src js
+class ListNode {
+    constructor (val, next) {
+	this.val = val ? val : 0;
+	this.next = next ? next : null;
+    }
+
+    [Deno.customInspect]() {
+	let arr = [];
+	let cur = this;
+
+	while (cur !== null) {
+	    arr.push(cur.val);
+	    cur = cur.next;
+	}
+	let res = arr.join(", ");
+	res = `[${res}]`
+	return res;
+    }
+}
+
+
+var newList = function(n) {
+    const dummy = new ListNode;
+    let cur = dummy;
+    
+    for (let i = 0; i < n; i++) {
+	const node = new ListNode(i);
+	cur.next = node;
+	cur = cur.next;
+    }
+
+    return dummy.next;
+}
+
+var copy = function(head) {
+    if (head === null) return null;
+    let dummy = new ListNode();
+    let cur1 = head;
+    let cur2 = dummy;
+
+    while (cur1 !== null) {
+	const node = new ListNode(cur1.val);
+	cur2.next = node;
+	cur1 = cur1.next;
+	cur2 = cur2.next;
+    }
+
+    return dummy.next;
+}
+
+
+const l1 = newList(10000);
+console.log(l1);
+  #+end_src

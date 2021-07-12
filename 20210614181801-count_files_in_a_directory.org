@@ -1,0 +1,10 @@
+#+title: Count files in a Directory
+#+ROAM_TAGS: Linux/Unix
+
+- tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]]
+
+wc refers to word count. the -l flag means count lines.
+
+  #+begin_src sh
+ls | wc -l
+  #+end_src
