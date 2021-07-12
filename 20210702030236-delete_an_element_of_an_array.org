@@ -5,6 +5,8 @@
 
 * splice(i, n)
 
+this method modifies the array in position.
+
 i: the index
 n: the number of elements you wanna delete offset from the index 
 
@@ -14,4 +16,4 @@ const arr = [1, 2, 3];
 arr.splice(0, 1);
 #+end_src
 
-to avoid any deletion, use Infinity as the inde.x
+to avoid any deletion, use Infinity as the index.
