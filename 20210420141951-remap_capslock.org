@@ -3,6 +3,15 @@
 :END:
 #+title: Remap Capslock
 
+* Linux
+
+#+begin_src sh
+#!/bin/sh
+
+# remap the capslock key to ctrl
+setxkbmap -option ctrl:nocaps
+#+end_src
+
 * Windows
 
 ** globaly
