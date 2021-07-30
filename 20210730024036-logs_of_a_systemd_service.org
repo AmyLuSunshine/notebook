@@ -1,0 +1,9 @@
+#+title: Logs of a Systemd Service
+#+ROAM_TAGS: Linux/Unix
+
+- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]]
+
+#+begin_src sh
+sudo journalctl -f -u Clash.service
+#+end_src
+

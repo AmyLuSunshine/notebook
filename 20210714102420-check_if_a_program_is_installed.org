@@ -1,0 +1,8 @@
+#+title: Check If a Program Is Installed
+#+ROAM_TAGS: Linux/Unix
+
+- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]]
+
+#+begin_src sh
+dpkg -s "$(the-program)" | grep Status | awk -F ' ' {'print $4'}
+#+end_src
