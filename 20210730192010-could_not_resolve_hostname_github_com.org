@@ -1,0 +1,11 @@
+#+title: Could not resolve hostname github.com
+#+ROAM_TAGS: Github
+
+- tags :: [[file:20201208235001-github.org][Github]]
+
+Use the following command to connect to github.com
+
+  #+begin_src sh
+ssh -T git@github.com
+  #+end_src
+
