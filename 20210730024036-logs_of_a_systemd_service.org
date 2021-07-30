@@ -4,6 +4,6 @@
 - tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]]
 
 #+begin_src sh
-sudo journalctl -f -u Clash.service
+sudo journalctl -f -u name.Service
 #+end_src
 
