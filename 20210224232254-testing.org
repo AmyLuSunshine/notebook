@@ -6,8 +6,6 @@
 
 - tags :: [[file:20210110190746-golang.org][Golang]]
 
-  test
-
 * Testing stdout 
 
 stdout can be tested by examples.
