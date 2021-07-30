@@ -1,0 +1,11 @@
+#+title: Master Theorem
+#+ROAM_TAGS: Algorithms
+
+- tags :: [[file:20201124115508-algorithms.org][Algorithms]]
+
+
+* Theorem
+
+
+  
+T(n) = O(n^d) if d < log_b (a)

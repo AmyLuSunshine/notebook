@@ -1,0 +1,13 @@
+#+title: Get the Index of the Mid Point Between Two Indices
+#+ROAM_TAGS:: Algorithms
+
+- tags :: [[file:20201124115508-algorithms.org][Algorithms]]
+
+Given two indices i, j the index of the mid point between them is :
+
+#+begin_src js
+let m = Math.floor((i + j) / 2))
+// or
+let m = (i + j) >> 1;
+#+end_src
+
