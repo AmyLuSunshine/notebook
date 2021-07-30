@@ -1,0 +1,8 @@
+#+title: Switch Window on Linux
+#+ROAM_TAGS: Linux/Unix
+
+- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]]
+
+#+begin_src sh
+wmctrl -a "$the-window"
+#+end_src

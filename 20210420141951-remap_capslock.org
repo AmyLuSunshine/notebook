@@ -6,10 +6,23 @@
 * Linux
 
 #+begin_src sh
-#!/bin/sh
-
 # remap the capslock key to ctrl
 setxkbmap -option ctrl:nocaps
+#+end_src
+
+on popOS, simply put the command in .profile above won't work. You have to create ~/.config/autostart/capsToCtrl.desktop. Put the below config in the file.
+
+#+begin_src 
+[Desktop Entry]
+Type=Application
+Exec=setxkbmap -option ctrl:nocaps
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=capsToCtrl
+Name=capsToCtrl
+Comment[en_US]=
+Comment=
 #+end_src
 
 * Windows
