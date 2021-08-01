@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       d9bed31b-3731-4869-8744-55a93dce7b98
+:END:
 #+title: Table Editor
-#+ROAM_TAGS: Org
+#+filetags: :Org:
 
-- tags :: [[file:20201029150815-org.org][Org]]
+- tags :: [[id:021b42b3-a0c1-4c1b-b622-6e071f149154][Org]]
 - source :: [[https://orgmode.org/manual/Built_002din-Table-Editor.html#Built_002din-Table-Editor][3.1 Built-in Table Editor]]
 
 * Create a table

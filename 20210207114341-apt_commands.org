@@ -2,9 +2,9 @@
 :ID:       71f48107-8368-46d3-9b5c-fc63c5e6c247
 :END:
 #+title: Apt Commands
-#+ROAM_TAGS: Ubuntu
+#+filetags: :Ubuntu:
 
-- tags :: [[file:20210129181654-popos.org][PopOS]], [[file:20201127201731-ubuntu.org][Ubuntu]]
+- tags :: [[id:664ed588-fa72-4a5a-ae59-27e90d07e2e5][PopOS]], [[id:4a10bec2-858b-4d95-b72a-b3de48a910d5][Ubuntu]]
 
 | Command          | function                                         |
 |------------------+--------------------------------------------------|

@@ -2,9 +2,9 @@
 :ID:       6190161f-78ba-43c6-9d6a-700511645910
 :END:
 #+title: Cursor Movement
-#+ROAM_TAGS: Emacs
+#+filetags: :Emacs:
 
-- tags :: [[file:20201028193935-emacs.org][Emacs]]
+- tags :: [[id:f2b69c75-fd89-409d-8aa9-fba688b70e0a][Emacs]]
 
 * Go To a Specific Line in Emacs
   M-g M-g (number of line)

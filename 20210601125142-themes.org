@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       69274469-e64d-40ad-8178-889eb157154b
+:END:
 #+title: Themes
-#+ROAM_TAGS: Emacs
+#+filetags: :Emacs:
 
-- tags :: [[file:20201028193935-emacs.org][Emacs]]
+- tags :: [[id:f2b69c75-fd89-409d-8aa9-fba688b70e0a][Emacs]]
 
 Readable Emacs theme
 

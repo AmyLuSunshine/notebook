@@ -3,7 +3,7 @@
 :END:
 #+title: The length of a Zettel
 
-- tags :: [[file:20201028204320-introduction_to_the_zettelkasten_method.org][Introduction to the Zettelkasten Method]]
+- tags :: [[id:8eb1ad96-1fb9-4a41-8c25-94effee0c76c][Introduction to the Zettelkasten Method]]
 
 It depends on what you want to write down. Generally, the body of the Zettel should be only short.
 This means if you want to capture a web of thoughts, then a Zettel should be one thoughts; if you want to capture knowledge in a filed, then a Zettel should be one concept of that knowledge.

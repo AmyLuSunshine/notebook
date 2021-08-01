@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       a3ffc959-8f16-42d8-bb87-abf6ba4ea13d
+:END:
 #+title: 1. Two Sum
-#+ROAM_TAGS: Leetcode
+#+filetags: :Leetcode:
 
-- tags :: [[file:20210701190918-leetcode.org][Leetcode]], [[id:0f60b38a-c26b-46be-842f-a6b11c4a392f][Array]], [[id:182f7a92-7a23-4ee4-95f7-b258d39673f5][Hash Tables]]
+- tags :: [[id:91a960f3-97f0-4b66-8f0d-4a89aba54348][Leetcode]], [[id:0f60b38a-c26b-46be-842f-a6b11c4a392f][Array]], [[id:182f7a92-7a23-4ee4-95f7-b258d39673f5][Hash Tables]]
 
 #+begin_src js
 var twoSum = function(nums, target) {

@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       0debd436-84cf-42dd-a827-ea67589807e8
+:END:
 #+title: Disable keyboard
-#+ROAM_TAGS: Windows
+#+filetags: :Windows:
 
-- tags :: [[file:20210512221802-windows.org][Windows]], [[id:4c60358e-1600-4568-8fc3-87b2c15c5f4c][Disable keyboard]]
+- tags :: [[id:2f8b8956-641a-4aea-9578-ed38f8cb5cc6][Windows]], [[id:4c60358e-1600-4568-8fc3-87b2c15c5f4c][Disable keyboard]]
 
 * Disable
 #+begin_src cmd

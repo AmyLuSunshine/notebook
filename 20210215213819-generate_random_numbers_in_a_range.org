@@ -2,9 +2,9 @@
 :ID:       1fa64018-8b89-4675-901e-6df2c6822f99
 :END:
 #+title: Generate Random Numbers in a Range
-#+ROAM_TAGS: Golang
+#+filetags: :Golang:
 
-- tags :: [[file:20210110190746-golang.org][Golang]]
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
 
 #+begin_src go
   import (

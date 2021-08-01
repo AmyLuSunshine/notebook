@@ -2,9 +2,9 @@
 :ID:       2d4c2441-2a87-42ab-beea-afb758bf9a21
 :END:
 #+title: Enlarge Latex Fragment
-#+ROAM_TAGS: Org
+#+filetags: :Org:
 
-- tags :: [[file:20201029150815-org.org][Org]]
+- tags :: [[id:021b42b3-a0c1-4c1b-b622-6e071f149154][Org]]
 - source :: [[https://tex.stackexchange.com/questions/78501/change-size-of-the-inline-image-for-latex-fragment-in-emacs-org-mode][Answer by Peter Bamm on Stack Exchange]]
 
 * Display Latex fragment

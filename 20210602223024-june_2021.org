@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       f2a63ad0-a575-4b47-9c64-734dacdce095
+:END:
 #+title: June-2021
-#+ROAM_TAGS: Volcabulary
+#+filetags: :Volcabulary:
 
-- tags :: [[file:20201027222847-volcabulary.org][Volcabulary]]
+- tags :: [[id:a6863434-322b-4586-bee9-e0e042eb532e][Volcabulary]]
 
 * therapeutic
 

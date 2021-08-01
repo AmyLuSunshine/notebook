@@ -2,10 +2,10 @@
 :ID:       7282f651-8ed8-40c4-8d67-807c86c8daa2
 :END:
 #+title: Todo
-#+ROAM_TAGS: thesis
 #+TODO: TODO In-Progress FEEDBACK | DONE
+#+filetags: :thesis:
 
-- tags :: [[file:20201028193557-thesis.org][thesis]]
+- tags :: [[id:aadc775c-9381-4e46-bbc7-eead5f23a16f][thesis]]
 
 * TODO Abstact
   DEADLINE: <2021-05-29 Sat>

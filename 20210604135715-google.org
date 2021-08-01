@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       278696b1-e632-4161-b588-ace1be9c40ab
+:END:
 #+title: Google
 
 * refine web searches

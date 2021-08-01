@@ -2,9 +2,9 @@
 :ID:       d2ecb0ce-d53b-4ba7-8cb7-70b1a7266105
 :END:
 #+title: Asymptotic Analysis
-#+ROAM_TAGS: algorithms
+#+filetags: :algorithms:
 
-- tags :: [[file:20201124115508-algorithms.org][Algorithms]], [[file:20201124115538-big_o.org][Big O]]
+- tags :: [[id:8ba0e58d-5ef6-47b3-b04a-1bb3001b2970][Algorithms]], [[id:0644d355-d774-414b-b674-4f794fcdec7e][Big O]]
 
   Asymptotic analysis is a way to analyze how fast a program's runtime growth.
 

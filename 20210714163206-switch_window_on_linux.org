@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       0e9ac78f-c002-4989-bc3d-f80be25c5b9c
+:END:
 #+title: Switch Window on Linux
-#+ROAM_TAGS: Linux/Unix
+#+filetags: :Linux_Unix:
 
-- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]]
+- tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]]
 
 #+begin_src sh
 wmctrl -a "$the-window"

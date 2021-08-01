@@ -2,9 +2,9 @@
 :ID:       3d810fe8-8e8e-4e0f-9d52-c5a34f8c5287
 :END:
 #+title: Angle brackets 
-#+ROAM_TAGS: Bash
+#+filetags: :Bash:
 
-- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]] [[file:20210201143501-bash.org][Bash]]
+- tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]] [[id:38f246ad-ffe9-42d2-9905-533506bb4eb3][Bash]]
 - source :: [[https://www.linux.com/topic/desktop/understanding-angle-brackets-bash/][Understanding Angle Brackets in Bash - By Paul Brown]]
   
 * >

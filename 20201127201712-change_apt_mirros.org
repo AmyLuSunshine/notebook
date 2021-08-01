@@ -2,9 +2,9 @@
 :ID:       ea5e5d6c-158b-4e57-b435-afbdd68d3b20
 :END:
 #+title: Change apt mirros
-#+ROAM_TAGS: Linux/Unix
+#+filetags: :Linux_Unix:
 
-- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]], [[file:20201127201731-ubuntu.org][Ubuntu]]
+- tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]], [[id:4a10bec2-858b-4d95-b72a-b3de48a910d5][Ubuntu]]
 
   edit the country code in /etc/apt/sources.list
 

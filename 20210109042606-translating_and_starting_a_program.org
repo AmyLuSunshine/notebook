@@ -2,9 +2,9 @@
 :ID:       908d42fd-6ea1-42ee-8eb0-6b888c81a1ea
 :END:
 #+title: Translating and Starting a Program
-#+ROAM_TAGS: Computer-Organization
+#+filetags: :Computer_Organization:
 
-- tags :: [[file:20201102103939-computer_organization.org][Computer Organization]]
+- tags :: [[id:625c6071-6738-4d2b-95bb-1ac01c923cbd][Computer Organization]]
 
 * Compiler
 

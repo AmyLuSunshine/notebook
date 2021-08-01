@@ -2,9 +2,9 @@
 :ID:       e72dedc5-848e-43c4-9db5-72dc76094b06
 :END:
 #+title: Makefile
-#+ROAM_TAGS: C/C++
+#+filetags: :C_C__:
 
-- tags :: [[file:20201116145931-c.org][C]], [[file:20201029225738-linux_unix.org][Linux/Unix]]
+- tags :: [[id:65da1215-662a-497a-83fa-b38a3c8e9e0c][C]], [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]]
 
   #+begin_src makefile
     CC = gcc

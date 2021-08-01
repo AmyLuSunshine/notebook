@@ -3,7 +3,7 @@
 :END:
 #+title: HLM
 
-- tags :: [[file:20201125131557-statistics.org][Statistics]]
+- tags :: [[id:7d2edd27-295e-4f48-88f2-993d06d9c5d3][Statistics]]
 
 3, 4, 7, 8, 9, 10, 11, 12, 13, 21, 22, 23, 24
 

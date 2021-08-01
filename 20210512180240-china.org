@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       e44cde16-0163-4a81-bec5-8741f7570db3
+:END:
 #+title: China
-#+ROAM_TAGS: Politics
+#+filetags: :Politics:
 
-- tags :: [[file:20210512180228-politics.org][Politics]]
+- tags :: [[id:468d1b6a-6eb2-4bf4-bc69-195ae69128dc][Politics]]
 
 * Politburo of the Chinese Communist Party
 

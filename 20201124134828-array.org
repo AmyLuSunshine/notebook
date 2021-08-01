@@ -2,9 +2,9 @@
 :ID:       0f60b38a-c26b-46be-842f-a6b11c4a392f
 :END:
 #+title: Array
-#+ROAM_TAGS: Data-Structures
+#+filetags: :Data_Structures:
 
-- tags :: [[file:20201124134853-data_structures.org][Data Structures]]
+- tags :: [[id:d60fba8c-d682-4968-bed3-88726dbbeea2][Data Structures]]
 
 * Static array
 An array is a contiguous area of memory of equal-size element indexed by contiguous integers.

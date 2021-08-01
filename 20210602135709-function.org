@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       6288f854-1b29-4751-813f-06938263f530
+:END:
 #+title: Function
-#+ROAM_TAGS: Javascript
+#+filetags: :Javascript:
 
-- tags :: [[file:20210327205115-javascript.org][Javascript]]
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]]
 
 * Good function style
 

@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       82279240-77c8-44ff-b3c0-b2f77aa10c61
+:END:
 #+title: Prototype
-#+ROAM_TAGS: Javascript
+#+filetags: :Javascript:
 
-- tags :: [[file:20210327205115-javascript.org][Javascript]], [[file:20210603002350-constructor.org][Constructor]]
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[id:80da4719-f62a-442d-9bfa-79b380c56f1e][Constructor]]
 
 * Constructor Prototype
 

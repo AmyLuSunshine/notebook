@@ -2,9 +2,9 @@
 :ID:       587ebea0-a262-4bf0-a85b-d8b51ebd8886
 :END:
 #+title: Priority Quenes
-#+ROAM_TAGS: Data-Structures
+#+filetags: :Data_Structures:
 
-- tags :: [[file:20201124134853-data_structures.org][Data Structures]]
+- tags :: [[id:d60fba8c-d682-4968-bed3-88726dbbeea2][Data Structures]]
 
 Priority quenes are not linear data structures. There is no beginning or end of a priority quene. Every entry has a value that refers to its priority. It is able to extract data according to the data's priority.
 

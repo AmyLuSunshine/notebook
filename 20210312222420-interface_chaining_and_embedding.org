@@ -2,9 +2,9 @@
 :ID:       82f43b28-a091-466a-b961-caa30aad7ca8
 :END:
 #+title: Interface Chaining and Embedding
-#+ROAM_TAGS: Golang
+#+filetags: :Golang:
 
-- tags :: [[file:20210110190746-golang.org][Golang]]
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
 
 #+begin_src go
 package main

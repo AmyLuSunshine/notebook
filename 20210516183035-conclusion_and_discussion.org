@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       e0242d61-e731-4a89-bff7-832db3bfd2bf
+:END:
 #+title: Conclusion and Discussion
-#+ROAM_TAGS: thesis
+#+filetags: :thesis:
 
 - tags :: [[id:aadc775c-9381-4e46-bbc7-eead5f23a16f][thesis]]
 

@@ -2,9 +2,9 @@
 :ID:       e918087f-99c9-46fe-ad46-70529c67ed8f
 :END:
 #+title: Divide and Conquer
-#+ROAM_TAGS: Algorithms
+#+filetags: :Algorithms:
 
-- tags :: [[file:20201124115508-algorithms.org][Algorithms]]
+- tags :: [[id:8ba0e58d-5ef6-47b3-b04a-1bb3001b2970][Algorithms]]
 
 * Divide
 

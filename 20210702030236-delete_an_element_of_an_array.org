@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       e7a9a64f-361d-4bde-aaa1-51720e7460a9
+:END:
 #+title: Delete an Element of an Array
-#+ROAM_TAGS: JavaScript
+#+filetags: :JavaScript:
 
-- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[file:20210601130955-array.org][Array]]
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[id:b4a79fd9-d889-4117-897b-c9283009d99f][Array]]
 
 * splice(i, n)
 

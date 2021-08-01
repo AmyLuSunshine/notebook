@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       a704bcc5-fa19-4f99-8be0-5c2e09decae7
+:END:
 #+title: Threads
-#+ROAM_TAGS: Operating-System
+#+filetags: :Operating_System:
 
-- tags :: [[file:20210608231438-operating_system.org][Operating System]]
+- tags :: [[id:7ca902b3-9234-4d04-ae17-c16c0edb4447][Operating System]]
 
 * Programming complexity caused by multi-thread
 

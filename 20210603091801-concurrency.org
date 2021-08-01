@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       30f4379e-b3e7-4c81-ad79-b7016936b8d9
+:END:
 #+title: Concurrency
-#+ROAM_TAGS: Golang
+#+filetags: :Golang:
 
-- tags :: [[file:20210110190746-golang.org][Golang]]
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
 - source :: [[http://www.golang-book.com/books/intro/10#section2][Concurrency - An Introduction to Programming in Go]]
 
 * Goroutines

@@ -2,9 +2,9 @@
 :ID:       51547eef-95c3-452b-809e-25aac030d96c
 :END:
 #+title: Remove Files in Linux
-#+ROAM_TAGS: Linux/Unix
+#+filetags: :Linux_Unix:
 
-- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]]
+- tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]]
 
 * Remove files with a pattern
 

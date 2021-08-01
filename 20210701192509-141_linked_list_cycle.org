@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       85678e93-1593-4c83-be49-db7cd41547dd
+:END:
 #+title: 141 Linked List Cycle
-#+ROAM_TAGS: Leetcode
+#+filetags: :Leetcode:
 
-- tags :: [[file:20210701190918-leetcode.org][Leetcode]], [[id:f9315725-7bf9-435a-9975-7330edb8a16a][Linked Lists]], [[file:20210701192551-two_pointers.org][Two Pointers]]
+- tags :: [[id:91a960f3-97f0-4b66-8f0d-4a89aba54348][Leetcode]], [[id:f9315725-7bf9-435a-9975-7330edb8a16a][Linked Lists]], [[id:04c6a238-6a57-4145-94a6-dd5ca89092b6][Two Pointers]]
 
 #+begin_src js
 var hasCycle = function(head) {

@@ -2,9 +2,9 @@
 :ID:       1021ff80-8b4e-467a-9d5b-23c2b1060f02
 :END:
 #+title: Modules
-#+ROAM_TAGS: Golang
+#+filetags: :Golang:
 
-- tags :: [[file:20210110190746-golang.org][Golang]]
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
 
 * Create go.mod file
 

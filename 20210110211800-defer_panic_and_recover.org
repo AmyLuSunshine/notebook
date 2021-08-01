@@ -2,9 +2,9 @@
 :ID:       2b07f0ed-b706-4cbc-aba7-68e0dec669c4
 :END:
 #+title: Defer, Panic, and Recover
-#+ROAM_TAGS: Golang
+#+filetags: :Golang:
 
-- tags :: [[file:20210110190746-golang.org][Golang]]
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
 - source :: [[https://blog.golang.org/defer-panic-and-recover][Defer, Panic, and Recover]]
 
 #+begin_src go

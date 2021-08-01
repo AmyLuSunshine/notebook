@@ -2,10 +2,10 @@
 :ID:       858d05ce-36e5-4a47-b412-91e922a3d2e6
 :END:
 #+title: if statement
-#+ROAM_TAGS: Javascript
+#+filetags: :Javascript:
 
-- tags:: [[file:20210327205115-javascript.org][Javascript]]
+- tags:: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]]
 
 * Diffrent value types as predicate 
 
-  read:  [[file:20210327205355-values_in_boolean_context.org][Values in Boolean Context]]
+  read:  [[id:392475f1-2968-4441-ae72-6c8336e00855][Values in Boolean Context]]

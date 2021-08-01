@@ -2,9 +2,9 @@
 :ID:       4c60358e-1600-4568-8fc3-87b2c15c5f4c
 :END:
 #+title: Disable keyboard
-#+ROAM_TAGS: Linux/Unix
+#+filetags: :Linux_Unix:
 
-- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]]
+- tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]]
 
 #+begin_src sh
 xinput disable keyboard_id

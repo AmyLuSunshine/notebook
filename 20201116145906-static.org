@@ -2,9 +2,9 @@
 :ID:       48b0f334-cc58-416a-a363-f6b5411ab7e7
 :END:
 #+title: Static
-#+ROAM_TAGS: C
+#+filetags: :C:
 
-- tags :: [[file:20201116145931-c.org][C]]
+- tags :: [[id:65da1215-662a-497a-83fa-b38a3c8e9e0c][C]]
 
 * Static Variables
 Static variables can preserve its value in the scoupe it belongs to. That means, when you call a function more than one time, the static variables will not be redeclared and reinitialize.

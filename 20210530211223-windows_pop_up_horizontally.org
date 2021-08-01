@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       2f471835-d248-4ff8-806d-4c3ef43f3027
+:END:
 #+title: Windows Pop-up Horizontally
-#+ROAM_TAGS: Emacs
+#+filetags: :Emacs:
 
 - tags :: [[id:f2b69c75-fd89-409d-8aa9-fba688b70e0a][Emacs]]
 - source :: [[https://www.emacswiki.org/emacs/HorizontalSplitting][Horizontal Splitting]]

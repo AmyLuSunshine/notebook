@@ -2,9 +2,9 @@
 :ID:       a21074e8-3938-4218-84a6-c52c94d51d16
 :END:
 #+title: Variables
-#+ROAM_TAGS: Golang
+#+filetags: :Golang:
 
-- tags :: [[file:20210110190746-golang.org][Golang]]
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
 
 * Declare variables
 

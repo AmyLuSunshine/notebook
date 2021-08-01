@@ -2,9 +2,9 @@
 :ID:       cfef6fe0-c917-4c1b-b4fe-f9990f30e916
 :END:
 #+title: dpkg
-#+ROAM_TAGS: Ubuntu
+#+filetags: :Ubuntu:
 
-- tags :: [[file:20201127201731-ubuntu.org][Ubuntu]], [[file:20210129181654-popos.org][PopOS]]
+- tags :: [[id:4a10bec2-858b-4d95-b72a-b3de48a910d5][Ubuntu]], [[id:664ed588-fa72-4a5a-ae59-27e90d07e2e5][PopOS]]
 
 * Check whether a program installed via dpkg
 

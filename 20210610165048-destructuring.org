@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       6b90ce67-1c9f-4e31-85f4-e0fe89aeb210
+:END:
 #+title: Destructuring
-#+ROAM_TAGS: Javascript
+#+filetags: :Javascript:
 
-- tags :: [[file:20210327205115-javascript.org][Javascript]], [[file:20210601131147-objects.org][Objects]], [[file:20210601130955-array.org][Array]]
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[id:a6917226-1993-44ca-8612-43dc0849da68][Objects]], [[id:b4a79fd9-d889-4117-897b-c9283009d99f][Array]]
 
 * Array 
 

@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       14dbd80b-f33b-49d3-aa0a-50a19d4cf373
+:END:
 #+title: Math
-#+ROAM_TAGS: JavaScript
+#+filetags: :JavaScript:
 
-- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[file:20210601131147-objects.org][Objects]]
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[id:a6917226-1993-44ca-8612-43dc0849da68][Objects]]
 
 Math is a built-in object that works with the Number type. It doesn't work with BigInt.
 

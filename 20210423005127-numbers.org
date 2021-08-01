@@ -2,9 +2,9 @@
 :ID:       8c031b25-5b1a-4caa-acc2-af3c02048993
 :END:
 #+title: Numbers
-#+ROAM_TAGS: JavaScript
+#+filetags: :JavaScript:
 
-- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[file:20210423005204-value_types.org][Value types]]
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[id:27c6a6fc-f5cd-4f6f-aa03-c52fb05d2a69][Value types]]
 
 Numbers in JS is 64 bits.
 

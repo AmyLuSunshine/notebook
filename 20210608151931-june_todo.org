@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       3ef4cb36-d30e-4ef5-95c0-50aee562292a
+:END:
 #+title: June-todo
 #+TODO: TODO FEEDBACK inProgress | DONE
 

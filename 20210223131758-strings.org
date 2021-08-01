@@ -2,9 +2,9 @@
 :ID:       0709c297-e76e-4e52-afb7-f5260c1aba0b
 :END:
 #+title: Strings
-#+ROAM_TAGS: Golang
+#+filetags: :Golang:
 
-- tags :: [[file:20210110190746-golang.org][Golang]]
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
 
 * A string is a read-only slice of byte
 

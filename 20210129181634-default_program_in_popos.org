@@ -2,9 +2,9 @@
 :ID:       87d8b029-71f3-4b4d-bc97-af1755080fc2
 :END:
 #+title: Default Program in PopOS
-#+ROAM_TAGS: PopOS
+#+filetags: :PopOS:
 
-- tags :: [[file:20210129181654-popos.org][PopOS]]
+- tags :: [[id:664ed588-fa72-4a5a-ae59-27e90d07e2e5][PopOS]]
 
 1. Right click the file
 

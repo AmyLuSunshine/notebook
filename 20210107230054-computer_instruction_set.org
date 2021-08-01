@@ -2,9 +2,9 @@
 :ID:       8a633af0-dd9e-48ce-9881-878e479279c8
 :END:
 #+title: Computer Instruction Set
-#+ROAM_TAGS: Computer-Organization
+#+filetags: :Computer_Organization:
 
-- tags :: [[file:20201102103939-computer_organization.org][Computer Organization]], [[file:20210107230133-the_mips_assembly_language.org][The MIPS Assembly Language]]
+- tags :: [[id:625c6071-6738-4d2b-95bb-1ac01c923cbd][Computer Organization]], [[id:262fa817-1b6b-4d6c-b5a7-d9ec66f92001][The MIPS Assembly Language]]
 
 * Principle 1: Simplicity favors regularity
 

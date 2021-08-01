@@ -2,8 +2,8 @@
 :ID:       258bd622-d2ef-4323-9fa2-8b818923f039
 :END:
 #+title: Awk
-#+ROAM_TAGS: Linux/Unix
-- tags :: [[file:20201211122625-text_processing.org][Text Processing]] [[file:20201029225738-linux_unix.org][Linux/Unix]]
+#+filetags: :Linux_Unix:
+- tags :: [[id:07b36023-9d85-47c7-a9f9-7ceca8309072][Text Processing]] [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]]
 - source :: [[https://www.youtube.com/watch?v=_q6Uj4X_knc][Lesson 12 - The Awk Programming Language - By  Melvyn Drag]]
   
 * Usage

@@ -2,9 +2,9 @@
 :ID:       e5992d7f-e145-4ecb-8048-7e0db82fed07
 :END:
 #+title: Writing Style and Grammar
-#+ROAM_TAGS: APA-7th
+#+filetags: :APA_7th:
 
-- tags :: [[file:20210330051550-apa_7th.org][APA-7th]]
+- tags :: [[id:8b4d79f1-6128-479a-8e0b-8be7b6b577fb][APA-7th]]
 
 * Style
 

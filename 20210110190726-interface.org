@@ -2,9 +2,9 @@
 :ID:       acbab0c2-4c62-4b3f-a8af-61dcb0d8e65b
 :END:
 #+title: Interface
-#+ROAM_TAGS: Golang
+#+filetags: :Golang:
 
-- tags :: [[file:20210110190746-golang.org][Golang]]
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
 
 
 #+begin_src go

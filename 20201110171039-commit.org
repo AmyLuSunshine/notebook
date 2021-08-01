@@ -2,9 +2,9 @@
 :ID:       a2923fa0-082a-4c76-b720-1075b8ab71cf
 :END:
 #+title: Commit 
-#+ROAM_TAGS: Git
+#+filetags: :Git:
 
-- tags :: [[file:20201110160656-git.org][Git]]
+- tags :: [[id:3226a270-adaf-4c39-8f9b-1ead217c8049][Git]]
 
 * Search content
 

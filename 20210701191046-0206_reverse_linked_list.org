@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       7f91dd48-10e7-40d1-9084-31212f504c9b
+:END:
 #+title: 0206 Reverse Linked list
-#+ROAM_TAGS: Leetcode
+#+filetags: :Leetcode:
 
-- tags :: [[file:20210701190918-leetcode.org][Leetcode]], [[id:f9315725-7bf9-435a-9975-7330edb8a16a][Linked Lists]], [[file:20210701191519-recursion.org][Recursion]]
+- tags :: [[id:91a960f3-97f0-4b66-8f0d-4a89aba54348][Leetcode]], [[id:f9315725-7bf9-435a-9975-7330edb8a16a][Linked Lists]], [[id:7423fa89-86b3-4343-b6a2-b46b4c69cda8][Recursion]]
 
 
 * Iterative

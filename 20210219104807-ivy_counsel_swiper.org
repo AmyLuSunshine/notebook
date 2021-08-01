@@ -2,9 +2,9 @@
 :ID:       296b91dd-6b7e-400d-819b-5ccc318e3d83
 :END:
 #+title: Ivy, Counsel, Swiper
-#+ROAM_TAGS: Emacs
+#+filetags: :Emacs:
 
-- tags :: [[file:20201028193935-emacs.org][Emacs]]
+- tags :: [[id:f2b69c75-fd89-409d-8aa9-fba688b70e0a][Emacs]]
 
 * Sort Counsel-M-x by recent used
 

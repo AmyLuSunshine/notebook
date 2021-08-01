@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       cac5ecb8-67e3-4644-a818-80293a92bd22
+:END:
 #+title: Nullish Coalescing Operator
-#+ROAM_TAGS: Javascript
+#+filetags: :Javascript:
 
-- tags :: [[file:20210327205115-javascript.org][Javascript]]
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]]
 
 * x ?? y
 

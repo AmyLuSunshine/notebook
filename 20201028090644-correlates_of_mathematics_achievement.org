@@ -2,9 +2,9 @@
 :ID:       de113ebd-28f6-4179-9fd6-2b8084f4a064
 :END:
 #+title: Correlates of Mathematics Achievement
-#+ROAM_TAGS: thesis literature
+#+filetags: :thesis:literature:
 
-- tags :: [[file:20201028091019-hlm.org][HLM]], [[file:20201028193557-thesis.org][thesis]], [[file:20201028193653-math_achievement.org][Math Achievement]]
+- tags :: [[id:6e003324-16d2-4142-86a3-6cb859adb209][HLM]], [[id:aadc775c-9381-4e46-bbc7-eead5f23a16f][thesis]], [[id:1df6005e-f778-41ec-969f-d1fd4d372de2][Math Achievement]]
 - source :: [[https://scholarcommons.usf.edu/cgi/viewcontent.cgi?article=1451&context=etd][Correlates of Mathematics Achievement in Developed and Developing Countries: An HLM Analysis of TIMSS 2003 Eighth-Grade Mathematics Scores]]
 
 * Teacher-related Factors and Student Achievement

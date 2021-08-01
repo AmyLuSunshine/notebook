@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       6f870e7c-a842-48f3-a414-e28ec5b73e9c
+:END:
 #+title: Master Theorem
-#+ROAM_TAGS: Algorithms
+#+filetags: :Algorithms:
 
-- tags :: [[file:20201124115508-algorithms.org][Algorithms]]
+- tags :: [[id:8ba0e58d-5ef6-47b3-b04a-1bb3001b2970][Algorithms]]
 
 
 * Theorem

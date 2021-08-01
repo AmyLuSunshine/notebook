@@ -2,9 +2,9 @@
 :ID:       6290750d-9a76-4cfc-a167-2979809edbaa
 :END:
 #+title: Reasons for this research
-#+ROAM_TAGS: thesis
+#+filetags: :thesis:
 
-- tags :: [[file:20201028193557-thesis.org][thesis]]
+- tags :: [[id:aadc775c-9381-4e46-bbc7-eead5f23a16f][thesis]]
 
 There are two main focuses of research in the realm of shadow education. One is to test the effects of shadow education, for example (citation). The other is to discuss the educational inequlities caused by shadow education. Although these two focuses 
 

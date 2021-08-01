@@ -2,9 +2,9 @@
 :ID:       4d28eed2-6bb6-4a89-acfe-2c0571323d4c
 :END:
 #+title: Basic Shell Features
-#+ROAM_TAGS: Bash
+#+filetags: :Bash:
 
-- tags :: [[file:20210201143501-bash.org][Bash]]
+- tags :: [[id:38f246ad-ffe9-42d2-9905-533506bb4eb3][Bash]]
 
 * Syntax
 

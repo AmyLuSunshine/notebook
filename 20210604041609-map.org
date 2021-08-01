@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       799f8c63-1536-4ec0-8fd2-f5b50da029c4
+:END:
 #+title: Map
-#+ROAM_TAGS: Javascript
+#+filetags: :Javascript:
 
-- tags :: [[file:20210327205115-javascript.org][Javascript]]
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]]
 
 
 Map is like object, but the key can be any type.

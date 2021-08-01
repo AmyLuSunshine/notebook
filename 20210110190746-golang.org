@@ -3,4 +3,4 @@
 :END:
 #+title: Golang
 
-- tags :: [[file:20210201145230-programming_languages.org][Programming Languages]]
+- tags :: [[id:267051db-4d03-41a5-bad8-c4c85e6fa591][Programming Languages]]

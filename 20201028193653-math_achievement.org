@@ -3,7 +3,7 @@
 :END:
 #+title: Math Achievement
 
-- tags :: [[file:20201028193557-thesis.org][thesis]], [[file:20201028154313-ceps.org][ceps]]
+- tags :: [[id:aadc775c-9381-4e46-bbc7-eead5f23a16f][thesis]], [[id:f9f63fb3-9952-416a-bfe9-8d6d3ee4286b][ceps]]
 
 * Personal level
 - attitude toward math

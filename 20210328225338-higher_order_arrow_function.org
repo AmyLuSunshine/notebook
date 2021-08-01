@@ -2,9 +2,9 @@
 :ID:       c7390c67-76f4-47b3-974b-4baaa3ce2321
 :END:
 #+title: Higher Order Arrow Function
-#+ROAM_TAGS: Javascript
+#+filetags: :Javascript:
 
-- tags:: [[file:20210327205115-javascript.org][Javascript]]
+- tags:: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]]
 
 * An Example for defining an exponential function
 

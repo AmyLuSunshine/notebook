@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       990d882e-47ed-4e39-a2c1-d2dd6b7360b6
+:END:
 #+title: Pointers and Dynamic Memory: Stack and Heap
-#+ROAM_TAGS: Operating System
+#+filetags: :Operating:System:
 
-- tags :: [[file:20210608231438-operating_system.org][Operating System]]
+- tags :: [[id:7ca902b3-9234-4d04-ae17-c16c0edb4447][Operating System]]
 - source :: [[https://youtu.be/_8-ht2AKyH4][Youtube: Pointers and dynamic memory - stack vs heap]]
 
 | App Memory    | Usage                         |

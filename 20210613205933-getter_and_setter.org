@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       09998f22-1c25-4b05-ab3a-540cdbed4eab
+:END:
 #+title: Getter and Setter
-#+ROAM_TAGS: Javascript
+#+filetags: :Javascript:
 
-- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[file:20210601131147-objects.org][Objects]], [[file:20210603205310-class.org][Class]]
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[id:a6917226-1993-44ca-8612-43dc0849da68][Objects]], [[id:8a7960f6-451a-4d8c-b987-703303ade112][Class]]
 
 
 Use Getter and Setter to dynamically access/create a property.

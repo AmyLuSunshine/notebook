@@ -3,7 +3,7 @@
 :END:
 #+title: Model Diagnostics
 
-- tags :: [[file:20201125131557-statistics.org][Statistics]] [[file:20201215135224-linear_mixed_effects_models.org][Linear Mixed Effects Models]]
+- tags :: [[id:7d2edd27-295e-4f48-88f2-993d06d9c5d3][Statistics]] [[id:12c9957f-fba4-4243-9762-065e137b939b][Linear Mixed Effects Models]]
 
 
 * residual vs. fitted value

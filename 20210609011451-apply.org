@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       ca7799b4-4c6b-417d-9117-79216097aead
+:END:
 #+title: apply
-#+ROAM_TAGS: Javascript
+#+filetags: :Javascript:
 
-- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[file:20210602135709-function.org][Function]]
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[id:6288f854-1b29-4751-813f-06938263f530][Function]]
 
 
 Function.prototype.apply() is used when you want to pass an array to a function that does not accept array parameters, for example Math.max().

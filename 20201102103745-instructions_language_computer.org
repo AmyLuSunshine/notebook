@@ -2,9 +2,9 @@
 :ID:       1c0334ca-7b74-4869-bf75-bb32955e7ff6
 :END:
 #+title: Instructions: Language Computer
-#+ROAM_TAGS: Computer-Organization
+#+filetags: :Computer_Organization:
 
-- tags :: [[file:20201102103939-computer_organization.org][Computer Organization]]
+- tags :: [[id:625c6071-6738-4d2b-95bb-1ac01c923cbd][Computer Organization]]
 
 * Instruction set architecture
 There exists different instruction sets such as MIPS, x86, ARMv8. They are actually similar to each other because they are based on the similar principles of computer design.

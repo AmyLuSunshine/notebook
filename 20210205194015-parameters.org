@@ -2,9 +2,9 @@
 :ID:       2e2e960a-b452-413c-ac2a-612d5993ba2c
 :END:
 #+title: Parameters
-#+ROAM_TAGS: Bash
+#+filetags: :Bash:
 
-- tags :: [[file:20210201143501-bash.org][Bash]]
+- tags :: [[id:38f246ad-ffe9-42d2-9905-533506bb4eb3][Bash]]
 
 #+begin_src bash
 #filename: program

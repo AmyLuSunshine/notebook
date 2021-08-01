@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       f62a5b7a-e210-4b70-8ea2-cebba390482f
+:END:
 #+title: rm -rf
-#+ROAM_TAGS: pwsh
+#+filetags: :pwsh:
 
-- tags :: [[file:20210527135410-pwsh.org][pwsh]]
+- tags :: [[id:1f145664-eb39-4b4f-b243-a13bec24d99a][pwsh]]
 
 #+begin_src pwsh
 Remove-Item /dir -Recurse -Force

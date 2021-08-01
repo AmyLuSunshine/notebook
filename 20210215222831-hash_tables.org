@@ -2,9 +2,9 @@
 :ID:       182f7a92-7a23-4ee4-95f7-b258d39673f5
 :END:
 #+title: Hash Tables
-#+ROAM_TAGS: Data-Structures
+#+filetags: :Data_Structures:
 
-- tags :: [[file:20201124134853-data_structures.org][Data Structures]]
+- tags :: [[id:d60fba8c-d682-4968-bed3-88726dbbeea2][Data Structures]]
 
 * Dictionaries
 

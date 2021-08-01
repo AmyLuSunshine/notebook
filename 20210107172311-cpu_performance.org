@@ -2,9 +2,9 @@
 :ID:       950fdc58-d4a4-4eb6-ad3f-d90add0815cc
 :END:
 #+title: CPU Performance
-#+ROAM_TAGS: Computer-Organization
+#+filetags: :Computer_Organization:
 
-- tags :: [[file:20210105103633-cpu.org][CPU]], [[file:20201102103939-computer_organization.org][Computer Organization]]
+- tags :: [[id:a9ea8542-79d3-4890-b47e-d60d8204c0a3][CPU]], [[id:625c6071-6738-4d2b-95bb-1ac01c923cbd][Computer Organization]]
 
 
 * What determines CPU performance

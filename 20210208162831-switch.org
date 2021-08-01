@@ -2,9 +2,9 @@
 :ID:       4f64c950-9147-4460-8a3f-1b0f98285c72
 :END:
 #+title: Switch
-#+ROAM_TAGS: Golang
+#+filetags: :Golang:
 
-- tags :: [[file:20210110190746-golang.org][Golang]]
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
 - source :: [[https://yourbasic.org/golang/switch-statement/][5 switch statement patterns]]
 
 * Hidden break

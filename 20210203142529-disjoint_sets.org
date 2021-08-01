@@ -2,9 +2,9 @@
 :ID:       3f99c9df-ee97-4164-a098-df379b031366
 :END:
 #+title: Disjoint Sets
-#+ROAM_TAGS: Data-Structures
+#+filetags: :Data_Structures:
 
-- tags :: [[file:20201124134853-data_structures.org][Data Structures]]
+- tags :: [[id:d60fba8c-d682-4968-bed3-88726dbbeea2][Data Structures]]
 
 
 * Operations

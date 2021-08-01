@@ -2,10 +2,10 @@
 :ID:       172f183a-161c-4bef-95d6-7c83508d2035
 :END:
 #+title: iota
-#+ROAM_TAGS: Golang
+#+filetags: :Golang:
 
-- tags :: [[file:20210110190746-golang.org][Golang]]
-
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+  
 The iota keyword represents sucessive number constants 0, 1, 2...
 
 #+begin_src go

@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       f0e0d8e0-b71c-4668-8852-13ab2f895e64
+:END:
 #+title: Spread Operator
-#+ROAM_TAGS: Javascript
+#+filetags: :Javascript:
 
-- tags :: [[file:20210327205115-javascript.org][Javascript]]
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]]
 
 A spread operator destrucutre the iterable into an array or arguments of a function.
 

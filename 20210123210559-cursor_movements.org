@@ -2,9 +2,9 @@
 :ID:       1d63c4a0-1c38-4018-bee3-82500f6d4047
 :END:
 #+title: Cursor Movements
-#+ROAM_TAGS: Org
+#+filetags: :Org:
 
-- tags :: [[file:20201029150815-org.org][Org]]
+- tags :: [[id:021b42b3-a0c1-4c1b-b622-6e071f149154][Org]]
 
 * Move between heading
 

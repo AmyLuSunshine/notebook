@@ -2,9 +2,9 @@
 :ID:       8519b178-63eb-40e8-a644-2ee8d9b00a31
 :END:
 #+title: Jan-2021
-#+ROAM_TAGS: Volcabulary
+#+filetags: :Volcabulary:
 
-- tag :: [[file:20201027222847-volcabulary.org][Volcabulary]] 
+- tag :: [[id:a6863434-322b-4586-bee9-e0e042eb532e][Volcabulary]] 
 
 * arena
   - Hearthstone arena

@@ -2,9 +2,9 @@
 :ID:       d8273c16-e904-4f5d-8310-5c20be911674
 :END:
 #+title: Case
-#+ROAM_TAGS: Bash
+#+filetags: :Bash:
 
-- tags :: [[file:20210201143501-bash.org][Bash]]
+- tags :: [[id:38f246ad-ffe9-42d2-9905-533506bb4eb3][Bash]]
 
 #+begin_src bash
   case $var in

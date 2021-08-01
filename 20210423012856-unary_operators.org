@@ -4,7 +4,7 @@
 #+title: Unary Operators
 #ROAM_TAGS: JavaScript
 
-- tags :: [[file:20210423012927-operators.org][Operators]]
+- tags :: [[id:ec44f975-9121-493e-8858-9819b6db33dd][Operators]]
 
 * typeof
 #+begin_src js

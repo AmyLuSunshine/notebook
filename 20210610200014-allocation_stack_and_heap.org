@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       34453154-8e6d-4098-9916-fef419f15433
+:END:
 #+title: Allocation: Stack and Heap
-#+ROAM_TAGS: Golang
+#+filetags: :Golang:
 
 - tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
 

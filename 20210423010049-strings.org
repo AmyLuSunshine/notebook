@@ -2,9 +2,9 @@
 :ID:       046ea8c5-6969-4b41-8595-ab1f5d1c8a62
 :END:
 #+title: Strings
-#+ROAM_TAGS:: JavaScript
+#+filetags: :_:JavaScript:
 
-- tags :: [[file:20210423005204-value_types.org][Value types]]
+- tags :: [[id:27c6a6fc-f5cd-4f6f-aa03-c52fb05d2a69][Value types]]
 
 * How to create a string
 

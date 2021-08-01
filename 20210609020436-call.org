@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       c9cbdfdc-c37b-4106-9341-4993a234b685
+:END:
 #+title: Call
-#+ROAM_TAGS: Javascript
+#+filetags: :Javascript:
 
 - tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]]
 

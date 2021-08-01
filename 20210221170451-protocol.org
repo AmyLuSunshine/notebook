@@ -2,9 +2,9 @@
 :ID:       67ce73ca-23d8-4e3d-83ad-1f513ee0426b
 :END:
 #+title: Protocol
-#+ROAM_TAGS: Computer-Network
+#+filetags: :Computer_Network:
 
-- tags :: [[file:20210221171216-computer_network.org][Computer Network]] 
+- tags :: [[id:e3c4ce8a-faa5-4e54-b368-03a0dd8ead33][Computer Network]] 
 
 * Definition
 

@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       468d1b6a-6eb2-4bf4-bc69-195ae69128dc
+:END:
 #+title: Politics
 

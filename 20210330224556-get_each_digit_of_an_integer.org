@@ -2,9 +2,9 @@
 :ID:       e8ec2e42-14ad-4302-bb1e-e8c6d2e4eabc
 :END:
 #+title: Get Each digit of an Integer
-#+ROAM_TAGS: Algorithms
+#+filetags: :Algorithms:
 
-- tags :: [[file:20201124115508-algorithms.org][Algorithms]]
+- tags :: [[id:8ba0e58d-5ef6-47b3-b04a-1bb3001b2970][Algorithms]]
 
 * Basic idea
 

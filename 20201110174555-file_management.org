@@ -2,9 +2,9 @@
 :ID:       954a0e3e-3590-4492-90cc-a92c478cd14f
 :END:
 #+title: File Management
-#+ROAM_TAGS: Git
+#+filetags: :Git:
 
-- tags :: [[file:20201110160656-git.org][Git]]
+- tags :: [[id:3226a270-adaf-4c39-8f9b-1ead217c8049][Git]]
 
 * Remove a file from file system
 #+begin_src 

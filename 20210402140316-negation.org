@@ -2,9 +2,9 @@
 :ID:       9ac876fd-acbd-49bd-91d1-f6cd2e5df766
 :END:
 #+title: Negation
-#+ROAM_TAGS: Eng-Grammar
+#+filetags: :Eng_Grammar:
 
-- tags :: [[file:20210402140406-grammar.org][Grammar]] 
+- tags :: [[id:7028b1b4-2ecd-4363-a5c0-7be30e2a385a][Grammar]] 
 
 * No
 

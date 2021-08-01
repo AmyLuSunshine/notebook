@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       156425e0-f41d-41d8-b0af-c80c29fa90c3
+:END:
 #+title: Data Types
-#+ROAM_TAGS: Javascript
+#+filetags: :Javascript:
 
-- tags :: [[file:20210327205115-javascript.org][Javascript]]
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]]
 
 There are seven value types in js: 
 

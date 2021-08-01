@@ -2,7 +2,7 @@
 :ID:       a817c777-7b61-4cb6-abc8-a1c600903362
 :END:
 #+title: Projectile
-#+ROAM_TAGS: EMACS
+#+filetags: :EMACS:
 
 * Add a project to the Projectile bookmark
 

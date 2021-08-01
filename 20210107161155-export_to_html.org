@@ -2,9 +2,9 @@
 :ID:       ab80c08c-bc54-4947-8bde-064a134365f2
 :END:
 #+title: Export to HTML
-#+ROAM_TAGS: Org
+#+filetags: :Org:
 
-- tags :: [[file:20201029150815-org.org][Org]]
+- tags :: [[id:021b42b3-a0c1-4c1b-b622-6e071f149154][Org]]
 
 * Export to HTML
 

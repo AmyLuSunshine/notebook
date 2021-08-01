@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       ddefed27-d186-425e-971a-d7b671226c7b
+:END:
 #+title: 142. Linked List Cycle II
-#+ROAM_TAGS: Leetcode
+#+filetags: :Leetcode:
 
-- tags :: [[file:20210701190918-leetcode.org][Leetcode]], [[file:20210701192509-141_linked_list_cycle.org][141 Linked List Cycle]]
+- tags :: [[id:91a960f3-97f0-4b66-8f0d-4a89aba54348][Leetcode]], [[id:85678e93-1593-4c83-be49-db7cd41547dd][141 Linked List Cycle]]
 
 #+begin_src js
 var detectCycle = function(head) {

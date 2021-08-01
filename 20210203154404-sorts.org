@@ -2,9 +2,9 @@
 :ID:       d4a6e1f1-63ec-40b5-a882-41043741668f
 :END:
 #+title: Sorts
-#+ROAM_TAGS: Algorithms
+#+filetags: :Algorithms:
 
-- tags :: [[file:20201124115508-algorithms.org][Algorithms]]
+- tags :: [[id:8ba0e58d-5ef6-47b3-b04a-1bb3001b2970][Algorithms]]
 
 * Insertion Sort
 

@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       5b48bb54-c2b4-4b4f-a0f7-10382c9c4f76
+:END:
 #+title: Variables
-#+ROAM_TAGS: Javascript
+#+filetags: :Javascript:
 
-- tags :: [[file:20210327205115-javascript.org][Javascript]]
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]]
 
 * Declare variables
 

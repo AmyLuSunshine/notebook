@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       889277ca-3180-49ac-93c5-aee9f37f0484
+:END:
 #+title: Logs of a Systemd Service
-#+ROAM_TAGS: Linux/Unix
+#+filetags: :Linux_Unix:
 
-- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]]
+- tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]]
 
 #+begin_src sh
 sudo journalctl -f -u name.Service

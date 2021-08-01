@@ -2,7 +2,7 @@
 :ID:       c6c7d0e3-6bb3-44b7-9150-690ef654c473
 :END:
 #+title: Bash Output
-#+ROAM_TAGS: Bash
+#+filetags: :Bash:
 
 * Basic usage
 

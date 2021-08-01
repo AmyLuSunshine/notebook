@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       d8bbff6c-c70e-4fd4-a767-ad6799eaadb6
+:END:
 #+title: arguments
-#+ROAM_TAGS: Javascript
+#+filetags: :Javascript:
 
-- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[file:20210602135709-function.org][Function]]
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[id:6288f854-1b29-4751-813f-06938263f530][Function]]
 
 
 arguments is an array-like object inside a function. 

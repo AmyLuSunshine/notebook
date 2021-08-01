@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       8b00bbcd-b5fc-4dda-b804-3ed92291d7bd
+:END:
 #+title: Check Property
-#+ROAM_TAGS: Javascript
+#+filetags: :Javascript:
 
-- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[file:20210601131147-objects.org][Objects]]
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[id:a6917226-1993-44ca-8612-43dc0849da68][Objects]]
 
 #+begin_src js
 // good

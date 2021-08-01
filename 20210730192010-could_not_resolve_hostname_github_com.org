@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       23cc7d39-cc44-4bae-9613-d4bae974df3e
+:END:
 #+title: Could not resolve hostname github.com
-#+ROAM_TAGS: Github
+#+filetags: :Github:
 
-- tags :: [[file:20201208235001-github.org][Github]]
+- tags :: [[id:8e382a73-eac2-4940-bf57-671867898ccd][Github]]
 
 Use the following command to connect to github.com
 

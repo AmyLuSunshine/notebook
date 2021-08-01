@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       7a063202-d3a3-48ca-a9b5-c877d710bd01
+:END:
 #+title: Codepoint
-#+ROAM_TAGS: Javascript
+#+filetags: :Javascript:
 
-- tags :: [[file:20210327205115-javascript.org][Javascript]]
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]]
 
 * How JS represents string
 

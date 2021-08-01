@@ -2,9 +2,9 @@
 :ID:       c1a83344-4ec3-4c2f-bb1c-b9297bd9a722
 :END:
 #+title: Using Fcitx input method in Emacs on Arch Linux
-#+ROAM_TAGS: Linux/Unix
+#+filetags: :Linux_Unix:
 
-- tags :: [[file:20201029225738-linux_unix.org][Linux/Unix]], [[file:20201028193935-emacs.org][Emacs]], [[file:20201121220157-input_method.org][Input Method]]
+- tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]], [[id:f2b69c75-fd89-409d-8aa9-fba688b70e0a][Emacs]], [[id:0b87ee32-7c9c-4b76-8002-62b3cdede3c5][Input Method]]
 
 This notes demonstrate how to activate fcitx input method in emacs on arch linux.
 

@@ -2,9 +2,9 @@
 :ID:       71a2ad39-08f6-4be6-9425-09e75b46f687
 :END:
 #+title: Binding Keys to Commands
-#+ROAM_TAGS: Emacs
+#+filetags: :Emacs:
 
-- tags :: [[file:20201028193935-emacs.org][Emacs]]
+- tags :: [[id:f2b69c75-fd89-409d-8aa9-fba688b70e0a][Emacs]]
 
 * Example: Binding "s-s" to my-lookup-cam 
 #+begin_src elisp

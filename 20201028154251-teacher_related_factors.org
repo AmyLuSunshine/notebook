@@ -2,9 +2,9 @@
 :ID:       51dfb761-621b-421c-9a82-e45ecc6db97f
 :END:
 #+title: teacher-related factors
-#+ROAM_TAGS: thesis
+#+filetags: :thesis:
 
-- tags :: [[file:20201028154313-ceps.org][ceps]], [[file:../.local/share/Trash/files/20201028154355-teacher_related_factors.org][teacher-related-factors]]
+- tags :: [[id:f9f63fb3-9952-416a-bfe9-8d6d3ee4286b][ceps]], [[file:../.local/share/Trash/files/20201028154355-teacher_related_factors.org][teacher-related-factors]]
 
 * variable name
 A2 您是哪一年开始教这个班的 

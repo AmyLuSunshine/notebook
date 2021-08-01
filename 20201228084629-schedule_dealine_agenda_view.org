@@ -2,9 +2,9 @@
 :ID:       27c86d24-812d-4597-bc6d-6c4b0eec5291
 :END:
 #+title: Schedule Dealine & Agenda View
-#+ROAM_TAGS: Org
+#+filetags: :Org:
 
-- tags :: [[file:20201125175121-todo_list.org][TODO List]], [[file:20201029150815-org.org][Org]]
+- tags :: [[id:ba2c232f-39a0-4d06-a6ba-67dee4dde74e][TODO List]], [[id:021b42b3-a0c1-4c1b-b622-6e071f149154][Org]]
 
 * Scheduling 
 

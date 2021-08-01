@@ -3,7 +3,7 @@
 :END:
 #+title: Introduction to the Zettelkasten Method
 
-- tags :: [[file:20201028204358-note_taking.org][Note-taking]]
+- tags :: [[id:db52fb1a-263b-449e-abd7-dc878333f023][Note-taking]]
 - source :: [[https://zettelkasten.de/][Introduction to the Zettelkasten Method - Sascha]] 
 
 * Structure of a Zettel

@@ -2,9 +2,9 @@
 :ID:       7fef95b7-da77-4ab5-9b13-036e28d058b7
 :END:
 #+title: Check The Exit Code
-#+ROAM_TAGS: Bash
+#+filetags: :Bash:
 
-- tags :: [[file:20210201143501-bash.org][Bash]]
+- tags :: [[id:38f246ad-ffe9-42d2-9905-533506bb4eb3][Bash]]
 
   #+begin_src sh
 echo $?

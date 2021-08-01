@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       347547a6-467a-40f0-be2b-7c452b087998
+:END:
 #+title: Get the Index of the Mid Point Between Two Indices
-#+ROAM_TAGS:: Algorithms
+#+filetags: :_:Algorithms:
 
-- tags :: [[file:20201124115508-algorithms.org][Algorithms]]
+- tags :: [[id:8ba0e58d-5ef6-47b3-b04a-1bb3001b2970][Algorithms]]
 
 Given two indices i, j the index of the mid point between them is :
 

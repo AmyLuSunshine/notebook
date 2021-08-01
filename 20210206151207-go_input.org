@@ -2,7 +2,7 @@
 :ID:       f89de4e1-7397-4c75-a587-56df3628644f
 :END:
 #+title: Go Input 
-#+ROAM_TAGS: Golang
+#+filetags: :Golang:
 
 * Read input from command-line arguments
 

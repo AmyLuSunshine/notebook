@@ -2,9 +2,9 @@
 :ID:       a84f68cb-06d5-45e9-ba15-1e3951266f8c
 :END:
 #+title: Dired Tricks
-#+ROAM_TAGS: Eamcs
+#+filetags: :Eamcs:
 
-- tags :: [[file:20201028193935-emacs.org][Emacs]]
+- tags :: [[id:f2b69c75-fd89-409d-8aa9-fba688b70e0a][Emacs]]
 
 * How to delete files in dired
 command: d -> x

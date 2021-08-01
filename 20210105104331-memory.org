@@ -2,9 +2,9 @@
 :ID:       94d23215-73fc-4b39-a54b-41fa9192af85
 :END:
 #+title: Memory
-#+ROAM_TAGS: Computer-Organization
+#+filetags: :Computer_Organization:
 
-- tags :: [[file:20201102103939-computer_organization.org][Computer-Organization]]
+- tags :: [[id:625c6071-6738-4d2b-95bb-1ac01c923cbd][Computer-Organization]]
 
 
 * Types of memory

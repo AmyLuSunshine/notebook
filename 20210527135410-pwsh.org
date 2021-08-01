@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       1f145664-eb39-4b4f-b243-a13bec24d99a
+:END:
 #+title: pwsh
 

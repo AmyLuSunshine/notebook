@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       aadbe53b-9a82-41d3-8d44-a278495bc8f1
+:END:
 #+title: Structure
-#+ROAM_TAGS: thesis
 #+TODO: TODO In-Progress FEEDBACK | DONE
+#+filetags: :thesis:
 
 - tags :: [[id:aadc775c-9381-4e46-bbc7-eead5f23a16f][thesis]]
 

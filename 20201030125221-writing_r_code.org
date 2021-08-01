@@ -2,9 +2,9 @@
 :ID:       955d4c5b-68d2-4d64-b635-4e5a3593bcdd
 :END:
 #+title: Writing R Code
-#+ROAM_TAGS: Org
+#+filetags: :Org:
 
-- tags :: [[file:20201030125243-r.org][R]], [[file:20201029150815-org.org][Org]]
+- tags :: [[id:4d14b583-e466-43f3-92e6-76280a1016c2][R]], [[id:021b42b3-a0c1-4c1b-b622-6e071f149154][Org]]
 
 * Printing graphics produced by R
 

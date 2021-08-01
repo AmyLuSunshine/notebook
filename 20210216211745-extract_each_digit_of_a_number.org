@@ -2,9 +2,9 @@
 :ID:       908d88bf-e3ba-420d-b92f-503715db7e5e
 :END:
 #+title: Extract Each Digit of a Number
-#+ROAM_TAGS: Algorithms
+#+filetags: :Algorithms:
 
-- tags :: [[file:20201124115508-algorithms.org][Algorithms]]
+- tags :: [[id:8ba0e58d-5ef6-47b3-b04a-1bb3001b2970][Algorithms]]
 
 Example:
 

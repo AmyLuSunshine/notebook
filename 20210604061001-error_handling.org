@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       b084016b-83cb-4d36-b6ca-afd90d8bc900
+:END:
 #+title: Error Handling
-#+ROAM_TAGS: Javascript
+#+filetags: :Javascript:
 
-- tags :: [[file:20210327205115-javascript.org][Javascript]]
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]]
 
 * throw, try, catch
 

@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       0f151071-de27-4d93-b93e-081d399f562a
+:END:
 #+title: Sort Integer Array
-#+ROAM_TAGS: Javascript
+#+filetags: :Javascript:
 
-- tags : [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[file:20210601130955-array.org][Array]], [[id:d4a6e1f1-63ec-40b5-a882-41043741668f][Sorts]]
+- tags : [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[id:b4a79fd9-d889-4117-897b-c9283009d99f][Array]], [[id:d4a6e1f1-63ec-40b5-a882-41043741668f][Sorts]]
 
 Without a compare function, JS's builtin Array.prototype.sort() converts elements to strings , then *compare their UTF-16 code value*. For this reason, it is inappropriate to sort an integer array without a compare function.
 

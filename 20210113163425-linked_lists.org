@@ -2,9 +2,9 @@
 :ID:       f9315725-7bf9-435a-9975-7330edb8a16a
 :END:
 #+title: Linked Lists
-#+ROAM_TAGS: Data-Structures
+#+filetags: :Data_Structures:
 
-- tags :: [[file:20201124134853-data_structures.org][Data Structures]]
+- tags :: [[id:d60fba8c-d682-4968-bed3-88726dbbeea2][Data Structures]]
 
 * List API
 

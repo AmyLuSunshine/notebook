@@ -2,9 +2,9 @@
 :ID:       1bfcae6d-b9e4-4236-ae74-956989fcd690
 :END:
 #+title: Five Major Attack Vectors
-#+ROAM_TAGS: Cookie
+#+filetags: :Cookie:
 
-- tags :: [[file:20210309160715-cookie.org][Cookie]]
+- tags :: [[id:7a4e6683-65d2-4965-9204-2aecb88fb23a][Cookie]]
 
 * Cookie tempering
 

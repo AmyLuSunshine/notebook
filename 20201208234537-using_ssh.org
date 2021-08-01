@@ -2,9 +2,9 @@
 :ID:       14d215da-2bf3-4a1b-827b-99b21bf5fd1b
 :END:
 #+title: Using SSH
-#+ROAM_TAGS: Git
+#+filetags: :Git:
 
-- tags :: [[file:20201110160656-git.org][Git]], [[file:20201208235001-github.org][Github]]
+- tags :: [[id:3226a270-adaf-4c39-8f9b-1ead217c8049][Git]], [[id:8e382a73-eac2-4940-bf57-671867898ccd][Github]]
 - source :: [[https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh][Connecting to Github with SSH]]
   
 * Check for existing SSH keys

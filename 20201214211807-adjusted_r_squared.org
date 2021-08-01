@@ -3,7 +3,7 @@
 :END:
 #+title: Adjusted R-squared
 
-- tags :: [[file:20201125131557-statistics.org][Statistics]], [[file:20201214211834-regression.org][Regression]]
+- tags :: [[id:7d2edd27-295e-4f48-88f2-993d06d9c5d3][Statistics]], [[id:96ac8a71-57a9-4856-8bb4-28d05ba3896a][Regression]]
 
 - source :: [[https://corporatefinanceinstitute.com/resources/knowledge/other/adjusted-r-squared/][What is the Adjusted R-squared?]]
 

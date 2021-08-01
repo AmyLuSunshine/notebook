@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       300ded35-d5b5-4bd5-8dbe-b3bbcc939c9b
+:END:
 #+title: Date
-#+ROAM_TAGS: JavaScript
+#+filetags: :JavaScript:
 
-- tags: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[file:20210601131147-objects.org][Objects]]
+- tags: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]], [[id:a6917226-1993-44ca-8612-43dc0849da68][Objects]]
 
 Date object in js is the value of milliseconds that have elapsed since midnight on January 1, 1970, UTC.
 
