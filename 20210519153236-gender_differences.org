@@ -1,9 +1,0 @@
-:PROPERTIES:
-:ID:       de92b18c-5aa6-4898-a7f5-47e30caf160c
-:END:
-#+title: Gender Differences
-#+filetags: :thesis:
-
-data: male coded as 1
-
-
