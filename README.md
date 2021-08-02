@@ -1,3 +1,3 @@
-# org-roam-notes
+# Notebook
 
-This repository contains the notes taken by Zhe Sun using org roam mode.
+This repository stores my daily notes taken in [Org-roam](https://github.com/org-roam/org-roam) using [the Zettelkasten Method](https://zettelkasten.de/posts/overview/).

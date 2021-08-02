@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       9bd3815d-87d5-4e21-aa6b-938c7b9a9408
+:END:
+#+title: Org Roam
+#+filetags: :Org:
+
+* Create an ID for a heading
+
+M-x org-id-get-create
+
+** Create an alias for a heading node
+
+   M-x org-roam-alias-add
