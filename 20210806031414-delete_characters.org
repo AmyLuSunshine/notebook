@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       387a9fb5-7fbd-4c02-8e94-fc8e9a132ed0
+:END:
+#+title: Delete Characters
+#+filetags: :Linux/Unix:
+
+- tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]]
+
+* Remove parentheses in a string
+
+#+begin_src sh
+echo "(hello)" | tr -d '<>'
+#+end_src
