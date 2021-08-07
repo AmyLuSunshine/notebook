@@ -7,8 +7,21 @@
 - tags :: [[id:8ba0e58d-5ef6-47b3-b04a-1bb3001b2970][Algorithms]]
 
 
-* Theorem
+$$
+T(n)=aT(\frac{n}{b})+f(n)
+$$
+
+a: the number of recursive calls
+
+nb: the division size of the problem
+
+f(n): the runtime of the non-recursive part, for example the merge function in merge sort
+
+* Limitation
+
+  - a, b > 1
+  - T(n) is not monotone, e.g. T(n) = sin(n)
+  - f(n) is not polynomial, e.g f(n) = 2^n
+  - a is not constant, e.g. a = 2n
 
 
-  
-T(n) = O(n^d) if d < log_b (a)
