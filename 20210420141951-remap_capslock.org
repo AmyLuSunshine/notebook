@@ -25,6 +25,11 @@ Comment[en_US]=
 Comment=
 #+end_src
 
+** Gnome
+   - install gnome tweaks
+   - Tweak -> Keyboard & Mouse -> Additional Layout Options
+   - Make capslock an additional ctrl
+
 * Windows
 
 ** globaly
