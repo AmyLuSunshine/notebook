@@ -32,3 +32,7 @@ For example, 11111111 11111111 00000000 00000000, it means the first 16 bits of 
    - 127.0.0.1, localhost
 
    - 0.0.0.0 is the default route.
+
+* Multiple IP
+
+Computer may have multiple interfaces and therefore may need mutiple IP.
