@@ -1,0 +1,204 @@
+:PROPERTIES:
+:ID:       4085d7bd-ff18-4ffb-ae61-0d7a403b92ed
+:END:
+#+title: Arch Installation
+#+filetags: :Linux:
+
+- tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]]
+- source :: [[https://wiki.archlinux.org/title/installation_guide][Arch Wiki]]
+
+* Verify the boot mode 
+
+#+begin_src sh
+ls /sys/firmware/efi/efivars
+u#+end_src
+
+If no errors shows up, for example the directory does not exist, the system is booted in UEFI mode. Otherwise, maybe BIOS.
+
+* Check Internet Connection
+
+#+begin_src sh
+ip link
+ping anywebsite.com
+#+end_src
+
+* Update the system clock
+
+#+begin_src sh
+timedatectl set-ntp true
+# check the service status
+timedatectl status
+#+end_src
+  
+* Partition the disks
+
+**  List drives on the machine
+#+begin_src sh
+fdisk -l
+#+end_src
+
+** Partition a drives
+
+#+begin_src sh
+fdisk /dev/the_drives
+#+end_src
+
+| Mount point           | Partition type    | Suggested size          |
+|-----------------------+-------------------+-------------------------|
+| /mnt/boot or /mnt/efi | EFI system        | At least 260 MiB        |
+| Swap                  | Linux swap        | More than 512 MiB       |
+| /mnt                  | Linux x86-64 root | Remainder of the drives |
+
+* Format the patitions
+
+#+begin_src sh
+mkfs.ext4 /dev/root_partition
+#+end_src
+  
+#+begin_src sh
+mkswap /dev/swap_partition
+#+end_src
+
+* Mount the file systems
+
+#+begin_src sh
+mount /dev/root_partition /mnt
+#+end_src
+
+** specify the swap partition
+#+begin_src sh
+swapon /dev/swap_partition
+#+end_src
+
+* Installation
+
+** Select the mirrors
+
+   Edit the file `/etc/pacman.d/mirrorlist`
+
+** Install essential packages
+
+#+begin_src sh
+pacstrap /mnt base linux linux-firmware
+#+end_src
+
+* Configure the system
+
+** Fstab
+
+Generate an fstab file. Check the result of `/mnt/etc/fstab`, edit it if there is any error.
+
+#+begin_src sh
+genfstab -U /mnt >> /mnt/etc/fstab
+#+end_src
+
+** Chroot
+
+#+begin_src sh
+arch-chroot /mnt
+#+end_src
+
+** Time zone
+
+Change `Region/City` to your physical location.
+
+#+begin_src sh
+ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
+#+end_src
+
+generate /etc/adjtime (hardware clock)
+#+begin_src sh
+hwclock --systohc
+#+end_src
+
+** Localization
+
+Edit `/etc/locale.gen` and uncomment the locales you need.
+
+#+begin_src sh
+locale-gen
+#+end_src
+
+** Network Configuration
+
+Create the hostname file:
+
+#+begin_src sh
+echo "hostname" > /etc/hostname
+#+end_src
+
+Add matching entries to hosts `etc/hosts`
+
+#+begin_src sh
+127.0.0.1	localhost
+::1		localhost
+127.0.1.1	myhostname.localdomain	myhostname
+#+end_src
+
+* Set password for root user
+
+#+begin_src sh
+passwd
+#+end_src
+
+
+* Add a non-root user
+
+-m stands for creating a home dir for the user.
+
+#+begin_src sh
+useradd -m user_name
+passwd user_name
+usermod -aG wheel,audio,video,optical,storage user_name
+#+end_src
+
+** Sudo
+
+#+begin_src sh
+pacman -S sudo
+visudo
+#+end_src
+
+after running visudo, uncomment the line %wheel ALL=(ALL) ALL
+
+* Bootloader
+
+#+begin_src sh
+pacman -S grub
+pacman -S efibootmgr dosfstools os-prober mtools
+#+end_src
+
+#+begin_src sh
+mkdir /boot/EFI
+mount /dev/the_EFI_partition /boot/EFI
+#+end_src
+
+#+begin_src sh
+grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
+grub-mkconfig -o /boot/grub/grub.cfg
+#+end_src
+
+* Networkmanager
+
+#+begin_src sh
+pacman -S networkmanager
+systemctl enable Networkmanager
+#+end_src
+
+* Window manager
+
+** Gnome 
+
+#+begin_src sh
+pacman -S gnome gnome-tweaks gdm
+systemctl enable gdm
+#+end_src
+
+* Exit the chroot and unount 
+
+#+begin_src sh
+exit
+umount -l /mnt
+reboot
+#+end_src
+
