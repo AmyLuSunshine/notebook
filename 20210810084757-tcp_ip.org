@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       7214a344-872c-457b-a28d-928b53289c3d
+:END:
+#+title: TCP/IP
+#+filetags: :Networking:
+
+- tags :: [[id:e3c4ce8a-faa5-4e54-b368-03a0dd8ead33][Networking]]
+- source :: [[http://xahlee.info/linux/tcp_ip_tutorial.html][Xah Lee's tutorial on TCP/IP]]
+
+* Four layers
+
+  TCP/IP is a set of protocols that are logically seperated into 4 layers.
+
+  - Application layer
+  - Transport layer
+  - Internet layer
+  - Link layer
+
+* Port numbers
+
+  Port numbers are used to identify the process/application on a machine. IP address identifies a host, the port number identifies the process on that host.
+
+* Socket
+  Socket is an API for programs to talk to the network. If an application, for emaple browser, wants to talk to the Internet, it talks to the socket API.
+
+* Connection vs Connectionless
+
+- TCP is a connection oriented protocol
+- UDP is a connectionless protocol

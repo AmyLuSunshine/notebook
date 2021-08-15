@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       eebea259-5006-4dcd-bb01-adf344d18578
+:END:
+#+title: Linux Networking Commands
+#+filetags: :Networking:Linux/Unix:
+
+- tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]], [[id:e3c4ce8a-faa5-4e54-b368-03a0dd8ead33][Networking]]
+
+* MAC address of an adapter
+
+#+begin_src sh
+ip link
+#+end_src
+
+* IP address
+
+#+begin_src sh
+ip addr
+#+end_src
+
+* Router's address
+
+#+begin_src sh
+ip route
+#+end_src
+  
+  
+* Hostname
+
+#+begin_src sh
+hostnamectl
+#+end_src
+  

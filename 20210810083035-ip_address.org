@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       24b5d121-925e-4a6a-8534-cd44ff3d179c
+:END:
+#+title: IP Address
+#+filetags: :Networking:
+
+- tags :: [[id:e3c4ce8a-faa5-4e54-b368-03a0dd8ead33][Networking]]
+- source :: [[http://xahlee.info/linux/tcp_ip_tutorial.html][Xah Lee's tutorial on TCP/IP]]
+
+* IP Address
+
+IP address consists of two parts, network and host. It is similar to home address, which consists of country, city, street.
+
+** Netmask: Network Bitmask
+
+Netmask is used to indicate the number of bits that refer to the network part and the host part. The network bits are 1, and the host bits are 0.
+
+For example, 11111111 11111111 00000000 00000000, it means the first 16 bits of the IP address is network, and rest the host.
+
+** CIDR Notation
+
+   x.x.x.x/n, where n refers to the number of bits for the network part.
+
+** Special IP
+
+   - if the host part's bit are all 0, it refers to the local network.
+
+   - if the host part's bit are all 1, it refers to broadcast address, meant to send to all hosts that belongs to the destination network/subnet.
+
+   - 255.255.255.255 is the local network broadcast
+
+   - 127.0.0.1, localhost
+
+   - 0.0.0.0 is the default route.

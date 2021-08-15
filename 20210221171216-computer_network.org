@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       e3c4ce8a-faa5-4e54-b368-03a0dd8ead33
 :END:
-#+title: Computer Network
+#+title: Networking
 
 * Definition
 
