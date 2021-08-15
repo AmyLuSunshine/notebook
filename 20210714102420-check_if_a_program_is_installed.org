@@ -2,7 +2,7 @@
 :ID:       6e54986b-f3ff-4a19-a7ba-79f68a0723d8
 :END:
 #+title: Check If a Program Is Installed
-#+filetags: :Linux_Unix:
+#+filetags: :Linux/Unix:
 
 - tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]]
 
