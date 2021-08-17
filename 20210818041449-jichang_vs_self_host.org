@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       835878c2-da77-4a79-bb72-d7122a8c19fd
+:END:
+#+title: Jichang vs Self-host
+#+ROAM_TAGS: Networking
+
+- tags :: [[id:e3c4ce8a-faa5-4e54-b368-03a0dd8ead33][Networking]]
+- Reference :: [[https://eatradish.github.io/make-shadowsocks-server/][Shadowsocks 搭建教程]]
+
+* Jichang
+  
+** pros
+   - You don't have to waste time on studying the software for configuring the proxy server.
+   - A jichang provides proxy servers all over the world, which means you can unlock diffrent contents on Netflix, Disney+ and so on.
+   - Because of multiple servers, you have more choices and you don't need to worry about the GFW bans some of them.
+
+** cons
+   - Doing jichang business is essentially illegal in China, therefore your purchase is not protected by law. You probably cannot get a refund if your Jichang shutdown by the big brother.
+   - Jichang has privacy issues. Your browsing history are uploaded to their server. Big brother can find you through your payment method with ID verified.
+
+* Self-host
+
+** pros
+   - Compared to Jichang, it has fewer privacy issues.
+   - Cannot unlock contents from different areas on Netflix.
+
+** cons
+   - It is easier got banned by the GFW.
+   - Studying different software is time-consuming.
+   - If your server get banned by the GFW, you need to setup a new server, which is both time-consuming and costly.
+

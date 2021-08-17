@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       49642c95-071a-498b-a667-4b7920446667
+:END:
+#+title: Both Both of
+#+filetags: :Grammar:
+
+- tags :: [[id:7028b1b4-2ecd-4363-a5c0-7be30e2a385a][Grammar]]
+
+Use *both of* for personal pronouns:
+
+Both of us speak English.
+
+Use *both* for other nouns:
+
+Both my brothers speak English.

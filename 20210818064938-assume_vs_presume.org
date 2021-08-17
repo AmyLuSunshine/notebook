@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       c9808b2f-9ac1-4c2c-9dc1-4ffc00fbde06
+:END:
+#+title: Assume vs Presume
+#+filetags: :Grammar:
+
+- tags :: [[id:7028b1b4-2ecd-4363-a5c0-7be30e2a385a][Grammar]]
+
+Both words refers to "to take somthing as true". The difference lies in the degree of confidence held by the speaker. If the speaker is making a guess based on some reasonable evidence, *presume* is the word to use; if a guess is made based on little or no evidence, assumed is usually used.

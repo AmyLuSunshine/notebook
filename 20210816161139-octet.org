@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       f3a2a0df-2b69-4b59-8454-b02f653e169f
+:END:
+#+title: Octet
+
+- tags :: [[id:f1b0e213-4c56-423c-be1e-0b66bab97812][Bit Byte]]
+
+Octet means 8 bits.

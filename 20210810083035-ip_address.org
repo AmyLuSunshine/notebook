@@ -19,7 +19,7 @@ For example, 11111111 11111111 00000000 00000000, it means the first 16 bits of 
 
 ** CIDR Notation
 
-   x.x.x.x/n, where n refers to the number of bits for the network part.
+   x.x.x.x/n, where n refers to the number of bits for the network part (how many 1s in the address).
 
 ** Special IP
 
@@ -27,12 +27,18 @@ For example, 11111111 11111111 00000000 00000000, it means the first 16 bits of 
 
    - if the host part's bit are all 1, it refers to broadcast address, meant to send to all hosts that belongs to the destination network/subnet.
 
-   - 255.255.255.255 is the local network broadcast
+   - 255.255.255.255 is the local network broadcast (highest IP of a subnet)
+
+   - the second highest IP is network interface
 
    - 127.0.0.1, localhost
 
    - 0.0.0.0 is the default route.
 
+
+
 * Multiple IP
 
 Computer may have multiple interfaces and therefore may need mutiple IP.
+
+
