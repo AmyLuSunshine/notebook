@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       ca8a96cc-601f-4e34-b9a3-0aa2a7c0bcd1
+:END:
+#+title: Window Manager
+

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       8dd18bed-ccc1-41cf-9e92-8bfc59280fcd
+:END:
+#+title: Cryptocurrency
+
+
+* Double-Spending
+
+the risk that a cryptocurrency can be spent twice.

@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       07d56e53-4a65-438a-81d9-d84cb173eb31
+:END:
+#+title: Tearing Screen on i3
+#+filetags: :i3:
+
+- tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]], [[id:ca8a96cc-601f-4e34-b9a3-0aa2a7c0bcd1][Window Manager]]
+- reference :: 
+
+My laptop is thinkpad E14 with a r5 4500U processor. I used to run the gnome window manager, which works fine either on popOS or arch. Recently, I switched over to the i3 window manager. I encountered tearing screen problem while scrolling web pages and playing videos. The solution is to turn on "TearFree" in your xorg's configuration.
+
+* Solution
+
+** required packages
+   make sure you have `mesa`, `xf86-video-amdgpu` installed.
+
+create a file named `/etc/X11/xorg.conf.d/20-radeon.conf`, put the below content inside the file.
+
+#+begin_src 
+Section "Device"
+  Identifier "AMD"
+  Driver "amdgpu"
+  Option "TearFree" "1"
+  Option "VariableRefresh" "true"
+EndSection
+#+end_src
+
+
+** Module error
+
+- Reference :: [[https://wiki.archlinux.org/title/AMDGPU#Specify_the_correct_module_order][Arch-wiki: Specify the correct module order]]
+
+After editing the file above, you might not be able to run `startx` and run i3 correctly. The problem is probably caused by modules' order inside kernel. You have to ensure that running amdgpu before radeon (your config). To do that, put the below content inside `/etc/modprobe.d/modprobe.conf`
+
+#+begin_src 
+MODULES=(amdgpu radeon)
+#+end_src
+

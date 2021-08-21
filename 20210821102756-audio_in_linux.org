@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       0afd0989-db74-496c-bd32-402239ddff1d
+:END:
+#+title: Audio in Linux
+#+filetags: :Linux/Unix:
+
+- tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]]
+
+* Volume
+
+** Up
+
+#+begin_src sh
+pactl set-sink-volume @DEFAULT_SINK@ +5%
+#+end_src
+
+** Down
+
+#+begin_src sh
+pactl set-sink-volume @DEFAULT_SINK@ -5%
+#+end_src
+
+* Mute/Unmute
+
+#+begin_src sh
+pactl set-sink-mute @DEFAULT_SINK@ toggle
+#+end_src
+
+* Set default sink
+
+** List sink 
+
+#+begin_src sh
+pactl list sinks
+#+end_src
+
+#+begin_src sh
+pactl set-default-sink "SINKNAME"
+#+end_src

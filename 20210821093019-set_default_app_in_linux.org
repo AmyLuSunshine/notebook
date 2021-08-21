@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       768e8e9b-c584-49d8-af84-c7e0c9715776
+:END:
+#+title: Set Default App in Linux
+#+filetags: :Linux/Unix:
+
+- tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]]
+
+To change default app, you need to dit the file `~/.config/mimeapps.list`. Using PDF as an example:
+
+#+begin_src 
+application/pdf=okularApplication_pdf.desktop
+#+end_src
+
+By setting the above config, your system should use Okular for opening PDF files.
+
+

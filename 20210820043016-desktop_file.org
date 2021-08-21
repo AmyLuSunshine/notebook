@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       e613f2c7-3638-43c9-b834-0123309ca1c5
+:END:
+#+title: .desktop file
+#+filetags: :Linux/Unix:
+
+- tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]]
+
+on Linux, .desktop files define the rule for opening a program. For example, discord.desktop defines what should happen, when you click on the discord Icon. .desktop files are useful when you want to pass some arguments to the program you want to open as a desktop program instead of running it in terminal.
+
+These files are stored in `/usr/share/applications/`.
