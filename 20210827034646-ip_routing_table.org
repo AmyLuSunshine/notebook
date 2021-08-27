@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       382e0113-ef24-41f9-8013-3b2897daa830
+:END:
+#+title: IP Routing Table
+#+filetags: :Networking:
+
+- tags :: [[id:e3c4ce8a-faa5-4e54-b368-03a0dd8ead33][Networking]]
+
+  room destination netmask gateway interface metric
+
+
+| room          | destination | netmask | gateway | interface | metric |
+|---------------+-------------+---------+---------+-----------+--------|
+| A             | network IP  |         |         |         1 |     10 |
+| B             |             |         |         |         2 |     10 |
+| C, D          |             |         |         |         3 |      1 |
+| Internet      |             |         |         |         4 |     10 |
+| Default Route |             |         |         |           |     10 |
+
+
+Gateways' IPs refer to interfaces' IPs.
+
+Metric refers to efficiency.

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       85ee10b7-0c95-4f54-9442-8abec11ba52d
+:END:
+#+title: Fcitx
+
+
+After installing Fcitx, you need to put the following statments in your .xinitrc, .xprofile depending on what window manager you are using.
+
+#+begin_src sh
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+#+end_src

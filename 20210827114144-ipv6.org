@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:       03bc83dc-0605-494f-b3a3-58a054492484
+:END:
+#+title: IPv6
+#+filetags: :Networking:
+
+- tags :: [[id:e3c4ce8a-faa5-4e54-b368-03a0dd8ead33][Networking]], [[id:24b5d121-925e-4a6a-8534-cd44ff3d179c][IP Address]]
+
+
+IPv6 uses Hexadecimal numbering.
+
+* Header
+
+** Version
+
+IPv4 or IPv6
+
+
+** DS & ECN
+
+see [[id:2119685b-2fe3-4444-ab26-13058bf1b0dc][DS & ECN]]
+
+** Flow Label
+
+   - Flow label was originally created to provide special service support for real-time applications.
+
+   - currently used to inform routers and switches that routing path changes should not be applied to these packets.
+
+** Payload Length (16 bits)
+
+** Next Header
+
+For example, TCP/UDP, ICMP
+
+** Hop Limit
+
+like [[id:214dc430-2ba6-4a81-b051-5b0194b5fb3e][Time to live (TTL)]]
+
+Packet is discarded when HL = 0
+
+** Source & Destination Address
+
+- 128 bit 
+- CIDR
+
+Zeros in front of the 4 hexadecimal digits can be ommited
+
+One or more consecutive groups of zeros may be replaced with two consecutive colons "::" *only once* in IPv6 address.
+

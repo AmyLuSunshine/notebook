@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       27ace67b-11a2-4475-ac4d-e1f7ee8f5be4
+:END:
+#+title: TCP
+#+filetags: :Networking:
+
+- tags :: [[id:e3c4ce8a-faa5-4e54-b368-03a0dd8ead33][Networking]], [[id:7214a344-872c-457b-a28d-928b53289c3d][TCP/IP]], [[id:f6abdf39-776e-49a1-8e51-f5a49ac276d3][UDP]]
+
+* Header
+
+ - minimum length is 20 octets
+ - TCP header contains various data segment flow control functionalities
+ - padding may be added to make the TCP header length a multiple of 32 bit words.
+
+** Checksum
+
+   - Error Detection Code added to protect the TCP header
+
+** Source & Destination Ports
+
+- Frequently used port numbers
+
+  - 20 = FTP
+  - 21 = FTP control
+  - 23 = Telnet
+  - 25 = SMTP
+  - 53 = DNS
+  - 80 = HTTP
+  - 143 = IMAP
+
+** Flags
+
+ - PSH (push) = 1 pushes the data segment to the receiving application
+ - URG (urgent) = 1 the urgent pointer field, which points to the urgent data location, is in use.
+ - 

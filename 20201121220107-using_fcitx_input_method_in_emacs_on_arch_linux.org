@@ -2,7 +2,7 @@
 :ID:       c1a83344-4ec3-4c2f-bb1c-b9297bd9a722
 :END:
 #+title: Using Fcitx input method in Emacs on Arch Linux
-#+filetags: :Linux_Unix:
+#+filetags: :Fcitx:
 
 - tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]], [[id:f2b69c75-fd89-409d-8aa9-fba688b70e0a][Emacs]], [[id:0b87ee32-7c9c-4b76-8002-62b3cdede3c5][Input Method]]
 
@@ -17,7 +17,7 @@ Go to /etc/locale.gen, then uncomment the line zh_CN.UTF-8.
 sudo locale-gen
 #+end_src
 
-* STEP 2: Install the correct font (e.g. CJK)
+* STEP 2: Install correct fonts (e.g. CJK)
 
 * STEP 3: Start emacs with the below command
 

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       4f5a204a-9d03-410d-9c73-07e7afa1f165
+:END:
+#+title: Fcitx on Telegram
+#+filetags: :Fcitx:
+
+- tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]], [[id:0b87ee32-7c9c-4b76-8002-62b3cdede3c5][Input Method]]
+
+
+If fcitx can be used on other program but not on Telegram, you should check if `fcitx-qt5` is installed. Otherwise read [[id:c1a83344-4ec3-4c2f-bb1c-b9297bd9a722][Using Fcitx input method in Emacs on Arch Linux]].

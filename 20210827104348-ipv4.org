@@ -1,0 +1,87 @@
+:PROPERTIES:
+:ID:       29f65514-90e4-49f1-883b-5d99765ca880
+:END:
+#+title: IPv4
+#+filetags: :Networking:
+
+- tags :: [[id:e3c4ce8a-faa5-4e54-b368-03a0dd8ead33][Networking]], [[id:24b5d121-925e-4a6a-8534-cd44ff3d179c][IP Address]]
+
+* packet (datagram)
+
+A self-contained, independent entity of data carrying sufficient information to be routed from the source to the destination computer without reliance on earlier exchanges between this source and destination computer and the transporting network.
+
+packet = header + payload
+
+payload = TCP/UDP header + data (payload segment)
+
+* IPv4 essential functions
+
+  - inter-networking
+  - routing
+
+* Header
+
+** Version
+  
+   to distinguish IPv4 and IPv6
+
+** IHL (Internet Header Length)
+
+   the length of an IPv4 *header* in words
+
+** DS & ECN
+   :PROPERTIES:
+   :ID:       2119685b-2fe3-4444-ab26-13058bf1b0dc
+   :END:
+
+   give information about congestion, priority
+
+** Total length
+
+Total length of the IP packet in units of octets
+(includes *the whole packet*)
+
+** Identification
+
+- a sequence of number used to uniquely identify the IPv4 packet.
+- Used together with the *source address*, *destination address*, and *protocol field*.
+
+** Flags
+
+- Bit 0: Reserved
+- Bit 1: 1 = Don't fragement, 0 = May fragement
+- Bit 2: 1 = More fragment, 0 = Last fragement
+
+** Fragment Offset
+
+- Indicate where in the original datagram does this fragment belong to (In 64 bit units).
+- Fragment other than the last fragment must contain a data field that is a multiple of 64 bits in length.
+
+** Time to live (TTL)
+   :PROPERTIES:
+   :ID:       214dc430-2ba6-4a81-b051-5b0194b5fb3e
+   :END:
+
+- the time length that a datagram is allowed to remain in the Internet.
+
+- if a packet's TTL becomes 0 before reaching the destination, then that packet will be disgarded.
+
+** protocol
+
+identifies the type of the next header in the packet directly following the IPv4 header. For example, TCP/UDP, ICMP.
+
+** Header Checksum
+
+- Error Detection code added to protect the IPv4 packet header from errors
+
+- only protect header not the payload part.
+
+** Source & Destination Addresses
+
+- Each address is 32 bits
+- Classful addresses: Class A, B, C, D, E (unused)
+- CIDR (mostly used) 
+
+** Optional Padding
+Make sure that the IPv4 packet header is a multiple of 32 bit word units in length.
+

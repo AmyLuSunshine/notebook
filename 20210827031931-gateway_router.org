@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       79775dc0-3322-40e6-b55c-e689dd798885
+:END:
+#+title: Gateway Router
+#+filetags: :Networking:
+
+- tags :: [[id:e3c4ce8a-faa5-4e54-b368-03a0dd8ead33][Networking]]
+
+- Gateway is the dedicated Internet Router that will send and receive all Internet IP packets for this PC.
+
+- PC will access the Internet through Gateway
+
+- Most of the time, Gateway and default router are interchangeable.
+
+

@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       14be2184-5795-43f4-b376-62e32cf3fdd6
+:END:
+#+title: SSL/TLS Handshake Protocol
+#+filetags: :Networking:
+
+- tags :: [[id:def38291-0743-47ac-8b2b-0332b29ca6be][Public Key Cryptography]], [[id:e3c4ce8a-faa5-4e54-b368-03a0dd8ead33][Networking]]
+
+- source :: [[https://youtu.be/sEkw8ZcxtFk][SSL/TLS handshake Protocol - Sunny Classroom]]
+
+* Client Hello
+
+- SSL/TSL Version
+- Cryptographic algorithms
+- Data compression methods
+
+* Server Hello
+
+- Cryptographic algorithms agreement
+- Session ID
+- Server's digital certificate
+- Server's public key
+
+* Client verifies Server's digital certificate
+
+From a certificate authority (CA)
+
+* Client Key Exchange
+
+  - a shared secret  key encrypted with the server's public key
+
+* Finished (client)
+
+  - The finish message is encrypted with the shared secret key-handshake complete
+
+* Finished (server)
+
+  - The finish message is encrypted with the shared key-handshake complete
+
+* Handshake successfully
+
+Exchange messages symmetrically encrypted
+

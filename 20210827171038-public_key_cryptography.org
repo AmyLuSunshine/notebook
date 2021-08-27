@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       def38291-0743-47ac-8b2b-0332b29ca6be
+:END:
+#+title: Public Key Cryptography
+#+filetags: :Cryptography:
+
+
+- source :: [[https://youtu.be/GSIDS_lvRv4][Public Key Cryptography - Computerphile]]
+
+A: pri_key_A pub_key_A
+B: pri_key_B pub_key_B
+
+if A wanna send an encrypted file to B, A does:
+
+encrypt the file with pri_key_A, then encrypt the encrypted file with pub_key_B.
+
+after receiving the file, B does:
+
+decrypt the file with pri_key_B, then decrypt the decrypted file with pub_key_A (this procesure ensures that the file was sent from A).

@@ -35,9 +35,17 @@ For example, 11111111 11111111 00000000 00000000, it means the first 16 bits of 
 
    - 0.0.0.0 is the default route.
 
+* IPv4
 
+  for example 255 . 000 . 000 . 000
 
-* Multiple IP
+  4 bytes
+
+* IPv6
+
+  32 bytes
+
+* Multiple IPs
 
 Computer may have multiple interfaces and therefore may need mutiple IP.
 

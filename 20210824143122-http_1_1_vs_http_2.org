@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       e7cf98ce-1cae-4930-a317-fb0f08153bb0
+:END:
+#+title: HTTP/1.1 vs HTTP/2
+#+filetags: :Networking:
+
+- tags :: [[id:e3c4ce8a-faa5-4e54-b368-03a0dd8ead33][Networking]]
+- source :: [[https://www.digitalocean.com/community/tutorials/http-1-1-vs-http-2-what-s-the-difference][HTTP/1.1 vs HTTP/2: What's the Difference? - ABCOM]]
+
+* Fodata packetsdata packetsdata packetsdata packetsdata packetsdata packetsdata packetsrmat
+
+- HTTP/1.1 keeps all requests and responses in *plain text* format.
+datdata packetsdata packetsa packets
+
+- packets/2 has a *binary* framing layer.
+
+* Dedata packetslivery Models
+
+Originally, in HTTP/1.0, client had to break and remake the TCP connection with every new request. HTTP/1.1 optimized this problem by allowing persistent TCP connection, which allows the client to send multiple request along the same connection.
+
+The problem of HTTP/1.1 is that multiple data packets cannot pass each other when travelling to the same destination (data packets have to be delivered in a sequence). There are situations in which a request at the head of the quene that cannot retrieve its required resource will block all the requests behind it (head-of-line HOL).
+
+* Advantages of the HTTP/2
+
+
+

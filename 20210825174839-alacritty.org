@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       2d70b5fc-4377-448d-98d7-1422bbdb33a6
+:END:
+#+title: Alacritty
+
+To use remote terminal correctly, you have to specify the environment variable like below.
+
+#+begin_src sh
+env TERM=xterm-256color ssh
+#+end_src
+

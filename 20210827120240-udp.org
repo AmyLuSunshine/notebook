@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       f6abdf39-776e-49a1-8e51-f5a49ac276d3
+:END:
+#+title: UDP
+#+filetags: :Networking:
+
+- tags :: [[id:e3c4ce8a-faa5-4e54-b368-03a0dd8ead33][Networking]], [[id:7214a344-872c-457b-a28d-928b53289c3d][TCP/IP]], [[id:27ace67b-11a2-4475-ac4d-e1f7ee8f5be4][TCP]]
+
+User Datagram Protocol
+
+- UDP provides port information for application connection
+
+- Connectionless: UDP does not establish any end-to-end connection manager to check on the received packets.
+
+* Header
+
+** Source Port
+
+** Destination Port
+
+** Length
+
+length of the entire UDP segment, including the UDP header and data.
+
+** Checksum
+
+- if an error is detected, the segment is discarded and no error recovery action is taken
+
+- Use of the checksum in UDP is optional
+
+- When it is not used all bits are set to zero
