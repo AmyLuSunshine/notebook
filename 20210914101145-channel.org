@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       e5e7f85e-79e8-4f3b-97e1-98a18892357d
+:END:
+#+title: Channel
+#+filetags: :Golang:
+
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+#+begin_src go
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func main() {
+	c := make(chan string)
+	go count("sheep", c)
+
+	for msg := range c {
+		fmt.Println(msg)
+	}
+}
+
+func count(thing string, c chan string) {
+	for i := 1; i <= 5; i++ {
+		c <- thing
+		time.Sleep(time.Millisecond * 500)
+	}
+	close(c)
+}
+#+end_src
+

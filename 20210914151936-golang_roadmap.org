@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       acf24958-deb4-4f62-be31-3477a798d23e
+:END:
+#+title: Golang Roadmap
+#+filetags: :Golang:
+
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+[[https://raw.githubusercontent.com/Alikhll/golang-developer-roadmap/master/golang-developer-roadmap.png][roadmap]]
+
+amdahl's-law

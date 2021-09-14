@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       97406134-59b8-4d66-8918-f4d4b2a1e0bc
+:END:
+#+title: Parallel Computing
+
+* processes
+
+independent memory for each process (higher cost)
+
+* threads (kernel-level threads)
+
+
+
+* green threads (user-level threads)
+
+user-level threads will run inside kernel-level threads

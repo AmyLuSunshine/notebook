@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       830fc058-2054-4a05-8274-6bb2174cff21
+:END:
+#+title: Type Switches
+#+filetags: :Golang:
+
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]], [[id:acbab0c2-4c62-4b3f-a8af-61dcb0d8e65b][Interface]]
+
+
+#+begin_src go
+package main
+
+import "fmt"
+
+func abs(i interface{}) {
+	switch i.(type) {
+	case int:
+		fmt.Println("integer")
+	case string:
+		fmt.Println("string")
+	default:
+		fmt.Println("types other than integer and string")
+	}
+}
+
+func main() {
+	abs(1)
+	abs("hell")
+	abs(1.1)
+}
+
+#+end_src
+

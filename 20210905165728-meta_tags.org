@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       0f27ca0d-c33a-419e-ad4d-f54978d075b2
+:END:
+#+title: Meta Tags
+#+filetags: :HTML:
+
+- tags :: [[id:e33cfedb-5e2e-4196-a6cb-d99d9752208f][HTML]]
+
+* Not showing your sites on search engines
+
+#+begin_src htm
+<meta name="robots" content="NOINDEX, NOFOLLOW">
+#+end_src
+
+* 
+

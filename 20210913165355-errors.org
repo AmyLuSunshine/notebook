@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       093e5e2a-58fc-4d11-8ee4-6b18293f9310
+:END:
+#+title: Errors
+#+filetags: :Golang:
+
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+To make a error in Go, you should implement a Error() string method on thay type, for example:
+
+#+begin_src go
+package main
+
+import (
+	"fmt"
+)
+
+type ErrNegativeSqrt float64
+
+func (e ErrNegativeSqrt) Error() string {
+	return fmt.Sprintf("negative number: %v", float64(e))
+}
+
+func Sqrt(x float64) (float64, error) {
+	if x < 0 {
+		return x, ErrNegativeSqrt(x)
+	}
+	return x, nilf
+}
+
+func main() {
+	fmt.Println(Sqrt(2))
+	fmt.Println(Sqrt(-2))
+}
+
+#+end_src
+
+note that if you specify a return type as error, Go will implicitly call *Error() string* on the return value.

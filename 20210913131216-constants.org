@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       f1a00492-93bf-4d59-ba92-4500afb67b5b
+:END:
+#+title: Constants
+#+filetags: :Golang:
+
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+* Syntax
+
+  #+begin_src go
+const a = 10
+const s = "hello"
+const b = true
+const c = 'a'
+  #+end_src
+
+Constants cannot be declared using the *:=* syntax
+
+* Types
+
+- character
+- numeric
+- string
+- boolean
+
+

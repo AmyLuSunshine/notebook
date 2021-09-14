@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       dcc9e2e9-e76a-4da2-804b-5d6e274350ed
+:END:
+#+title: Messaging
+#+filetags: :Backend:
+
+- source :: [[https://www.incognito.com/tips-and-tutorials/understanding-messaging-part-one-the-basics-2/][Understanding Messaging: Part One – The Basics]]

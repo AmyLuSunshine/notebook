@@ -15,3 +15,20 @@ The iota keyword represents sucessive number constants 0, 1, 2...
 	  HALT = iota
   )
 #+end_src
+
+
+#+begin_src go
+const (
+	_ = iota
+	b = 10 * iota
+	c
+	d
+	e
+)
+
+func main() {
+	fmt.Println(b, c, d, e)
+}
+#+end_src
+
+prints 10, 20, 30, 40
