@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       93557f59-bba4-4232-9985-666d4431126e
+:END:
+#+title: Go Get Timeout
+#+filetags: :Golang:
+
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+* Change proxy
+
+#+begin_src sh
+go env GOPROXY="https://goproxy.cn"
+#+end_src

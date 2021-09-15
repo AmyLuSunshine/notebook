@@ -4,4 +4,7 @@
 #+title: Messaging
 #+filetags: :Backend:
 
-- source :: [[https://www.incognito.com/tips-and-tutorials/understanding-messaging-part-one-the-basics-2/][Understanding Messaging: Part One – The Basics]]
+- source1 :: [[https://www.incognito.com/tips-and-tutorials/understanding-messaging-part-one-the-basics-2/][Understanding Messaging: Part One – The Basics]]
+- soruce2 :: [[https://youtu.be/W4_aGb_MOls][What is a Message Queue and When should you use Messaging Queue Systems Like RabbitMQ and Kafka]]
+
+
