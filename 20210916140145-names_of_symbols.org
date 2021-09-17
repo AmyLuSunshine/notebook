@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       e59cb7c6-abac-42c2-917f-4dee4cf3eb22
+:END:
+#+title: Names of Symbols
+
+ * Asterisk
+
+ \ Backslash
+   
+ / Slash
+
+ _ Underscore
+
+ - Hyphen
+
+ & Ampersand
+
+ @ At sign
+   
+ \# Number sign
