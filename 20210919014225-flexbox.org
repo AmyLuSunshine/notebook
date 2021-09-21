@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       f8a72db5-e35f-4b24-9c63-9826b349c5ad
+:END:
+#+title: Flexbox
+#+filetags: :CSS:
+
+- tag :: [[id:83bdb5a2-6eff-406f-a732-4ee2bfc499b7][CSS]]
+- source :: [[https://css-tricks.com/snippets/css/a-guide-to-flexbox/][A Complete Guide to Flexbox]]
+
+* Terminology
+
+- Flex Container
+- Flex Item (Child)
+- Main Axis (default: row)
+- Cross Axis (default: column, depends on `flex-direction`)
+- Main Start | Main End
+- Main Size
+- Cross Start | Cross End
+- Cross Size
+
+* Properties for the Parent (flex container)
+
+- space-?: these properties are not safe, because not all browsers support this feature. Use *flex-start/end/left/right* instead.
+
+- space-around: the space between item and item is equal. Note that the space between borders and items is not equal to other space, because this property only handles the space between item and item. If you want all space equal, use `space-evenly` instead.
+
+* Properties for the Children (flex items)
+
+** order
+   - default is 0, which places the flex item in the source order.
+   - negative value: places the flex item in the reversed source order
+
+
+  
+

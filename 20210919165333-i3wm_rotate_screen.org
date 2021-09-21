@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       ed75bcb7-23a3-4e16-8035-1fb8d7174900
+:END:
+#+title: i3wm Rotate Screen
+#+filetags: :i3:
+
+- tag :: [[id:dea9d34a-5afc-4800-80b6-a3b9aa5f8ab8][i3]]
+
+#+begin_src sh
+xrandr --output <monitor> --rotate <left|right>
+#+end_src
