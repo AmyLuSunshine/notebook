@@ -6,6 +6,10 @@
 
 - tags :: [[id:d60fba8c-d682-4968-bed3-88726dbbeea2][Data Structures]]
 
+* What is a search tree
+
+  the key of any node should be larger than any descendent of its left child, and smaller than the key of any descendent of its right child.
+
 * Property
 
   Let x be a node in a binary search tree. If y is a node in the left subtree

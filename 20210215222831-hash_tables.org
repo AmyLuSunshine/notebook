@@ -6,6 +6,10 @@
 
 - tags :: [[id:d60fba8c-d682-4968-bed3-88726dbbeea2][Data Structures]]
 
+* Applications
+
+  - password verification
+
 * Dictionaries
 
 A dictionary is a key-value pair abstract data structure. 

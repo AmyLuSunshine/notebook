@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       7cf08cc5-7c2b-4f59-a583-354dcc407742
+:END:
+#+title: Slow Motion Muti-tasking
+
+- source :: [[https://youtu.be/yjYrxcGSWX4][A powerful way to unleash your natural creativity | Tim Harford]]
+
+When the wrong answer is stuck in your head, do somthing else, switch problem, switch context.
+
+Write down your idead and put it to a safe place so that you won't forget anything.
+

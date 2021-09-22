@@ -5,6 +5,7 @@
 #+filetags: :Operating_System:
 
 - tags :: [[id:7ca902b3-9234-4d04-ae17-c16c0edb4447][Operating System]]
+- source :: [[https://www.guru99.com/difference-between-process-and-thread.html][Process vs Thread: What’s the difference?]]
 
 * Programming complexity caused by multi-thread
 
