@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       bbc9f023-a5b4-461b-9cd9-e25673551998
+:END:
+#+title: New vs. Make
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+
+* new(type) return *type
+
+* does not preallocate memory
+
+* it is convenient to return a pointer to a 
+

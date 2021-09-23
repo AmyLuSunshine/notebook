@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       80800170-79d6-4c35-8d26-a193aefaf76b
+:END:
+#+title: Data Analysis
+
+* Make sure your case study answers the question being asked
+
+* Procedures
+
+** Ask 
+
+** Prepare
+
+** Process
+
+** Analyze
+
+** Share
+
+** Act
+

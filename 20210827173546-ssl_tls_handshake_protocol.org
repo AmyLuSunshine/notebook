@@ -8,7 +8,7 @@
 
 - source :: [[https://youtu.be/sEkw8ZcxtFk][SSL/TLS handshake Protocol - Sunny Classroom]]
 
-* Client Hello
+* Client Helol
 
 - SSL/TSL Version
 - Cryptographic algorithms

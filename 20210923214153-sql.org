@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       992ec40c-78e7-4819-9f63-3b488bc06627
+:END:
+#+title: SQL
+#+filetags: :Databases:
+
+- tag :: [[id:a8ad6f6e-ddd6-48e3-b7f5-b5fbbee5c4a7][Databases]]
+
+* Create and drop database 
+
+#+begin_src sql
+CREATE DATABASE db_name;
+DROP DATABASE db_name;
+#+end_src
+
+* Create table
+
+[[https://www.postgresql.org/docs/9.5/datatype.html][Data Types of Postgres]]
+
+#+begin_src sql
+CREATE TABLE table_name (
+  Col_name + data_type + constraints
+);
+#+end_src
+
+
+** example
+
+#+begin_src sql
+CREATE TABLE person (
+  id int,
+  /* 50 means value should be fewer than 50 chars*/
+  first_name VARCHAR(50), 
+)
+#+end_src

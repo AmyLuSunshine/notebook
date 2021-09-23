@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       2871a8e7-c783-4981-93d1-2979e872bc1b
+:END:
+#+title: Postgres
+#+filetags: :Databases:
+
+- tag :: [[id:a8ad6f6e-ddd6-48e3-b7f5-b5fbbee5c4a7][Databases]]
+
+* Psql Command
+
+** \?
+   help
+
+** \l
+   list databases created
+
+** \c name_of_db
+   connect to name_of_db
+
+** \d
+   list tables
+
+   
+** \d table_name
+   describe table
+
