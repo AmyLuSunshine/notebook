@@ -28,8 +28,8 @@ CREATE TABLE table_name (
 
 #+begin_src sql
 CREATE TABLE person (
-  id int,
+  id int NOT NULL PRIMARY KEY,
   /* 50 means value should be fewer than 50 chars*/
-  first_name VARCHAR(50), 
+  first_name VARCHAR(50) NOT NULL, 
 )
 #+end_src
