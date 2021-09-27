@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       c0ff322a-59c2-408e-a525-51ae2db343a0
+:END:
+#+title: Game Data Mining
+
+
+Modern digital games commonly keep track of the action/behavior of players, and calculate a response to them. 
+
+* Problems
+
+** Despite enormous data, it is far from obvious how to employ the analysis: 
+
+*** what data should be tracked
+
+*** how to analyze it
+
+*** how should it be presented to generate knowledge that can be intergrated into the organization.
+
+* Obtain the information for decision makers
+
+** automatic summarization
+
+** the extraction of the essence of the stored information
+
+** the discovery of patterns in raw data
+

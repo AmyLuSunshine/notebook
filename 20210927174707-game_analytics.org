@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       6fe0d13a-2bde-43ae-b260-546537f67257
+:END:
+#+title: Game Analytics
+
+* Terminology
+
+** Telemetry
+
+   data obtained remotely
+ 
+** Game Metrics
+
+   interpretable measures of something related to games 
+
+e.g: user behaviors
+
+- total playtime
+- daily active users
+
+
+* Objectives
+
+- Gain better knowledge of the users -- players. 
+
+- Support decision making
