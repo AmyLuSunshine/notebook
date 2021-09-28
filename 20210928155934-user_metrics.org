@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       72d3ba76-08d9-4a03-997b-f343f90b211b
+:END:
+#+title: User Metrics
+
+* Development-oriented 
+
+** Customer Metrics
+
+** Community Metrics
+
+   - forum activity
+
+** Gameplay Metrics
+
+* Research structures
+
+** Generic Metrics
+
+** Genre Specific Metrics
+
+** Game Specific Metrics
+
+

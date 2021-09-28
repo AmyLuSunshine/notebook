@@ -11,6 +11,8 @@
  
 ** Game Metrics
 
+- [[id:e3d7c32b-fc51-4bca-99dc-68dc7a107503][Game Metrics]]
+
    interpretable measures of something related to games 
 
 e.g: user behaviors

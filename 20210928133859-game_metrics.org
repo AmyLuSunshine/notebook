@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:       e3d7c32b-fc51-4bca-99dc-68dc7a107503
+:END:
+#+title: Game Metrics
+
+* Example:
+
+** average completion time
+
+** average bug fix rate 
+
+** revenue per day
+
+** number of daily active users
+
+* Types and Classes
+
+** User metrics
+
+   [[id:72d3ba76-08d9-4a03-997b-f343f90b211b][User Metrics]]
+
+*** as customers
+    metrics related to revenue
+
+    - average revenue per user (ARPU)
+    - daily active users (DAU)
+
+*** as players
+    metrics related to in-game behavior
+
+    - total playtime per player
+    - average number of in-game friends per player
+    - average damage dealt per player
+
+** Performance metrics
+
+   [[id:17debe54-39e7-432d-b36f-c2bff6315f85][Customer Metrics]]
+
+   metrics related to the performance of the technical and software-based infrastructure behind a game
+
+   - frame rate
+   - bug found per hour/day/week
+
+** Process metrics
+   metrics related to the actual process of developing game
+
+
+   
+
