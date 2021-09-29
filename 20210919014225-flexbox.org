@@ -30,6 +30,3 @@
    - default is 0, which places the flex item in the source order.
    - negative value: places the flex item in the reversed source order
 
-
-  
-

@@ -43,7 +43,3 @@
 
 ** Process metrics
    metrics related to the actual process of developing game
-
-
-   
-
