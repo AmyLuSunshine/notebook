@@ -3,6 +3,9 @@
 :END:
 #+title: User Metrics
 
+
+- tag :: [[id:e3d7c32b-fc51-4bca-99dc-68dc7a107503][Game Metrics]]
+
 * Development-oriented 
 
 ** Customer Metrics
