@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       3ca439c5-08fa-4a19-ac81-7046446bd713
+:END:
+#+title: Fungibility
+#+filetags: :Economy:
+
+- tags :: [[id:5be20117-9499-4d2e-94c2-7662cc4a917c][Economy]], [[id:16c1d851-81e8-433d-9059-e30562b4a8fa][NFTs]]
+
+* Fungibility
+
+According to [[https://cleartax.in/g/terms/fungibility][Fungibility - cleartax]], fungibility is the right to exchange an asset with other *individual* asset of the same kind. Fungibility implies equal value among assets.
+
+Example: money, gold, No. 2 yellow corn
+
+CNY is a type of fungible commodity, because all CNY share the same value no matter who onws it and how it will be used to exchange.

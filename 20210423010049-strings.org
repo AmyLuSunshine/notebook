@@ -21,7 +21,7 @@
 ** backticks
    backticks is called the template literals, which means you can embed other expression inside it.
    #+begin_src js
-   console.log("haif of 100 is ${100 / 2}");
+   console.log(`haif of 100 is ${100 / 2}`);
    #+end_src
 
 * Escaping

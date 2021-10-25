@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       5be20117-9499-4d2e-94c2-7662cc4a917c
+:END:
+#+title: Economy
+
