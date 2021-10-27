@@ -4,23 +4,72 @@
 #+title: Process
 #+filetags: :Operating_System:
 
-- tags :: [[id:7ca902b3-9234-4d04-ae17-c16c0edb4447][Operating System]]
+- tag :: [[id:7ca902b3-9234-4d04-ae17-c16c0edb4447][Operating System]]
 
 A process is an active entity, an executing program, which contains a stack, heap, data, and text.
 
-* Process State
+* Process States
+** five states model
+*** New
 
-** New
+*** Ready
+    The process is waiting to be assigned to a processor.
 
-** Running
+*** Running
 
-** Waiting
+*** Waiting
 
-** Ready
-   The process is waiting to be assigned to a processor.
+*** Terminated (Exit)
+    The process has finished execution.
 
-** Terminated
-   The process has finished execution.
+* Suspension
+
+- not every program needs to be loaded in main memory
+- suspension is the process removed from main memory
+- store that process in secondary storage for future
+- frees main memory for other processes
+- controlled by medium-term scheduling algorithm
+- the process will not be aware of the suspension
+- some reasons for suspension
+  - degbugging
+  - long term delay
+  - freeing main memory
+
+After considering suspension, there is a 7 states process model
+
+- [[https://www.google.com/search?q=7+states+process+model&client=firefox-b-d&sxsrf=AOaemvIYi--5mlU51sjA8G7L_tJ2W20c3Q:1635249040751&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjQrsWxgejzAhUFM94KHetFDkQQ_AUoAXoECAEQAw&biw=1392&bih=762&dpr=1.2][see Graph]]
+
+* Process Image - The PCB
+
+** Contents of a PCB
+
+   - Process ID (PID)
+   - Parent process ID
+   - User ID
+   - Registers
+     - store data of registers while the process stops running. once the process runs again, the data will load to registers again.
+   - Stack pointers
+   - Scheduling
+   - Linkages
+   - Inter Process Communication (IPC)
+     - help Processes communicate with each other
+   - Resources
+   - Memory
+
+* Process Switch
+
+** When does a switch occur:
+  - Interruput - A hardware signal indicating that the hardware need servicing
+  - Trap - A condition which requires OS support
+  - Blocking system call - A request from the process for OS support
+
+** Steps to Process Switch
+   - Save the context into the PCB
+   - Update accounting
+   - Move the PCB to the appropriate quene
+   - Choose another process
+   - Update memory management
+   - Restore its context
 
 * Scheduling Quenes
   
@@ -41,5 +90,3 @@ A process is an active entity, an executing program, which contains a stack, hea
    
 ** short-term
    Select processes that are ready to execute and allocates the CPU to one of them.
-
-   

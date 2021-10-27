@@ -3,4 +3,35 @@
 :END:
 #+title: Operating System
 
-Chapters: 3, 4, 7, 8, 9
+Operating System: A program that controls execution of application programs and acts as *an interface between applications and computer hardware*.
+
+* Layers
+
+User <-> Application <-> OS <-> Hardware
+
+* The Kernel
+
+  - the core component of the OS
+  - responsible for managing system resources
+  - assists applications with performing work
+
+* Monitoring Running Programs
+
+** In a modern OS:
+   
+*** Many programs can be loaded, all at the same time
+
+*** The same program could be loaded multiple times
+
+** The way to track multiple instance:
+
+*** a process is
+    - a program in running state
+    - loaded into main memory
+    - scheduled
+
+*** a process has
+    - access to files
+    - access to networking connections
+    - code for running the program
+

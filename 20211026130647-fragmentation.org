@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       da36a679-def7-4652-b721-d5d545f3452f
+:END:
+#+title: Fragmentation
+#+filetags: :Operating-System:
+
+- tag :: [[id:7ca902b3-9234-4d04-ae17-c16c0edb4447][Operating System]]
+- source :: [[https://en.wikipedia.org/wiki/Fragmentation_(computing)][Wikipedia]]
+
+* Fragmentation (computing)
+
+In computer science, fragmentation is a phenomenon in which storage space, main storage or secondary storage, is used inefficiently, *reducing capacity* or *performance* and often both.
+
+** Internal Fragmentation
+
+   when a program allocates memory, it often allocates more than it needs. For example, memory can only be provided to programs in chunks (usually 4 bytes), and as a result if a program request 29 bytes, it will actually get a chunkc of 32 bytes.
+
+** External Fragmentation
+
+   there is enough memory space for a program, but the memory is not contiguous.
+
+   - source :: [[https://www.geeksforgeeks.org/difference-between-internal-and-external-fragmentation/][geeksforgeeks]]
+
+** Data Fragmentation
+
+   

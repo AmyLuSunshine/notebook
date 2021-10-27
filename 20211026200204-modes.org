@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       70cfc096-4992-4fdb-9664-353917b4c579
+:END:
+#+title: Modes
+#+filetags: :Operating_System:
+
+- tags :: [[id:7ca902b3-9234-4d04-ae17-c16c0edb4447][Operating System]], [[id:79ef041e-8062-4845-a27f-559e54b29cb5][Process]]
+
+* Kernel Mode
+  Code can execute any prat of the system (do anything)
+
+* User Mode
+  - cannot directly access system hardware
+  - cannot run some CPU instructions
+  - cannot access any memory outside of its own

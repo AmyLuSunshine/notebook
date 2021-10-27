@@ -4,8 +4,58 @@
 #+title: Threads
 #+filetags: :Operating_System:
 
-- tags :: [[id:7ca902b3-9234-4d04-ae17-c16c0edb4447][Operating System]]
+- tags :: [[id:7ca902b3-9234-4d04-ae17-c16c0edb4447][Operating System]], [[id:79ef041e-8062-4845-a27f-559e54b29cb5][Process]]
 - source :: [[https://www.guru99.com/difference-between-process-and-thread.html][Process vs Thread: What’s the difference?]]
+
+* Threads
+
+** Resource *ownership* and *Execution* are two different issues
+*** After introducint thread, ownership now become the only concern of the process
+*** Execution - scheduling and running PARTs, yes there will be many of the process become threads.
+
+* Process - Process Control Block (PCB)
+
+ - Memory allocation
+ - Files
+ - Linkages
+
+** horses tools on the farm (resources on the farm)
+
+* Thread - Thread Control Block (TCB)
+
+ - Context (processor registers)
+ - Stack
+ - Access to all of the resourcess of the thread
+
+** different people working on the farm (execution on the farm)
+
+* Example of multithreading: Word 
+
+** printing job
+
+** spell checker job
+
+** editing doc
+   
+** auto save
+
+* Thread States/Operation
+
+Threads don't need New or Exit. Suspension is a process level concepts.
+
+** Ready
+   
+** Running
+
+** Blocked
+
+* Implementation of Threads   
+
+** Kernel-Level threads
+
+*** Different from Kernel Threads (where the OS is threaded)
+
+** User Level Threads
 
 * Programming complexity caused by multi-thread
 

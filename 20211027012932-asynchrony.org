@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       c94240b5-7a4b-4dfb-868e-5c8aee75eff8
+:END:
+#+title: Asynchrony
+#+filetags: :Operating_System:
+
+- tag :: [[id:a704bcc5-fa19-4f99-8be0-5c2e09decae7][Threads]]
+
+Asynchrony occurs when two threads are running seemingly at the same time
+
+* For example
+
+** A running thread runs out of time on the CPU and a different thread is chosen to run
+
+* Mutual Exclusion Rules
+
+- No two threads may be in *a critical* section at the *same time*.
+- When no thread is in a critical section any thread that requests entry must be allowed in without delay.
+- A thread may remain inside a critical section only for a small  amount of time.
+
+* Peterson's Algorithm
+
+  - use global variables 
+  - only allow two threads
+
+* Hardware Solutions
+
+** semaphore
+

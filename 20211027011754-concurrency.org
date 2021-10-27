@@ -1,0 +1,54 @@
+:PROPERTIES:
+:ID:       0fc24922-6a4a-4eef-bb75-bda99db74608
+:END:
+#+title: Concurrency & Deadlocks
+#+filetags: :Operating-System:
+
+- tag :: [[id:7ca902b3-9234-4d04-ae17-c16c0edb4447][Operating System]]
+
+* Deadlocks
+
+*There is no efficient solution today*
+
+** If a set of threads are all waiting for each other, then there is no way that any one of them will complete
+
+** Usually this results from one thread waiting for another thread to release a resource
+
+** This is a permanent block which cannot resolve itself over time
+
+* Deadlock Resource Types
+
+** Reusable
+
+** Consumable
+
+* Items Required for a Deadlock
+
+** Mutual Exclusion
+
+** Hold-and-wait
+
+** No preemption
+   A resource cannot be removed from a thread forcefully
+
+** Circular wait
+
+* Solutions
+
+** Deadlock Prevention
+
+   take away one of *Items Required for a Deadlock*
+
+** Deadlock Avoidance
+
+   - Required that the OS know, ahead of time, which resources a thread will request before it is finished
+
+   - Every time a thread makes a new request, the OS run an algorithm to see if that request will cause the system to deadlock.
+
+   - Banker's alogrithm
+
+** Deadlock Detection (common)
+   rollback to a previous unlocked state
+   Abort all deadlocked threads
+   abort a thread, check for deadlock, repeat
+   preempt resources until the deadlock is resolved

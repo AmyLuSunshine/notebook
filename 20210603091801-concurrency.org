@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       30f4379e-b3e7-4c81-ad79-b7016936b8d9
 :END:
-#+title: Concurrency
+#+title: Concurrency in Go
 #+filetags: :Golang:
 
 - tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
