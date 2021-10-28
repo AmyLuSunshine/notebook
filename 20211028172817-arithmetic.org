@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       905124c4-830e-4097-b661-8a34fcf459b8
+:END:
+#+title: Arithmetic
+#+filetags: :JavaScript:
+
+- tag :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][JavaScript]]
+
+* Operators
++ - * / % **(exponentiation)
+
+* Overflow and underflow
+
+#+begin_src js
+let a = 2 ** 6400;  // Overflow -> Infinity 
+let b = 2 ** -6400; // Underflow -> 0 
+#+end_src
+
+* Division by 0
+
+#+begin_src js
+let a = 2 / 0;   // Infinity
+let b = - 2 / 0; // -Infinity
+let c = 0 / 0;   // NaN
+#+end_src
+
+* NaN cannot be used for comparison
+#+begin_src js
+NaN === NaN // false
+#+end_src
+
+* floating point issue
+
+floating point computing will be very close to the real result. Be careful when camparing.
+
+#+begin_src js
+let a = .3 - .2;
+let b = .1;
+console.log(a === b); // false
+#+end_src

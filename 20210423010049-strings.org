@@ -6,6 +6,10 @@
 
 - tags :: [[id:27c6a6fc-f5cd-4f6f-aa03-c52fb05d2a69][Value types]]
 
+* String is immutable
+
+you can consider string as read-only array.
+
 * How to create a string
 
 ** single quotes
@@ -35,3 +39,20 @@
   #+begin_src js
   console.log("hello" + world)
   #+end_src
+
+* Execute inline code inside a string
+
+#+begin_src js
+console.log(
+  `one plue one is ${1 + 1}`
+);
+#+end_src
+
+* String Slice
+
+#+begin_src js
+let s = "hello world";
+
+// print ell
+console.log(s.slice(1, 4));
+#+end_src

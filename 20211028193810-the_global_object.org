@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       f55d2680-a94b-4a33-96ac-2a18fafb8886
+:END:
+#+title: The Global Object
+#+filetags: :Javascript:
+
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]]
+
+The global object contains:
+ - global constants: NaN, undefined
+ - global functions: isNaN(), isFinite()
+ - constructor functions: Date()
+ - global object: Math and JSON
+
+* Web browser
+
+the `window` object
+
+* Node
+
+the `global` object
+
+* ES2020
+
+`globalThis`
