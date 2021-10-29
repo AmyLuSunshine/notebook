@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       77e26391-1c71-456f-b1e0-3250eaa3332e
+:END:
+#+title: Dom
+
+* Dom API
+
+** flexable query
+   document.querySelector()
+   document.querySelectorAll()
+

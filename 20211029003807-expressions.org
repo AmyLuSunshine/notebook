@@ -1,0 +1,101 @@
+:PROPERTIES:
+:ID:       0957845c-cd7c-4d0a-91cb-2db55e0103b6
+:END:
+#+title: Expressions
+#+filetags: :JavaScript:
+
+- tag :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][JavaScript]]
+
+* Primary Expressions
+
+constant, literal values, reserved words
+
+** Literal
+
+*** number
+    
+*** string
+
+*** regular expression
+
+* Object and Array Initializers
+
+#+begin_src js
+[];
+[1+2, 3+4];
+[1,,,,,5];
+{};
+{x:1, y:2};
+#+end_src
+
+* Function Definition Expressions
+
+  - a "function literal"
+
+* Property Access Expressions
+
+null and undefined do not have properties
+
+#+begin_src js
+expr.indentifier
+expr[ expression ]
+#+end_src
+
+** Conditional Property Access (optional chaining)
+
+ #+begin_src js
+ expression ?. identifier
+ expression ?.[ expression ]
+ #+end_src
+
+when expression is null or undefined, using conditional property access won't throw a TypeError.
+
+#+begin_src js
+let a = { b: null };
+a.b?.c.d   // => undefinde
+(a.b?.c).d   // => TypeError
+
+let a = { b: {} };
+a.b?.c.d   // => TypeError
+a.b?.c?.d   // => undefined
+#+end_src
+
+* Invocation Expressions
+
+  - function call
+
+#+begin_src js
+let a = () => { return 10; };       // a => 10
+let a = () => { console.log(10); }; // a => undefined
+#+end_src
+
+** Conditional invocation
+
+#+begin_src js
+let f = null, x = 0;
+try {
+    f(x++); // Throws TypeError because f is null
+} catch(e) {
+    x       // => 1: x gets incremented before the exception is thrown
+}
+f?.(x++)    // => undefined: f is null, but no exception thrown
+x           // => 1: increment is skipped because of short-circuiting
+#+end_src
+
+#+begin_src js
+o.m()     // Regular property access, regular invocation
+o?.m()    // Conditional property access, regular invocation
+o.m?.()   // Regular property access, conditional invocation
+#+end_src
+
+- ?.()       (conditional invocation)
+- ?.property (conditional property access)
+
+* Object Creation
+
+#+begin_src js
+new Object();
+new Point(2, 3);
+#+end_src
+
+

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       c557c84f-5a1b-47d7-b053-502dd82ebde8
+:END:
+#+title: Scientific Network
+
+* [[https://www.duyaoss.com/][SpeedTest]]
+
+* [[https://diy09.kydiypro.xyz/][Kycloud]]
+
+* [[http://clash.razord.top][Clash Web UI]]

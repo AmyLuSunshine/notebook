@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       3213c63c-2ee5-4f1a-81bf-fe4ef1d31ccf
+:END:
+#+title: Modules
+#+filetags: :JavaScript:
+
+- tag :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][JavaScript]]
+
+Suppose we have `user.js` and `app.js` in the same directory.
+
+* Export
+
+#+begin_src js
+// in user.js
+export default class User {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+}
+#+end_src
+
+* Import
+
+  #+begin_src js
+import User from "./user.js"
+
+const user1 = new User("Bob", 18);
+console.log(user1);
+  #+end_src
+
+* In web browser
+
+you have to specify "type=module" to use the module feature
+
+#+begin_src html
+  <script type="module" src="app.js"></script>
+#+end_src
