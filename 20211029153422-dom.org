@@ -11,3 +11,12 @@
 
 ** classList
 
+** parentElement vs parentNode
+
+   #+begin_src js
+// null
+let bodyEl = document.querySelector('body');
+bodyEl.parentNode.parentNode // HTMLDocument
+bodyEl.parentElement.parentElement // HTMLDocument
+   #+end_src
+

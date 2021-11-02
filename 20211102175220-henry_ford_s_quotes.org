@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       7501b3bd-aba4-4251-baa9-a56b55f18077
+:END:
+#+title: Henry Ford's Quotes
+#+filetags: :Quotes:
+
+- tag :: [[id:3fe9d930-3b10-4626-b257-0a4bda94a70b][Quotes]]
+
+The greatest thing we can produce is character. Everything else can be taken from us, but our character.
+
+A nation that know how to work will never suffer.
+
+The only real mistake is the one from which we learn nothing.
+
+Anyone who stops learning in life is old, whether at twenty or eighty. Anyone who keeps learning stay young. The greatest thing in life is to keep your mind young.
+
+There is no man living that can not do more than he thinks he can.
+
+When everything seems to be going against you, remember that the airplane takes off against the wind not with it.
+
+Failure is simply the opportunity to begin again, this time more intelligently.
+
+The whole secret of a successful life is to *find out* what is one's destiny to do, then do it.
+
+Obstacles are those frightful things you see when you take your eyes off your goal.
+
+The unhappiest man on earth is the one who has nothing to do.
