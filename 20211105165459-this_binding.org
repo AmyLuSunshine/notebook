@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       3cd4da5e-35ef-4cca-9d49-9200ec0eb37a
+:END:
+#+title: This Binding
+
+* Normal functions
+
+
+`this` is bound to the global one by default
+
+* Arrow functions
+
+Arrow functions do not have their own `this` by default, but they inherit it from the parent scope.
