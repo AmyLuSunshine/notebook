@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       dae92827-972e-44af-a2b1-e90a9e70b5f7
+:END:
+#+title: Nov-2021
+#+filetags: :Volcabulary:
+
+- tag :: [[id:a6863434-322b-4586-bee9-e0e042eb532e][Volcabulary]] 
+
+* ledger

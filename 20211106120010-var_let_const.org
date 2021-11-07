@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       af0bc3f3-cf2e-445b-8c61-6ffddee1f63e
+:END:
+#+title: Var Let Const
+#+filetags: :JavaScript:
+
+- tag :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][JavaScript]]
+
+Variables declared by `var` are in *function scope*, by `let` and `const` are in *block scope*.
+
+* var
+#+begin_src js
+const greet = function () {
+  if (true) {
+    var name = "David";
+    console.log(`my name is ${name}`);
+  }
+  console.log(name); // print
+};
+
+greet();
+#+end_src
+
+* let / const
+
+#+begin_src js
+const greet = function () {
+  if (true) {
+    var name = "David";
+    console.log(`my name is ${name}`);
+  }
+  console.log(name); // error
+};
+
+greet();
+#+end_src
+
+* Use const wherever you can, use let where you have to.
+
