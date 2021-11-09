@@ -6,6 +6,8 @@
 
 - tags :: [[id:e3c4ce8a-faa5-4e54-b368-03a0dd8ead33][Networking]], [[id:7214a344-872c-457b-a28d-928b53289c3d][TCP/IP]], [[id:f6abdf39-776e-49a1-8e51-f5a49ac276d3][UDP]]
 
+TCP is a protocol that guarantees a reliable network communication over an unreliable network.
+
 * Header
 
  - minimum length is 20 octets
@@ -33,3 +35,18 @@
  - PSH (push) = 1 pushes the data segment to the receiving application
  - URG (urgent) = 1 the urgent pointer field, which points to the urgent data location, is in use.
  - 
+
+* Flow Control
+  - source :: [[https://www.brianstorti.com/tcp-flow-control/][TCP Flow Control]]
+
+  TCP will ensure that a sender is not overwhelming a receiver by sending packets faster than it can consume.
+
+  - receiver will send some feedback to the sender
+
+  Everytime TCP receives a packet, it needs to send an `ack` message to the sender, acknowledging it received that packet correctly, and with this `ack` message it sends the value of the current receive window, so the sender knows if it can keep sending data.
+
+* Congestion Control
+
+
+
+  
