@@ -8,6 +8,32 @@
 
 TCP is a protocol that guarantees a reliable network communication over an unreliable network.
 
+* The Three-way Handshake
+
+** synchronize (SYN)
+
+   tell the server about client's capabilities and preferred window setting
+
+** acknowledgment and synchronize (ACK and SYN)
+
+   ACK tells the client the server acknowledges receipt of the client's SYN packet.
+
+   SYN tells the client what setting it's agreed to for the *duration* of the conversation.
+
+** client ACK
+
+   Finally, the client replies with an ACK packet to acknowledge the server's SYN packet, completing the three-way handshake.
+
+* Gracefully Terminating TCP Sessions
+
+- [[https://media.geeksforgeeks.org/wp-content/uploads/CN.png][graphic explain]]
+
+* Receive Buffer
+
+  both client and server have their per-connection receive buffer.
+
+  A receive buffer is a block of memory that accept a certain amount of data from the network without requiring an applicaiton to immediately read the data.
+
 * Header
 
  - minimum length is 20 octets
@@ -34,10 +60,11 @@ TCP is a protocol that guarantees a reliable network communication over an unrel
 
  - PSH (push) = 1 pushes the data segment to the receiving application
  - URG (urgent) = 1 the urgent pointer field, which points to the urgent data location, is in use.
- - 
 
 * Flow Control
   - source :: [[https://www.brianstorti.com/tcp-flow-control/][TCP Flow Control]]
+
+    (sender -> receiver)
 
   TCP will ensure that a sender is not overwhelming a receiver by sending packets faster than it can consume.
 
@@ -45,8 +72,14 @@ TCP is a protocol that guarantees a reliable network communication over an unrel
 
   Everytime TCP receives a packet, it needs to send an `ack` message to the sender, acknowledging it received that packet correctly, and with this `ack` message it sends the value of the current receive window, so the sender knows if it can keep sending data.
 
+** window size
+
+   the number of bytes the sender can transmit to the receiver without requiring an acknowledgment.
+
+   a window size of zero indicates that the receiver's buffer is full and can no longer receiver additional data.
+
 * Congestion Control
 
+    (node -> network)
 
-
-  
+  network is prevented from congestion

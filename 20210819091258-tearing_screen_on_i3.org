@@ -30,7 +30,7 @@ EndSection
 
 - Reference :: [[https://wiki.archlinux.org/title/AMDGPU#Specify_the_correct_module_order][Arch-wiki: Specify the correct module order]]
 
-After editing the file above, you might not be able to run `startx` and run i3 correctly. The problem is probably caused by modules' order inside kernel. You have to ensure that running amdgpu before radeon (your config). To do that, put the below content inside `/etc/modprobe.d/modprobe.conf`
+After editing the file above, you might not be able to run `startx` and run i3 correctly. The problem is probably caused by modules' order inside kernel. You have to ensure that running amdgpu before radeon (your config). To do that, put the following line inside `/etc/modprobe.d/modprobe.conf`
 
 #+begin_src 
 MODULES=(amdgpu radeon)

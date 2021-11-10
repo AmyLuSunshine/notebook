@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       a3ca8be2-3531-4254-a3c5-983d2db6ba37
+:END:
+#+title: String and Rune
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+
+'' and "" are not interchangeable in Go.
+
+#+begin_src go
+ fmt.Println('a') // print 97
+ fmt.Println("a") // print a
+#+end_src
