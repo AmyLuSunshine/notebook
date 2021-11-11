@@ -1,0 +1,78 @@
+:PROPERTIES:
+:ID:       c5fd5df4-eea8-442c-9c6c-e51fc84b7dfe
+:END:
+#+title: Map
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+* nil map
+
+#+begin_src go
+var nilMap map[string]int
+fmt.Println(nilMap == nil) // true
+nilMap["hello"] = 1        // cannot assign entry in nil map
+#+end_src
+
+* literal
+
+#+begin_src go
+m := map[string]int{} // you read and write to an empty map literal
+fmt.Println(m == nil) // false
+#+end_src
+
+* make()
+
+#+begin_src go
+// the num specifies how many k-v pairs in the map
+ages := make(map[int][]string, 10) 
+#+end_src
+
+* delete()
+
+#+begin_src go
+ m := map[string]int{}
+ m["he"] = 1
+ fmt.Println(m)
+ delete(m, "he")
+ fmt.Println(m)
+#+end_src
+
+* simulate a set 
+
+simply use bool for the value
+
+#+begin_src go
+ set := map[int]bool{}
+ for i := 0; i < 10; i++ {
+   set[i] = true
+ }
+ if set[100] {
+   fmt.Println("100 is in the map")
+ } else {
+   fmt.Println("100 is not in the map")
+ }
+#+end_src
+
+* for-range 
+
+the order of k-v pairs in for-range loop might not be identical every time.
+
+#+begin_src go
+ m := map[string]int{
+   "a": 1,
+   "c": 3,
+   "b": 2,
+ }
+ 
+ for i := 0; i < 3; i++ {
+   fmt.Println("Loop", i)
+ for k, v := range m {
+   fmt.Println(k, v)
+  }
+ }
+#+end_src
+
+** Hash DoS
+   see [[id:7a2fa143-8bb6-4759-9722-66eb9276cc23][Hash Dos]]
+

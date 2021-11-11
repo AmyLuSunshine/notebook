@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       c4d454c2-71f5-4b58-8c42-7b0a4bcacea6
+:END:
+#+title: Zero Value
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+* nil
+
+** pointers and other types implemented by pointer
+   
+*** slices
+
+*** maps
+
+*** functions
+
+*** channels
+
+*** interfaces
+
+* false
+
+** boolean
+
+* 0
+
+** int

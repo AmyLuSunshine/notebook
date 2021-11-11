@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       d6a741f1-044f-4b6f-8722-acb0a55ca89e
+:END:
+#+title: Comparable Types
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+* types that can only compare to nil
+
+** slice
+
+** map
+

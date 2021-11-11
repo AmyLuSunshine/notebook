@@ -1,0 +1,95 @@
+:PROPERTIES:
+:ID:       fdff0208-3919-44e1-86fc-bbb4748501d2
+:END:
+#+title: Struct
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+there is no difference between assigning an empty struct literal and not assigning a value at all.
+
+#+begin_src go
+    type person struct{
+	    name string
+	    age int
+      }
+
+  // a and b both initialize all of the fields
+  // in the struct to their zero value {"", 0}
+   a := person {} 
+   var b person 
+#+end_src
+
+* Comparing and Converting Structs
+
+** same type with all comparable fields
+#+begin_src go
+  a := person{
+	  age: 30,
+  }
+  b := person{
+	  age: 31,
+  }
+  fmt.Println(a == b) //true
+#+end_src
+
+** same type with a field that cannot be compared
+
+#+begin_src go
+type person1 struct {
+	name   string
+	age    int
+	record map[string]int
+}
+
+func main() {
+	var a person1
+	var b person1
+	fmt.Println(a == b) // compile error
+}
+#+end_src
+
+** different type with the same fields
+
+   if the order of fields is different, then the conversion will cause a compile error.
+
+#+begin_src go
+type person1 struct {
+	name string
+	age  int
+}
+
+type person2 struct {
+	name string
+	age  int
+}
+
+func main() {
+	a := person1{
+		age: 30,
+	}
+	b := person2{
+		age: 30,
+	}
+
+	fmt.Println(person2(a) == b) // true
+}
+#+end_src
+
+* Anonymous structs
+
+  useful for 
+  
+#+begin_src go
+func main() {
+	a := struct {
+		name string
+		age  int
+	}{
+		name: "hello",
+		age:  10,
+	}
+	fmt.Println(a)
+}
+#+end_src
+

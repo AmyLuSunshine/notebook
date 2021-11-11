@@ -59,3 +59,10 @@ two keys have the same hash code.
 |                    |                                                  |
 | PrintTable()       | print the hash table by each slot                |
 
+* Hash Dos
+  :PROPERTIES:
+  :ID:       7a2fa143-8bb6-4759-9722-66eb9276cc23
+  :END:
+  
+   If maps always hash items to the exact same values, and you know that a server is storing some user data in a map, you can actually slow down a server with an attack called Hash DoS by sending it specially crafted data where all of the key hash to the same bucket.
+

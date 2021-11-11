@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       a3ca8be2-3531-4254-a3c5-983d2db6ba37
 :END:
-#+title: String and Rune
+#+title: String Rune Byte
 #+filetags: :Golang:
 
 - tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
@@ -12,4 +12,49 @@
 #+begin_src go
  fmt.Println('a') // print 97
  fmt.Println("a") // print a
+#+end_src
+
+* a string is a sequence of bytes
+
+  *Be care of slicing a string*, because a code point in UTF-8 can be anywhere from *one* to *four* bytes long.
+
+#+begin_src go
+ var s string = "Hello 🌞"
+ fmt.Println(len(s)) // 10
+ fmt.Println(s[7:])  // print 3 code points, because 🌞 takes 4 bytes
+#+end_src
+
+* Convert rune or byte to string
+
+  - never convert any type other than rune or byte to string
+  - most data in GO read and written as a sequence of bytes, so the most common string type conversions are back and forth with *a slice of bytes*. Slices of runes are uncommon.
+
+#+begin_src go
+ var a rune = 'x'
+ var s string = string(a)
+ var b byte = 'y'
+ var s2 string = string(b)
+ fmt.Println(s, s2)
+#+end_src
+
+* for-range (loop thru code points)
+
+  when iterating over a string using for-range loop, it iterates over the runes, not the bytes. The indices might not be consistent, because it converts the UTF-8 representation(bytes) to a single 32-bit number(runes) and assigns it to the value.
+
+#+begin_src go
+  func main() {
+	  samples := "apple_π!"
+	  for i, v := range samples {
+		  fmt.Println(i, v, string(v))
+	  }
+  }
+
+  // 0 97 a
+  // 1 112 p
+  // 2 112 p
+  // 3 108 l
+  // 4 101 e
+  // 5 95 _
+  // 6 960 π
+  // 8 33 !
 #+end_src

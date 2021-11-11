@@ -1,0 +1,56 @@
+:PROPERTIES:
+:ID:       75dc87d9-0248-4de2-a8fb-76dde7eb8c7f
+:END:
+#+title: Function
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+* Go does not support parameters
+
+  you must supply all of the parameters for a function
+
+* Variadic Input Parameters and Slices
+
+#+begin_src go
+func sq(i ...int) {
+	for _, v := range i {
+		fmt.Println(v * v)
+	}
+}
+
+func main() {
+	sq(1, 2, 3, 4)
+	s := []int{1, 2, 3, 4, 5}
+	sq(s...)
+}
+#+end_src
+
+* Multiple return values are multiple values
+
+  You must assign each returned from a function. It's a compile-time error if you try to assign multiple return values to one variable.
+
+* Ignoring returned values
+
+** Ignore some of the returned values
+   use `_`
+
+** Ignore all returned values
+   assigning nothing
+#+begin_src go
+func sq(i ...int) []int {
+	res := []int{}
+	for _, v := range i {
+		res = append(res, v*v)
+		fmt.Println(v * v)
+	}
+	return res
+}
+
+func main() {
+	s := []int{1, 2, 3, 4, 5}
+	sq(s[2:]...)
+	x := sq(s[2:]...)
+	fmt.Println(x)
+}
+#+end_src

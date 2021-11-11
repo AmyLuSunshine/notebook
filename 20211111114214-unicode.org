@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       5effc3d8-3e6a-411a-82bf-49390ea637f9
+:END:
+#+title: Unicode
+
+Each charactre is represented by a unicode code point, which can vary from 1 to 4 bytes long.

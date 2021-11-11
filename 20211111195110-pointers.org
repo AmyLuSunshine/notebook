@@ -1,0 +1,110 @@
+:PROPERTIES:
+:ID:       efd109f1-6c0e-444b-95b8-a1c49c4b8104
+:END:
+#+title: Pointers
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+* Pass by value
+
+Since functions in Go all pass by value, remember that when passing a pointer to a function, you pass the copy of address(pointer) in the function.
+
+** you can update fields
+
+#+begin_src go
+  func update(x *int) {
+	  y := 20
+	  *x = y
+    }
+
+  func main() {
+	x := 10
+	p := &x
+	update(p)
+	fmt.Println(*p) // print 20
+  }
+#+end_src
+
+** you cannot update the pointer
+
+#+begin_src go
+  func update(x *int) {
+	  y := 20
+	  x = &y
+    }
+
+  func main() {
+	x := 10
+	p := &x
+	update(p)
+	fmt.Println(*p) // print 10
+  }
+#+end_src
+
+** you cannot update nil pointer
+
+#+begin_src go
+  func update(x *int) {
+	  y := 20
+	  x = &y
+    }
+
+  func main() {
+	var p *int
+	update(p)
+	fmt.Println(*p) // panic because p is still nil
+  }
+#+end_src
+
+* & is the address operator
+
+  you can't use & before a primitive literal or a constant, because they don't have memory address. When you need a pointer to a primitive type, declare a variable and point to it:
+
+  #+begin_src go
+var y string
+z := &y
+  #+end_src
+
+* Use helper function to create pointer to primitive
+
+#+begin_src go
+var x int32 = 10
+var y bool = true
+
+type person struct {
+    FirstName  string
+    MiddleName *string
+    LastName   string
+}
+
+p := person{
+  FirstName:  "Pat",
+  MiddleName: "Perry", // This line won't compile
+  LastName:   "Peterson",
+}
+#+end_src
+
+#+begin_src go
+  func stringp(s string) *string {
+	return &s
+  }
+
+p := person{
+  FirstName:  "Pat",
+  MiddleName: stringp("Perry"), // This line won't compile
+  LastName:   "Peterson",
+}
+#+end_src
+
+* * is the indirection operator, which used for dereferencing
+
+  before dereferencing, make sure the pointer is not nil (panic)
+
+* new() rarely use
+
+  new() creates a pointer variable
+
+#+begin_src go
+var x = new(int)
+#+end_src
