@@ -13,7 +13,7 @@ package main
 import "fmt"
 
 func abs(i interface{}) {
-	switch i.(type) {
+	switch j := i.(type) {
 	case int:
 		fmt.Println("integer")
 	case string:

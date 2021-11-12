@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       4768975d-8024-4427-ae47-c5cfa233cb03
+:END:
+#+title: Software Design
+
+
+* Abstract Layers
+  
+** [[https://programmer.group/interface-design-principles-using-golang.html][interface design principles using Golang]]
+
+   - Opening and closing design principle:
+    A software entity such as classes, modules, and functions should be open to extension and closed to modification.
+   In short, when modifying requirements, we should try to *implement changes through extension* rather than by modifying existing code.

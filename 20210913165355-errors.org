@@ -6,6 +6,12 @@
 
 - tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
 
+* Errors Are Values
+
+  When using custome errors, never define a variable to be of the type of your custom error.
+
+* Create Errors
+
 To make a error in Go, you should implement a Error() string method on thay type, for example:
 
 #+begin_src go

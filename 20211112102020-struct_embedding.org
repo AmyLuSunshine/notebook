@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       41f455af-8843-495c-b110-6eaa0d9c9510
+:END:
+#+title: Struct Embedding
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+* Embedding and method
+
+Embedding one concrete type (inner) inside another (outter) won't allow you to treat the outer type as the inner type. 
+
+The methods on an embedded field (inner) do count toward the method set of the containing struct (outter).
+
+#+begin_src go
+type inner struct {
+	name string
+}
+
+func (i inner) String() string {
+	return fmt.Sprintf("this is inner name: %s", i.name)
+}
+
+type outer struct {
+	inner
+	age int
+}
+
+func main() {
+	x := outer{
+		inner: inner{
+			"hello",
+		},
+		age: 10,
+	}
+	fmt.Println(x)
+}
+#+end_src
+

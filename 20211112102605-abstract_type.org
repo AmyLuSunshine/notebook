@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       b2642d6b-4f8f-49a3-982b-99f97b9272b0
+:END:
+#+title: Abstract Type
+
+An abstract type refers to a type with incomplete implementation, or without implementation at all.

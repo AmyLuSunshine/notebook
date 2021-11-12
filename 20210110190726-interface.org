@@ -6,6 +6,15 @@
 
 - tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
 
+* Understand Interface 
+
+Interfaces are implemented as *a pair of pointers*, one to the *underlying type* and one to the *underlying value*. Only when both pointers are nil, the interface is nil.
+
+- an interface is a collection of method declarations
+
+- a type is an interface if it implements all the methods declared in that interface
+
+- interface can be used as data type.
 
 #+begin_src go
 package main
@@ -41,3 +50,50 @@ func main() {
 	myprint(s)
 }
 #+end_src
+
+* Type assertion
+
+#+begin_src go
+type man struct {
+	name string
+}
+
+type speaker interface {
+	say()
+}
+
+func (m man) say() {
+	fmt.Printf("hi, my name is %s", m.name)
+	fmt.Println()
+}
+
+type fucker interface {
+	fuck()
+}
+
+func (m man) fuck() {
+	fmt.Printf("hi, my name is %s, fuck you", m.name)
+	fmt.Println()
+}
+
+func greet(m speaker) {
+        // if the underlying type also implemented fucker interface,
+        // call fuck() then.
+	if m, ok := m.(fucker); ok {
+		m.fuck()
+		return
+	}
+	m.say()
+}
+
+func main() {
+	x := man{name: "Bob"}
+	x.say()
+	x.fuck()
+	greet(x)
+}
+#+end_src
+
+* Type Switches
+
+see [[id:830fc058-2054-4a05-8274-6bb2174cff21][Type Switches]]
