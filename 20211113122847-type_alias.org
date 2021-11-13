@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       a46fed49-6c37-4308-8b32-aec2a59b465d
+:END:
+#+title: Type Alias
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+#+begin_src go
+    type foo struct {
+	  name string
+    }
+
+  func (f foo) hello() string {
+	return "hello"
+  }
+// bar is an alias of foo. bar has the same fileds and methods 
+// as foo
+  type bar = foo 
+
+#+end_src
+

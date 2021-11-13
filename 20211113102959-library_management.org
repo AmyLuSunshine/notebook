@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       30c239a6-e42e-4c22-bbfa-141403eddad3
+:END:
+#+title: Library Management
+#+filetags: :Golang:
+
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+Library management in Go is based around three concepts: repositories, modules, and packages.
+
+Repository -> Modules (stored one or more packages) -> Packages

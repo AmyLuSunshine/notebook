@@ -7,6 +7,12 @@
 - tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
 - source :: [[http://www.golang-book.com/books/intro/10#section2][Concurrency - An Introduction to Programming in Go]]
 
+* When to use concurrency
+
+** two steps can be concurrent because their data is independent (not required by the other)
+
+** concurrency isn't free. don't use it if the the concurrent procedures don't take a lot of time
+
 * Goroutines
 
 A Goroutines is a function that is capable of running concurrently with other functions.

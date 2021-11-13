@@ -6,29 +6,96 @@
 
 - tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
 
+* Crate a channel
+  Channels are reference types, which means when you pass a channel to a function, you are really passing a pointer to the channel.
 #+begin_src go
-package main
-
-import (
-	"fmt"
-	"time"
-)
-
-func main() {
-	c := make(chan string)
-	go count("sheep", c)
-
-	for msg := range c {
-		fmt.Println(msg)
-	}
-}
-
-func count(thing string, c chan string) {
-	for i := 1; i <= 5; i++ {
-		c <- thing
-		time.Sleep(time.Millisecond * 500)
-	}
-	close(c)
-}
+ch := make(chan int)
 #+end_src
 
+* Read, Write, and Buffer
+
+#+begin_src go
+ch := make(chan int)
+a := <- ch // reads a value from ch and assigns it to a
+ch <- b    // write the value in b to ch
+#+end_src
+
+** Each value written to a channel can only be read once
+   If multiple goroutines are reading from the same channel, a value written to the channel will only be read by one of them.
+
+** read/write only 
+
+   #+begin_src go
+// read only channel
+func f(ch <-chan int)
+// write only channel
+func f(ch chan<- int)
+   #+end_src
+
+** buffer
+
+*** unbuffered channel (recommended)
+   
+    Every time writing to a unbuffered channel blocks the *writing goroutine* until other goroutine reads from the same channel. 
+
+   (write -> wait until finish reading(unbufferd) -> keep writing)
+
+*** buffered channel
+
+    #+begin_src go
+   ch := make(chan int, 10)
+    #+end_src
+
+**** len and cap
+
+     len(bufCh) returns the number of values are currently in the buffer
+
+     cap(bufCh) returns the maximum buffer size 
+
+** for-range
+
+   you can also read from a channel using for-range. unlike other for-range, there is only a single variable declared for the channel. the loop continues until the channel is closed, or until a `break` or `return` statement is reached.
+
+#+begin_src go
+  for v := range ch {
+	fmt.Println(v)
+  }
+#+end_src
+
+** Close a channel
+
+   once the channel is closed, any attempts to write to the channel or close the channel again will panic.
+
+#+begin_src go
+close(ch)
+#+end_src
+
+*** read from a closed channel always succeeds
+   If the channel is buffered and there are values that haven't been read yet, they will be returned in order.
+
+   read from a unbufferd channel or the buffered channel with no more values, the zero value for the channel's type is returned.
+
+****  check if a channel is closed or returning a zero value
+
+#+begin_src go
+v, ok := <- ch
+#+end_src
+
+* Deadlock
+
+#+begin_src go
+func main() {
+	ch1 := make(chan int)
+	ch2 := make(chan int)
+	go func() {
+		v := 1
+		ch1 <- v  // block until ch1 is read
+		v2 := <-ch2
+		fmt.Println(v, v2)
+	}()
+	v := 2
+	ch2 <- v // block until ch2 is read
+	v2 := <-ch1
+	fmt.Println(v, v2)
+}
+#+end_src

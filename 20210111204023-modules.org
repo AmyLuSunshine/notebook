@@ -12,7 +12,19 @@
 go mod init
 #+end_src
 
-* install the program
+* Import Path
+
+Use the absolute path of the repository (not package name) being imported
+
+#+begin_src go
+import "module-name/path-to/the-directory-of-the-package"
+#+end_src
+
+* Package names are in the file block
+
+  For using the same package in two different files in the same package, you must import the package in both files.
+
+* Install the program
 
 #+begin_src sh
 go install

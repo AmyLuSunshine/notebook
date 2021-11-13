@@ -6,7 +6,7 @@
 
 - tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
 
-* nil
+* nil (types that are implemented by pointer)
 
 ** pointers and other types implemented by pointer
    
