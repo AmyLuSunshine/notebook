@@ -147,3 +147,26 @@ Buffered channels do not wait until the other side is ready. A buffered channel 
 #+begin_src go
 c := make(chan int, 1)
 #+end_src
+
+* Any time your goroutine uses a variable whose value might change, pass the current value of the variable into the goroutine.
+
+#+begin_src go
+  func main() {
+      a := []int{2, 4, 6, 8, 10}
+      ch := make(chan int, len(a))
+      for _, v := range a {
+	  go func() {
+	      ch <- v * 2
+	  }()
+      }
+      for i := 0; i < len(a); i++ {
+	  fmt.Println(<-ch)
+      }
+  }
+// output:
+  // 20
+  // 20
+  // 20
+  // 20
+  // 20
+#+end_src

@@ -99,3 +99,20 @@ func main() {
 	fmt.Println(v, v2)
 }
 #+end_src
+
+* for-select
+
+Since select is responsible for communicating over a number of channels, it is often embedded within a for loop.
+
+default's body is triggered when no channel reads or writes.
+
+#+begin_src go
+  for {
+	case <- done:
+	    return
+	case v := ch:
+	    fmt.Println(v)
+	default: 
+	    //do something
+  }
+#+end_src
