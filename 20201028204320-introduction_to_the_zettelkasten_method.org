@@ -1,4 +1,4 @@
-:PROPERTIES:
+wewega:PROPERTIES:
 :ID:       8eb1ad96-1fb9-4a41-8c25-94effee0c76c
 :END:
 #+title: Introduction to the Zettelkasten Method
@@ -9,7 +9,7 @@
 * Structure of a Zettel
 - [[https://zettelkasten.de/introduction/complete-zettel.png][All the parts of Zettel]]: An image shows the structure 
 
-*  How to write the body part of a Zettel
+* How to write the body part of a Zettel
 
 ** The length of a Zettel
 It depends on what you want to write down. Generally, the body of the Zettel should be only short.
