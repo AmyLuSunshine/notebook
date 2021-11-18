@@ -5,6 +5,7 @@
 #+filetags: :Golang:
 
 - tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+- source :: [[https://eli.thegreenplace.net/2020/embedding-in-go-part-3-interfaces-in-structs/][Embedding in Go: Part 3 - interfaces in structs]]
 
 * Understand Interface 
 

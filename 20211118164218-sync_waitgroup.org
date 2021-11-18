@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       2c29699b-5f7b-4685-a5f4-50c1c2a90cd2
+:END:
+#+title: sync.WaitGroup
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]], [[id:30f4379e-b3e7-4c81-ad79-b7016936b8d9][Concurrency in Go]]
+
+
+#+begin_src go
+  var wg sync.WaitGroup // 1. Declare the sync.WaitGroup
+  wg.Add(1)             // 2. Add to the WaitGroup queue
+  wg.Done()             // 3. make items in the queue as done
+  wg.Wait()             // 4. tell your code to wait on the WaitGroup 
+                        // queue to reach zero
+#+end_src

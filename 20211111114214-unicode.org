@@ -4,3 +4,8 @@
 #+title: Unicode
 
 Each charactre is represented by a unicode code point, which can vary from 1 to 4 bytes long.
+
+UTF-8 uses 8 bits (1 bytes) code units.
+
+- code units (utf-8 uses 8 bits, utf-16 uses 16bits)
+- code points (h, 你, 🌞)
