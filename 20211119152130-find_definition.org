@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       73b10bbe-6b44-4388-9d44-878519762b42
+:END:
+#+title: Find Definition 
+#+filetags: :Emacs:
+
+- tag :: [[id:f2b69c75-fd89-409d-8aa9-fba688b70e0a][Emacs]]
+
+M-. xref-find-definitions 
+M-, xref-pop-marker-stack (go-back)
+
