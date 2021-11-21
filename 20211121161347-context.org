@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       a69f8db4-5505-4e14-99bf-a3ec6cadf952
+:END:
+#+title: Context
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+A context is treated as an immutable instance. Everytime we add information to a context, we wrap the existing context with a child context.
+

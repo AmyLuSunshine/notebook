@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       bc1e6653-bb73-4926-b907-0c311e62b665
+:END:
+#+title: Semaphores
+#+filetags: :Operating-System:
+
+- tags :: [[id:7ca902b3-9234-4d04-ae17-c16c0edb4447][Operating System]], [[id:0fc24922-6a4a-4eef-bb75-bda99db74608][Concurrency & Deadlocks]], [[id:a704bcc5-fa19-4f99-8be0-5c2e09decae7][Threads]]
+
+* Binary Semaphores
+
+#+begin_src 
+p(semaphores)
+cs() //critical section
+v(semaphores)
+#+end_src
+
+example: toliet occupied.
+
+a semaphore is a shared variable (int), which is initialized to 1.
+
+When a process enter a critical section, it first checks if the semaphore of that critical section is 0.
+- If it is 0, then wait until it changes to 1.
+- If it is 1, then changes it to 0, and the process starts doing stuff. 
+- After finishing the job with the critical section, the process sets semaphores to 1 and exits.
+
+it sets the corresponding semaphores to 0. 
