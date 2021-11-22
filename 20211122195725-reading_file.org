@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       fb5408c2-2b78-4cd7-a881-c073678cb9ed
+:END:
+#+title: Reading file
+#+filetags: :Postgresql:
+
+- tag :: [[id:2871a8e7-c783-4981-93d1-2979e872bc1b][Postgresql]]
+
+#+begin_src postgresql
+\i 'path/file_name'
+#+end_src
+

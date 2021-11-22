@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       f18e45d4-e62e-479d-8edd-66763c168328
+:END:
+#+title: Copy From CSV
+#+filetags: :Postgres:
+
+- tag :: [[id:2871a8e7-c783-4981-93d1-2979e872bc1b][Postgres]]
+
+#+begin_src postgres
+\copy table_name(schemas_1, schemas_2...) FROM 'file_path' WITH DELIMITER ',' CSV;
+#+end_src

@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       f6179666-aa79-430d-9e2f-170048e311b8
+:END:
+#+title: Keys
+#+filetags: :Postgres:
+
+- tags :: [[id:992ec40c-78e7-4819-9f63-3b488bc06627][SQL]], [[id:2871a8e7-c783-4981-93d1-2979e872bc1b][Postgres]]
+
+Album
+id        (primary key)
+title     (logical key)
+artist_id (foreign key)
+
+* Primary key
+
+an interger auto-increment field
+
+* Logical key
+
+what the outside world uses for lookup (e.g email)
+
+* Foreign key
+
+an intergre key pointing to a row in another table

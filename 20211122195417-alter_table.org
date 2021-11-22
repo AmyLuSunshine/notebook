@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       97d3d8ad-6285-4990-9403-c3f357d4eed0
+:END:
+#+title: ALTER TABLE
+#+filetags: :Database:
+
+- tags :: [[id:992ec40c-78e7-4819-9f63-3b488bc06627][SQL]], [[id:2871a8e7-c783-4981-93d1-2979e872bc1b][Postgres]]
+
+* Add columns
+
+#+begin_src sql
+ALTER TABLE table_name ADD COLUMN col_name TYPE type_name;
+#+end_src
+
+* Drop columns
+
+#+begin_src sql 
+ALTER TABLE table_name DROP col_name;
+#+end_src
+
+* Alter columns (change type)
+
+#+begin_src sql
+ALTER TABLE table_name ALTER COLUMN col_name TYPE type_name;
+#+end_src

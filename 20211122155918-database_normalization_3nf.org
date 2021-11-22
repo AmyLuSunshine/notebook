@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       0441c80d-dc38-4371-adbc-4b5f2caf5719
+:END:
+#+title: Database Normalization (3NF)
+#+filetags: :Database:
+
+- tags :: [[id:992ec40c-78e7-4819-9f63-3b488bc06627][SQL]], [[id:2871a8e7-c783-4981-93d1-2979e872bc1b][Postgres]]
+
+* Do not replicate data. Instead, reference data. Point at data
+
+* Use integers for keys and for references
+
+* Add a special "key" column to each table, which you will make references to

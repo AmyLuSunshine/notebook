@@ -33,3 +33,25 @@ CREATE TABLE person (
   first_name VARCHAR(50) NOT NULL, 
 )
 #+end_src
+
+* Insert
+
+#+begin_src sql
+INSERT INTO table_name (schemas_1, schemas_2) VALUES ('value_1', 'value_2');
+#+end_src
+
+* Delete (row)
+
+#+begin_src sql
+DELETE FROM table_name WHERE schema_name='value';
+#+end_src
+
+* Update
+
+#+begin_src sql
+UPDATE table_name SET schemas_name_1='value_1' WHERE schemas_name_2='value_2';
+#+end_src
+
+* OFFSET
+
+The OFFSET starts from row 0   

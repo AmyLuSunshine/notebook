@@ -1,10 +1,30 @@
 :PROPERTIES:
 :ID:       2871a8e7-c783-4981-93d1-2979e872bc1b
 :END:
-#+title: Postgres
+#+title: Postgresql
 #+filetags: :Databases:
 
 - tag :: [[id:a8ad6f6e-ddd6-48e3-b7f5-b5fbbee5c4a7][Databases]]
+
+* Create user and database
+
+#+begin_src sql
+  -- as super user
+  psql -U postgres
+  CREATE USER jesse WITH PASSWORD 'password';
+  CREATE DATABASE people WITH OWNER 'jesse';
+  -- quit
+  \q
+
+  -- connect to people as jesse
+   psql people jesse
+#+end_src
+
+* Connect to the database
+
+#+begin_src sql
+
+#+end_src
 
 * Psql Command
 

@@ -1,0 +1,52 @@
+:PROPERTIES:
+:ID:       ece83a29-49af-4760-8568-0c6e8f9e4c64
+:END:
+#+title: Data Types
+#+filetags: :PostgreSQL:
+
+- tags :: [[id:992ec40c-78e7-4819-9f63-3b488bc06627][SQL]], [[id:2871a8e7-c783-4981-93d1-2979e872bc1b][Postgres]]
+
+* String Fields
+
+** CHAR(n) allocates the entire space 
+
+** VARCHAR(n) allocates a variable amount of space depending on the data length
+
+use VARCHAR unless you know exactly the data length (e.g hashes)
+
+* Text Fields
+
+** Have a character set-paragraphs or HTML pages
+
+ - TEXT varing length
+
+** Generally not used for indexing or sorting
+
+* Integer Numbers
+
+** SMALLINT (-32768, +32768)
+
+** INTEGER (2 Billion)
+
+** BIGINT  -(10**18ish)
+
+* Floating Numbers
+
+** NUMERIC (currency)
+
+** REAL (32-bit)
+
+** DOUBLE PRECISION (64-bit)
+
+* Dates
+
+** TIMESTAMP
+
+** DATE
+
+** TIME
+
+* SERIAL
+
+* UNIQUE
+
