@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       b4dbcaa0-10e2-4ab6-8f5f-5eb9c8267a97
+:END:
+#+title: Access Program Argument
+#+filetags: :Golang:
+
+- tag :: [[id:0299b57c-8945-43a1-bdbe-cbaacbf60e45][Go pkgs]]
+
+* Generic Approach
+
+#+begin_src go
+os.Args // a slice of all cli argument
+os.Args[0] // program name
+os.Args[1:] // argument without program name
+#+end_src
+
+* Flag Package
+
+#+begin_src go
+// flag name, default value, help msg
+ var intFlag = flag.Int("int", 1234, "integer")
+ var strFlag = flag.String("str", "hello", "string")
+ flag.Parse()
+ fmt.Println(flag.NFlag())
+ fmt.Println(*strFlag)
+ fmt.Println(*intFlag)
+#+end_src

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       a6191831-841e-40e2-beb1-e2d19fd0afa4
+:END:
+#+title: Retrive Go Version
+#+filetags: :Golang:
+
+- tag :: [[id:0299b57c-8945-43a1-bdbe-cbaacbf60e45][Go pkgs]]
+
+#+begin_src go
+log.Printf(runtime.Version())
+#+end_src

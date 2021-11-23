@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       62747cb0-4ada-4cdb-9365-7b9c2d3f9ab4
+:END:
+#+title: Date and Time
+#+filetags: :Database:
+
+- tag :: [[id:2871a8e7-c783-4981-93d1-2979e872bc1b][Postgresql]]
+
+* TIMESTAMPTZ - Best Practice
+
+** Store time stamps with timezone
+
+** Prefer UTC
+
+** Convert to local time when retrieving
+
+* Casting to different types
+
+#+begin_src sql
+SELECT NOW()::DATE, CAST(NOW() AS DATE), CAST(NOW() AS TIME);
+#+end_src
+
+* Intervals
+
+#+begin_src sql
+SELECT NOW(), NOW() - INTERVAL '2 days', (NOW() - INTERVAL '2 days')::DATE;
+#+end_src
+

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       df275672-fda1-410e-ba47-bf4cfd2a964a
+:END:
+#+title: XOR
+
+    0110
+xor 1100
+--------
+    1010
+
+* XOR in Golang
+
+#+begin_src go
+x := -1
+^x // 0
+#+end_src

@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       eb154cce-9568-430e-878c-2ce7a6f16044
+:END:
+#+title: Distinct and Group By
+#+filetags: :Database:
+
+- tag :: [[id:2871a8e7-c783-4981-93d1-2979e872bc1b][Postgresql]]
+
+* DISTINCT only returns unique rows
+
+#+begin_src sql
+SELECT DISTINCT scheme_name FROM table_name;
+#+end_src
+
+** DISTINCT ON
+#+begin_src sql
+-- only return rows with unique entry of schema1 
+-- duplicate on schema2 is allowed
+SELECT DISTINCT ON (schema1_name) schema1_name schema2_name FROM table_name;
+#+end_src
+
+* GROUP BY
+
+  used with aggregate functions like COUNT(), MAX(), SUM(), AVE()

@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       84235277-c5cb-4e8d-a898-a8bf4b7b67c7
+:END:
+#+title: Get PID
+#+filetags: :Golang:
+
+- tag :: [[id:0299b57c-8945-43a1-bdbe-cbaacbf60e45][Go pkgs]]
+
+#+begin_src go
+       pid := os.Getpid()
+          fmt.Printf("Process PID: %d \n", pid)
+
+          prc := exec.Command("ps", "-p", strconv.Itoa(pid), "-v")
+          out, err := prc.Output()
+          if err != nil {
+            panic(err)
+          }
+
+          fmt.Println(string(out))
+        }
+#+end_src

@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       5fe4a332-9ae0-4697-8789-54192f58f93e
+:END:
+#+title: ON CONFLICT
+#+filetags: :Database:
+
+- tag :: [[id:2871a8e7-c783-4981-93d1-2979e872bc1b][Postgresql]]
+
+#+begin_src sql
+  INSERT INTO fav (post_id, account_id, howmuch)
+       VALUES (1, 1, 1)
+     RETURNING *;
+
+-- fail
+  INSERT INTO fav (post_id, account_id, howmuch)
+       VALUES (1, 1, 1)
+     RETURNING *;
+
+-- work
+  INSERT INTO fav (post_id, account_id, howmuch)
+       VALUES (1, 1, 1)
+       ON CONFLICT (post_id, account_id)
+       DO UPDATE SET howmuch = fav.howmuch + 1
+     RETURNING *;
+#+end_src

@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       0eabf6c5-7a82-4072-baaf-69e4dcf8771b
+:END:
+#+title: Env Variables
+#+filetags: :Golang:
+
+- tag :: [[id:0299b57c-8945-43a1-bdbe-cbaacbf60e45][Go pkgs]]
+
+#+begin_src go
+envVar := "the env variable"
+os.GetEnv(envVar)
+os.SetEnv(envVar, "new value")
+#+end_src
+
+* check if a env var is set
+
+#+begin_src go
+  envVar := "HOME"
+  key, ok := os.LookupEnv(envVar)
+  if !ok {
+	  fmt.Println("not set yet")
+  else {
+	  fmt.Printf("%s: %s", envVar, key)
+  }
+#+end_src

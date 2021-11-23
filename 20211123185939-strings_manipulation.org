@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       7d90169b-c33f-4446-8205-7575fd23c09e
+:END:
+#+title: Strings Manipulation
+#+filetags: :Golang:
+
+- tag [[id:0299b57c-8945-43a1-bdbe-cbaacbf60e45][Go pkgs]]
+
+* case insensitive comparison
+#+begin_src go
+ fmt.Println(strings.EqualFold("Go", "go")) // true
+#+end_src
+
+* trim space and return a slice of substrigns
+
+#+begin_src go
+  fmt.Printf("Fields are: %q", strings.Fields("  foo bar  baz   "))
+#+end_src
+
+** define your own trimming func
+
+#+begin_src go
+  // only return letters and numbers
+  f := func(c rune) bool {
+	return !unicode.IsLetter(c) && !unicode.IsNumber(c)
+  }
+fmt.Printf("Fields are: %q", strings.FieldsFunc("  foo1;bar2,baz3...", f))
+#+end_src
