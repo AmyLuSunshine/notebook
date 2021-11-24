@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       ef508bfb-e55c-450c-af52-6df0e8259c2a
+:END:
+#+title: Copy
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+#+begin_src go
+copy(dstSlice, srcSlice) int
+#+end_src
+
+
+#+begin_src go
+ src := []int{1, 2, 3, 4, 5}
+ dst := make([]int, 10)
+ copy(dst, src)
+ fmt.Println(dst, src) //[1 2 3 4 5 0 0 0 0 0]
+#+end_src 
+
+#+begin_src go
+ src := []int{1, 2, 3, 4, 5}
+ dst := make([]int, 3)
+ copy(dst, src)
+ fmt.Println(dst, src) //[1 2 3]
+#+end_src
+
+* Copy() vs assignment
+
+#+begin_src go
+ src := []int{1, 2, 3, 4, 5}
+ dst := make([]int, 5)
+ 
+ copy(dst, src)
+ dst1 := src
+ fmt.Println("copy: ", dst)
+ fmt.Println("assign: ", dst1)
+ src[0] = 10
+ fmt.Println("copy: ", dst)
+ fmt.Println("assign: ", dst1)
+#+end_src

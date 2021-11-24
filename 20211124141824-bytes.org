@@ -1,0 +1,103 @@
+:PROPERTIES:
+:ID:       7e7b689f-42bf-4de7-9fc7-c67618693691
+:END:
+#+title: bytes
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+* func Compare
+
+#+begin_src go
+func main() {
+	a := []byte("hello")
+	b := []byte("world")
+	fmt.Println(bytes.Compare(a, b)) // -1
+}
+#+end_src
+
+
+#+begin_src go
+func main() {
+	a := []byte("hello")
+	b := []byte("hello")
+	fmt.Println(bytes.Compare(a, b)) // 0
+}
+#+end_src
+
+* func Contains
+
+#+begin_src go
+func main() {
+	a := []byte("hello")
+	b := []byte("lo")
+	fmt.Println(bytes.Contains(a, b)) // true
+}
+#+end_src
+
+* func ContainAny
+
+#+begin_src go
+func main() {
+	a := []byte("hello, 世界")
+	fmt.Println(bytes.ContainsAny(a, "世")) // true
+}
+#+end_src
+
+* func ContainRune
+  #+begin_src go
+func main() {
+	a := []byte("hello, 世界")
+	fmt.Println(bytes.ContainsRune(a, '世'))
+}
+  #+end_src
+
+* func Count
+
+#+begin_src go
+func main() {
+	a := []byte("hello, 世界世界世界世界")
+	fmt.Println(bytes.Count(a, []byte("世界"))) // 4
+}
+#+end_src
+
+* func Fields
+  split fields by one or more consecutive white space characters
+#+begin_src go
+func main() {
+	a := []byte("hello, \n \t 世界")
+	b := []byte("hello,     世界")
+	fmt.Println(bytes.Fields(a))
+	fmt.Println(bytes.Fields(b))
+}
+#+end_src
+
+* func FieldsFunc
+
+#+begin_src go
+func f(r rune) bool {
+	return r == ','
+}
+
+func main() {
+	a := []byte("hello, \n \t 世界")
+	b := []byte("hello,     世界")
+	fmt.Println(bytes.Fields(a))
+	fmt.Println(bytes.FieldsFunc(a, f))
+	fmt.Println(bytes.FieldsFunc(b, f))
+}
+#+end_src
+
+* func Runes
+
+#+begin_src go
+func main() {
+	b := []byte("世界")
+
+	fmt.Println(bytes.Runes(b))
+	r := bytes.Runes(b)
+	for _, v := range r {
+		fmt.Printf("%#U\n", v)
+	}
+}
+#+end_src

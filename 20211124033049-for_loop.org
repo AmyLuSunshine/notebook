@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       3c4592d0-cbf4-4373-9c52-9d05879b7351
+:END:
+#+title: For Loop
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+var initialized by for loop uses the same memory addr
+
+#+begin_src go
+ s := "hello"
+ for _, v := range s {
+     fmt.Println(&v)
+ }
+// output 5 same addr
+#+end_src
+

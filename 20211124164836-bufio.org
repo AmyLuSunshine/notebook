@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       f2d46ff1-76fc-49f0-b259-0faa8090e79e
+:END:
+#+title: bufio
+#+filetags: :Golang:
+
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]], [[id:0299b57c-8945-43a1-bdbe-cbaacbf60e45][Go pkgs]]
+
+#+begin_src go
+func main() {
+	b := []byte("世界hello")
+
+	_, t1, _ := bufio.ScanRunes(b, false)
+	fmt.Println(t1)
+
+	_, t2, _ := bufio.ScanBytes(b, false)
+	fmt.Println(t2)
+}
+#+end_src
+
