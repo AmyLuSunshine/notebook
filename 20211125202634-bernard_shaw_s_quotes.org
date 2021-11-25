@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       38473559-358e-4529-97e6-67f61739d0bd
+:END:
+#+title: Bernard Shaw's Quotes
+#+filetags: :Quotes:
+
+- tag :: [[id:3fe9d930-3b10-4626-b257-0a4bda94a70b][Quotes]]
+
+The single biggest problem in communication is the illusion that it has taken place.
+
+Success does not consist in never making mistakes but in never making the same one a second time.
+
+You use a glass mirror to see your face; you use works of art to see your soul.
+
+My way of joking is to tell the truth. It's the funniest joke in the world.
+
+Hatred is the coward's revenge for being intimidated.
+
+Liberty means responsibility. That is why most men dread it.
+
+When a thing is funny, search it carefully for a hidden truth.
+
+

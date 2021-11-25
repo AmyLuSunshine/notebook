@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       78d0f092-32db-4db0-a793-d312bf844e3c
+:END:
+#+title: Naming Conventions in Testing
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+- `export_test.go` to access unexported variables in external tests
+- `xxx_internal_test.go` for internal tests
+- `example_xxx_test.go` for example in isolated files
+
+* File name
+
+  the test file should be named as `xxx_test.go`. xxx can be anything, but it is conventional to be the same as the file name you are testing.
+
+* Function name
+
+Xxx must start with a uppercase letter.
+
+#+begin_src go
+func TestXxx(*testing.T)
+#+end_src
+
+* Variable name
+
+#+begin_src go
+got
+want
+args
+#+end_src

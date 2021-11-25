@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       993fd75b-d8ef-4377-87fe-759020f09636
+:END:
+#+title: GPG
+
+* Generate key
+#+begin_src sh
+gpg --full-gen-key
+#+end_src
+
+* Encrypt a file
+
+#+begin_src sh
+gpg -r recipient's-email -e file
+#+end_src
+
+* Decrypt a file
+
+#+begin_src sh
+gpg -d encrypted_file
+#+end_src

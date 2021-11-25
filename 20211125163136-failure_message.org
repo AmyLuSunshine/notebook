@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       6241eed3-d74c-4a1e-8f6a-d70b87e79e12
+:END:
+#+title: Failure Message
+#+filetags: :Golang:
+
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]], [[id:2c6feb72-7af6-4af8-bd9d-48adda1ade21][Testing]]
+
+#+begin_src go
+t.Errorf("someFunc(%v) = %v; want %v")
+// multiple return values (err)
+t.Errorf("someFunc(%v) err = %v; want %v")
+#+end_src
