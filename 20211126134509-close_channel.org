@@ -1,0 +1,93 @@
+:PROPERTIES:
+:ID:       a664605f-b950-4565-9286-2614225b71ab
+:END:
+#+title: Channel Behaviors
+#+filetags: :Golang:
+
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]], [[id:30f4379e-b3e7-4c81-ad79-b7016936b8d9][Concurrency in Go]], [[id:e5e7f85e-79e8-4f3b-97e1-98a18892357d][Channel]]
+
+|       | Unbuffered Open                  | Closed                  |
+|-------+----------------------------------+-------------------------|
+| Read  | pause until something is written | return zero value       |
+|       |                                  | (use comma ok to check) |
+| Write | pause until something is read    | panic                   |
+| Close | works                            | panic                   |
+
+|       | Buffered Open                       | Buffered Closed         |
+|-------+-------------------------------------+-------------------------|
+| Read  | Pause if buffer if empty            | return remaining values |
+|       |                                     | in the buffer, if empty |
+|       |                                     | return zero values      |
+|       |                                     | (use comma ok to check) |
+| Write | Pause if buffer is full             | panic                   |
+| Close | Works, remaining values still there | panic                   |
+
+
+|       | nil          |
+|-------+--------------|
+| Read  | hang forever |
+| Write | hang forever |
+| Close | panic        |
+
+
+* Write to a closed channel
+
+cause panic()
+
+#+begin_src go
+package main
+
+import "fmt"
+
+func main() {
+	ch := make(chan byte)
+	go func() {
+		for i := 0; i < 100; i++ {
+			ch <- byte(i)
+			if i == 50 {
+				close(ch)
+			}
+		}
+	}()
+	s := make([]byte, 100)
+	for {
+		b := <-ch
+		if b == 50 {
+			break
+		}
+		s[b] = b
+	}
+	fmt.Println(s)
+}
+#+end_src
+
+* Read from a closed channel
+
+  no panic(), read 0 value (use comma ok to see if closed)
+
+#+begin_src go
+package main
+
+import "fmt"
+
+func main() {
+	ch := make(chan byte)
+	go func() {
+		for i := 0; i < 100; i++ {
+			ch <- byte(i)
+		}
+	}()
+
+	s := make([]byte, 10)
+	for {
+		b := <-ch
+		if b == 5 {
+			close(ch)
+			break
+		}
+		s[b] = b
+	}
+	b := <-ch
+	fmt.Println(s, b)
+}
+#+end_src

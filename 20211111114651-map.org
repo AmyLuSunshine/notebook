@@ -76,3 +76,36 @@ the order of k-v pairs in for-range loop might not be identical every time.
 ** Hash DoS
    see [[id:7a2fa143-8bb6-4759-9722-66eb9276cc23][Hash Dos]]
 
+* key types
+
+  - only use comparable types as keys
+
+** if you use an interface as a key, the comparison operators must be defined for the underlying type.
+
+   #+begin_src go
+     package main
+
+     import "fmt"
+
+     type human interface{}
+
+     type asian struct{
+	name string
+     }
+
+     func main() {
+	     m := make(map[human]string)
+	     var a human = asian{"Zhang"}
+	     var x human = asian{"Zhang"}
+	     var y human = asian{"Chen"}
+	     var z human
+	     m[a] = "wow"
+	     m[x] = "test"
+	     m[y] = "hello"
+	     m[z] = "world"
+	     fmt.Println(m[a], m[x], m[y], m[z])
+     }
+   #+end_src
+   
+
+

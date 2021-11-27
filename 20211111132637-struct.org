@@ -30,7 +30,7 @@ there is no difference between assigning an empty struct literal and not assigni
   b := person{
 	  age: 31,
   }
-  fmt.Println(a == b) //true
+  fmt.Println(a == b) //false
 #+end_src
 
 ** same type with a field that cannot be compared

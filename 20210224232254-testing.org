@@ -6,25 +6,34 @@
 
 - tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
 
+* func (*T) Log
+  only prints log msg when test cases fail, or use the verbose output:
+
+  #+begin_src sh
+go test -v
+  #+end_src
+
+** * func (*T) Logf
+
 * func (*T) Fail 
 (rarely used in practice)
 fail the test and keep running the testing program
 
-* func (*T) FailNow
-(rarely used in practice)
-  fail the test and stop the testing program
+** func (*T) FailNow
+ (rarely used in practice)
+   fail the test and stop the testing program
 
 * func (*T) Error
   equivalent of t.Log() + t.Fail()
 
-* func (*T) Errorf
-  equivalent of t.Logf() + t.Fail()
+** func (*T) Errorf
+   equivalent of t.Logf() + t.Fail()
 
 * func (*T) Fatal
  equivalent of t.Log() + t.FailNow()
 
-* func (*T) Fatalf
- equivalent of t.Logf() + t.FailNow()
+** func (*T) Fatalf
+  equivalent of t.Logf() + t.FailNow()
 
 * Testing stdout 
   stdout can be tested by examples.

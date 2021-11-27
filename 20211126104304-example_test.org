@@ -1,0 +1,118 @@
+:PROPERTIES:
+:ID:       e634c9c8-fa59-4ef5-9998-0c3133d7210d
+:END:
+#+title: Example Test
+#+filetags: :Golang:
+
+- tags :: [[id:2c6feb72-7af6-4af8-bd9d-48adda1ade21][Testing]], [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+* Test the Hello(string) string 
+
+#+begin_src go
+// In the source file
+package hello
+
+import "fmt"
+
+func Hello(name string) string {
+	return fmt.Sprintf("hello: %s\n", name)
+}
+#+end_src
+
+** Test case
+
+*// Output:*: can be used to test the std out.
+
+#+begin_src go
+// In the test file
+package hello
+
+import "fmt"
+
+  func ExampleHello() {
+	  got := Hello("Jon")
+	  fmt.Println(got)
+
+	  // Output:
+	  //hello: Jon
+  }
+#+end_src
+
+** godoc
+
+the godoc tool will document your test case as an example on the webpage.
+
+#+begin_src sh
+# run and open it in your browser
+godoc -http=:8000
+#+end_src
+
+*** naming convention
+
+    see also: [[id:e414d3c5-9c34-407d-9ade-341ca139a667][Example Hierarchy]]
+
+    To display the example under the type's method definition on the godoc, you have to name the test function `ExampleType_FuncName()`. For example:
+
+#+begin_src go
+// In the source file
+package hello
+
+import "fmt"
+
+type Demo struct {
+	name string
+}
+
+func (d Demo) Hello() string {
+	return fmt.Sprintf("hello: %s\n", d.name)
+}
+#+end_src
+
+#+begin_src go
+// In the test file
+package hello
+
+import "fmt"
+
+func ExampleDemo_Hello() {
+	got := Demo{"Jon"}
+	fmt.Println(got.Hello())
+
+	// Output:
+	//hello: Jon
+}
+#+end_src
+
+* Unordered Output
+
+  You can test a function that does not guarantee output order, for example printing a map, with the keyword `Unordered Output`.
+
+#+begin_src go
+// In the source file
+func PrintMap() {
+	m := make(map[int]int, 5)
+	for i := 0; i < 5; i++ {
+		m[i] = -i
+	}
+	for k, v := range m {
+		fmt.Println(k, v)
+	}
+}
+
+// In the test file
+func ExamplePrintMap() {
+	PrintMap()
+	// Unordered Output:
+	// 0 0
+	// 1 -1
+	// 2 -2
+	// 3 -3
+	// 4 -4
+}
+#+end_src
+
+* Show packages should be imported in example code
+
+  - move your example test to a separate file named `example_func_test.go`
+  - add an empty var in that file, e.g `var a = "not used"`
+

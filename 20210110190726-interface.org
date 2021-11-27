@@ -11,11 +11,21 @@
 
 Interfaces are implemented as *a pair of pointers*, one to the *underlying type* and one to the *underlying value*. Only when both pointers are nil, the interface is nil.
 
+#+begin_src go
+ var i interface{} // underlying type is nil, value is nil
+ fmt.Println(i == nil) // true
+ 
+ var x []int // value is nil
+ var j interface{} = x // underlying type is []int, value is nil
+ 
+ fmt.Println(j == nil, reflect.TypeOf(j)) // true, []int
+#+end_src
+
 - an interface is a collection of method declarations
 
 - a type is an interface if it implements all the methods declared in that interface
 
-- interface can be used as data type.
+- interface can be used as data type
 
 #+begin_src go
 package main

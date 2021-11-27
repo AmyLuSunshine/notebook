@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       fe9e33f8-2f10-47de-ba19-b7a0a8f9660c
+:END:
+#+title: Containers
+
+
+* What are containers?
+  
+Containers are completely isolated environments, as they can have their own processes or services, their own network interfaces, their own mounts, just like virtual machines, except *they all share the same OS kernel*.
+
+* Containers vs Virtual Machines
+
+- each virtual machine runs it own OS
+  
+

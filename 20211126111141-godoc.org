@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       600078f8-6d4a-451d-a47e-9a40cebaa56d
+:END:
+#+title: Godoc
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+* Example Hierarchy
+  :PROPERTIES:
+  :ID:       e414d3c5-9c34-407d-9ade-341ca139a667
+  :END:
+
+the godoc tool will display examples written as test case. Within a package, examples may show up in different places according to the their function names.
+
+** package level example
+   this example is gonna be in the overview section.
+
+#+begin_src go
+  func Exmaple() {}
+#+end_src
+
+** function example
+   this example is gonna be under the function's definition
+
+#+begin_src go
+func ExampleFuncname() {}
+
+// use lowercase example name to specify the name of an example
+func ExampleFuncname_examplename() {}
+#+end_src
+
+** method example
+   this example is goona be under the metho's definition
+
+#+begin_src go
+func ExampleType_Method() {}
+#+end_src

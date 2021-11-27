@@ -12,3 +12,17 @@
 
 ** map
 
+** function
+
+** nil cannot be compared to nil
+
+* Comparable types
+
+** int
+
+** string
+
+** bool
+
+** channel
+
