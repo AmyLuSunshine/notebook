@@ -12,4 +12,3 @@ Containers are completely isolated environments, as they can have their own proc
 
 - each virtual machine runs it own OS
   
-

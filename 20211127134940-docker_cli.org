@@ -1,0 +1,93 @@
+:PROPERTIES:
+:ID:       3d8c3639-b53d-4427-a569-4fe4a6675ddf
+:END:
+#+title: Docker CLI
+#+filetags: :Docker:
+
+
+- tag :: [[id:6dc973a1-10a6-4df0-9ad0-b5450121fb0c][Docker]]
+
+* Basics
+
+#+begin_src sh
+
+# show running ps
+docker ps 
+
+# show all ps including ps in exited state
+docker ps -a 
+
+# remove a container permanently
+docker rm
+
+# list images
+docker images
+
+# remove an image (you must stop all dependent container before removing)
+docker rmi
+
+# download an image
+docker pull
+#+end_src
+
+* docker run
+
+#+begin_src sh
+# run - attach mode
+docker run
+# run -detach mode (in the background)
+docker -d run
+# attach a detached container
+docker attach container_id/name
+
+# execute a command
+docker run centos sleep 100
+docker exec container_name/id command
+#+end_src
+
+** tag
+   use to specify version of your container program, for example 4.0 redis as: 
+   
+#+begin_src sh
+docker run redis:4.0
+#+end_src
+
+There might be more tags avaliable on docker hub webpage.
+
+** stdin
+
+enable interactive mode with `-i`
+you can use `-t` to attach to the terminal as well
+
+#+begin_src sh
+docker run -i container
+#+end_src
+
+** port mapping
+
+#+begin_src sh
+# docker_host_port:inner_app_port
+docker run -p 80:5000 container
+#+end_src
+
+** volume mapping
+
+#+begin_src sh
+# -v outside_dir:inside_dir
+docker run -v /opt/datadir:/var/lib/mysql mysql
+#+end_src
+
+* Inspect a container's detail
+
+print out detail in JSON format
+
+#+begin_src sh
+docker inspect container_name/id
+#+end_src
+
+* Container's Logs
+
+#+begin_src sh
+docker logs container_name/id
+#+end_src
+

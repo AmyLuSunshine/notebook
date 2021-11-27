@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       e80a538c-1387-4a45-8526-21f5e90f0028
+:END:
+#+title: Mysql
+
+* Give access to a user
+#+begin_src mysql
+GRANT ALL PRIVILEGES ON database_name.* TO 'username'@'localhost';
+#+end_src
+
