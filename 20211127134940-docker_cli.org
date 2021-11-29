@@ -4,7 +4,6 @@
 #+title: Docker CLI
 #+filetags: :Docker:
 
-
 - tag :: [[id:6dc973a1-10a6-4df0-9ad0-b5450121fb0c][Docker]]
 
 * Basics
@@ -89,5 +88,17 @@ docker inspect container_name/id
 
 #+begin_src sh
 docker logs container_name/id
+#+end_src
+
+* Environment Variables
+
+#+begin_src sh
+docker run -e APP_COLOR=bule container_id/name
+#+end_src
+
+** file env variabels of a running container
+
+#+begin_src sh
+docker inspect container_id/name
 #+end_src
 

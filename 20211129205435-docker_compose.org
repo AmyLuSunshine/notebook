@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       73ced401-5830-4bc0-bcba-37eea58962e2
+:END:
+#+title: Docker Compose
+#+filetags: :Docker:
+
+- tag :: [[id:6dc973a1-10a6-4df0-9ad0-b5450121fb0c][Docker]]
+
+#+begin_src sh
+docker run web-app
+docker run mongo-db
+docker run redis:alpine
+docker run ansible
+#+end_src
+
+the above can be composed in one config file as below
+
+#+begin_src Dockerfile
+Services:
+    Web:
+        image: "web-app"
+    database:
+        image: "mongo-db"
+    messaging:
+        image: "redis:alpine"
+    orchestration:
+        image: "ansible"
+#+end_src
+
+this way only works on one single docker host

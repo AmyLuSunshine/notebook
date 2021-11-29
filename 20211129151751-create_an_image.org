@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       c81cf13e-1adb-40cb-b85c-30f22999c444
+:END:
+#+title: Create an Image with Dockerfile
+#+filetags: :Docker:
+
+- tag :: [[id:fe9e33f8-2f10-47de-ba19-b7a0a8f9660c][Containers]]
+
+* Dockerfile
+
+#+begin_src dockerfile
+FROM ubuntu (or other os)
+
+# run shell command
+RUN apt update
+
+# copy file from ./path/of/source to the /dir/inside/container
+COPY main.go /opt/main.go
+
+ENTRYPOINT /usr/local/go/bin/go run /opt/main.go
+#+end_src
+
+** example
+
+#+begin_src Dockerfile
+FROM ubuntu
+
+RUN apt update
+RUN apt install -y wget
+RUN wget "https://go.dev/dl/go1.17.3.linux-amd64.tar.gz"
+RUN rm -rf /usr/local/go && tar -C /usr/local -xzf go1.17.3.linux-amd64.tar.gz
+
+COPY go.mod /opt/go.mod
+COPY main.go /opt/main.go
+
+ENTRYPOINT /usr/local/go/bin/go run /opt/main.go
+#+end_src
+
+* Build the image
+
+#+begin_src sh
+docker build -t image_name /path/to/dockerfile 
+#+end_src

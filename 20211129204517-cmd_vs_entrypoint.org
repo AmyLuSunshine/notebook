@@ -1,0 +1,54 @@
+:PROPERTIES:
+:ID:       39c2b9f5-fd80-4ea9-8f6c-9f54364c2495
+:END:
+#+title: CMD vs ENTRYPOINT
+#+filetags: :Docker:
+
+- tag :: [[id:6dc973a1-10a6-4df0-9ad0-b5450121fb0c][Docker]]
+
+* ENTRYPOINT
+ENTRYPOINT is the executable that will start automatically when the container starts running.
+
+#+begin_src Dockerfile
+FROM ubuntu
+ENTRYPOINT ["sleep"]
+#+end_src
+
+#+begin_src sh
+docker run sleeper 10
+#+end_src
+
+the parameter 10 will be appended to the ENTRYPOINT.
+
+* CMD
+CMD is the command you can replace by command line parameters.
+
+#+begin_src Dockerfile
+FROM ubuntu
+CMD ["sleep" "10"]
+#+end_src
+
+#+begin_src sh
+docker run sleeper sleep 15
+#+end_src
+
+the parameters on Cli will replace the CMD's parameters.
+
+** overwrite the ENTRYPOINT
+
+#+begin_src sh
+docker run --entrypoint sleeper2.0 sleeper 10
+#+end_src
+
+* Start a container as executable and with default parameter
+
+#+begin_src Dockerfile
+FROM Ubuntu
+ENTRYPOINT ["sleep"]
+CMD ["5"]
+#+end_src
+
+#+begin_src sh
+docker run sleeper # run sleep 5
+#+end_src
+
