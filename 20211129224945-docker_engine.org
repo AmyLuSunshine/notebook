@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       6306b99c-c569-4a1d-b609-d3edef6c4689
+:END:
+#+title: Docker Engine
+#+filetags: :Docker:
+
+- tag :: [[id:6dc973a1-10a6-4df0-9ad0-b5450121fb0c][Docker]]
+
+* cgroups
+
+** limit cpu usage
+#+begin_src sh
+docker run --cpu=.5
+#+end_src
+
+** limit memory usage
+#+begin_src sh
+docker run --memory=100m
+#+end_src
+

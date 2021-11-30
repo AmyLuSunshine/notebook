@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       609fecf2-e147-46c3-ab2c-60f1999d3f9f
+:END:
+#+title: Docker Storage
+#+filetags: :Docker:
+
+- tag :: [[id:6dc973a1-10a6-4df0-9ad0-b5450121fb0c][Docker]]
+
+* Persisy data inside a docker container
+
+#+begin_src sh
+docker volume create data_volume
+#+end_src
+
+this will create a dir:
+- /var/lib/docker
+  - volumes
+    - data_volume
+
+#+begin_src sh
+# not recommended
+docker run -v data_volume:/var/lib/mysql mysql
+docker run --mount type=bind, source=/src/dir target=/var/lib/mysql mysql
+#+end_src
+
+the above command will mount data_volume(outside) to /var/lib/mysql (inside)

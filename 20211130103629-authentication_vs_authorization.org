@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       f79b1bf8-1812-4ebc-bf4c-aa6484435baa
+:END:
+#+title: Authentication vs Authorization
+#+filetags: :Backend:
+
+- tag :: [[id:13fb5360-5eed-46c8-8fc2-63df9f823b68][Backend]]
+
+
+
+| Authenticaiton           | Authorization                               |
+|--------------------------+---------------------------------------------|
+| verifies who the user is | determines what resources a user can access |
+|                          |                                             |
+|                          |                                             |
