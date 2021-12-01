@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       3bb06334-8e67-4a9f-911e-04f5bf4c04da
+:END:
+#+title: Reliable, Scalable, and Maintainable Applications
+#+filetags: :Data-Engineering:
+
+- tag :: [[id:f85bc411-93e4-49ab-a2ae-632998991ffc][Desinging Data-Intensive Applications]]
+
+* Reliability
+
+the system should continue to work correctly
+
+* Scalability
+
+As the system grows (in data volume, traffic volume, or complexity), there should be resonable ways of dealing with that growth.
+
+* Mantainability
+
+different people should be able to work on system (adapting new use cases, change behaviors) productively.
+

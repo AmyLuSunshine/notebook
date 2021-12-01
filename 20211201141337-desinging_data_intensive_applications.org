@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       f85bc411-93e4-49ab-a2ae-632998991ffc
+:END:
+#+title: Desinging Data-Intensive Applications
+#+filetags: :Data-Engineering:
+

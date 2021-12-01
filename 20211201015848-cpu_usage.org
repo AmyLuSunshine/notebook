@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       88d2d0e4-8c9f-4934-be02-3f9e81d2c568
+:END:
+#+title: CPU Usage
+
+CPU usage is measured by the proportion of the time CPU executing instructions and idle time.
