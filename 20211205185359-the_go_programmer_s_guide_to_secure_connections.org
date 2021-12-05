@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       02d90f37-c9ac-44f7-a2bd-69a39ad10f55
+:END:
+#+title: The Go Programmer's Guide to Secure Connections
+#+filetags: :Golang:
+
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]], [[id:7214a344-872c-457b-a28d-928b53289c3d][TCP/IP]]
+- source :: [[https://youtu.be/kxKLYDLzuHA][GopherCon 2018: Liz Rice - The Go Programmer's Guide to Secure Connections]]
+
+* TCP connection
+
+"Connection refused" == wrong port
+
+* Public / private key
+

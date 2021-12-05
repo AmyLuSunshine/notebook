@@ -4,6 +4,8 @@
 #+title: Reader Writer
 #+filetags: :Golang:
 
+
+
 #+begin_src go
 func (r *Reader) Read (b []byte) (n int, error)
 func (w *Writer) write (b []byte) (n int, error)
