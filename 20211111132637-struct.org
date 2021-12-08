@@ -20,6 +20,28 @@ there is no difference between assigning an empty struct literal and not assigni
    var b person 
 #+end_src
 
+* Embedded Struct literal
+
+#+begin_src go
+type a struct {
+	x string
+}
+
+type p struct {
+	a
+}
+
+func x() a {
+	x := p {
+                // specify the name of embedded field
+                // use struct literal of the embbed field
+		a: a{"he"},
+	}
+	return x
+}
+#+end_src
+
+
 * Comparing and Converting Structs
 
 ** same type with all comparable fields
