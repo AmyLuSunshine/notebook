@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       e58c0eb4-910d-47b4-8584-d74b25d2fd4e
+:END:
+#+title: Concurrency, Parallelism and Asynchronous Methods
+
+* Concurrency 
+  Multiple tasks start, run and complete in overlapping time periods in no specific order.
+
+** Example
+
+   in the middle of frying chips boiling some vegetables.
+
+* Parallelism
+  multiple tasks run *at the same time*
+
+** Example
+   one is frying chips, at the same time one is boiling some vegetables.
+
+* Asynchronous methods (non-blocking)
+
+  deliver the blocking process to others (ask for something to happen, get notified when it does. Do other stuff in the meantime.)
+
+  an asynchronous call is normally used for a process that needs to do work away from the current application and we don't want to block our application.
+
+** Example
+   
+   see yourself as a cpu
+   you don't want to waste time waiting for steaming a fish (block your process), so you go to fry chips (non-blocking process).
+

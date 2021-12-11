@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       866260fa-d88e-46ef-9b1d-b38f8ac9b437
+:END:
+#+title: TCP rfc793
+#+filetags: :TCP:
+
+- tags :: [[id:27ace67b-11a2-4475-ac4d-e1f7ee8f5be4][TCP]], [[id:7214a344-872c-457b-a28d-928b53289c3d][TCP/IP]]
+
+* Operation
+
+** Basic Data Transfer
+
+** Reliability
+
+   Sender will assign number to each packet. If the sender does not receive an ACK before time out, the sender will resend the packet.
+
+   Since packet might not be received in a particular order, the receiver will order packet according to the number provided by packets' sender.
+
+** Flow Control
+
+   Receiver will return a "window" with every ACK indicating a range of acceptablt sequence of numbers beyond the last segment successfully received. (not being overwhelmed by the sender)
+
+** Multiplexing
+
+** Connections
+
+** Precedence and Security
+
