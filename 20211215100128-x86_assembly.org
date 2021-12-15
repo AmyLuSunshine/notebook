@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       1ca78cbf-3f6c-46a8-ac83-131bad08df54
+:END:
+#+title: x86 Assembly
+
+#+begin_src sh
+nasm -f elf32 xxx.asm  -o xxx.o
+ld -m elf_i386 xxx.o -o xxx
+#+end_src

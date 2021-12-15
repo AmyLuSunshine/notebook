@@ -14,3 +14,14 @@ Go tool for printing memory allocation of variables:
 go build -gcflags="-m -l"
 go build -gcflags="-m=2" # for consise output
   #+end_src
+
+* Does it matter?
+
+** Does not matter the correctness 
+
+** DOES affect the performance
+
+** Anything on the heap is managed by the GC
+
+** The GC is good, but it causes latency
+

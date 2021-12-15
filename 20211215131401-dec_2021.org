@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       d2446012-4ffe-4673-8ded-9ecf65774bca
+:END:
+#+title: Dec-2021
+#+filetags: :Volcabulary:
+
+- tag :: [[id:a6863434-322b-4586-bee9-e0e042eb532e][Volcabulary]] 
+
+* explicit
