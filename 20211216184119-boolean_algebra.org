@@ -1,0 +1,55 @@
+:PROPERTIES:
+:ID:       8e42717d-b9f5-48b1-8e25-a0192c5a3ad6
+:END:
+#+title: Boolean Algebra
+#+filetags: :Math:
+
+- tag :: [[id:8126bdf0-c8f8-4930-8e56-2c1fbb8d2490][Math]]
+
+* NOT (Inverter)
+
+(NOT 0) => 1
+(NOT 1) => 0
+
+* AND (Boolean Multiplication)
+
+Q = AB
+  
+(AND 0 0) => 0
+(AND 0 1) => 0
+(AND 1 0) => 0
+(AND 1 1) => 1
+
+* OR
+
+Q = A+B
+
+(OR 0 0) => 0
+(OR 0 1) => 1
+(OR 1 0) => 1
+(OR 1 1) => 1
+
+* NAND (NOT AND)
+
+(NAND A B) => (NOT (AND A B))
+
+(NAND 0 0) => 1
+(NAND 0 1) => 1
+(NAND 1 0) => 1
+(NAND 1 1) => 0
+
+* NOR (NOT OR)
+
+(NOR A B) => (NOT (OR A B))
+
+(NOR 0 0) => 1
+(NOR 0 1) => 0
+(NOR 1 0) => 0
+(NOR 1 1) => 0
+
+* XOR
+
+(XOR 0 0) => 0
+(XOR 0 1) => 1
+(XOR 1 0) => 1
+(XOR 1 1) => 0

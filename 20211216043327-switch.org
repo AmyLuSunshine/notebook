@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       9de917a3-8e74-4362-86fc-412d472019cb
+:END:
+#+title: Switch
+#+filetags: :C:
+
+if a case of switch is evaluated to ture, then it fallthrough.
+

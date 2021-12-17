@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       5db73186-9a1c-4a68-a406-3d7094e3264d
+:END:
+#+title: Passing Functions as Parameters in C
+#+filetags: :C:
+
+#+begin_src c
+#include <stdio.h>
+
+typedef void (*printer)();
+
+void hello()
+{
+  printf("hello\n");
+}
+
+void hello_with_name(char name[], printer f)
+{
+  f();
+  printf("%s\n", name);
+}
+
+int main(void)
+{
+  printer fp;
+  fp = hello;
+  hello_with_name("bob", fp);
+}
+#+end_src
+
