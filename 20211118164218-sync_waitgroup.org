@@ -1,11 +1,13 @@
 :PROPERTIES:
 :ID:       2c29699b-5f7b-4685-a5f4-50c1c2a90cd2
 :END:
-#+title: sync.WaitGroup
+#+title: sync
 #+filetags: :Golang:
 
 - tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]], [[id:30f4379e-b3e7-4c81-ad79-b7016936b8d9][Concurrency in Go]]
 
+
+* WaitGroup
 
 #+begin_src go
   var wg sync.WaitGroup // 1. Declare the sync.WaitGroup
@@ -13,4 +15,93 @@
   wg.Done()             // 3. make items in the queue as done
   wg.Wait()             // 4. tell your code to wait on the WaitGroup 
                         // queue to reach zero
+#+end_src
+
+* Mutex and RWMutex
+
+A Mutex is a mutual exclusion lock.
+
+#+begin_src go
+  var counter int
+  var wg sync.WaitGroup
+  var lock sync.Mutex
+
+  for i := 0; i < 1000000; i++ {
+	  wg.Add(1)
+	  go func() {
+		  lock.Lock()
+		  defer lock.Unlock()
+		  defer wg.Done()
+		  counter++
+	  }()
+  }
+
+  wg.Wait()
+  fmt.Println(counter)
+#+end_src
+
+** RWMutex
+
+   RWMutex is basically the same as Mutex, but it allows multiple readers and one writer to access the critical area.
+
+* Cond
+
+  a rendezvous point for goroutines waiting for or annoucing the occurrence of an event.
+
+#+begin_src go
+func main() {
+	c := sync.NewCond(&sync.Mutex{})
+	queue := make([]interface{}, 0, 10)
+
+	removeFromQueue := func(delay time.Duration) {
+		time.Sleep(delay)
+		c.L.Lock()
+		queue = queue[1:]
+		fmt.Println("Removed from queue")
+		c.L.Unlock()
+		c.Signal()
+	}
+
+	for i := 0; i < 10; i++ {
+		c.L.Lock()
+		for len(queue) == 2 {
+			c.Wait()
+		}
+		fmt.Println("Adding to queue")
+		queue = append(queue, struct{}{})
+		go removeFromQueue(1 * time.Second)
+		c.L.Unlock()
+	}
+	fmt.Println(len(queue))
+}
+#+end_src
+
+* Once
+
+  sync.Once(f) only excute f one time, even if f has different values.
+
+* Pool
+  Pool an object cache. Get() calls new to create a new object, if there is no object in the pool. Put(x) moves object x to the pool.
+
+Two primary reasons to use pool:
+- memory efficiency (avoid creating too many objects, especially while using tons of goroutines)
+- time efficiency (no spend time create a big object)
+
+#+begin_src go
+func main() {
+	myPool := &sync.Pool{
+		New: func() interface{} {
+			return []int{1, 2, 3}
+		},
+	}
+
+	myPool.Get()
+	s := myPool.Get()
+	fmt.Println("s:", s)
+	s = []int{3, 4, 5}
+	myPool.Put(s)
+
+	x := myPool.Get()
+	fmt.Println("x:", x)
+}
 #+end_src
