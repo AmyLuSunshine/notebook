@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       784cf30d-b410-45e0-b6ad-b3151fd40234
+:END:
+#+title: Goroutines
+#+filetags: :Golang:
+
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]], [[id:954cc8c3-7e50-4587-b6d7-dd4e728499c6][Concurrency Patterns in Go]], [[id:30f4379e-b3e7-4c81-ad79-b7016936b8d9][Concurrency in Go]]
+
+Goroutines are not garbage collected by the runtime.
+
+* Terminate a goroutine
+
+** when it has completed its work
+
+** when it cannot continue its work due to an unrecoverable error
+
+** when it's told to stop working
+
+* Prevent goroutine leaks
+
+  If a goroutine is responsible for creating a goroutine, it is also responsible for ensuring it can stop the goroutine.

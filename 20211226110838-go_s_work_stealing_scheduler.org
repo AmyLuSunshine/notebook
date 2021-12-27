@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       298280ea-f70f-4af3-a44d-5fb938a27de4
+:END:
+#+title: Go's Work Stealing Scheduler
+#+filetags: :Golang:
+
+- tags :: [[id:784cf30d-b410-45e0-b6ad-b3151fd40234][Goroutines]], [[id:6ca5091d-04a5-45cc-b965-61fe383f55a2][Goroutines and Go Runtime]]
+
+* Scheduling?
+
+Contorlling the distribution of work over avaliable resources. For example, process schedulers, network schedulers, container schedulers.
+
+* Go's runtime scheduler
+
+- Distributes goroutines over multiple OS threads that runs on avaliable processors.
+
+- Determines the runnable goroutines, prioritize and run them, park them, and repeat.
+
+** M:N scheduler
+
+   M goroutines need to be scheduled on N OS threads that runs on avaliable processors.
+
