@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       0a887015-1e9b-4e27-8104-305fd0f097b5
+:END:
+#+title: Concurrency Model
+#+filetags: :JavaScript:
+
+- tag :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][JavaScript]], [[id:e58c0eb4-910d-47b4-8584-d74b25d2fd4e][Concurrency, Parallelism and Asynchronous Methods]]
+- source :: [[https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop#run-to-completion][Concurrency model and the event loop]]
+- source :: [[https://www.digitalocean.com/community/tutorials/understanding-the-event-loop-callbacks-promises-and-async-await-in-javascript][Understanding the Event Loop, Callbacks, Promises, and Async/Await in JavaScript]]
+
+
+JavaScript's runtime is single threaded. To achieve non-blocking I/O, JavaScript uses event loop to handle queued sub-tasks. Normally, function calls are pushed on stacks, but when excuting a 
+
+* Event Loop
+  
+  the event loop will check the waiting quene once the call stack is empty, then push the head of the quene on the stack.
+
+  To put a function call in the waiting quene, use setTimeout(func, time).
