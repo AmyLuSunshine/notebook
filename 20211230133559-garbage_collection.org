@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       f89f4772-7313-44a1-a92e-5ff94c4bc00e
+:END:
+#+title: Garbage Collection
+- source :: [[https://youtu.be/n59VtiRx34s][Golang's realtime garbage collector]]
+- soruce :: [[https://making.pusher.com/golangs-real-time-gc-in-theory-and-practice/index.html][Golang’s Real-time GC in Theory and Practice]]
+
+A garbage collector cleans up memory that is no longer used by the 
+process on heap.
+
+* Mark and Sweep
+
+  - keep track of all objects
+  - occationally pause the process
+  - mark: walk + mark accessible objects
+  - sweep: free the rest
+  - unpause the process
+
+** downside
+   - pause the process
+   - traverse the whole heap
+   - leave the heap fragmented
+
