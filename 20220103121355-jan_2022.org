@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       d9223bc2-a6b6-4671-a997-e3019952b76b
+:END:
+#+title: Jan-2022
+#+filetags: :Volcabulary:
+
+- tag :: [[id:a6863434-322b-4586-bee9-e0e042eb532e][Volcabulary]] 
+
+* predecessor
