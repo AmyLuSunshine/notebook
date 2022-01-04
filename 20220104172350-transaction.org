@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       dc669c07-2dcc-42c5-b873-188f27c3358e
+:END:
+#+title: Transaction
+#+filetags: :Database:
+
+
+
