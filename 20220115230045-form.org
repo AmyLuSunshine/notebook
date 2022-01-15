@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       d2d92996-848a-4952-a06a-92cce5736362
+:END:
+#+title: Form
+#+filetags: :HTML:
+
+- tag :: [[id:e33cfedb-5e2e-4196-a6cb-d99d9752208f][HTML]]
+
+This form sends a post request to server with URL "/". The payload of this request contains two key-value pairs, which are "fname-xxx" and "lname-xxx".
+
+#+begin_src html
+    <form action="/" method="post">
+      <label for="fname">First name:</label><br>
+      <input type="text" name="fname" value="John"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" name="lname" value="Doe"><br><br>
+      <input type="submit" value="Submit">
+    </form> 
+#+end_src
