@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       851d2252-0485-45c6-b3d7-60b745e4b9f0
+:END:
+#+title: Distributed System
+
+* False assumptions
+
+** The network is reliable
+
+** Latency is zero
+
+** Bandwidth is infinite
+
+** The network is secure
+
+** Topology doesn't change
+
+** There is one administrator
+
+** Transport cost is zero
+
+** The network is homogeneous
+
