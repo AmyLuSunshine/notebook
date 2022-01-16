@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       15116898-24f7-4a6c-8351-e5a3f4e38dca
+:END:
+#+title: Cloud Native
+
+* What is Cloud Native
+
+The core of cloud native is to build *scalable, loosely coupled, resilient, manageable, and observable* applications.
