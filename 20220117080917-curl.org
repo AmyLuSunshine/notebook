@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       d7825c28-e772-45a7-9e20-b405aee995c7
+:END:
+#+title: curl
+
+- source :: [[https://flaviocopes.com/http-curl/#perform-an-http-post-request][The curl guide to HTTP requests]]
+
+* Specify request method
+
+#+begin_src sh
+curl -X POST "url"
+#+end_src

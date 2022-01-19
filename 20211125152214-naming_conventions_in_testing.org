@@ -1,10 +1,10 @@
 :PROPERTIES:
 :ID:       78d0f092-32db-4db0-a793-d312bf844e3c
 :END:
-#+title: Naming Conventions in Testing
+#+title: Naming Conventions
 #+filetags: :Golang:
 
-- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]], [[id:2c6feb72-7af6-4af8-bd9d-48adda1ade21][Testing]]
 
 - `export_test.go` to access unexported variables in external tests
 - `xxx_internal_test.go` for internal tests
@@ -20,6 +20,16 @@ Xxx must start with a uppercase letter.
 
 #+begin_src go
 func TestXxx(*testing.T)
+#+end_src
+
+** testing method 
+
+#+begin_src go
+type dog struct{}
+func (d dog) Bark() {}
+
+// test
+func TestDog_Bark(t *testing.T){}
 #+end_src
 
 * Variable name

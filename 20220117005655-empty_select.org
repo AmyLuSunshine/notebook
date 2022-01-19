@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       556eba16-69f0-4d34-9c01-532a5248a15b
+:END:
+#+title: Empty Select
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+Block forever. Unlike `for{}`, `select{}` does not use cpu.

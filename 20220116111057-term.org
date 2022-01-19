@@ -32,3 +32,12 @@ A system can be considered manageable if it's possible to sufficiently alter its
 
 ** Maintainablility
    how easy it is to change from inside (code).
+
+* State
+
+** Application state
+ 
+  Server-side data about the application or how it's being used by a client. A common example is client session tracking.
+
+** Resource state
+   The current state of a resource within a service at any point of time. It's the same for every client, and has nothing to do with the interation between client and server.

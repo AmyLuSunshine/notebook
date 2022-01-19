@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       b608342f-2353-4d9f-b9d2-0b70f1073276
+:END:
+#+title: Proxy
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]], [[id:9b3c8c52-d891-429f-85f4-2effe951b5a5][http]]
+
+#+begin_src go
+package main
+
+import (
+	"fmt"
+	"io"
+	"net/http"
+	"net/url"
+)
+
+func main() {
+	uri, _ := url.Parse("http://127.0.0.1:7890")
+
+	client := http.Client{
+		Transport: &http.Transport{
+			Proxy: http.ProxyURL(uri),
+		},
+	}
+	resp, err := client.Get("https://google.com")
+	if err != nil {
+		return
+	}
+	defer resp.Body.Close()
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return
+	}
+	fmt.Println(string(body))
+}
+#+end_src
+
+

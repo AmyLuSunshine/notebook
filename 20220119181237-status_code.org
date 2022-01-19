@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       be1b9c18-0d6d-4dde-a1b0-8a09aeec5fee
+:END:
+#+title: Status Code
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]], [[id:9b3c8c52-d891-429f-85f4-2effe951b5a5][http]]
+
+#+begin_src go
+  func handlefunc(w http.ResponseWriter, r *http.Request){
+	w.WriteHeader(http.StatusNotFound)
+  }
+#+end_src

@@ -6,10 +6,32 @@
 
 - tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
 
-
 * new(type) return *type
 
-* does not preallocate memory
+new() allocates memory at runtime. It returns a pointer to the type you specify in its argument, for example `new(int)` returns a `*int`.
 
-* it is convenient to return a pointer to a 
+** invalid derefernce
 
+#+begin_src go
+var i *int // i is nil
+*i = 10    // cannot derefernce nil pointer
+#+end_src
+
+** using new()
+
+#+begin_src go
+var i = new(int)
+*i = 10 // valid
+#+end_src
+
+** new() does not initialize the data structure
+
+#+begin_src go
+ var m = new(map[string]string)
+ (*m)["hello"] = "world" //panic: assignment to entry in nil map
+ fmt.Println(m)
+#+end_src
+
+* Make
+
+make() can only be used to allocate and initialize slice, map, and channel. new() can allocate any type.

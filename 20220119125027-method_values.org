@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       bd546a4b-7a5c-477c-a3c3-b2389dea8cb0
+:END:
+#+title: Method Values
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+If the expression x has static type T and M is in the method set of type T, x.M is called a method value. -- [[https://go.dev/ref/spec#Method_values][Go spec]]
+
+The concept of method values describes program's behavior when you pass the method as a value instead of evaluating the method, no matter passing it to a function or assigning it to a variable. Let's say we have type T and define a method M on it:
+
+#+begin_src go
+type T struct {
+	n int
+}
+func (t T) M (x int) int { return x}
+#+end_src
+
+When you pass a method as value, you can omit the receiver and see it as what's left. In the example above, omitting the receiver we got `func M(x int) int {return x}`, which is the method value.
+
+** Method values as function arguments
+
+#+begin_src go
+type myFunc func(x int) int
+// print passes x as f's arugment, and print out the return value of f(x)
+func print(x int, f myFunc) {
+	fmt.Println(f(x))
+}
+print(10, func(x int) int { return x }) // prints 10
+t := T{}
+print(10, t.M)                          // prints 10
+#+end_src
+
+** Assigning methods values to variables
+
+#+begin_src go
+f := t.M
+fmt.Println(f(10)) // prints 10
+#+end_src
+

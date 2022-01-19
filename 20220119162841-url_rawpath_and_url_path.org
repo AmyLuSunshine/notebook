@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       234686ec-bca3-43c5-9532-5c3f1d032655
+:END:
+#+title: URL.RawPath and URL.Path
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]], [[id:9b3c8c52-d891-429f-85f4-2effe951b5a5][http]]
+
+RawPath is used to tell whether there is encoded slash in the URL. If there exists encoded symbol then RawPath will return the actual URL. Otherwise, it only returns empty string.
+
+#+begin_src go
+package main
+
+import (
+	"fmt"
+	"net/http"
+)
+
+func main() {
+	http.HandleFunc("/", url)
+	http.ListenAndServe(":8080", nil)
+}
+
+func url(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "text/html")
+	fmt.Fprintf(w, "raw path: %s \n path: %s", r.URL.RawPath, r.URL.Path)
+}
+#+end_src
+
+* request: localhost:8080/cat/dog
+
+  RawPath: (empty string)
+  Path: /cat/dog
+
+* request: localhost:8080/cat%2fdog
+
+  RawPath: /cat%2fdog
+  Path: /cat/dog
