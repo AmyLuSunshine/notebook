@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       c0920076-f7d0-47d4-b4ca-3bfc7b4a2ae2
+:END:
+#+title: Embedding
+#+filetags: :Golang:
+
+- tags :: [[id:41f455af-8843-495c-b110-6eaa0d9c9510][Struct Embedding]], [[id:82f43b28-a091-466a-b961-caa30aad7ca8][Interface Chaining and Embedding]]
+
+* interface embedded in struct
+
+the struct implicitly implements the interface, so the struct can be passed in any function that takes the interface as a parameter.
+
+* struct A embedded in struct B
+
+B can directly access A's exported field and methods. Since B gain access to A's methods, B also implements the interfaces that A has already implemented.
+
+* interface A embedded in interface B
+
