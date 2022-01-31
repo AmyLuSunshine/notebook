@@ -2,7 +2,7 @@
 :ID:       2871a8e7-c783-4981-93d1-2979e872bc1b
 :END:
 #+title: Postgresql
-#+filetags: :Databases:
+#+filetags: :Database:
 
 - tag :: [[id:a8ad6f6e-ddd6-48e3-b7f5-b5fbbee5c4a7][Databases]]
 
@@ -20,9 +20,24 @@
    psql people jesse
 #+end_src
 
-* Connect to the database
+* Drop Database
 
 #+begin_src sql
+DROP DATABASE dbname;
+#+end_src
+
+* Create Table
+
+#+begin_src sql
+  CREATE TABLE table_name (
+     col_name data_type constrants_if_any
+);
+
+-- example
+  CREATE TABLE person (
+     id int,
+     first_name VARCHAR(15),
+);
 
 #+end_src
 
