@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       0cbf7d84-65a1-4792-9f93-31dd28651add
+:END:
+#+title: IN
+#+filetags: :SQL:
+
+- tag :: [[id:992ec40c-78e7-4819-9f63-3b488bc06627][SQL]], [[id:a8ad6f6e-ddd6-48e3-b7f5-b5fbbee5c4a7][Databases]]
+
+#+begin_src sql
+SELECT * FROM person WHERE country_of_birth IN ('China', 'Brazil', 'France');
+#+end_src

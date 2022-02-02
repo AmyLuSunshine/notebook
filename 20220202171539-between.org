@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       5e3b7a4c-aea8-4ffc-be47-e84321e2bfa6
+:END:
+#+title: BETWEEN
+#+filetags: :SQL:
+
+- tag :: [[id:992ec40c-78e7-4819-9f63-3b488bc06627][SQL]], [[id:a8ad6f6e-ddd6-48e3-b7f5-b5fbbee5c4a7][Databases]]
+
+#+begin_src sql
+      SELECT * FROM
+      person
+      WHERE data_of_birth
+	     BETWEEN DATE '2000-01-01' AND '2015-01-01';
+#+end_src

@@ -11,12 +11,12 @@
 cat /sys/class/backlight/amdgpu_bl0/max_brightness
 #+end_src
 
-Since I am on a thinkpad with an amd cpu, therefore it shows `amdgpu_b10`. yours might be intel something. Here I got 255, which means the interval of my laptop's backlight is from 0 to 255.
+Since I am on a thinkpad with an amd cpu, therefore it the folder that contains files that are controlling backlight is named `amdgpu_b10`. yours might be intel something. Here I got 255, which means the interval of my laptop's backlight is from 0 to 255.
 
 * Modify the brightness then the backlight will automatically change
 
 #+begin_src sh
-sudo vim /sys/class/backlight/amdgpu_b2l0/brightness
+sudo vim /sys/class/backlight/amdgpu_bl0/brightness
 #+end_src
 
-set a value that is between 0 and 255.
+Set a value that is between 0 and 255.

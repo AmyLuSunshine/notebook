@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       022f6c9e-a457-4886-9d01-93997435ceb1
+:END:
+#+title: LIMIT and FETCH
+#+filetags: :SQL:
+
+
+- tag :: [[id:992ec40c-78e7-4819-9f63-3b488bc06627][SQL]], [[id:a8ad6f6e-ddd6-48e3-b7f5-b5fbbee5c4a7][Databases]]
+
+
+They are the same thing. FETCH is sql standard.
