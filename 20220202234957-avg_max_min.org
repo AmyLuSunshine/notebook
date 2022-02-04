@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       795ef521-b2f4-4a54-830d-0afdf93a4ed5
+:END:
+#+title: AVG MAX MIN
+#+filetags: :SQL:
+
+- tag :: [[id:992ec40c-78e7-4819-9f63-3b488bc06627][SQL]], [[id:a8ad6f6e-ddd6-48e3-b7f5-b5fbbee5c4a7][Databases]]
+
+#+begin_src sql
+SELECT MIN(price) FROM car;
+SELECT MAX(price) FROM car;
+SELECT AVG(price) FROM car;
+#+end_src

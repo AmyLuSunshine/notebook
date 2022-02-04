@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       c989a9c4-9922-483b-9830-8ec2b6903e15
+:END:
+#+title: SELECT AS
+#+filetags: :SQL:
+
+- tag :: [[id:992ec40c-78e7-4819-9f63-3b488bc06627][SQL]], [[id:a8ad6f6e-ddd6-48e3-b7f5-b5fbbee5c4a7][Databases]]
+
+Sometimes, you want to change columns' name of a query output, you can use `SELECT AS` for each column.
+
+#+begin_src sql
+	    SELECT
+	    make,
+	    model,
+	    round(avg(price)) AS avg
+	    FROM car
+	    GROUP BY make, model;
+#+end_src

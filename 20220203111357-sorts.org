@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       00508b27-59e2-437c-8b32-ca2895d8375d
+:END:
+#+title: Sorts
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]], [[id:d4a6e1f1-63ec-40b5-a882-41043741668f][Sorts]]
+
+* Sort slice
+
+#+begin_src go
+package main
+
+import (
+	"fmt"
+	"sort"
+)
+
+func main() {
+	s := []int{2, 4, 1, 3, -10, 7, 0}
+        // equivalent to sort.Ints(s)
+	sort.Sort(sort.IntSlice(s))
+        // reverse order
+	sort.Sort(sort.Reverse(sort.IntSlice(s)))
+	fmt.Println(s)
+}
+#+end_src

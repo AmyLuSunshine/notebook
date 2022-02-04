@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       8eac6622-20d4-4473-9a0e-371b3d498560
+:END:
+#+title: NULLIF
+#+filetags: :SQL:
+
+- tag :: [[id:992ec40c-78e7-4819-9f63-3b488bc06627][SQL]], [[id:a8ad6f6e-ddd6-48e3-b7f5-b5fbbee5c4a7][Databases]]
+
+NULLIF(arg1, arg2) returns null while arg1 == arg2, else returns arg1
+
+#+begin_src sql
+
+#+end_src

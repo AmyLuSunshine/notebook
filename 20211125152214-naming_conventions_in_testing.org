@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       78d0f092-32db-4db0-a793-d312bf844e3c
 :END:
-#+title: Naming Conventions
+#+title: Naming Conventions of Test
 #+filetags: :Golang:
 
 - tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]], [[id:2c6feb72-7af6-4af8-bd9d-48adda1ade21][Testing]]

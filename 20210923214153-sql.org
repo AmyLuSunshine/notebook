@@ -6,6 +6,11 @@
 
 - tag :: [[id:a8ad6f6e-ddd6-48e3-b7f5-b5fbbee5c4a7][Databases]]
 
+
+* SQL is case insensitive
+
+that means `SELECT` `select` `SELect` are the same thing.
+
 * Create and drop database 
 
 #+begin_src sql

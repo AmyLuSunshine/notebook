@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       36dd106a-cdba-4731-8ee9-5b115c312bc3
+:END:
+#+title: PRIMARY KEY
+#+filetags: :SQL:
+
+- tag :: [[id:992ec40c-78e7-4819-9f63-3b488bc06627][SQL]], [[id:a8ad6f6e-ddd6-48e3-b7f5-b5fbbee5c4a7][Databases]]
+
+`PRIMARY KEY` is used to identify a record. it makes this record unique. you can not insert the same value in a field that is `PRIMARY KEY`.

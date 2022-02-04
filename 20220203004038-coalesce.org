@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       fb09b3f5-36da-4f9d-915d-d4056123a890
+:END:
+#+title: COALESCE
+#+filetags: :SQL:
+
+- tag :: [[id:992ec40c-78e7-4819-9f63-3b488bc06627][SQL]], [[id:a8ad6f6e-ddd6-48e3-b7f5-b5fbbee5c4a7][Databases]]
+
+#+begin_src sql
+	SELECT id,
+	       first_name,
+	       last_name,
+	       COALESCE(email, 'Not provided')
+	       FROM person;
+#+end_src
+
+COALESCE(arg1, arg2): when arg1 is null, fill in the cell with arg2.
