@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       6b50a2a6-f955-400d-8ae0-ee3936d449dd
+:END:
+#+title: Create User and Give the User ssh Access
+#+filetags: :Linux/Unix:
+
+- tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]]
+
+#+begin_src sh
+
+# 1 root
+useradd /home/user_name user_name
+
+# 2 set password for the user just created
+passwd user_name
+
+# 3
+chown user_name /home/user_name
+
+# 4
+su user_name
+
+# 5
+mkdir .ssh
+
+# 6 create file authorized_keys and write public key in it
+vim authorized_keys
+
+# 7 
+chmod 600 authorized_keys
+
+systemctl reload sshd
+#+end_src

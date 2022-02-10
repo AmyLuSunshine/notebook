@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       197941cf-0c7b-451d-9f23-1b6fb9d16a10
+:END:
+#+title: UPDATE
+#+filetags: :SQL:
+
+- tag :: [[id:992ec40c-78e7-4819-9f63-3b488bc06627][SQL]], [[id:a8ad6f6e-ddd6-48e3-b7f5-b5fbbee5c4a7][Databases]]
+
+#+begin_src sql
+UPDATE person SET eamil = "xxx@mail.com" WHERE id = 2011;
+#+end_src

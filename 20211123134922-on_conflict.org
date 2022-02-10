@@ -23,3 +23,9 @@
        DO UPDATE SET howmuch = fav.howmuch + 1
      RETURNING *;
 #+end_src
+
+* do nothing
+
+#+begin_src sql
+
+#+end_src

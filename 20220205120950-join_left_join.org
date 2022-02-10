@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       52573b8d-130a-43fa-b4ae-98fc1c163eed
+:END:
+#+title: JOIN/LEFT JOIN
+#+filetags: :SQL:
+
+- tag :: [[id:992ec40c-78e7-4819-9f63-3b488bc06627][SQL]], [[id:a8ad6f6e-ddd6-48e3-b7f5-b5fbbee5c4a7][Databases]]
+
+#+begin_src sql
+select person.first_name, car.make, car.model, car.price from
+person
+left join car on person.car_id = car.id
+#+end_src

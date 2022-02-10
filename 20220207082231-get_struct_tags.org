@@ -1,0 +1,64 @@
+:PROPERTIES:
+:ID:       e7a7c3c0-d1fb-4a4c-9fe7-24f728d59849
+:END:
+#+title: Get Struct Tags
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+* What are struct tags
+
+Struct tags are meta data for fields inside a struct. In Go, struct tags are commonly alias the name of a fields, which helps follow the naming convention while converting a go struct to other data format such as json. 
+
+Let's say you want to convert the `User` type to json format. That means the `json` package can access fields in side `User`. For this reason, the name of fields are capitalizaed, which violates json's naming convention: all letters are lower case. To solve this problem, the `json` package retrives struct tags and names fields of json after struct tags. Below is the code converting an instance of a `User` type to json format.
+
+#+begin_src go
+type User struct {
+	Name string `json:"name"`
+	Age  int    `json:"age"`
+}
+
+func main() {
+	user := &User{"Bob", 20}
+
+	ec := json.NewEncoder(os.Stdout)
+	err := ec.Encode(&user)
+	if err != nil {
+		fmt.Errorf("fail to encode user: %w", err)
+	}
+}
+
+// output: {"name":"Bob","age":20}
+#+end_src
+
+* Retrives struct tags
+
+Since struct tags are helpful in some cases, it's good to know how to retrive struct tags. The `reflect` package is in used here.
+
+#+begin_src go
+package main
+
+import (
+	"fmt"
+	"reflect"
+)
+
+type User struct {
+	Name string `json:"name"`
+	Age  int    `json:"age"`
+}
+
+func main() {
+	user := &User{"Bob", 20}
+
+	field, ok := reflect.TypeOf(user).Elem().FieldByName("Name")
+	if !ok {
+		panic("Field not found")
+	}
+	fmt.Println(getStructTag(field, "json"))
+}
+
+func getStructTag(f reflect.StructField, tagName string) string {
+	return f.Tag.Get(tagName)
+}
+#+end_src

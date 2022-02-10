@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       c2a76587-8fc8-43dd-88ea-c68ead1611da
+:END:
+#+title: Create a matrix
+#+filetags: :Golang:
+
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+  #+begin_src go
+// rows
+matrix := make([][]int, 5)
+
+// cols
+for i := range matrix {
+	matrix[i] = make([]int, 10)
+}
+  #+end_src

@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       6f3a2730-a392-4b08-b5c5-50ecaf39bbcc
+:END:
+#+title: ADD CONSTRAINT
+#+filetags: :SQL:
+
+- tag :: [[id:992ec40c-78e7-4819-9f63-3b488bc06627][SQL]], [[id:a8ad6f6e-ddd6-48e3-b7f5-b5fbbee5c4a7][Databases]]
+
+* Unique
+
+#+begin_src sql
+ALTER TABLE person ADD CONSTRAINT unique_email_address UNIQUE(email);
+#+end_src
+
+`unique_email_address` is the name of the constraint.
+
+unique(email) adds unique constraint to the `email` col.
+
+* Check
+
+#+begin_src sql
+ALTER TABLE person ADD CONSTRAINT gender_constraint CHECK(gender = 'Male' or gender = 'Female');
+#+end_src
