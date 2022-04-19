@@ -4,7 +4,7 @@
 #+title: Postgresql
 #+filetags: :Database:
 
-- tag :: [[id:a8ad6f6e-ddd6-48e3-b7f5-b5fbbee5c4a7][Databases]]
+- Tag :: [[id:a8ad6f6e-ddd6-48e3-b7f5-b5fbbee5c4a7][Databases]]
 
 * Create user and database
 

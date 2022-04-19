@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       dc798691-0df3-4175-9d0f-537e6497abba
+:END:
+#+title: curl proxy
+#+filetags: :proxy:
+
+- tag :: [[id:d7825c28-e772-45a7-9e20-b405aee995c7][curl]]
+
+#+begin_src sh
+curl -X "127.0.0.1:7890"
+#+end_src

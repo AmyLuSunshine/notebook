@@ -16,3 +16,11 @@ Sometimes, you want to change columns' name of a query output, you can use `SELE
 	    FROM car
 	    GROUP BY make, model;
 #+end_src
+
+* query
+
+  sender, and txhash
+
+  #+begin_src sql
+	select  event->>'transactionHash' as txHash, event->'returnValues'->>'sender' as sender from events where event_id = 100000;
+  #+end_src

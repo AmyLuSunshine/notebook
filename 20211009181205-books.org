@@ -9,3 +9,10 @@ This file includes books that I've read since 2021.
 
 What I Talk About When I Talk About Running - Haruki Murakami
 
+* todo
+Adam Smith - The Wealth of Nations
+David Ricardo - On The Principles of Political Economy and Taxation
+Henry Admas - The Education of Henry Adams
+Keynes - The General Theory of Employment, Interest and Money
+Thomas Malthus - An Essay on the Principle of Population
+

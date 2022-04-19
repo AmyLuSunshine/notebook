@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       a6a8b288-fa5b-4eda-8551-bcc333fc2194
+:END:
+#+title: Time Format
+#+filetags: :Golang:
+
+- tag :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+#+begin_src go
+t.Format("2006-01-02 15:04:05")
+#+end_src

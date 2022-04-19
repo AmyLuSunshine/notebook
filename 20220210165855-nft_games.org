@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       dffed175-a61f-4a0a-be1f-0fa16d16098f
+:END:
+#+title: NFT Games
+#+filetags: :NFTs:
+
+- tag :: [[id:16c1d851-81e8-433d-9059-e30562b4a8fa][NFTs]]
+
+* Famous games
+
+** axieinfinity (pocketmon)
+
+** kitty
+
+* Play to earn (gamefi)
+
+* owner ship

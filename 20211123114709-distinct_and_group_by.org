@@ -22,3 +22,5 @@ SELECT DISTINCT ON (schema1_name) schema1_name schema2_name FROM table_name;
 * GROUP BY
 
   used with aggregate functions like COUNT(), MAX(), SUM(), AVE()
+
+  0xe1708ecb7b68862cc1be66d29605988a2f75f46d03447f115c12ff04b36773ff
