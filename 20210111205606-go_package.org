@@ -1,0 +1,41 @@
+#+title: Go Package
+#+ROAM_TAGS: Golang
+
+ - tags :: [[file:20210110190746-golang.org][Golang]]
+
+
+* import packages
+
+import path: path/to/directory_of_the_package
+
+package usage: packageName.ExportedFunction()
+
+the directory name does not need to be the same as the pacakge name. When importing a package, you have to specify the directory name instead of pacakge name. When calling a expoted function in a specific pacakge, you have to use the package name.
+
+* Naming convention
+
+packge is named in one single word in lowercase without underscores or mixedCaps.
+
+* User-defined type in go package
+
+ #+begin_src go
+   package name
+
+      type name struct{
+	   first string
+	   second string
+      }
+ #+end_src
+
+ ** exported to other package
+
+go allows you export type from a package to another. To do this, you should capitalize the first letter of the type and its fields.
+
+#+begin_src go
+  package name
+
+  type Name struct {
+	First string  // the first letters of the name of the fields should also be capitalized
+	Second string
+  }
+#+end_src

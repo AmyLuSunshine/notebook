@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       dd0622bc-c420-4fad-8676-10d5d09c4e2f
+:END:
+#+title: Audio Output in Linux
+#+filetags: :Linux_Unix:
+
+- tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]]
+  
+* Select output device
+
+** Turn off automute in alsamixer
+
+** install pavucontrol
+
+** select the output device in pavucontrol gui
+

@@ -1,0 +1,24 @@
+#+title: Org Mode Table Editor
+#+ROAM_TAGS: Org
+
+- tags :: [[file:20201029150815-org_mode_tricks.org][Org Mode Tricks]]
+- source :: [[https://orgmode.org/manual/Built_002din-Table-Editor.html#Built_002din-Table-Editor][3.1 Built-in Table Editor]]
+
+* Create a table
+
+** M-x org-table-create
+
+** type table size (columns x rows)
+
+* Next cell
+
+** tab
+
+* Re-align the table
+
+** C-c C-c
+
+* convert text to a table
+
+** M-x org-table-convert
+

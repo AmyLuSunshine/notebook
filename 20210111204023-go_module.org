@@ -1,0 +1,19 @@
+#+title: Go Module
+#+ROAM_TAGS: Golang
+
+- tags :: [[file:20210110190746-golang.org][Golang]]
+
+* Create go.mod file
+
+#+begin_src sh
+go mod init
+#+end_src
+
+* install the program
+
+#+begin_src sh
+go install
+#+end_src
+
+The the binary file will be installed in the GOPATH/bin (or GOBIN)
+

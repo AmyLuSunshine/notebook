@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       591755ab-db1b-4045-983c-748dac750eb3
+:END:
+#+title: String
+#+filetags: :Javascript:
+
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][Javascript]]
+
+* Execute inline code inside a string
+
+#+begin_src js
+console.log(
+  `one plue one is ${1 + 1}`
+);
+#+end_src
+
+* String Slice
+
+#+begin_src js
+let s = "hello world";
+
+// print ell
+console.log(s.slice(1, 4));
+#+end_src

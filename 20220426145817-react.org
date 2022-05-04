@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       726a1922-7696-4d4c-b115-b7e5ccb18419
+:END:
+#+title: React
+
+* Create a react app
+
+#+begin_src sh
+npx create-react-app weather-app  
+#+end_src
+
+* Run the react app locally
+
+#+begin_src sh
+npm run start
+#+end_src
+
+* Build the react app for production
+
+#+begin_src sh
+npm run build  
+#+end_src

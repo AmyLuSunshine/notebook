@@ -1,0 +1,6 @@
+#+title: Git Fetch
+#+ROAM_TAGS: Git
+
+- tags :: [[file:20201110160656-git.org][Git]]
+
+git fetch will download commits and files from the remote repository.

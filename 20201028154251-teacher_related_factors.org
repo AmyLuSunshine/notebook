@@ -1,0 +1,22 @@
+#+title: teacher-related factors
+#+ROAM_TAGS: thesis
+
+- tags :: [[file:20201028154313-ceps.org][ceps]], [[file:../.local/share/Trash/files/20201028154355-teacher_related_factors.org][teacher-related-factors]]
+
+* variable name
+A2 您是哪一年开始教这个班的 
+A6 除所调查班级以外，您还担任多少个其他班级的教学任务
+A7 您上周的总课时是
+A8 您上周花在备课上的时间是
+A9 您上周用于批改作业、试卷的时间是
+A10 您上周的工作时间总计
+A16 就您所教的课程来看，您认为学生的成绩和什么因素有关？
+
+B4. 到目前为止，您取得的最高学历是：
+B7. 您的教龄有多少年？
+B24. 您对学校下列方面是否满意？
+
+clsn 班级人数
+
+
+

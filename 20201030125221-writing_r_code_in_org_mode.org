@@ -1,0 +1,14 @@
+#+title: Writing R Code in Org Mode
+#+ROAM_TAGS: Org
+
+- tags :: [[file:20201030125243-r.org][R]], [[file:20201029150815-org_mode_tricks.org][Org Mode Tricks]]
+
+* Printing graphics produced by R
+
+#+begin_src R :file test.png :results output graphics file
+library(lattice)
+print(xyplot(1:10 ~ 1:10))
+#+end_src
+
+#+RESULTS:
+[[file:test.png]]

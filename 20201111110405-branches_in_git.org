@@ -1,0 +1,20 @@
+#+title: Branches in Git
+#+ROAM_TAGS: Git
+
+- tags :: [[file:20201110160656-git.org][Git]]
+
+* Create a branch
+#+begin_src 
+git branch branch_name
+#+end_src
+
+* Rename a branch
+#+begin_src 
+git branch old_branch_name -m new_branch_name
+#+end_src
+
+* Delete a branch
+#+begin_src 
+git branch -d branch_to_be_deleted
+#+end_src
+

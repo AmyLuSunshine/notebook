@@ -1,0 +1,73 @@
+#+title: thesis
+
+- tags :: [[file:20210110015059-literature_reivew_for_master_thesis.org][Literature Reivew for Master Thesis]]
+
+* Introduction
+
+Why do I want to talk about this question?
+
+Briefly say how you solve the problem.
+
+Briefly say what is the impact.
+
+* Literature Review
+
+** DONE Mathematics achievement
+
+** DONE Big Picture of Shadow education in China [2/2]
+- [X] definition
+- [X] why shadow education popular (society stratification, certificate)
+
+** DONE The Situation of Shadow Education of Mathematics in China
+
+** DONE Empirical Research on the effect of Shadow education [2/2]
+- [X] worldwide
+- [X] China
+
+** TODO Limitation
+
+- [-] time
+
+** TODO Other Correlates of Mathematics Achievement
+
+- [-] self-confidence
+- [-] self-expectation
+- [-] parental education
+- [-] parental expectation
+
+* Method
+
+** Data
+
+** Measures
+
+** HLM
+
+** Models
+
+** Hypothesis
+
+* TODO Results
+
+- [-] tables
+- [-] descreptive statistics
+- [-] models effects
+
+* Conclusions
+
+* notes
+
+&, and
+
+Guo nested effect
+
+control variable less
+
+parents survey
+
+control 
+
+moderated variable
+
+limitation: hours
+
