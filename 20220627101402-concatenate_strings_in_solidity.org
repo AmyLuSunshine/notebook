@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       fba4fc86-7c3a-4b7e-992f-8c83d5a1018d
+:END:
+#+title: Concatenate Strings in Solidity
+
+#+begin_src solidity
+string(abi.encodePacked(baseURI, Strings.toString(tokenId), ".json"));
+#+end_src

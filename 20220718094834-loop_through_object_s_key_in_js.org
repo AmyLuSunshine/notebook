@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:       f64b78b7-b7e9-4f28-9523-bde15e136e32
+:END:
+#+title: Loop Through Object's Key in JS
+#+filetags: :JavaScript:
+
+- tag :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][JavaScript]]
+
+* for in
+
+the problem of *for in* loop is that it will go through the prototype chain.
+
+#+begin_src js
+let animal = {
+  eats: true,
+};
+
+let rabbit = {
+  jumps: true,
+};
+
+rabbit.__proto__ = animal;
+
+for (let k in Object.entries(rabbit)) {
+  console.log(k, v);
+}
+#+end_src
+
+* for of and Object.entries()
+
+when you only want to loop through key of an object without going over its prototype chain, you can do the following:
+
+#+begin_src js
+let animal = {
+  eats: true,
+};
+
+let rabbit = {
+  jumps: true,
+};
+
+rabbit.__proto__ = animal;
+
+console.log(Object.entries(rabbit));
+
+for (let [k, v] of Object.entries(rabbit)) {
+  console.log(k, v);
+}
+#+end_src

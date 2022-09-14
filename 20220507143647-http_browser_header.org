@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       22ea9597-ab94-4702-a86f-da7b07c2a182
+:END:
+#+title: Http Browser Header
+#+filetags: :HTTP:
+
+- tags :: [[id:9b3c8c52-d891-429f-85f4-2effe951b5a5][http]], [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+#+begin_src go
+  	// req.Header.Set("authority", "api.gamefi.review")
+	// req.Header.Set("accept", "*/*")
+	// req.Header.Set("accept-language", "api.gamefi.review")
+	// req.Header.Set("authority", "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7")
+	// req.Header.Set("origin", "https://degame.com")
+	// req.Header.Set("referer", "https://degame.com")
+	// req.Header.Set("sec-ch-ua", ` Not A;Brand";v="99", "Chromium";v="101"`)
+	// req.Header.Set("sec-fetch-dest", "empty")
+	// req.Header.Set("sec-fetch-mode", "cors")
+	// req.Header.Set("sec-fetch-site", "cross-site")
+	// req.Header.Set("user-agent", "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36")
+#+end_src
+

@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       139dce4c-60a6-4be7-909b-2049f264c58f
+:END:
+#+title: Arrow Function in JS
+#+filetags: :Javascript:
+
+- tag :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][JavaScript]]
+
+* return values
+
+** without the use of curly braces inside an arrow function
+
+automatically return the expression
+
+#+begin_src js
+console.log((() => 1)());
+// print 1
+#+end_src
+
+** using curly braces
+
+return *undefined* if you do not specify what to return
+
+#+begin_src js
+console.log((() => {
+  1;
+})());
+#+end_src
+
+

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       782c8b03-7f6b-4e76-bae5-102c94ce944a
+:END:
+#+title: Port being used by a process
+#+filetags: :Linux:
+
+- tag :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]]
+
+#+begin_src sh
+lsof -i:port
+#+end_src

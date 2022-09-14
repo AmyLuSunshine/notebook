@@ -1,0 +1,73 @@
+:PROPERTIES:
+:ID:       161482ef-6efe-4ddc-9a5f-162cacbea7b6
+:END:
+#+title: DAO category
+
+- source :: [[https://www.ledger.com/academy/your-dao-guide][YOUR DAO GUIDE – THE MOST IMPORTANT DAO CATEGORIES DEFINING THE SPACE]]
+
+* AMM (PROTOCOL) DAOS
+
+**  Goal
+
+use smart contract protocols to bring decentralised financial
+services to users
+
+** Example: MakerDao / DEX:
+
+AMM DAOs typically rely on decentralized governance, by awarding native governance tokens to anyone contributing to the LP. In turn, you get to use the tokens to participate in network voting/governance.   
+
+*** How it work
+
+* GRANT DAOS
+
+Fund DeFi projects
+
+** Example: Aave Protocol
+
+Lend and Borrow
+
+* SOCIAL DAOS
+
+** Example: Friends with Benefits (FWB)
+
+unify artists and cultural thinkers 
+
+* COLLECTOR DAOS
+
+** Example: PleasrDAO (also investment dao)
+  - lowers the barrier to NFT investments
+  - 
+
+* VENTURE DAOS (INVESTMENT DAOS)
+
+owning a portfolio we couldn’t typically invest in.
+
+And while traditional investment firms are elitist and non-inclusive, investment DAOs are transparent and inclusive – often open to anyone, anywhere, anytime.
+
+Venture DAOs let us participate in the unthinkable, like investing in an entire NBA team
+
+** Example: The Krause House
+
+* MEDIA DAOS
+
+It’s no secret that media platforms follow a top-down structure, producing content aligning with a central agenda – they are also paid for by advertisers, which makes you, the reader, the product.
+
+** Example: Bankless Dao and Forefront
+
+* Social Media DAOs
+
+** Example: Blockster
+
+* ENTERTAINMENT DAOS
+
+** Example: BAYC
+Members will be able to vote on the creative decisions the collective executes, expanding an already enormous 500 billion-dollar project.
+
+** Example: Jenkins the Valet
+
+** Example: Flufworld
+
+* DAO WHAT?
+
+it provides a platform where the incentives of the community
+

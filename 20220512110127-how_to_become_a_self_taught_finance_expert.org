@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       53004da6-a009-4c67-8ff6-a9ae0ee70d1a
+:END:
+#+title: How to Become a Self-Taught Finance Expert
+#+filetags: :Finance:
+
+- tag :: [[id:08f8fc2d-c0d6-4a24-936b-1a8303e21894][Finance]]
+- source :: [[https://www.investopedia.com/articles/basics/11/become-self-taught-finance-expert.asp][How to Become a Self-Taught Finance Expert]]
+
+
+* Books
+
+ - The Richest Man in Babylon
+ - For Dummies series
+ - Managing Your Money
+ - Dummies and Mutual Funds for Dummies
+ - The Wall Street Journal Guide to Understanding Money & Investing
+

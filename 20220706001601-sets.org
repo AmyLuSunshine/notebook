@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       0ff6833c-a595-4389-b7e7-d906be8c8b02
+:END:
+#+title: Sets
+#+filetags: :Discrete-Math:
+
+- tag :: [[id:da689597-0787-48e7-b103-bc5ce70e6b5e][Discrete Math By Kimberly Brehm]]
+
+
+Set: Unordered collection of objects
+
+Element: an object in the set
+
+N - Natural
+
+{1, 2, 3, ... }
+
+W - Whole
+
+{0, 1, 2, 3, ...}
+
+Z - integers
+
+{..., -2, -1, 0, 1, 2, ...}
+
+Q - Rational
+
+R - Real
+
+C - Complex
+
+
+
+

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       a022569f-2c37-4625-b728-daa406df0786
+:END:
+#+title: solana
+
+* Consensus
+
+Proof of State

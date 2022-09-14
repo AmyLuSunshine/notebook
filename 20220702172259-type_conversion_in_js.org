@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:       b0cd6e38-482f-4188-a5fc-3c0fd232efa2
+:END:
+#+title: Type Conversion in JS
+#+filetags: :Javascript:
+
+- tags :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][JavaScript]]
+
+string 
+number
+undefined
+null
+NaN
+bool
+
+* To Number
+
+#+begin_src js
+  Number(undefined) // NaN
+  Number(null) // 0
+  Number(NaN) // NaN, because NaN is number type originally
+
+  // bool
+  Number(true) // 1
+  Number(false) // 0
+
+  // string
+  Number('') // 0
+  NUmber('1') // 1, any number in string will be converted directly to number
+  Number('nfdsk') // any chars in a string is NaN
+
+#+end_src
+
+* To String
+
+#+begin_src js
+  String(1) // '1'
+  String(true) // 'true'
+  String(undefined) // 'undefined'
+  String(null) // 'null'
+#+end_src
+
+
+* To Boolean
+
+#+begin_src js
+  Boolean("") // false
+  Boolean(" ") // true
+#+end_src

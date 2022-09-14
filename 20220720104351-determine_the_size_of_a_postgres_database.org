@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       cffcd4c6-8108-4bb0-b4f9-b8790b740627
+:END:
+#+title: Determine the Size of a Postgres Database 
+#+filetags: :Postgresql:
+
+- tags :: [[id:2871a8e7-c783-4981-93d1-2979e872bc1b][Postgresql]]
+
+* Postgres
+
+#+begin_src postgres
+SELECT pg_size_pretty( pg_database_size('db_name') );	  
+#+end_src

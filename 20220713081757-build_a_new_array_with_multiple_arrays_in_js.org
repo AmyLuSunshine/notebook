@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       8b47fa99-342b-412f-badd-b31508b9460e
+:END:
+#+title: Build a New Array with Multiple Arrays in JS
+#+filetags: :Javascript:
+
+- tag :: [[id:98730b92-6677-4ef0-bf88-3c8cf7a33504][JavaScript]]
+
+#+begin_src js
+const arr = [1, 2, 3];
+const arr1 = [4, 5, 6];
+arr.concat(arr1); // [1, 2, 3, 4, 5, 6]
+#+end_src
+
+the method concat creates a new array which includes all elements of its arguments. the arguments are still the same as before. 

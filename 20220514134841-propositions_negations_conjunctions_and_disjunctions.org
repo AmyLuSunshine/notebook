@@ -1,0 +1,92 @@
+:PROPERTIES:
+:ID:       0b315862-099b-4bea-8e52-da5096505aed
+:END:
+#+title: Propositions Logic
+#+filetags: :Discrete-Math:
+
+- tag :: [[id:13a7114d-dceb-4b08-8968-8c3bf511e5d7][Discrete Math]]
+
+* Propositions
+
+Proposition is a declarative statement that is either true or false.
+
+For example:
+
+- The sky is blue.
+- Luke, I am your father.
+
+These are not propersition:
+
+- Sit down
+- x + 1 = 2 (because x is not assigned any value, this statement cannot be determined T or F)
+
+* Logical operators
+
+Logical operators that are used to form new propositions from *two or more* existing propositions.
+
+** negation
+
+NOT
+
+** connectives
+
+*** conjunction
+
+AND
+
+*** disjunction
+
+OR
+XOR (exclusive or)
+
+*** implication
+
+if...then
+ 
+*** biconditional
+
+if, and only if 
+
+* Conditional Statements
+
+(1) is equivalent to (2)
+(3) is equivalent to (4)
+
+** If p then q (1)
+
+$p\to q$
+
+** contrapositive (2)
+
+$\neg q \to \neg p$
+
+** converse (3)
+
+$q \to p$
+
+** inverse (4)
+
+$\neg p \to \neg q$
+
+* Precedence of Logical Operators
+
+** 1. negation
+
+** 2. expresssion inside parentheses
+
+** 3. conjunction
+
+** 4. disjunction
+
+** 5. -> and <->
+
+* Propositional Equivalences
+
+** tautology
+
+always true, no matter what the truth values of the propositional variables that occur in it.
+
+** contradiction
+
+always false
+

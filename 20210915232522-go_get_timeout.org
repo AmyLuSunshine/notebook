@@ -9,5 +9,5 @@
 * Change proxy
 
 #+begin_src sh
-go env GOPROXY="https://goproxy.cn"
+go env -w GOPROXY="https://goproxy.cn,direct"
 #+end_src

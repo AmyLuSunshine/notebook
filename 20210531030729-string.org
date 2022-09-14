@@ -22,3 +22,15 @@ let s = "hello world";
 // print ell
 console.log(s.slice(1, 4));
 #+end_src
+
+* Concatenation
+
+when a string encounters a "+", it is a string concatenation even if the other operand is a number.
+
+#+begin_src js
+'1' + 2 + 2 // '122'
+
+// when the operator is not "+"
+'2' * 5 // 01
+#+end_src
+

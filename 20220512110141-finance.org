@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       08f8fc2d-c0d6-4a24-936b-1a8303e21894
+:END:
+#+title: Finance
+

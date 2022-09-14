@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       1cd6b5ed-8145-40ff-94e8-904a51c82ef4
+:END:
+#+title: Stuff You Need to Handle While Developing Dapp
+
+* Connect Wallet
+
+** Account Change
+
+** Choose Correct Network   
+

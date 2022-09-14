@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       702a6010-7012-4107-90c0-1c5acf6875bb
+:END:
+#+title: How to Design Program
+
+Everyone can design programs
+
+Everyone can experience the satisfaction that comes with creative design
+
+* Design Recipes
+
+** From Problem Analysis to Data Definition
+
+** Signature, Purpose Statement, Header
+
+** Functional Examples
+
+** Function Template
+
+** Function Definition
+
+** Testing
+

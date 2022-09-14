@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       29dae3b2-afa2-450c-88b5-042dc60d51fb
+:END:
+#+title: Empty return in JS
+
+Empty return is the same as return undefined
+
+#+begin_src js
+function doNothing() {}
+console.log(doNothing() === undefined)
+#+end_src
