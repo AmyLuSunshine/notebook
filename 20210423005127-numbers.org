@@ -17,6 +17,13 @@ Numbers in JS is 64 bits.
 ** NaN
    not a number, for example 0/0
 
+*** equality of NaN
+    
+#+begin_src js
+  NaN === NaN // false
+  Number.isNaN(NaN) // true
+#+end_src
+
 * Convert a string or other value to the Number type.
 
 #+begin_src js
