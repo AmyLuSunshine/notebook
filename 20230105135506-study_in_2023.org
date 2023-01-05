@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       7fb6fa21-8205-4744-963c-0c3f6e0bcbba
+:END:
+#+title: Study in 2023
+
+* smart contract
+
+** uniswap core
+
+** erc 20
+
+** erc 721 
+
+* js/ts
+
+** Axel's books
+
+- [[https://exploringjs.com/index.html][Books list]]
+
+**** JavaScript for impatient programmers (ES1–ES2022)
+
+**** Deep JavaScript: Theory and techniques
+
+**** Tackling TypeScript: Upgrading from JavaScript
+
+**** Shell scripting with Node.js
+
+** svelte
+
+* micro economics
+
+* philosophy
+
+** existentialism
+
+* blockchain fundamentals
+  
+** consensus alogrithms
