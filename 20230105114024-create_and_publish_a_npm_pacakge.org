@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       04f42f85-b828-466d-8920-fe6ff94a70b9
+:END:
+#+title: Create and Publish a npm Pacakge
+
+* create a npm package
+
+  npm init
+
+  fill in necessary information like package name, version, author name
+
+* publish as a public module
+
+  npm publish --access public
