@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       4dc75c9c-39c5-42c8-ab2c-dfa93a2df082
+:END:
+#+title: Binary Tree
+
+check if node is null, before calling its properties (e.g. node.left);

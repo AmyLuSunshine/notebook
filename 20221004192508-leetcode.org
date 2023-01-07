@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       1bfd2e20-ec50-485f-8f92-726f57b1a2f2
+:END:
+#+title: Leetcode
+
+* get premium
+
+* top 100 liked questions
+
+  start  with 50 easy and mediums, then others
+
+* by topics
+
+   - don't attempt hard
+   - don't spend more than 30 mins on easy, 1h on medium
+   - learn from solutions
+
+** binary search
+
+** two pointers
+
+** binary tree
+
+** backtracking
+
+** dfs
+
+** bfs
+
+** graph
+
+** dp
+
+* revisit your question
+
+* company specific 
+
