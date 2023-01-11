@@ -1,0 +1,83 @@
+:PROPERTIES:
+:ID:       26852409-2f70-4f47-a775-6f8a140b2000
+:END:
+#+title: Types
+#+filetags: :Solidity:
+
+- tag :: [[id:08c51a9b-9095-46d2-881b-e45dd42bcb7c][Solidity]]
+
+
+Solidity is a statically typed language.
+
+* Value Types
+
+  Values types are passed by value.
+
+** Booleans
+
+   true and false
+
+*** Operators
+
+**** ! logical negation
+
+**** && logical conjunction "and"
+     
+**** || logical disjunction "or"
+
+**** == equality
+
+**** != inequality
+
+** Integers
+
+   int / uint: signed and unsigned integres of various sizes
+
+   uint8 to uint256 / int8 to int256
+
+*** Operators
+    
+**** Comparison: <=, <, ==, !=, >=, >
+
+**** bit operators: &, |, ^
+
+**** shift operators: <<, >>
+
+**** Arithmetic operators: +, -, *, /, %, **
+
+* Address
+
+** address
+
+   20 byte value size
+
+** address payable
+
+   the address you can send ether to. additional member *transfer* and *send*.
+
+   
+** type conversions
+
+*** address to address payable
+
+    payable(address)
+
+*** address payable to address
+
+    implicit
+
+* Reference Types
+
+  when using reference types, you have to specify the data area where the type is stored.
+
+** memory 
+
+   lifetime is limited to function call
+
+** storage
+
+   the location where the state variables stored, where the lifetime is limited to the lifetime of a contract.
+
+** calldata 
+
+   special location that contains the function arguments.

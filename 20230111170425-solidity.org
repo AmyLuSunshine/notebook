@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       08c51a9b-9095-46d2-881b-e45dd42bcb7c
+:END:
+#+title: Solidity
+

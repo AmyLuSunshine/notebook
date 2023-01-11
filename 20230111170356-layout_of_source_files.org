@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       e3258fbb-f811-4ff1-96dd-05fd441ac4ea
+:END:
+#+title: Layout of Source Files
+#+filetags: :Solidity:
+
+- tag :: [[id:08c51a9b-9095-46d2-881b-e45dd42bcb7c][Solidity]]
+
+* License
+
+  SPDX
+#+BEGIN_SRC solidity
+// SPDX-License-Identifier: MIT
+#+END_SRC
+
+the compiler does not verify if the license is part of the list allow by SPDX, but it does include the supplied string in the bytecode metadata.
+
+* Pragmas
+
+The pragma keyword is used to enable certain compiler features or checks.
+
+#+BEGIN_SRC solidity
+pragma solidity ^0.5.2;
+#+END_SRC
+
+Using the version pragma does not change the version of the compiler. It also does not enable or disable features of the compiler. It juse instructs the compiler to check whether its version matches the one required by the pragma. If it does not match, the compiler issues an error.
+

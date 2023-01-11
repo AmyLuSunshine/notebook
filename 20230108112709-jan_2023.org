@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       abdb3072-5cbf-43fb-a0ac-b03e8ad5a8cb
+:END:
+#+title: Jan-2023
+
+* supersede
+
+usbc is gonna supersede other interfaces, e.g the lightning connector.
+
+* amnesia
+
+amnesia is a state of being unable to remember things.
+
+* retardation
+
+  
