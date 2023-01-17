@@ -21,3 +21,17 @@ Everyone can experience the satisfaction that comes with creative design
 
 ** Testing
 
+* how to design
+
+** analyze a problem statement, typically stated as a word problem
+
+** extract and express its essence, abstractly
+
+** illustrate the essense with examples
+
+** make outlines and plans based on this analysis
+
+** evaluate results with respect to expected outcomes
+
+** revise the product in light of failed checks and tests
+

@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       c1ff8d7e-466f-479e-b731-4af5fd33dd38
+:END:
+#+title: Array
+#+filetags: :Golang:
+
+- tags :: [[id:5b9263ba-57ab-487c-bde1-970cda17283c][Golang]]
+
+* go's arrays are values
+
+#+begin_src go
+  arr1 := [5]int{}
+  arr2 := arr1
+  fmt.Println(arr1, arr2) 
+  arr1[0] = 10
+  fmt.Println(arr1, arr2)
+#+end_src
+
+modifing arr1 inplace doesn't affect arr2.

@@ -3,3 +3,12 @@
 :END:
 #+title: pwsh
 
+* show all options
+
+ctrl + space
+
+* Use Emacs Keybinding
+
+#+begin_src pwsh
+Set-PSReadLineOption -EditMode Emacs
+#+end_src
