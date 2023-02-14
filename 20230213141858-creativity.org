@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       707256db-bf0a-4d22-a194-7addb8d40299
+:END:
+#+title: Creativity
+
+- tags :: [[id:38fd6ba6-5da9-4b2f-8678-e523c96f3fce][Good Reads]]
+
+* [[http://paulgraham.com/newthings.html][Six Principles for Making New Things - Paul Graham]]
+
+(1)find a simple solutions (2)to overlooked problems (3)that actually need to be solved, and (4)deliver them as informally as possible, (5)starting with a very crude version 1, (6)then iterating rapidly.
+
+If you work on overlooked problems, you're more likely to discover new things, because you have less competition.
+
+Launch as soon as you can, so you can start learning from users what you should have been making.
+
+Ideas like that(Reddit) are all around you. But you ignore them because they look wrong.
+

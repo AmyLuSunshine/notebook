@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       b91bae36-3b87-4560-ac89-99983ea1d957
+:END:
+#+title: Personal Growth
+
+- tags :: [[id:38fd6ba6-5da9-4b2f-8678-e523c96f3fce][Good Reads]]
+
+* [[https://blog.samaltman.com/how-to-be-successful][How To Be Successful - Sam Altman]]
+
+Eventually, you will define your success by performing excellent work in areas that are important to you.
+
+It is hard to be wildly successful at anything you aren't obssessed with.

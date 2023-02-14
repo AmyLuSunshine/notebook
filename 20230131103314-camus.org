@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       d8f21782-681d-48ae-a295-6aa29cabb34d
+:END:
+#+title: Camus
+#+filetags: :Quotes:
+
+- tags :: [[id:3fe9d930-3b10-4626-b257-0a4bda94a70b][Quotes]]
+
+Real generosity toward the future lies in giviing all to the present.
+

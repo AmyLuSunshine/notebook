@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       6b3899ab-4b4d-49b4-878a-b71c7b737481
+:END:
+#+title: pm2
+
+* restart process with updaed env var
+
+#+begin_src sh
+pm2 restart all --update-env
+#+end_src
+
+* restart vs reload
+
+restart kill the process first then run the process again.
+
+reload keep the old process running then run a new process. if the new process runs successfully, it will then kill the old process.
+
+key diff: reload will always keep the process running. if the new process encounters an error, it keeps running the old one.

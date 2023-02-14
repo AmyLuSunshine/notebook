@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       ac20ad25-27ae-4317-9d5d-570de30bef73
+:END:
+#+title: bsc rpc
+
+
+* public free
+aggregated ping: https://chainlist.org/chain/56
+
+recommended:
+  - https://bscrpc.com
+  - https://bsc-dataseed1.ninicoin.io/
+  
+* private
+
+- moppynode
+- speedynode
+
