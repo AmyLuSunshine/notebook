@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       d402bafa-9f1d-4159-9c34-49852f16c82e
+:END:
+#+title: Effective Communications
+
+- tag :: [[id:660eac6e-6ed3-4815-b86e-ef0078d3038d][Communication]]
+
+* get out the hamburger myth
+
+** hamburger 
+
+*** introduction
+
+*** "3 main points"
+
+*** conclusions
+
+* put all the meat up front
+
+once you show the practical thing, you have audience's attention.
+
+* don't do sequentialism
+
+* ramble
+
+say random stuff. this is how people process information. they don't think linearly.
+

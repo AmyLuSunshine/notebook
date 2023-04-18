@@ -150,7 +150,6 @@ To design a complex system, you start with a crude solution then keep optimizing
 Most people are led astray by education.
 
 * obsolete
-
 jQuery is an obsolete technology.
 
 * cubicle
@@ -167,4 +166,26 @@ a programming language dictates how you think about programs.
 
 * equanimity
 
+* monger
 
+* self-indulgent
+
+sleeping in is self-indulgent.
+
+* ludicruous
+
+* acute
+
+acute psychological pain
+
+* salivate
+
+I salivated when I knew there would be sashimi at dinner.
+
+* nudge
+
+I gave him a nudge to wake him up.
+
+* explicitly
+
+The president stated explicitly there would not be war.

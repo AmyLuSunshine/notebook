@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       ceff7b26-0631-49f4-b740-c6d038785221
+:END:
+#+title: bsc-fullnode
+
+* backup
+
+#+begin_src sh
+  mv node/geth/chaindata node/geth/chaindata_backup 
+  mv node/geth/triecache node/geth/triecache_backup  
+#+end_src
+
+* move to data dir
+
+#+begin_src sh
+mv server/data-seed/geth/chaindata node/geth/chaindata
+mv server/data-seed/geth/triecache node/geth/triecache
+#+end_src
+
+* md5 checksum
+
+#+begin_src sh
+  md5sum geth.tar.lz4 > md5.log 2>&1 &
+# 57967
+#+end_src
+
+* uncompress
+
+#+begin_src sh
+    tar -I lz4 -xvf geth.tar.lz4 > uncompress.log 2>&1 &    
+  # 58220
+#+end_src
+
+* start node
+
+#+begin_src sh
+     nohup ./geth --config ./config.toml --datadir ./node --diffsync --cache 8000 --rpc.allow-unprotected-txs --txlookuplimit 0 --rpcvhosts=* --ws --ws.api eth,net,web3 &
+
+./geth attach ws://127.0.0.1:8546
+
+   # 62818
+#+end_src
+
+

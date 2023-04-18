@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       d36b3f64-ec93-47d5-9580-57c3d4fa928e
+:END:
+#+title: Caddy Env
+
+* check caddy's env var
+
+#+begin_src bash
+sudo -u caddy caddy environ
+#+end_src
+
+* certificates path
+
+#+begin_src bash
+/var/lib/caddy/.local/share/caddy/certificates/
+#+end_src
