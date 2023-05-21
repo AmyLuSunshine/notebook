@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       f549fe35-450c-42dc-807d-1070c4fce592
+:END:
+#+title: Smart Contract Security
+
+* courses
+https://smartcontractshacking.com/?referral=pashov

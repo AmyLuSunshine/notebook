@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       a3363ef3-969b-4ddb-a7dd-0e2dcbf46c4a
+:END:
+#+title: ls -al
+#+filetags: :Linux:
+
+- tags :: [[id:bf667a76-fa23-41cc-969f-3e8500776df0][Linux/Unix]]
+- reference :: https://unix.stackexchange.com/questions/103114/what-do-the-fields-in-ls-al-output-mean
+
+
+-rwxrw-r--    1    root   root 2048    Jan 13 07:11 afile.exe
+
+- file permission (-rwxrw-r--)
+- number of hard links (1)
+- owner (root)
+- group (root)
+- file size in byes (2048)
+- time of last modification (Jan 13 07:11)
+- file/folder name (afile.exe)
+
+* file permission
+
+- for a regular file
+d for a directory
+
+three sets of characters, three times, indicating permissions for owner, group and other
+
+rwx readable writable executable
+
+  
+  

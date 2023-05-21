@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       9b563c17-39e2-4262-9188-eb93d13ae88c
+:END:
+#+title: trojan
+
+#+begin_src sh
+  sudo apt update
+  sudo apt install trojan
+
+# install caddy
+sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https
+curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
+curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | sudo tee /etc/apt/sources.list.d/caddy-stable.list
+sudo apt update
+sudo apt install caddy
+
+# install Node
+curl -fsSL https://deb.nodesource.com/setup_19.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
+# pm2
+sudo npm install -g pm2
+
+# unzip
+sudo apt install unzip
+
+# install deno
+curl -fsSL https://deno.land/x/install/install.sh | sh
+# install deno_blog
+mkdir blog
+deno run -r --allow-read --allow-write https://deno.land/x/blog/init.ts ./blog/
+#+end_src

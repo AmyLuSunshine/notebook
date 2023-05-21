@@ -12,5 +12,7 @@ sudo -u caddy caddy environ
 * certificates path
 
 #+begin_src bash
-/var/lib/caddy/.local/share/caddy/certificates/
+  /var/lib/caddy/.local/share/caddy/certificates/
+/var/lib/caddy/.local/share/caddy/certificates/acme-v02.api.letsencrypt.org-directory/whosturn.click/whosturn.click.crt
+/var/lib/caddy/.local/share/caddy/certificates/acme-v02.api.letsencrypt.org-directory/whosturn.click/whosturn.click.key
 #+end_src

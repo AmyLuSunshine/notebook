@@ -3,3 +3,8 @@
 :END:
 #+title: Haruki Murakami
 
+* Info
+
+- 村上春樹新聞 (jp)
+
+https://murakami-haruki-times.com/

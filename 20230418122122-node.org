@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       a38a2849-4873-4345-8a85-55be52d6f622
+:END:
+#+title: Install Node.js
+
+
+https://nodejs.org/en/download
+
+* Ubuntu
+
+https://github.com/nodesource/distributions
