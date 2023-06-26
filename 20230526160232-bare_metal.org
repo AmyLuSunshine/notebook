@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       7d4b9c7a-0d9b-43bf-aa4a-4ebe6d7cbf6d
+:END:
+#+title: Bare Metal
+
+* Phoenixap
+https://phoenixnap.com/
+
+* Hetzner
+https://www.hetzner.com/

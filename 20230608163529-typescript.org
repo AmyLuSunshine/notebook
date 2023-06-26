@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       624f6e0e-8525-4cb0-9e08-69c83573c4e5
+:END:
+#+title: typescript
+
+* Installation
+#+begin_src sh
+npm install -g typescript
+npm install -g tx-node
+#+end_src

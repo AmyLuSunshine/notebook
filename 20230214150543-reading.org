@@ -5,7 +5,7 @@
 
 - tags :: [[id:38fd6ba6-5da9-4b2f-8678-e523c96f3fce][Good Reads]]
 
-* [[https://www.lexialearning.com/blog/what-is-the-science-of-reading-how-the-human-brain-learns-to-read][What is the Science of Reading? How the Human Brain Learns to Read]]
+* [[https://www.lexialearning.com/blog/what-is-the-science-of-reading-how-the-human-brain-learns-to-read][What is the Science of Reading? How the Human Brain Learn sto Read]]
 
 Reading = decoding * comprehension
 

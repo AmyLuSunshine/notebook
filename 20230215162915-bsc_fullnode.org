@@ -3,6 +3,10 @@
 :END:
 #+title: bsc-fullnode
 
+* Install latest geth
+
+[[https://github.com/bnb-chain/bsc][github release page]]
+
 * backup
 
 #+begin_src sh

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       4063fe77-5170-47af-866b-96a386119973
+:END:
+#+title: BSC
+
+* RPC Node for private tx
+https://docs.48.club/buidl/infrastructure/bsc-rpc

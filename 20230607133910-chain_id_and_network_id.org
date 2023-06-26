@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       24728a44-30e1-4356-92d4-028a971326c1
+:END:
+#+title: Chain Id and Network Id
+#+filetags: :Ethereum:
+
+- tags :: [[id:332fe7b5-3b99-4fbd-b0a5-507363dac946][Ethereum]]
+
+Peer to peer communication between nodes uses the network ID, while the transaction signature process uses the chain id.
+
+EIP-155 introduced chain id as part of the transaction signing process to protect against the replay attacks.

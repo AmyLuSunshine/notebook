@@ -3,3 +3,18 @@
 :END:
 #+title: Math
 
+* Introduction-level 
+
+** books
+
+*** Everything You Always Wanted To Know About Mathematics
+
+*** An Infinite Descent into Pure Mathematics
+
+*** [[https://pimbook.org/][A Programmer's Introduction to Mathematics]]
+
+** courses
+
+
+[[https://mathacademy.com/][mathacadmy]]
+
