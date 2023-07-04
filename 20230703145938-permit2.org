@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       d12d788e-bd8e-4e34-8dbd-288e43b8979e
+:END:
+#+title: Permit2
+#+filetags: :Uniswap:
+
+- tags :: [[id:738e6110-27b8-4f8a-a85e-c4aec2cc435c][Uniswap]]
+
+* signature-based transfer
