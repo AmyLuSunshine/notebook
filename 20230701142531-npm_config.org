@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       8001d9e3-d1ec-4dfa-81fe-d97a7692b361
+:END:
+#+title: npm config
+
+* config list
+
+#+begin_src pwsh
+npm config list
+#+end_src
+
+* set proxy
+
+#+begin_src pwsh
+npm config set proxy http://127.0.0.1:7890
+npm config set https-proxy http://127.0.0.1:7890  
+#+end_src

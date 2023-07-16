@@ -3,9 +3,15 @@
 :END:
 #+title: pwsh
 
-* show all options
+* Show all options
 
 ctrl + space
+
+* Create profile
+
+#+begin_src pwsh
+New-Item -path $profile -type file –force  
+#+end_src
 
 * Use Emacs Keybinding
 

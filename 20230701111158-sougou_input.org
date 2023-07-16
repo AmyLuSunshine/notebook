@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       e1e7e565-c69e-4ac1-9582-0f8407bf524d
+:END:
+#+title: Sougou Input
+
+* Disable ctrl + , hot key that triggers the input method
+
+属性设置 -> 常用 -> 输入法管理器 -> 搜狗输入法快捷键

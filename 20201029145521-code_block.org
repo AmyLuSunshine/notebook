@@ -29,4 +29,3 @@
 
 #+RESULTS:
 : emacs is awesome!
-
