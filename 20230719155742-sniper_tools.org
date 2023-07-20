@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       59174f1f-6399-478b-b367-2cf5059241e4
+:END:
+#+title: Sniper Tools
+
+* maestrobots
+https://www.maestrobots.com/
+
+a tool that snipes tokens with telegram.

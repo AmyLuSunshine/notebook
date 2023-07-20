@@ -2,4 +2,6 @@
 :ID:       738e6110-27b8-4f8a-a85e-c4aec2cc435c
 :END:
 #+title: Uniswap
+#+filetags: :Dex:
 
+- tags :: [[id:6dbbb037-6479-46e5-a147-944f2de85e96][Dex]], [[id:a1e45d7e-fda2-4211-9806-d495caa01c3a][Defi]]

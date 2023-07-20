@@ -5,7 +5,12 @@
 
 - tag :: [[id:0ce72166-7a94-409a-a093-a0643a43ab62][EVM]]
 
-  - EDEN Network
+* EDEN Network
 
     https://cosmic-bublanina-39bfbc.netlify.app/
 
+* aggregator 
+
+** MEV Blocker
+
+- https://mevblocker.io/#rpc
